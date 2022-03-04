@@ -1065,7 +1065,7 @@ gArtDetail.prototype = {
 						
 						$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');	
 						
-						if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
+						//if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
 					});
 					
 					var artic = g360.transKRWtoARTIC(_self.cur_art_info.art_price);
@@ -1109,7 +1109,7 @@ gArtDetail.prototype = {
 					$('#detail_art_price').text(price);
 					g360.transCoinPrice(pic_price, function(eth, usd){
 						$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');
-						if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
+						//if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
 					});
 					var artic = g360.transKRWtoARTIC(_self.cur_art_info.art_price);
 					$("#detail_art_price_artic").html(artic + 'ARTIC<span style="font-size:20px"></span>');
@@ -1748,7 +1748,7 @@ gArtDetail.prototype = {
 				$('#detail_art_price').text(price);
 			}
 			else if(g360.g_lang.Lang =="us"){
-				
+				$('#detail_art_price').text(price);
 //				g360.exchange_dollar(info.art_price, function(dollar){
 //					console.log("exchange_dollar : "+dollar);
 //					$('#detail_art_price').text('$ '+g360.numberComma(dollar));					
@@ -1765,10 +1765,11 @@ gArtDetail.prototype = {
 				$('#detail_art_shipping').text(g360.numberComma(info.shipping_fee) + '원');		
 				
 			}else if(g360.g_lang.Lang == "us"){
+				$('#detail_art_shipping').text('￦ '+g360.numberComma(info.shipping_fee));		
 				
-				g360.exchange_dollar(info.shipping_fee, function(dollar){
-					$('#detail_art_shipping').text('$ '+g360.numberComma(dollar));						
-				});
+//				g360.exchange_dollar(info.shipping_fee, function(dollar){
+//					$('#detail_art_shipping').text('$ '+g360.numberComma(dollar));						
+//				});
 			}
 			
 			
