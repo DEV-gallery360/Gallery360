@@ -1,0 +1,314 @@
+@CHARSET "UTF-8";
+
+/*layout controls*/
+.estimate-wrap{
+    max-width:880px;margin: 40px auto 50px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.estimate-wrap .estimate-header{
+    width: 100%;float:left;
+    border: 1px solid #b7b5b5;
+}
+.estimate-wrap .estimate-header h3{
+    font-size: 20px;line-height: 54px;
+    text-indent: 20px;
+}
+.estimate-wrap .estimate-con{
+    width:100%;float:left;
+    border: 1px solid #b7b5b5;
+}
+.estimate-wrap>div:last-child{
+   margin-bottom: 50px;
+}
+
+/*.estimate-btn{
+    width: 250px;height: 45px;
+    text-align: center;line-height: 43px;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid #111;
+    border-radius: 3px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.estimate-btn:hover{
+    background: #111;
+    color:#fff;
+}*/
+
+/*자동 견적 내기*/
+.esti-auto>p{
+    font-size: 18px;
+    margin-left: 40px;
+    line-height: 24px;
+}
+.esti-auto>p:nth-child(1){margin-top: 30px;}
+
+.esti-auto>p:nth-child(2){margin: 30px 0 10px 40px;}
+.esti-auto>p:nth-child(3){font-size: 16px}
+.esti-auto>p:nth-child(3) span{
+    font-size: 20px;margin-right: 15px;
+}
+
+.work-size-table{
+    width:80%;margin: 40px auto 50px;
+}
+.work-size-table p{
+    font-size: 16px;text-align: center;
+}
+.work-size-table .size-amount{
+    width:80%;
+    margin: 15px auto 10px;
+    text-align: center;
+}
+
+.size-amount tr th{
+    height: 50px;width: 25%;
+    font-size: 16px;font-weight: 300;
+    border: 1px solid #b2b2b2;
+}
+.size-amount tr th span{
+    font-size: 12px;font-weight: 300;
+}
+.size-amount tr td{
+    font-size: 14px;line-height: 30px;
+    border: 1px solid #b2b2b2;
+}
+.work-size-table>p:nth-child(3){
+    font-size:14px;margin-right: 10%;
+    text-align: right;
+    color: #444;
+}
+
+
+.rent-calculate{
+    width:100%;height: 100px;margin: 0 auto;
+    margin-top: 30px;
+    background: #eee;border-radius: 3px;
+}
+.rent-calculate .auto-cal{
+    width: 35%;height:100px; float: left;
+    text-align: center;font-size: 20px;
+    padding: 35px 0;
+    color: #444;
+}
+
+.rent-calculate .auto-cal input{
+    border: none;width:50px;
+    border-bottom: 1px solid #444;
+    margin-right: 5px;text-align: center;
+    background: none;color:#674eec;
+}
+.rent-calculate .auto-cal input:nth-child(1){margin-left: 0}
+
+.rent-calculate .auto-cal input::placeholder{
+    background: none;
+    color:#ccc;
+    text-align: center
+}
+.rent-calculate .estimate-btn-nb{
+    font-size: 15px;line-height: 50px;float: left;
+    width:25%;margin: 0 5%;margin-top: 30px;
+    border: 1px solid #111;
+    background: #111;color: #fff;text-align: center;
+    cursor: pointer;transition: all 0.3s ease 0s;
+}
+.rent-calculate .estimate-btn-nb span{
+    width:40px;height: 50px; float: right;
+    background: url(/img/rental/detail_arrow_wht.png) no-repeat center;
+    margin-right: 20px;
+}
+
+.rent-calculate .estimate-btn-nb:hover{
+    font-weight: 500;
+    color:#111;
+    background: none;
+}
+.rent-calculate .estimate-btn-nb:hover span{
+    background: url(/img/rental/detail_arrow_blk.png) no-repeat center;
+}
+
+.rent-calculate .estimate-price{
+    width:30%;height: 100px; float: right;
+    margin-top: 15px;
+    font-size: 24px;line-height:36px;
+    text-align: center;font-weight: 300;           
+}
+
+.rent-calculate .estimate-price>p span{
+    font-size: 24px;line-height: 36px;
+    color: #674eec;font-weight: 500;
+}
+
+.rent-calculate .estimate-price>p:nth-child(2){
+    font-size: 14px;line-height: 30px;
+}
+.esti-btn{
+	cursor: pointer;
+    width:24%;
+    height: 50px;
+    border: 1px solid #111;
+    text-align: center;line-height: 50px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+
+.esti-btn:hover{
+    background: #111;color: #fff;
+}
+
+.esti-btn-join{margin: 50px auto 60px}
+.esti-btn-box{
+    width:100%;float: left;
+    margin: 20px 0 40px 20px;
+    margin-left: 5% !important;
+}
+
+.esti-btn-box .esti-btn{float: left;margin: 0 3%}
+
+
+/*이용 요금 결제 안내*/
+.estimate-transfer{
+    margin: 20px 0 50px 40px;
+}
+
+.estimate-transfer>p{
+    height: 200px;float: left;
+    font-size: 18px;
+    line-height: 42px;margin-right: 50px;
+}
+.transfer-txt p{
+    font-size: 18px;line-height: 42px;
+}
+.transfer-txt span{
+    width:100px;display: block;float: left;
+    text-align: justify;
+}
+
+.transfer-txt p:nth-child(3){
+    font-size: 16px;line-height: 42px;
+}
+
+.esti-btn-acc{
+	cursor: pointer;
+    width:30%;height: 50px;float: left;
+    border: 1px solid #111;
+    text-align: center;line-height: 50px;
+    font-size: 16px;margin: 30px 0 50px 0;
+    transition: all 0.3s ease 0s;
+}
+.esti-btn-acc:hover{
+    background: #111;color: #fff;
+}
+
+
+.esti-info-wrap{
+    margin: 40px auto 50px;
+    width:100%;float: left;
+}
+
+.esti-svc-info{
+    width:40%;float: left;
+    margin: 0 5%;
+}
+.esti-card-info{width:40%;float: left;margin: 0 5%;}
+
+.esti-info-wrap h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 36px;
+    background: #111;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+}
+.esti-info-wrap ul{
+    width: 100%;font-size: 16px;
+}
+.esti-info-wrap ul li{
+    width: 100%;line-height: 30px;
+}
+.esti-info-wrap ul li span{
+    width:30%;display: block;float: left;
+}
+
+
+@media all and (max-width:991px){
+    .estimate-wrap{
+        width:90%;
+    }
+}
+
+
+@media all and (max-width:767px){  
+    .rent-calculate{height: auto}
+    .rent-calculate .auto-cal{
+        width: 100%;height:50px; float:none;
+    }
+
+
+    .rent-calculate .estimate-btn-nb{
+        float: none;
+        width:250px;;margin:45px auto;
+        
+    }
+
+    .rent-calculate .estimate-price{
+        width:30%;height: 100px; float: none;
+        margin: 0 auto;
+        margin-top: 15px;
+        font-size: 24px;line-height:36px;
+        text-align: center;font-weight: 300;           
+    }
+    
+    .esti-btn-join{width:250px;}
+    .esti-btn-box .esti-btn{
+        width:250px; float: none;
+        margin: 0 auto;
+    }
+    .esti-btn.esti-btn-down{
+        margin-bottom: 40px;
+    }
+    
+    
+    
+    
+    .estimate-transfer{
+        margin: 20px 0 50px 40px;
+    }
+
+    .estimate-transfer>p{
+        widows: 100%;height: auto;
+        margin-bottom: 30px;
+    }
+    .transfer-txt p{
+        width: 100%;float: left;
+        font-size: 18px;line-height: 42px;
+    }
+
+    .transfer-txt p:nth-child(3){
+        font-size: 16px;line-height: 42px;
+    }
+    .esti-btn-acc{width:250px}
+    
+   
+    
+    .esti-info-wrap{
+        width:300px;float: left;
+        margin: 30px 0 50px 40px;
+        
+    }
+    
+    .esti-svc-info{
+        width:100%;
+        margin: 0;margin-bottom: 40px;
+    }
+    .esti-card-info{
+        width:100%;
+        margin: 0;
+    }
+    
+    
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Gallery360">
+    <meta name="description" content="Gallery360">
+    <meta name="author" content="Gallery360">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        
+        .transaction-page {
+            width: 100%;height: 100%;font-family: 'Noto Sans KR', sans-serif;color: #111;
+        }
+
+        .transaction-page .transation-centre {
+            width: 100%; height: 100%; max-width: 800px; margin: 0 auto; padding: 60px 5% 0;
+        }
+
+        .transaction-page .transaction-noti {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .transaction-page .transaction-noti h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .transaction-page .transaction-noti strong {
+            color: #b361ff;
+            font-size: 18px;
+            line-height: 32px;
+        }
+
+        .transaction-page .transaction-noti .transcation-img {
+            width: 40px;
+            height: 40px;
+            margin: 40px auto;
+        }
+
+        .transaction-page .transaction-noti .transcation-img img {
+            width: 100%;
+            height: auto;
+        }
+
+        .transaction-page .transaction-noti p {
+            font-size: 16px;
+            line-height: 26px;
+            max-width: 430px;
+            margin: 0 auto 40px;
+        }
+
+        .transaction-page .transaction-noti .transaction_contact {
+            text-decoration: underline;
+            color: #111;
+        }
+
+        
+        @media all and (min-width:768px) {
+            .transaction-page .transation-centre {
+                padding-top: 150px;
+            }
+            
+            .transaction-page .transaction-noti h2 {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+
+            .transaction-page .transaction-noti strong {
+                color: #b361ff;
+                font-size: 20px;
+                line-height: 36px;
+            }
+
+            .transaction-page .transaction-noti .transcation-img {
+                width: 50px;
+                height: 50px;
+                margin: 50px auto;
+            }
+        }
+        
+    </style>
+
+</head>
+
+<body style="margin: 0; padding: 0; box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; background:#edeaea">
+    <section class="transaction-page">
+        <div class="transation-centre">
+            <div class="transaction-noti">
+                <h2>Your transaction has started!</h2>
+                <strong>Do not leave this page<br /> before the transaction's done.</strong>
+                <div class="transcation-img"><img src="/img/transaction_test.gif" alt="transaction"></div>
+                <p>
+                    The Ethereum network is processing your transaction, which can take a little while
+                </p>
+                <b>If any troubles issued, please email us at <a href="#" class="transaction_contact">help@gallery360.co.kr</a>.</b>
+            </div>
+        </div>
+    </section>
+</body></html>

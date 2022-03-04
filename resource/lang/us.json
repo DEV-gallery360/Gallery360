@@ -1,0 +1,2341 @@
+{
+  "갤러리360" : "-----------------------------------------------------",
+
+  "메인_Top" : "-----------------------------------------------------",
+
+	"VR_Gallery" : "VR Gallery",
+	"Art" : "Art",
+	"Artwork" : "Artwork",
+	"Artist" : "Artist",
+	"VR_Rental" : "VR Exhibit",
+	"Art_consultant" : "Art Consultant",
+	"General_User" : "General User",
+	"By_Theme" : "By Theme",
+	"Art_Consult_Recomm" : "Art Consultant Recommendation",
+	"Themes_by_Category" : "Themes by category",
+	
+	"Artist_Exhibition" : "Artist Exhibit",
+	"Archive" : "VR Archive",
+	
+	"Buy_Art" : "Artworks",
+	"AI_Recommendation" : "AI Recomm",
+	
+	"VR_Exhibit_Guide" : "User Guide",
+	"VR_Exhibit_List" : "Current Exhibit",
+	"Recommended_Exhibit" : "Exhibit Recomm",
+	"Usage_Fee" : "Price",
+	
+	"Make_AI_Arts" : "AI Artworks",
+	"AI_Search_Alert1" : "Please enter your request and try again.",
+	"AI_Search_Alert2" : "Artificial intelligence Curie is analyzing the request...",
+	"AI_Search_Alert3" : "Analysis results do not exist.",
+	
+	"Art_Artist_Error1" : "Artists and art consultants cannot request artworks.",
+	"Resend_Mail" : "Resend Mail",
+	
+	"Company_Introduction" : "About Us",	
+	"Service_Guide" : "Service Guide",
+	"Notice" : "Notice",
+	"News" : "News",
+	
+	
+	"Request_Arts" : "Request Arts",
+	"Upload_Arts" : "Upload Arts",
+	"Setting_VR_Rental" : "Manage",
+	"Info_Rental_Mng_IE" : "Please use the Chromium browser (Google Chrome, MS Ignition, etc.) on your PC to manage.",
+		
+	
+	"Login" : "Login",
+	"Sign_Out" : "Sign Out",
+	"Sign_Up" : "Sign Up",
+	"My_Page" : "My Page",
+	"Account_Settings" : "Account Settings",
+	"Arts_Purchase_details" : "Arts Purchase details",
+	"Arts_Project" : "Arts Project",
+	"Purchased_Arts" : "Purchased Arts",
+	"Profile" : "Profile",
+	"Art_List" : "Art List",
+	
+	"Integrated_Search" : "Integrated search for artists, VR galleries, and news",
+	
+	"Login_Id" : "Enter your ID (email information)",
+	"Login_PW" : "Enter your Password",
+	"Login_Id_Save" : "Save ID",
+	
+	"Find_ID" : "Find ID",
+	"Find_PW" : "Find PassWord",
+	"Login_Google" :"Sign in with your Google account",
+	"Login_Kakao" : "Sign in with your Kakao account",
+	
+	"Find_IDPW" : "Find ID / PassWord",
+	
+	"Find_ID_1" : "Search by registered mobile phone number",
+	"Find_ID_2" : "You can find your ID through the mobile phone number registered at the time of registration.",
+	"Find_ID_3" : "Authenticate by mobile phone",
+	"Find_ID_4" : "ID that matches your registered information<br />is as follows.<br><br>",
+	"Find_ID_5" : "VR Service : ",
+	"Find_ID_6" : "Artist : ",
+	"Find_ID_7" : "Art Consultant: ",
+	"Find_ID_8" : "General User : ",
+		
+	"Find_ID_9" : "After authentication through the mobile phone number entered during registration, register a new password.",
+	"Find_ID_10" : "Reset password",
+	"Find_ID_11" : "The new password must be a combination of letters and numbers<br /> within 8 to 20 characters.",
+	"Find_ID_12" : "Enter new password",
+	"Find_ID_13" : "Confirm new password",
+	"Find_ID_14" : "Password reset has been <br />successfully processed.",
+	
+	"Change_PW"  : "Change Password",
+	
+	
+	"Next" : "Next",
+	"Delete" : "Delete",
+	"Update" : "Update",
+	
+	"Main_top_Alert_1" : "You must enter detailed information in the PC version before requesting Artworks.",
+	"Main_top_Alert_2" : "You must enter detailed information before registering Artworks.",
+	"Main_top_Alert_3" : "You will need to enter your details before your art project.",
+	"Main_top_Alert_4" : "You will need to enter your details before requesting Artworks.",
+	"Main_top_Alert_5" : "You must enter a search term.",
+	"Main_top_Alert_6" : "The work you requested has been fully shared on 360Talk.",
+	"Main_top_Alert_7" : "Please specify a username to forward the message to.",
+	"Main_top_Alert_8" : "You must enter content.",
+	
+	"Main_top_Alert_9" : "This is an unregistered mobile phone.",
+	"Main_top_Alert_10" : "Please enter your ID",
+	"Main_top_Alert_11" : "The registered account and authentication information are not the same.",
+	"Main_top_Alert_12" : "You must enter the same password.",
+	"Main_top_Alert_13" : "An error occurred when changing the password.",
+	
+	"Add_Comment" : "Please enter a comment..",
+	"Comment" : "Comment",
+	"Like" : "Like",
+	"ID" : "ID",
+	"Copy_Alert" : "Link URL copied.",
+	"VR_Copyright" : "Be sure to leave the source when using and redistributing VR Gallery images.",
+	"Posted_date" : "Posted Date : ",
+	
+  "메인페이지부분" : "-----------------------------------------------------",
+
+  "Lang" : "us",
+  "Main" : "Main",
+  "Gallery360" : "Gallery 360",
+  
+  "slider1_1" : "Digital Publishing, </h2><h2>D-BOOK",
+  "slider1_2" : "Effective digital marketing?<br/>Stop worrying with D-BOOK!",
+  "slider1_3" : "Read more D-BOOK",
+  
+  "slider2_1" : "Rent a <span>VR Exhibit</span>",
+  "slider2_2" : "You can rent a VR exhibit <br />in the easiest and most intuitive way in the world.", 
+  "slider2_3" : "Read more VR Exhibit",
+  
+  "slider3_1" : "Curie~<br/> Please take a picture!",
+  "slider3_2" : "AI artist curie learns the master's art style,<br/>draws one-of-a-kind works",
+  "slider3_3" : "Drawing with AI Painter",
+  
+  "slider4_1" : "Hanging art in my space",
+  "slider4_2" : "Don't just imagine!<br/>Hang your artwork in advance in your space.",
+  "slider4_3" : "Experience it for yourself",
+  
+  "slider5_1" : "Gallery 360 Recruitment of Artists",
+  "slider5_2" : "We are looking for artists <br />who will lead a new exhibition culture with Gallery 360.",
+  "slider5_3" : "Register Artist",
+  
+  "slider6_1" : "New thoughts <br />on the exhibit",
+  "slider6_2" : "Provides a new experience <br />for both digital exhibition planners and visitors",
+  "slider6_3" : "Watch the video",
+  
+  "slider7_1" : "Curious about VR service?",
+  "slider7_2" : "Leading online exhibition solution <b>VR Exhibit</b>, <br />Choose after Experience it <b>for a day</b>",
+  "slider7_3" : "Try VR Exhibit",
+  
+  "slider8_1" : "Reproduce the real place!",
+  "slider8_2" : "Meet the permanent and special exhibit of Iumpium Sewing History Museum <br />as <b>a realistic VR exhibit archive</b>",
+  "slider8_3" : "Enter the VR exhibit",
+  
+  "slider9_1" : "갤러리360이 <b>쏜다!",
+  "slider9_2" : "VR전시 대관서비스 <b>오픈 1주년 기념</b><br /><b>프리미엄 테마 무료</b>로 받아가세요!",
+  "slider9_3" : "자세히 보기",
+  
+  "slider10_1" : "Gallery360 X THE CONTEST",
+  "slider10_2" : "The 6th MOGGOZI graduation work contest,<br /> Vote for art and cheer for them!",
+  "slider10_3" : "More",
+    
+  
+  "Main_Content1" : "New exhitbitions you experience,",
+  "Main_Content2" : "VR Gallery",
+  "Main_Content3" : "New Artworks you find,",
+  "Main_Content4" : "Recommended Artworks",
+  "Main_Content5" : "View more",
+  
+  "Main_Content6" : "The smartest way",
+  "Main_Content7" : "to find <strong>good artworks!</strong>",
+
+  "Main_Content8" : "Describe artworks<br>in your mind.",
+  "Main_Content9" : "Paintings in the gallery",
+  "Main_Content10" : "Search, suited for you.",
+  
+  "Main_Content11" : "Exhibitions and ideas you planned",
+  "Main_Content12" : "VR Exhibit",
+  
+  "Main_Content13" : "<strong id='partners_count_dis'></strong> artists and art consultants",
+  "Main_Content14" : "are with you.",
+  "Main_Content15" : "Using integrated search",
+  "Main_Content16" : "Try to hang various artworks in your space in advance.<br><strong>The Self-Styling service</strong> will let your space be enrich.",
+  
+  "Main_Content17" : "Art Shopping Magazine",
+  "Main_Content18" : "Subscribe",
+  
+  "Main_Content19" : "Contact us in real time",
+  "Main_Content20" : "Add a Friend on KakaoTalk Channel",
+  
+  "Main_Content21" : "Artworks created by AI",
+  "Main_Content22" : "Explore the AI Painter",
+  "Start" : "Start",
+  
+  "Main_content_Alert_1" : "You have already subscribed.",
+  "Main_content_Alert_2" : "A request to receive the newsletter has been registered.",
+  
+  "Ask_Price" : "Price Inquiry",
+  "Meet_Artist" : "View more",
+  
+  "ExhibitList1" : "Artworks on display",
+  "ExhibitList2" : "Held exhibits",
+  "ExhibitList3" : "Cumulative audience",
+    
+  "s_VRGallery" : "'s VR Gallery",
+  "s_Artworks" : "'s Artworks",
+  
+  "Dbook_Alert" : "Registered normally. The person in charge of Gallery 360 D-Book will contact you.",
+  
+  
+  "메인_아트_mainArt" : "-----------------------------------------------------",
+  
+  "Added_Cart" : "Added art to cart.",
+  "Goto_MyCart" : "Go to my cart",
+  "Sound" : "Sound",
+  "Video" : "Video",
+  "Youtube" : "Youtube",
+  
+  "Ethereum" : "Ethereum",
+  "Theme" : "Genre",
+  "Color" : "Color",
+  "Form" : "Shape",
+  "Purchase_Price" : "Price",
+
+  "Scenery" : "Scenery",
+  "Character" : "Character",
+  "Still_Life" : "Still Life",
+  "Animal" : "Animal",
+  "Abstract" : "Abstract",
+  "PopArt" : "Pop Art",
+  "Object" : "Object",
+  
+  "Square" : "Square",
+  "Horizontal" : "Horizontal",
+  "Vertical" : "Vertical",
+  "Circle" : "Circle",
+  "Set" : "Set ",
+  "Install_Art" : "Sculpture / Installation",
+  "Media" : "Media",
+  
+  "Square1" : "Square",
+  "Horizontal1" : "Horizontal",
+  "Vertical1" : "Vertical",
+  "Circle1" : "Circle",
+  "Set1" : "Set",
+  "Install_Art1" : "Three-dimensional / Installation Art",
+  "Media1" : "Media",
+  
+  
+  "Direct_Input" : "Enter directly",
+  "TurnOff_Setting" : " Reset",
+  "Random" : "Random",
+  "Latest" : "Latest",
+  "By_Nickname" : "Alphabetical",
+  "High_Price" : "Price: High to Low",
+  "Low_Price" : "Price: Low to High",
+  
+  "Appreciation_Art" : "View more",
+  
+  "MainArt_Alert1" : "Enter the amount",
+  "MainArt_Alert2" : "Enter the amount as a number",
+  "MainArt_Alert3" : "The minimum amount is larger <br>Please adjust the amount",
+  "MainArt_Alert4" : "No Found",
+  
+  "Recommend_VR" : "Recommended VR Gallery",
+  
+  "Enjoy_VR" : "View more",
+  
+  "Hosu1" : " ~46cm",
+  "Hosu2" : " 47~73cm",
+  "Hosu3" : " 74~97cm",
+  "Hosu4" : " 98~112cm",
+  "Hosu5" : " 113cm~",
+  
+  "My_Space1" : "Livingroom",
+  "My_Space2" : "Kitchen",
+  "My_Space3" : "Bedroom",
+  "My_Space4" : "Small living room",
+  "My_Space5" : "Guest room",
+  "My_Space6" : "Waiting room",
+  "My_Space7" : "Meeting room",
+  "My_Space8" : "Lobby1",
+  "My_Space9" : "Lobby2",
+  "My_Space10" : "Lobby3",
+  
+  
+  
+  "메인작품상세" : "-----------------------------------------------------",
+  
+  "Artist_Name" : "Name",
+  "Name2" : "Name",
+  "Artist_Name1" : "Artist",
+  "Artist_Name2" : "Artist Name",
+  "Artist_Name3" : "Artist Name",
+  "Original_Name" : "Original Name",
+  "Make_Year" : "Year",
+  "Genre" : "Genre",
+  "Ingredient" : "Materials",
+  "Art_Code" : "Art Code",
+  "Buy_Original" : "Buy an original",
+  "Buy_Image" : "Buy an image",
+  "Frame" : "Frame",
+  "Size" : "Size",
+  "Shipping_Fee" : "Shipping Fee",
+  "Shipping_Fee1" : "Shipping<br>Fee",
+  "Shipping_Method" : "Shipping Method",
+  "Type" : "Type",
+  "Size1" : "Size",
+  "Purchase" : "Buy",
+  "MyCollection" : " My Collection",
+  "Cart" : " Cart",
+  "Work_Inquiry" : " Inquiry",
+  
+  "Sale_Price" : "Price",
+  "Name_of_space" : "Name of space",
+  "Width_of_space" : "Width of space",
+  
+  "Arts_Work_Detail0" : "Unauthorized use or redistribution of artwork images is prohibited.",
+  
+  "Artswork_Introduction" : "About this Artwork",
+  "Artist_Introduction" : "About Artist",
+  "Another_Artwork" : "Other Artworks of the Artist",
+  "Shipping_Information" : "Shipping Information",
+  
+  "VR_viewing" : "VR viewing with artwork",
+  "My_Space_Reg" : "Register My Space",
+  "Save" : "Save",
+  "OK" : "OK",
+  "Cancel" : "Cancel",
+  "Reason_Recommend" : "Why this artwork is recommended",
+  "See_Artist_Info" : "View more",
+  "Another_Artwork_by" : "Other Artworks of the Artist",
+  "See_more_artist_work" : "See more of the artist's work",
+  "Artwork_delivery_Info" : "Shipping Information",  
+  
+  
+  "Courier_delivery" : "Courier delivery",
+  "Courier_delivery_1" : "Artswork that can be delivered by courier are subject to packaging and shipping charges according to their size.",
+  "Professional_delivery" : "Professional delivery",
+  "Professional_delivery_1" : "The work is delivered through a specialized delivery company, and the amount varies depending on the distance. If you want a professional technician to install, a separate installation fee will be charged. The exact shipping cost will be determined after consultation with the seller.",
+  "Free_Shipping" : "Free Shipping",
+  "Free_Shipping_1" : "Artswork that are delivered free of charge will be individually delivered by courier or professional delivery for free depending on the works sold by the seller. If you want a professional technician to install, a separate installation fee will be charged.",
+  
+  "Artwork_Delivery_Policy" : "Shipping Policy<p>Delivery method and shipping fee may vary depending on the conditions of the work, so please check the details below.</p>",
+  "Artwork_Delivery_Policy_1" : "Shipping Policy",
+  "Artwork_Delivery_Policy_2" : "Artwork delivery is carried out collectively by the ‘artist (seller)’ and ‘Gallery 360’ of the purchased work. and All delivery, installation, and return costs incurred based on domestic delivery are paid or free in accordance with the delivery fee guidelines.",
+  
+  "Shipping_Fee_Info" : "Shipping Fee Information",
+  "Shipping_Fee_Info_1" : "In the case of courier delivery, a packing and shipping fee of KRW 20,000 is charged.",
+  "Shipping_Fee_Info_2" : "When delivery by courier is not possible: If the length of one side of the work exceeds 1m, special handling is required (sculpture, glass frame, installation work, etc.), professional delivery is used. It is delivered by the vehicle of ‘Gallery 360’’s art delivery company, and a basic delivery fee of 100,000 won is set within the area.",
+  "Shipping_Fee_Info_3" : "If you have any questions about purchasing the applicable works, please contact ‘Gallery 360’ and we will kindly answer them.",
+  "Shipping_Fee_Info_4" : "Free Shipping Artworks are delivered free of charge, depending on the artwork, or delivered by a specialized art delivery company vehicle of ‘Gallery 360’.<br><strong>Delivery Inquiry : 070-8803-0123</strong>",
+  
+  "Shipping_procedure" : "Shipping procedure",
+  "Shipping_procedure_1" : "New order → Gallery 360 Co., Ltd. or artist (seller) check the condition of the artwork → Packaging processing → Delivery by courier or individually delivered by a specialized art delivery vehicle",
+  "Shipping_procedure_2" : "If you want to install it, please make a request in advance, and a professional technician from ‘Gallery 360 Co., Ltd.’ will install it. (Separate installation fee)<br><strong>Installation Inquiry : 070-8803-0123</strong>",
+  
+  "Delivery_period" : "Delivery period",
+  "Delivery_period_1" : "It takes about 5-7 days after purchase (excluding holidays, based on business days)",
+  "Delivery_period_2" : "It takes additional time for areas outside of Seoul, Gyeonggi, and metropolitan areas.<br>In the case of artworks delivered to customers' requests for production and artworks delivered from overseas galleries, we will notify you separately.",
+
+  "Exchange_Return_Info" : "Exchange/Return Information",
+  
+  "Artwork_original" : "Artwork [original]",
+  "Artwork_original_1" : "Exchanges/returns due to a simple change of mind are possible if the condition of the work is the same as at the time of delivery.",
+  "Artwork_original_2" : "The customer is responsible for any costs incurred in the exchange/return process other than the purchase price. (ex. shipping cost, installation cost, dismantling cost, frame production cost, etc.)<br>However, this does not apply to the case of damage or damage to the artwork during delivery/installation.",
+  "Artwork_original_3" : "Exchange/return delivery is carried out by the delivery team specializing in ‘Gallery 360’, and ‘Gallery 360’ is not responsible for other shipping companies or delivery systems designated by the customer.",
+  
+  "Artwork_digital" : "Digital image [using download service]",
+  "Artwork_digital_1" : "You can cancel and refund within 2 days after purchase and before using the download service.",
+  
+  "Exchange_Return_not" : "If exchange/return is not possible",
+  
+  "Artwork_original_4" : "If the work is damaged due to your reasons after the work has been delivered",
+  "Artwork_original_5" : "In case of a decrease in the value of goods due to customer use or partial consumption, changes in the art market, etc.",
+  "Artwork_original_6" : "In the case of a work produced by a customer's request for work",
+  "Artwork_original_7" : "Except when the work is found to be a forgery (refer to Article 4 of the Terms and Conditions for Purchase of Artwork)",
+
+  "Artwork_digital_2" : "Exchange and refund after using the download service",
+  "Artwork_digital_3" : "In case 2 days have elapsed from the date of purchase, even before using the download service",
+  
+  "Artwork_Precautions" : "Artwork Handling Precautions",
+  "Artwork_Precautions_1" : "The corners may be sharp, so please install it out of the reach of children.",
+  "Artwork_Precautions_2" : "It may be damaged due to negligence in handling, such as scratching or dropping a sharp object.",
+  "Artwork_Precautions_3" : "Please do not install the product in a place exposed to direct sunlight or subject to large temperature and humidity changes.",
+  "Artwork_Precautions_4" : "Caution is required when installing and moving the artwork. Careless handling may cause damage to the artwork, body, or other items.",
+  "Artwork_Precautions_5" : "Do not use a damp cloth or detergent to clean the artwork. It may cause discoloration and damage to the artwork.",
+  "Artwork_Precautions_6" : "The seller is not responsible for any damage or damage to the artwork that occurs after the artwork has been delivered.", 
+  
+  
+  "Move_Arts" : "Move your Artwork.",
+  "Sold_Out" : "Sold Out",
+    
+  "Art_Detail_Alert0" : "Registering space..",
+  "Art_Detail_Alert1" : "Images of this Artswork cannot be purchased.",
+  "Art_Detail_Alert2" : "Are you sure you want to delete the registered space?",
+  "Art_Detail_Alert3" : "Please enter the space name.",
+  "Art_Detail_Alert4" : "Please enter a space name of 10 characters or less.",
+  "Art_Detail_Alert5" : "Only numbers can be entered",
+  "Art_Detail_Alert6" : "Please enter the space between 100 and 2000.",
+  "Art_Detail_Alert7" : "Please select a space image to upload",
+  "Art_Detail_Alert8" : "Creating Space..",
+  "Art_Detail_Alert9" : "An error occurred while uploading the file.",
+  "Art_Detail_Alert10" : "There are no details",
+  "Art_Detail_Alert11" : "It's unsupported browser",
+  "Art_Detail_Alert12" : "This cannot be purchased as an original work.",
+  
+  
+  "Art_Detail_Alert13" : "Payment cannot be processed because SMS authentication is not performed.<br>Do you want to proceed with SMS authentication?",
+  "Art_Detail_Alert14" : "You must enter the user's detailed information before purchasing the artwork.",
+  "Art_Detail_Alert15" : "Works can only be purchased with a general user account.",
+  "Art_Detail_Alert16" : "Image Purchase Agreement",
+  "Art_Detail_Alert17" : "It can be used within one year of the contract of use.<br>If you need to check other conditions, please contact the service center at the bottom of the website.",
+  "Art_Detail_Alert18" : "This product cannot be purchased",
+  "Art_Detail_Alert19" : "Artwork can only be purchased with a regular user account.",
+  "Art_Detail_Alert20" : "This is a previously registered product.",
+  
+  
+  "None_info1" : "None",
+  "None_info2" : "None",
+  
+  "Zoom_In_Out" : "Zoom In & Out",
+  
+  "Artwork_Inquiry_Title" : "Artwork Inquiry",
+  "Artwork_Inquiry_Detail" : "If you have any questions about the work,<br> please leave your inquiry and the curator in charge will check it and respond quickly.",
+  "q_subject" : "Enter a title",
+  "q_name" : "Enter your name",
+  "q_email" : "Enter your email",
+  "q_tel" : "Enter your contact information",
+  "q_content" : "Enter your Inquiry",
+  
+  "Inquiry" : "Inquiry",
+  "Proposal" : "Proposal",
+  
+  "Cart_Alert1" : "You have added art to your cart.",
+  "Cart_Alert2" : "Go to my cart",
+  
+  
+  "메인작가상세" : "-----------------------------------------------------",
+  
+  "Artist_Detail" : "View artist details",
+  "Artist_Detail_1" : "Search artists",
+  "Artist_Detail_2" : "ArtWork",
+  "VRGallery" : "VR Gallery",
+  "Link" : "Link",
+  "ArtistNote" : "Artist Note",
+  "Affiliation_Organization" : "Organization",
+  "Department" : "Department",
+  "Position" : "Position",
+  "Educational" : "Academic Background",
+  "Awards_History" : "Awards History",
+  "Collection_Artswork" : "Artswork Collection",
+  "Exhibit_Project" : "Exhibition & Project",
+    
+  "Artist_Detail_3" : "Not the moment,<br>A gaze that looks at the eternity",
+  "Artist_Detail_4" : "Alphabetical",
+  "Artist_Detail_5" : "No Found",
+  
+  "Search_Artist" : "Search Artist",
+     
+  "No_VR_Onging" : "No VR Exhibition is ongoing.",
+  
+  "VR전시" : "-----------------------------------------------------",
+  
+  "VR_Exhibit1" : "It contains all the exhibits <br>that make our daily life beautiful.",
+  "VR_Exhibit2" : "View VR Exhibits",
+  "VR_Exhibit3" : "<span>Smartest way</span> to display<br />your great ideas",
+  "VR_Exhibit4" : "<span>Rent</span> a VR Exhibit",
+  "VR_Exhibit5" : "The cost of exhibiting to your heart's content in 29 concept spaces<br />150,000 won for the whole month",
+  "VR_Exhibit6" : "Pricing Read More &raquo;",
+  "VR_Exhibit7" : "<span>Exhibit</span> as a VR",
+  "VR_Exhibit8" : "A 360-degree panoramic VR showcase <br />that will be the most realistic portfolio of artworks",
+  "VR_Exhibit9" : "Go to the rental exhibit &raquo;",
+  "VR_Exhibit10" : "<span>Join</span> us for a VR exhibition.",
+  "VR_Exhibit11" : "Real-time communication with visitors and effective exhibition promotion<br />Advanced digital exhibit solution",
+  "VR_Exhibit12" : "Online Exhibit!<br /><b>Prepare <span>realistically</span> with VR Gallery</b>",
+  "VR_Exhibit13" : "With Gallery 360's <strong>on-contact exhibition solution</strong>,<br />You can seamlessly hold non-face-to-face exhibitions optimized for digital devices by utilizing <strong>multimedia contents</strong>",
+  
+  "VR_Exhibit14" : "By viewing the 360° VR Show, you can experience vividly as if you were standing in an actual exhibition hall.",
+  "VR_Exhibit15" : "<span></span>Voice Docent",
+  "VR_Exhibit16" : "You can directly register commentary files for each work, making it easier for visitors to understand the exhibition.",
+  "VR_Exhibit17" : "<span></span>3D representation",
+  "VR_Exhibit18" : "It is possible to display online without restrictions on the items by displaying the three-dimensional sculptures left and right.",
+  "VR_Exhibit19" : "<span></span>Watch the video",
+  "VR_Exhibit20" : "You can easily expose a video by uploading a video file or a YouTube link.",
+  "VR_Exhibit21" : "<span></span>Add link",
+  "VR_Exhibit22" : "Through website and SNS account registration, communication with visitors becomes closer.",
+  "VR_Exhibit23" : "<span></span>Digital Publishing",
+  "VR_Exhibit24" : "D-BOOK publication is possible just by uploading the designed file.",
+  "VR_Exhibit25" : "Anyone can become",
+  "VR_Exhibit26" : "a product manage",
+  "VR_Exhibit27" : "in the VR Exhibit",
+  
+  "VR_Exhibit28" : "Create your own VR Exhibit",
+  "VR_Exhibit29" : "with anyone",
+  "VR_Exhibit30" : "who wants to share ideas",
+  
+  "VR_Exhibit31" : "<p>There are many companies that make online exhibit.</p> <p>But, The only place that does it right is</p> <p><strong>Gallery360</strong></p>",
+  "VR_Exhibit32" : "Gallery 360 has expertise <br />in <strong>VR exhibits and content <br />processing technology</strong> <br />using it through <br />continuous R&amp;D Development.",
+  
+  "VR_Exhibit32_1" : "Gallery 360 has expertise",
+  "VR_Exhibit32_2" : "in <strong>VR exhibits and content</strong>",
+  "VR_Exhibit32_3" : "<strong>processing technology</strong>",
+  "VR_Exhibit32_4" : "using it through",
+  "VR_Exhibit32_5" : "continuous R&amp;D Development.",
+  
+  "VR_Exhibit33" : "CERTIFICATE OF PATENT",
+  "VR_Exhibit33_1" : "",
+  
+  "VR_Exhibit34" : "<b>Patent</b> <b>No. 10-2107315</b> Artwork management system and work management method using the same",
+  "VR_Exhibit35" : "<b>Patent</b> <b>No. 10-2107316</b> Artwork display system and work display method using the same",
+  "VR_Exhibit36" : "<b>Patent</b> <b>No. 10-2018-0155866</b> VR Gallery Management System and VR Gallery Management Method",
+  "VR_Exhibit37" : "Only VR Exhibit!",
+  "VR_Exhibit38" : "Preparing for<br />a digital exhibit is easy", 
+  "VR_Exhibit39" : "Artist Registration",
+  "VR_Exhibit40" : "Please fill out a profile to be active in Gallery 360",
+  "VR_Exhibit41" : "Artswork Registration",
+  "VR_Exhibit42" : "Please register detailed information about the exhibited artswork",
+  "VR_Exhibit43" : "VR Registration",
+  "VR_Exhibit44" : "Please place your work in the VR gallery and write an introduction to the exhibition.",
+  "VR_Exhibit45" : "Exhibit Registration",
+  "VR_Exhibit46" : "Please disclose the VR Exhibit that will use the rental service.",
+  "VR_Exhibit47" : "When you meet a VR Exhibit,<br /> focus on your idea",
+  "VR_Exhibit48" : "View more about Guide",
+    
+  "Price_1" : "Economical plan with all the benefits in one",
+  "Price_2" : "All-in-one rate <b>1 month</b>",
+  "Price_3" : "(1 Hall)",
+  "Price_4" : "<span></span>Multimedia Display",
+  "Price_5" : "<span></span>Digital Publishing Services",
+  "Price_6" : "<span></span>Statistics Service",
+  "Price_7" : "<span></span>Address book Management",
+  "Price_8" : "<span></span>Invitation sending Service",
+  "Price_9" : "1 month Rental",
+  "Price_10" : "All-in-one rate <b>6 months</b>",
+  "Price_11" : "<span>About</span>80만원",
+  "Price_12" : "Rent with 11% discount",
+  "Price_13" : "* More than 3 months",
+  "Price_14" : "* The above rates are exclusive of VAT.",
+  "Price_15" : "* Tax invoices and receipts can be issued.",
+  "Price_16" : "* If you would like to inquire about multiple VR exhibit rates, proxy registration service, and VR exhibit customization (logo and image change, etc.), please use ",
+  "Price_17" : "the customer center",
+  "Price_18" : "",
+  
+  "VR_Recommand_1" : "What do you think of this idea?",
+  "VR_Recommand_2" : "Spread your ideas through our current exhibits",
+  "VR_Recommand_3" : "Go TO ALL EXHIBITS",
+    
+  "VR_Detail_Tab_1" : "Introduction",
+  "VR_Detail_Tab_2" : "Explain",
+  
+  
+  "회사소개" : "-----------------------------------------------------",
+    
+  "AboutUs_1_1" : " times of Online VR Exhibition",
+  "AboutUs_1_2" : " Clients",
+  "AboutUs_1_3" : " Artists, Art Consultant and Planner",
+  "AboutUs_1_4" : " Pieces of artswork",
+  "AboutUs_1_5" : " are with Gallery360",
+  
+  "AboutUs_2" : "Hello,<br/>This is <b>Gallery360</b>.",
+  "AboutUs_3" : "Gallery360, a warm-hearted group of experts, has been researching into an optimal technology, fusing and connecting cutting-edge digital technologies, and growing in art industry with future-oriented portfolio.<br/><br/>We believe that a VR exhibition platform, we provide, could let modern people get free and enjoyable lives with arts, so that we are seeking to create a nessesary service in the world.",
+  "AboutUs_4" : " Gallery360&lpar;Corp.&rpar; C.E.O.<br/><b>Sally Shin</b>",
+  "AboutUs_5" : "Gallery360, <strong>leading fields</strong> of <strong>Art Technology</strong>, provides services that support artists, hold online VR exhibitions, publish D-BOOK and other R&D.",
+  "AboutUs_6" : "We lead art culture in daily life, connecting artworks to consumers, based on IT Technology, and supporting lives of artists.",
+  "AboutUs_7" : "We derive various changes through IT Technology for everyone to make art be with your daily life.",
+  
+  "AboutUs_8" : "Company Profile PDF",
+  "AboutUs_9" : "Service Brief PDF",
+  
+  "AboutUs_10" : "VR exhibit rental service",
+  "AboutUs_11" : "D-BOOK publication",
+  "AboutUs_12" : "360 Artist Support",
+  "AboutUs_13" : "Support for purchasing",
+  "AboutUs_14" : "Art + IT R&D",
+  
+  "AboutUs_10_1" : "High Efficiency Low Cost Online Exhibition Solution",
+  "AboutUs_10_2" : "An on-tact exhibition solution that will be the answer to the exhibition in the post-corona era. Through the VR Gallery rental service, anyone can become a planner and share ideas.",
+  "AboutUs_10_3" : "As if in a real gallery, more vividly",
+  "AboutUs_10_4" : "With the VR Gallery rental service, you can hold non-face-to-face exhibitions anytime, anywhere by utilizing optimized multimedia contents on digital devices.",
+  "AboutUs_10_5" : "Economical plan with all the benefits in one",
+  "AboutUs_10_6" : "At a reasonable price of 150,000 won per month (excluding VAT), we provide all essential functions for holding online exhibits.",
+  "AboutUs_10_7" : "All exhibits in the world where our daily life becomes more beautiful",
+  "AboutUs_10_8" : "Through the Gallery 360 platform, various online exhibits can be viewed for free by anyone.",
+  "AboutUs_10_9" : "* Service OPEN in August 2020",
+  
+  "AboutUs_11_1" : "A new alternative for communication",
+  "AboutUs_11_2" : "D-BOOK publishing service",
+  "AboutUs_11_3" : "Smart digital publishing solution for brand managers who are concerned about effective digital marketing, content creators who are burdened with website creation, and companies who want to promote quickly",
+  "AboutUs_11_4" : "A content hub that helps brand channel influx",
+  "AboutUs_11_5" : "D-BOOK is an image-based digital publishing solution developed by Gallery 360 that can be easily shared via URL.",
+  "AboutUs_11_6" : "A stronger publicity effect with multimedia content",
+  "AboutUs_11_7" : "D-BOOK supports a variety of multimedia formats such as images, videos, and web links, and with real-time reports, you can enhance the brand experience and quickly feel the effects of promotion.",
+  "AboutUs_11_8" : "Emotional design that turns pages",
+  "AboutUs_11_9" : "Flipbook-type analog sensibility approaches familiar UI regardless of age.",
+  
+  "AboutUs_12_1" : "Connect with art producers and consumers",
+  "AboutUs_12_2" : "Gallery 360 supports the artistic activities of up-and-coming Korean artists. We help connect with consumers through activities within the art platform and various art projects.",
+  "AboutUs_12_3" : "Provide artist page in Gallery 360 platform",
+  "AboutUs_12_4" : "It provides an online personal portfolio space for unlimited registration of artist's notes and works, and brokers the sale of original works and digital images.",
+  "AboutUs_12_5" : "*We support the holding of permanent online VR exhibits free of charge.",
+  "AboutUs_12_6" : "Participated in art project hosted by Gallery 360",
+  "AboutUs_12_7" : "We help promote artists and their works by providing opportunities to participate in art projects hosted by Gallery 360, including artist interviews with Painterus, ART12 Live Auction 2020, and more.",
+  "AboutUs_12_8" : "Support for global expansion through Gallery 360 contracted companies",
+  "AboutUs_12_9" : "Through Gallery 360's global network, we help young artists make their debut in the global market.",
+
+  "AboutUs_13_1" : "Support for purchasing works",
+  "AboutUs_13_2" : "Gallery 360 provides IT-based services that help art work to take root in everyone's daily life.",
+  "AboutUs_13_3" : "Styling the artwork by &lsquo;hanging it in my space&rsquo;",
+  "AboutUs_13_4" : "Artwork styling is a technology that helps you purchase works of art, such as the size and color of the work, through the &lsquo;Hanging Artwork in My Space&rsquo; service.",
+  "AboutUs_13_5" : "AI artswork recommendation",
+  "AboutUs_13_6" : "Based on user activity within the Gallery 360 platform, works that fit your taste are recommended.",
+  "AboutUs_13_7" : "Create digital artworks with AI Painter",
+  "AboutUs_13_8" : "Through Qrie, an artificial intelligence painter program that has learned the art style of the past, users can create new digital works themselves or request a project from a gallery 360 registered artist.",
+
+  "AboutUs_14_1" : "Technological leadership for the convergence of art and IT",
+  "AboutUs_14_2" : "Art + IT R&amp;D",
+  "AboutUs_14_3" : "Gallery 360 helps businesses diversify through IT-based convergence technology R&D activities.",
+  "AboutUs_14_4" : "Possessing professional technology related to VR exhibit",
+  "AboutUs_14_5" : "Gallery 360 possesses expertise in VR exhibitions and content processing technology using it through continuous R&amp;D personnel.",
+  "AboutUs_14_6" : "Research and development of IT solutions that lead the trends in the art industry",
+  "AboutUs_14_7" : "We are constantly updating our services, such as posting 3D/4D artworks that embody the three-dimensional effect of our products, and suggesting customized products according to customer needs.",
+  "AboutUs_14_8" : "Leveraging AI technology",
+  "AboutUs_14_9" : "We are advancing our platform services using artificial intelligence machine learning capabilities.",
+  
+  "AboutUs_15" : "Symbol of Gallery360 is created by combination of  'meaning' for alphabet G and  'action' for spinning. Also, it could contain artistic merit through Gradient Color Branding.",
+  
+  
+  
+  "서비스소개" : "-----------------------------------------------------",
+  
+  "Introduction_1" : "Service Introduction",
+  "Introduction_2" : "General User",
+  "Introduction_3" : "Partner",
+  "Introduction_4" : "Trust and Safety",
+  
+  "Introduction_5_1" : "Gallery 360 is the fastest platform for viewing artworks in VR exhibit <br />anytime, anywhere and obtaining artworks, artists, and copyrights.",
+  "Introduction_5_2" : "<span>In everyone's life, <br />living and breathing</span> art",
+  "Introduction_5_3" : "<strong>Partners</strong> collectively refer to providers such as artists, art consultants, and galleries selling works, and can select and custom create VR galleries in various spaces for exhibition and sale. With information such as artwork description, artist introduction video, docent description, etc., open a realistic virtual exhibition with just a few clicks! Also, by selling image copyrights, it allows you to continue to generate additional income even after the won is sold.",
+  "Introduction_5_4" : "<strong>General users</strong> refer to clients such as art purchases, image purchases, and projects, and they can visit realistically produced VR galleries anytime, anywhere to view and purchase along with various information such as docents and videos. You can proceed with the art project by selecting the artist you like from among the applied artists.",
+  "Introduction_5_5" : "<strong>Gallery 360</strong> is an art tech company that researches people, technology, and art, and is a group of global experts who believe that art will bring us a more colorful and happy future.",
+  
+  "Introduction_6_1" : "Purchase after searching for artworks",
+  "Introduction_6_2" : "Through the powerful search engine and detailed option search, you can easily find the works you need.",
+  "Introduction_6_3" : "Search",
+  
+  "Introduction_7_1" : "Request to create a work",
+  "Introduction_7_2" : "1. Registration of work request and work production request<p>If you request the content you want to find among existing works or request and register the content that needs to be produced, <br>you can quickly receive production cost estimates and proposals from numerous art partners.<br>In art projects, not only drawings, but also various public art, murals, and sculptures can be customized.</p>",
+  "Introduction_7_3" : "Registration of artwork requests and production requests is free.",
+  "Introduction_7_4" : "The more detailed the required work, the more accurate matching is possible.",
+  "Introduction_7_5" : "You can upload ‘photos and texts’ or make a work request with the work image drawn by [Artificial Intelligence Curie].",  
+  "Introduction_7_6" : "If you have any questions regarding the request for production of works, please contact the customer center.",
+  
+  "Introduction_8_1" : "2. After selecting the partner you applied for, proceed with the online contract<p>You can compare and proceed with various quotes, portfolios, and application details at a glance.</p>",  
+  "Introduction_8_2" : "You can purchase or produce works by selecting from a variety of proposals from partners.",
+  "Introduction_8_3" : "Partners who have applied for work requests and production requests can be checked in [Partner Support Status].",  
+  "Introduction_8_4" : "We help you choose a partner through the portfolios and ratings of the partners you have applied for.",
+  "Introduction_8_5" : "You can conclude and proceed with a contract through a secure payment protection system.",
+  
+  "Introduction_9" : "<dt>3. Art project in progress<p>In the event of a dispute during the art project, arbitration costs are fully subsidized for content less than KRW 100 million.</p></dt><dd>For an art project through a work request, you can check the artist's progress while the project is in progress.</dd><dd>During a work request, the artist shares the production process at least once a week.</dd>",  
+  
+  "Introduction_10_1" : "4. Art project completed<p>After the general user completes the approval of the partner's request for work and work, the project is finished, and the artist's satisfaction is evaluated.</p>",
+  "Introduction_10_2" : "After the completion of the art project, the money is passed on to the partner.",  
+  "Introduction_10_3" : "We evaluate the partners who have been working on the art project.",  
+  "Introduction_10_4" : "The evaluated information is a great help when other general users work on their art projects.",
+  "Introduction_10_5" : "Evaluation can be done in the [View finished works] tab.",  
+  
+  "Introduction_11" : "Request",  
+  
+  "Introduction_12_1" : "How to use partners.",
+  "Introduction_12_2" : "1. Fill out your profile",  
+  "Introduction_12_3" : "<span>Profile Info.</span>Enter your self-introduction, artist's notes, exhibition history, work, etc. to create a profile that can appeal to you.",  
+  "Introduction_12_4" : "The more attractive your profile, the more opportunities you have to work on your art project.",
+  "Introduction_12_5" : "You can use your profile picture, awards, etc. to highlight your strengths.",  
+  "Introduction_12_6" : "If you post your contact information or email, you may be subject to restrictions on using the service according to the terms of use.",  
+  "Introduction_12_7" : "You can enter profile-related information in the [Profile Management] menu.",
+  
+  "Introduction_13_1" : "2. Art project private support",
+  "Introduction_13_2" : "<span>Art Project.</span>y filling out a simple application form, <br />you can apply for a desired art project ",
+  "Introduction_13_3" : "Please apply by calculating a reasonable cost and period.",
+  "Introduction_13_4" : "All application information is not visible to anyone other than the art project requester.",
+  "Introduction_13_5" : "If you specifically mention your experience with relevant art projects, you're more likely to be chosen by the end user.",
+  "Introduction_13_6" : "When you sign a contract with a general user by posting your contact information or e-mail, you may be subject to sanctions for using the service according to the terms of use.",
+  "Introduction_13_7" : "You can support art projects within [Find Projects] of Art Projects.",
+  
+  "Introduction_14_1" : "3. Art project contract",
+  "Introduction_14_2" : "<span>Art Project Contracts.</span>The contract proceeds through the final selection and payment of the general user.",
+  "Introduction_14_3" : "The project starts as soon as the project cost is deposited, and it is safely protected through the payment protection system until completion.",
+  "Introduction_14_4" : "After the final art project is finished, it will be paid in lump sum to the partners.",
+  
+  "Introduction_15_1" : "4. Art project in progress",
+  "Introduction_15_2" : "<span>Gallery360 Art Platform.</span>Gallery 360 is with you even during the art project.",
+  "Introduction_15_3" : "Through the payment protection system, the project price is safely protected during the period of the art project.",
+  "Introduction_15_4" : "The Gallery 360 team communicates with each other during the art project.",
+  "Introduction_15_5" : "In the event of a dispute, we fully support the arbitration cost for projects under 100 million won.",
+  "Introduction_15_6" : "Once the requester's advance payment is confirmed, the art project can begin.",
+  "Introduction_15_7" : "As soon as the general user's advance payment is confirmed, you can start the art project. ",
+  "Introduction_15_8" : "Pending Art Projects are paid out to partners upon completion of the art project, subject to approval by the project requester.",
+  "Introduction_15_9" : "The Gallery 360 team will help you with any difficulties that arise during the art project, and if a dispute arises, it will be resolved through the Korean Commercial Arbitration Board.",
+  
+  "Introduction_16_1" : "5. Art project completed",
+  "Introduction_16_2" : "<span>Complete Project.</span>After approval from general users and partners, the art project is completed, and general users proceed with the art project satisfaction evaluation.",
+  "Introduction_16_3" : "After approval of the completion of the art project, the partner receives the payment through the payment protection system.",
+  "Introduction_16_4" : "The good evaluation received from general users is a great help in winning the next art project.",
+  "Introduction_16_5" : "After completing the art project, you will get paid for the art project excluding the gallery 360 fee.",
+  "Introduction_16_6" : "Account registration is available in [Account Settings] > [Account Management], and you must register with an account in your own name.",
+  "Introduction_16_7" : "You can check the evaluation of your art project in the [Profile Management] menu.",
+  
+  "Introduction_17" : "Gallery 360 is with you <br />from the beginning to the end of the project.",
+  "Introduction_18" : "Consulting",
+  "Introduction_19" : "Certification mark",
+  "Introduction_20" : "Safety contract",
+  "Introduction_21" : "Money protection",
+  "Introduction_22" : "Safe arbitration",
+  
+  "Introduction_23_1" : "Meet the most suitable artworks and artworkers! ",
+  "Introduction_23_2" : "Gallery360 can help you find the best candidate for your art project. We guide the appropriate amount and period for the scope of work, and help complement the art project content so that workers can clearly understand the scope of work.",
+  
+  "Introduction_24_1" : "Check the certification mark granted by Gallery 360!",
+  "Introduction_24_2" : "It is safe because you can check and contract with the art project history that the partners actually carried out at Gallery 360 and the evaluations received from previous general users. You can check whether you have experience with similar art projects through your partner's portfolio. Check out the certification mark given only to the portfolio of art projects in Gallery 360.",
+  
+  "Introduction_25_1" : "Keep your art project money safe.",
+  "Introduction_25_2" : " The escrow-type payment protection system safely protects the art project payment. After that, when the art project is completed, Gallery 360 delivers the payment to the partner. Through the payment protection system, it is safe to pay the workers after checking the art project output without paying a down payment to the worker before the start of the art project.",
+  
+  "Introduction_26_1" : "The safest and most reliable art project",
+  "Introduction_26_1" : "Analyze dozens of standard contracts, and use a trustworthy contract through legal review by a law firm. Systematic dispute resolution process.",
+  
+  "Introduction_27_1" : "We introduce reasonable art projects through verification.",
+  "Introduction_27_2" : "When a general user registers an art project in Gallery 360, the Gallery 360 manager discusses the amount and period with the general user, then supplements and discloses the art project information. Inspection prevents art projects with outrageous content or estimates, thereby reducing unnecessary business hours.  ",
+  
+  "Introduction_28_1" : "Mutual transparent and fair evaluation system",
+  "Introduction_28_2" : "Gallery 360 transparently discloses general user information such as evaluation, number of art project registrations, and contract rate. Check out the certification mark given only to art projects of general users with excellent evaluations. ",
+  
+  "Introduction_29_1" : "Real-time communication anytime, anywhere",
+  "Introduction_29_2" : "It is safe to sign a contract after sufficient consultation with general users through ‘360 Talk,’ a messenger dedicated to Gallery 360.",
+  
+  "Introduction_30_1" : "Step 1 of safe arbitration solution",
+  "Introduction_30_2" : "When raising issues in bilateral consultations, refer to the guide provided by Gallery 360 to check the progress before it escalates into a big dispute to find an agreement. ",
+  "Introduction_30_3" : "Step 2 of safe arbitration solution",
+  "Introduction_30_4" : "If it is difficult to reach an agreement between the two parties, a three-way meeting hosted by the Gallery 360 manager will review the arguments and related materials of both sides to reach an amicable agreement.",
+  "Introduction_30_5" : "Step 3 of safe arbitration solution",
+  "Introduction_30_6" : "If an amicable solution is not found even after three-party consultations between general users, partners, and Gallery 360, the dispute is resolved by arbitration by the Korean Commercial Arbitration Board. Get the professional judgment of an arbitrator who is an expert in your field, so you can get it resolved quickly.",
+    
+  
+  
+  "공지사항" : "-----------------------------------------------------",
+  
+  "Notice_0" : "Hello.<br /> This is Gallery 360 Customer Center.",
+  "Notice_1" : "Notice",
+  "Notice_2" : "1:1 Inquiry",
+  
+  "Notice_3" : "Notice Board",
+  "Notice_4" : "Title",
+  "Notice_5" : "Date",
+  
+  "Notice_6" : "*If you cannot find the answer you are looking for, please use <span>1:1 Inquiry</span>.",
+  "Notice_7" : "Type",
+  "Notice_8" : "Content",
+  
+  "Register" : "Register",
+  
+  "Notice_9" : "Writer",
+  "Notice_10" : "Private",
+  "Notice_10_1" : "Public",
+  "Notice_11" : "Change visibility",
+  "Notice_12" : "Content",
+  "Notice_13" : "Register",
+  
+  
+  "News_1" : "Subscribe now to keep up to date with the latest art news and artists.",
+  "News_2" : "Apply",
+  "News_3" : "A request to receive the newsletter has been registered.",
+    
+  
+  
+  "푸터" : "-----------------------------------------------------",
+  
+  "Footer_1" : "Partnership / Sponsorship",
+  "Footer_2" : "Jobs",
+  "Help_Center" : "Help Center",
+  "Service_Center" : "Service Center",
+  "Time" : "KST Weekday  10 : 00 ~ 17:00 / Lunch  12:30 ~ 13:30 <br>Weekend/Public holidays Close",
+  
+  "Info_detail_1" : "Company &nbsp;:&nbsp; Galley360 &nbsp;|&nbsp; CEO &nbsp;:&nbsp; Shin Hyo-mi  &nbsp;|&nbsp; Company Registration Number &nbsp;:&nbsp; 828-88-01007 &nbsp;|&nbsp; Hosting provider&nbsp;:&nbsp; Google Cloud Platform<br>",
+  "Info_detail_2" : "Mail-order business report &nbsp;:&nbsp;  제2019-경기파주-0223호 &nbsp;|&nbsp; Address &nbsp;:&nbsp; 9F, 916, 25, Soricheon-ro, Paju-si, Gyeonggi-do, Republic of Korea<br>",
+  
+  "Mobile_Info_detail_1" : "Company &nbsp;:&nbsp; Galley360 &nbsp;|&nbsp; CEO &nbsp;:&nbsp; Shin Hyo-mi <br>",
+  "Mobile_Info_detail_2" : "Company Registration Number &nbsp;:&nbsp; 828-88-01007 &nbsp;|&nbsp; Hosting provider&nbsp;:&nbsp; Google Cloud Platform<br>",
+  "Mobile_Info_detail_3" : "Mail-order business report &nbsp;:&nbsp;  제2019-경기파주-0223호<br>",
+  "Mobile_Info_detail_4" : "Address &nbsp;:&nbsp; 9F, 916, 25, Soricheon-ro, Paju-si, Gyeonggi-do, Republic of Korea<br>",
+
+  "Footer_3" : "Business Information",
+  "Footer_4" : "Privacy Statement",
+  "Footer_5" : "Terms of Use",
+    
+  "Footer_6" : "Escrow payment protection system information",
+  "Footer_7" : "For your safe transaction, we protect the project price <br>in three layers through the escrow system.",
+  "Footer_8" : "Confirmation of service subscription",
+   
+  
+  
+  "AI작품관" : "-----------------------------------------------------",
+  
+  "AI_1" : "Popular Artwork",
+  "AI_2" : "Create AI Painter Artwork",
+  "AI_3" : "Hanging art in my space",
+  
+  "AI_4" : "Created Artwork",
+  "AI_5" : " (Popular works are selected and produced as actual works at the end of the year.)",
+  
+  
+  "큐리추천" : "-----------------------------------------------------",
+  
+  "Curie0" : "Curie is analyzing your usage patterns",
+  
+  "Curie_1" : "Recommended artworks <strong>by pattern</strong>",
+  "Curie_2" : "Recommended artworks <strong>by price</strong>",
+  "Curie_3" : "Recommended artworks <strong>by size</strong>",
+  "Curie_4" : "This artwork is recommended by Gallery360 AI (Curie).",
+  
+  "Curie_5" : "Using AI Painter",
+  "Share" : "Share",
+  "Share1" : "Share",
+  "Close" : "Close",
+  
+  "Facebook" : "Facebook",
+  "Kakaotalk" : "Kakaotalk",
+  "Naver" : "Naver",
+  "Band" : "Band",
+  "Twitter" : "Twitter",
+  "Homepage_Open" : "Homepage Open",
+    
+  
+  "Curie_Recommend_1" : "By Pattern",
+  "Curie_Recommend_2" : "By Price",
+  "Curie_Recommend_3" : "By Size",
+  "Curie_Recommend_4" : "AI Painter",
+  
+  "Curie_Alert1" : "Do you want to delete the image?<hr>",
+  "Curie_Alert2" : "It has been kept private on the website.",
+  "Curie_Alert3" : "It has been published on the website.",
+  
+  "Curie_6" : "Gallery360 AI Painter",
+  "Curie_7" : "Recently uploaded image",
+  "Curie_8" : "Choose the style to apply",
+  
+  
+  "내공간작품걸기" : "-----------------------------------------------------",
+  
+  "HangingArt_1" : "Hanging art in my space",
+  "HangingArt_2" : "Select multiple artworks",
+  "HangingArt_3" : "After selecting the checkbox, you can click on the work to hang multiple works.",
+  "HangingArt_4" : "Same artist <br />Different artwork",
+  
+  "Artwork_Search" : "Artwork Search",
+  "Favorites" : "Favorites",
+  "AI_Painter" : "AI Painter",
+  
+  "ProductionRequest" : "Production Request",
+  "ArtworkSelection " : "Artwork Selection",
+  "Prev" : "Prev",
+  
+  "HangingArt_5" : "It is available after login.",
+  "Info" : "Info",
+  
+    
+  "Nohave_Favorites" : "There are no favorite artworks.",
+  "Nohave_AIPainter" : "There are no AI Painter artworks.",
+  
+  "HangingArt_6" : "This browser is not supported. Please upgrade your browser",
+  "HangingArt_7" : "Only one file can be uploaded. Delete the existing uploaded file and upload it again",
+  "HangingArt_8" : "An error occurred while uploading the file.",
+  "HangingArt_9" : "It is not an image file.",
+  "HangingArt_10" : "Works can only be purchased with a general user account.",
+  "HangingArt_11" : "Added to Cart",
+  "HangingArt_12" : "This product cannot be purchased",
+  "HangingArt_13" : "An error occurred",
+  "HangingArt_14" : "An error occurred while saving",
+  "HangingArt_15" : "There are no artwork images to share",
+  "HangingArt_16" : "It is processing my spatial ",
+  "HangingArt_17" : "An error occurred during processing",
+  "HangingArt_18" : "Gallery360 Hanging art in my space",
+  "HangingArt_19": "The URL has been copied to the clipboard. Paste with Ctrl+V",
+    
+  "HangingArt_20" : "Please enter the space name",
+  "HangingArt_21" : "Please enter name of 10 characters or less",
+  "HangingArt_22" : "Please enter the space size of the photo you want to upload.",
+  "HangingArt_23" : "Only numbers can be entered",
+  "HangingArt_24" : "Please enter the space width within 100 ~ 2000cm",
+  "HangingArt_25" : "Please select a space image to upload",
+  "HangingArt_26" : "creating space",
+  
+  
+  "마이페이지_일반사용자" : "-----------------------------------------------------",
+  
+  "Image_Crop_Title" : "Register Image",
+  
+  "Mypage1" : "MyPage",
+  "Mypage2" : "Account Settings",
+  "Mypage3" : "Artwork purchase Info",
+  "Mypage4" : "Art Project",
+  "Mypage5" : "Purchased Artwork",
+  
+  "Payment" : "Payment",
+  "Ready_to_ship" : "Ready to ship",
+  "Shipping" : "Shipping",
+  "Delivery_completed" : "Delivery completed",
+  "Getting_ready" : "Getting ready",
+  
+  "Mypage6" : "Progress",
+  "Mypage7" : "Partners support status",
+  "Mypage8" : "Request in progress",
+  "Mypage9" : "Finished artwork request",
+  "Mypage10" : "Order & Delivery",
+  "Mypage11" : "Order date & number",
+  "Mypage12" : "Artwork Info",
+  "Mypage13" : "Product Amount",
+  
+  "Mypage14" : "<span id='project_client_support_totalcount2'></span>Partners support",
+  "Mypage15" : "<span id='project_client_ing_totalcount2'></span>Artwork in progress",
+  "Mypage16" : "<span id='project_client_end_totalcount2'></span>Finished Artwork",
+  "Mypage17" : "My Art Project",
+    
+  "Mypage18" : "<span id='mypage_art_favorite_count'></span>Artwork",
+  "Mypage19" : "<span id='mypage_vr_favorite_count'></span>VR Gallery",
+  
+  "Mypage_Alert1" : "No order history",
+  "Mypage_Alert2" : "No data to display",
+  "Mypage_Alert3" : "There are no favorite artworks",
+  "Mypage_Alert4" : "No purchase history",
+  
+  "See_more" : "See more",
+  
+  "Request_recommendation" : "Request for artwork recommendation",
+  "Request_for_artwork" : "Request for artwork production",
+  "Registration_date" : "Registration date",
+  "Request_amount" : "Request amount",
+  "Delivery_request_date" : "Delivery request date",
+  "Attachments" : "Attachments",
+  
+  
+  "Basic_info_management" : "Basic info management",
+  "Back" : "Back",
+  "Account_Management" : "Account Management",
+  "Account_Withdrawal" : "Account Withdrawal", 
+  
+  "Basic_Information" : "Basic Information",
+  "Name" : "Name",
+  "Nickname" : "Nickname",
+  "Phone_Number" : "Phone Number",
+  "Date_of_birth" : "Date of Birth",
+  "Wireline_Number" : "Wireline Number",
+  "Address" : "Address",
+  "Find_Address" : "Find Addr",
+  "Update1" : "Update",
+  "Contact" : "Contact",
+  
+  
+  
+  
+  "Mypage20" : "Account information <span>*Please fill in the details you want</span>",
+  
+  "Phone_certification1" : "Mobile phone Certification",
+  "Phone_certification2" : "Mobile phone authentication is required to use Gallery 360's smooth service.",
+  "Phone_certification3" : "Authenticate with mobile phone",
+  "Phone_certification4" : "In order to protect your personal information and comply with related laws, we are implementing the certification process.",
+  
+  "Email" : "Email",
+  "Mypage_Alert5" : "User account has been withdrawn.",
+  "Mypage_Alert6" : "Enter your nickname.",
+  "Mypage_Alert7" : "Users who log in with an SNS account cannot change their password.",
+  "Mypage_Alert8" : "It is an authentication key different from the initial signup information. Please contact the administrator.",
+  "Mypage_Alert9" : "It is already registered and cannot be used.",
+  "Mypage_Alert10" : "Authentication failed.",
+  "Mypage_Alert10_1" : "Content : ",
+  "Mypage_Alert11" : "Registered normally.",
+  "Mypage_Alert12" : "Change Password <span>*Please change your password periodically to protect your personal information.</span>",
+  "Mypage_Alert13" : "Please enter a password of at least 8 characters and include special characters.",
+  "Mypage_Alert14" : "Please enter the same password again.",
+  "Mypage_Alert15" : "ID and password do not match. please try again.",
+  "Mypage_Alert16" : "The passwords are not the same.",
+  "Mypage_Alert17" : "Your password has been successfully changed.",
+  "Mypage_Alert18" : "Are you sure you want to close your account?<hr>",
+  "Mypage_Alert19" : "Personal information has been updated normally.",
+  "Mypage_Alert20" : "The same nickname exists.<br>Please enter a different nickname",
+
+  "New_password" : "New password",
+  "New_password_confirmation" : "New password confirmation",
+  "Request_for_change" : "Change",
+  
+  "Upload_File" : "Uploading files...",
+  "Upload_Error" : "An error occurred while uploading.",
+   
+  
+  "Bank_1" : "Account Management <span>*Please register your account information for safe remittance of art project money.</span>",
+  "Bank_2" : "Bank Name",
+  "Bank_3" : "Account Number",
+  "Bank_4" : "Please enter without '-'.",
+  "Bank_5" : "*After payment is complete, click 'Confirm Request' button.",
+  "Bank_6" : "Name of account holder",
+  
+  "Find_postal_code" : "Find postal code",
+  "Find_postal_code2" : "Enter your address (street name, lot number, building name)",
+  
+  "Ch_PW1" : "Change your password <span>*Please change your password periodically to protect your personal information.</span>",
+  "Ch_PW2" : "Verify password",
+  
+  "Withdrawal1" : "Membership withdrawal <span>*You can apply for membership withdrawal.</span>",
+  "Withdrawal2" : "Before withdrawing from membership, please check the details below carefully and apply for withdrawal.",
+  "Withdrawal3" : "After withdrawal, all information such as profile information, account information, project information, and comments created by the member will be deleted and will not be restored even if re-joining in the future.",
+  "Withdrawal4" : "In accordance with relevant laws and regulations, if there are any of the following types of records, member information and related records are kept for a set period, and re-registration with the same ID and e-mail is not possible during the retention period. After the retention period ends, member information and related records will be destroyed without delay.",
+    
+  "Withdrawal4_1" : "Type of storage information",
+  "Withdrawal4_2" : "Retention information period",
+  "Withdrawal4_3" : "Records on consumer complaints or dispute resolution",
+  "Withdrawal4_4" : "Records on collection/processing and use of credit information",
+  "Withdrawal4_5" : "Records on payment and supply of goods",
+  "Withdrawal4_6" : "Records on contract or subscription withdrawal",
+  "Withdrawal4_7" : "Records on display/advertisement",
+  "Withdrawal4_8" : "3 Years",
+  "Withdrawal4_9" : "5 Years",
+  "Withdrawal4_10" : "6 Months",
+  
+  "Withdrawal5" : "Once the membership withdrawal request is received, the Gallery 360 administrator will process the withdrawal after confirmation, and an email will be sent to the completion of the withdrawal within 24 hours. (based on business days)",
+  "Withdrawal6" : "To request withdrawal from membership, click the [Delete] button.",
+  "Withdrawal7"  :"Delete",
+  
+  
+  "Order_Shipping1" : "Order Shipping Tracking",
+  "Order_Shipping2" : "Purchase cancellation history",
+  "Order_Shipping3" : "Image purchase inquiry",
+  
+  "Download" : "Download",
+    
+  "Date_of_purchase" : "Date of purchase",
+  "Artwork_Information" : "Artwork Information",
+  "Purchase_Amount" : "Purchase Amount",
+  
+  "Order_Number" : "Order Number",
+  "Cancellation_Date" : "Cancellation Date",
+  "Progress" : "Progress",
+  
+  "Waiting_for_payment" : "Waiting for payment",
+  "Payment_finished" : "Payment finished",
+  "Return" : "Return",
+  "Final_purchase_completed" : "Final purchase completed",
+  "Checking_Purchase" : "Checking the purchase amount",
+  "Processing_completed" : "Processing completed",
+  
+  "Purchase_Confirmation" : "Purchase Confirmation",
+  "Cancel_purchase" : "Cancel purchase",
+  
+  
+  
+  "Partners_Support_Status" : "Partners Support Status",
+  
+  "Partners1" : "View work in progress",
+  "Partners2" : "View finished works",
+  "Partners3" : "Pending evaluation",
+  "Partners4" : "Request for completed artwork",
+  "Partners5" : " art projects",
+  
+  "labels1" : "Professionalism",
+  "labels2" : "Satisfaction",
+  "labels3" : "Communication",
+  "labels4" : "Adherence to schedule",
+  "labels5" : "Positiveness",
+  "labels6" : "Detailed item evaluation",
+  
+  "Partners6" : "Contract partner",
+  "Partners7" : "Contract signing date",
+  "Partners8" : "[Admin Checking Deposit]",
+  "Partners9" : "[Admin Deposit Confirmation Completed]",
+  
+  "Partners10" : "Deposit without bankbook",
+  "Partners11" : "After clicking the button, you must request a deposit confirmation to proceed with the project.",
+  "Partners12" : "days left",
+  "Partners13" : "Contract name",
+  "Partners14" : "Price",
+  "Partners15" : "Contract period",
+  "Partners16" : "Creating period",
+  "Partners17" : "days + Delivery period 5 days",
+  "Partners18" : "Due date",
+  "Partners19" : "Progress",
+  "Partners20" : "% in progress",
+  "Partners21" : "Attached photo",
+  "Partners22" : "day(s)",
+  
+  "Partners_Alert_1" : "Partners support does not exist.",
+  "Partners_Alert_2" : "There is no work in progress on the project.",
+  "Partners_Alert_3" : "There are no works pending evaluation.",
+  "Partners_Alert_4" : "The completed work does not exist.",
+  "Partners_Alert_5" : "At least one asterisk must be selected.",
+  "Partners_Alert_6" : "If there are multiple proposals, you must select one. Please select a work after clicking View Details",
+  "Partners_Alert_7" : "Click the View Details button and select a work to purchase.",
+  "Partners_Alert_8" : "You must enter your personal details before purchasing the artwork.",
+  
+  "Partners23" : "Receive your final artwork, Leave a rating for",
+  "Partners24" : "partners!",
+  "Partners25" : "Evaluation records are very helpful for successful art projects.<br />Please write carefully as evaluation contents cannot be edited.",
+  
+  "Partners26" : "Assessment complete",
+  "Partners27" : "Preliminaries",
+  "Partners28" : "Positiveness",
+  "Partners29" : "Communication",
+  "Partners30" : "Please write about your experience working together.",
+  "Partners31" : "Supported Partners",
+  "Partners32" : "Project information",
+  
+  "Partners33" : "Contract amount",
+  "Partners34" : "Suggested amount",
+  "Partners35" : "Expected delivery date",
+  "Partners36" : "Production lead time",
+  
+  "Choice" : "Choice",
+  "Adopted" : "Adopted",
+  "Not_adopted" : "Not adopted",
+  
+  "Quick_View" : "Quick View",
+  "View_Details" : "View Details",
+  
+  "Partners37" : "Delete project",
+  "Partners38" : "Are you sure you want to delete the registered project?",
+  
+  "Partners39" : "Final artwork evaluation",
+  "Partners40" : "Please receive the actual work and make a final evaluation.<br>After the evaluation is completed, the final payment of the work will be sent to the artist.",
+  "Partners41" : "Notes on request for artworks",
+  "Partners42" : "Requests for production of artworks cannot be canceled after payment.",
+  
+  
+  
+  "Purchased_Artwork" : "Purchased Artwork",
+  "Purchased_Artwork1" : "Art project purchased artwork",
+  "Purchased_Artwork2" : "General purchased artwork",
+  
+  "Purchased_Artwork3" : "Users who log in with an SNS account cannot change their password.",
+  
+  "회원가입" : "----------------------------------------------------",
+  
+  "SignUp1" : "Join Gallery 360",
+  "SignUp2" : "Sign up by email",
+  "SignUp3" : "Sign up with your Google account",
+  "SignUp4" : "Sign up for a Kakao account",
+  
+  "VR_Exhibit_Service" : "VR Exhibit Service",
+    
+  "Membership_Type" : "Membership Type",
+  "SignUp5" : "Service use differs depending on the membership type selected.",
+  
+  "SignUp6" : "Companies or individuals who want to purchase works and request production",
+  "SignUp7" : "Galleries and individuals selling works on behalf of artists",
+  "SignUp8" : "Individuals who wish to sell their own works or receive production orders",
+  "SignUp9" : "Companies or individuals who want to promote exhibits using VR space",
+  
+  "Membership_Information" : "Membership Information",
+  "SignUp10" : "* is required information.",
+  
+  "SignUp11" : "Please select.",
+  "Double_Check" : "Double Check",
+  
+  "Fold" : "Fold",
+  "Open" : "Open",
+  "SignUp12" : "&emsp; How did you find out about Gallery 360?",
+  "SignUp13" : "Please select one",
+  "SignUp14" : "Search portal site",
+  "SignUp15" : "Recommend acquaintance",
+  "SignUp16" : "SNS",
+  "SignUp17" : "Blog",
+  "SignUp18" : "Others (Please enter your information below)",
+  "SignUp19" : "Please enter your details",
+  
+  "Terms_of_use" : "Terms of use and acceptance",
+  "Terms_of_use0" : "I agree to the Gallery 360 Terms of Service, Privacy Policy and User Guide, and Marketing Usage and Reception",
+  "Terms_of_use1" : "Full Agree",
+  "Terms_of_use2" : "I agree to the Gallery 360 Terms of Service <span>[Required]</span>",
+  "Terms_of_use3" : "View all",
+  "Terms_of_use4" : "I agree to the privacy policy and usage guide<span>[Required]</span>",
+  "Terms_of_use5" : "I agree to use and receive marketing <span>[Options]</span>",
+  "Terms_of_use6" : "Text message",
+  "Terms_of_use7" : "Phone call",
+  "Terms_of_use8" : "Sign up",
+  
+  "SignUp_Alert1" : "It is required information.",
+  "SignUp_Alert2" : "The password must consist of at least 8 characters (including numbers) and special characters.",
+  "SignUp_Alert3" : "Passwords do not match.",
+  "SignUp_Alert4" : "Available nicknames (activity names).",
+  "SignUp_Alert5" : "This is a nickname (activity name) that already exists.",
+    
+  "SignUp_Alert6" : "It can be used 30 days after membership withdrawal.",
+  "SignUp_Alert7" : "This email already exists.",
+  "SignUp_Alert8" : "The password must consist of at least 8 characters (including numbers) and special characters.",   
+     
+  "Sun" : "Sun.",
+  "Mon" : "Mon.",
+  "Tues" : "Tue.",
+  "Wednes" : "Wed.",
+  "Thurs" : "Thu.",
+  "Fri" : "Fri.",
+  "Satur" : "Sat.", 
+     
+  "Sunday" : "Sunday",
+  "Monday" : "Monday",
+  "Tuesday" : "Tuesday",
+  "Wednesday" : "Wednesday",
+  "Thursday" : "Thursday",
+  "Friday" : "Friday",
+  "Saturday" : "Saturday",
+      
+  "January" : "Jan.",
+  "February" : "Feb.",   
+  "March" : "Mar.",
+  "April" : "Apr.",
+  "May" : "May.",
+  "June" : "Jun.",
+  "July" : "Jul.",
+  "August" : "Aug.",
+  "September" : "Sept.",
+  "October" : "Oct.",
+  "November" : "Nov.",
+  "December" : "Dec.",   
+    
+  "SignUp_Alert9" : "The number of values ​​is too large.",   
+     
+  "Email2_Alert1" : "Would you like to resend the mail to",
+  "Email2_Alert2" : "",
+  
+  "Email3_Alert1" : "This email does not exist. Please try again after registering.",
+  "Email3_Alert2" : "In the e-mail (",
+  "Email3_Alert3" : "), click the member sign-up verification and log in.",
+      
+  
+  "로그인" : "-----------------------------------------------------",
+   
+   "Login_Alert1" : "Please enter your ID.",
+   "Login_Alert2" : "Please enter a password.",
+   "Login_Alert3" : "This is an unregistered ID (e-mail).",
+   "Login_Alert4" : "Click Sign Up in the registered email and log in. Email verification is required.",
+   "Login_Alert5" : "The password is incorrect.",
+   "Login_Alert6" : "Unregistered user.",
+   "Login_Alert7" : "If you did not agree to the provision of e-mail information or there is no e-mail information, you must register your subscription information yourself.",
+   "Login_Alert8" : "Facebook login is supported only in https",
+   "Login_Info" : "Login Info : ",
+ 
+   "Logout_Alert1" : "An error occurred while logging out.",
+   
+     
+  "작품추천" : "-----------------------------------------------------",
+   
+   "Shape" : "Shape",
+   "Artwork_Recom1" : "Get artwork recommendation",
+   "Artwork_Recom2" : "Request to make a artwork",
+    
+   "Artwork_Recom3" : "Request details <span>*Please enter the details you want.</span>",
+   "Artwork_Recom4" : "Please enter a title for your artwork request.",
+   "Artwork_Recom5" : "Please write your request in detail.", 
+   
+   "Artwork_Recom6" : "Shape and size",
+   "Artwork_Recom6_1" : "The size you selected is",
+   "Artwork_Recom6_2" : ".",
+   
+   
+   "Artwork_Recom7" : "Requested Amount <span>*Please enter your estimated amount.",
+   "Artwork_Recom7_1" : "The amount entered is",
+   "Artwork_Recom7_2" : ".",
+   
+   "Artwork_Recom8" : "Delivery request date <span>*Please enter the desired date to receive the artwork.</span>",
+   "Artwork_Recom8_1" : "The delivery request date you entered is",
+   "Artwork_Recom8_2" : ".",
+   
+   "Artwork_Recom9" : "Auto recommend",
+   "Artwork_Recom10" : "Request",
+   "Artwork_Recom11" : "Gallery360 AI (Curie) recommends artworks by analyzing the request.",
+   "Artwork_Recom12" : "AI-recommended works<span>Selected by analyzing members' tastes.</span>",
+   
+   "MySpace" : "My Space", 
+   "Artwork_Recom13" : "Select delivery date",
+    
+   "Curie_title" : "Gallery360 AI Curie",
+    
+    
+  "작품요청" : "-----------------------------------------------------",
+   
+   "FileUpload" : "File Upload",
+   "Artwork_request1" : "Choice Image",
+   "Artwork_request2" : "Using AI Painter",
+   "Artwork_request3" : "AI Painter Stash",
+   
+   "Artwork_request4" : "Shape and size <span>*Please select the shape and size of the artwork you are requesting.</span>",
+   
+   "Height" : "Height",
+   "Width" : "Width",
+   "Height1" : "Height",
+   "Width1" : "Width",
+   "AIPainter" : "AI Painter",
+   
+   "Artwork_request5" : "Select the image you would like to request an original drawing. (.jpg,.gif)",
+   "Artwork_request6" : "It is not an uploadable file format.",
+   "Artwork_request7" : "You will receive result with style applied by e-mail.",
+   "Artwork_request8" : "Apply style",
+   "Artwork_request9" : "After about 20 minutes, you can check it through the email you entered and the AI ​​Painter storage box.",
+   "Artwork_request10" : "Again",
+   "Artwork_request11" : "Production Request",
+   "Artwork_request12" : "Your AI Painter image request has been completed.",
+   
+   "Artwork_request13" : "Drag files here",
+   "Artwork_request14" : "Click to select file",
+   "Artwork_request15" : "Do you want a great piece of art?",
+   "Artwork_request16" : "AI Painter will draw a special picture<br />just for you.",
+   "Artwork_request17" : "Did you like the painting?<br />You can also post it on SNS and request the artwork.",
+   "Artwork_request18" : "Pick the one you like among various suggestions <br />from many artists in Gallery 360~",
+   "Artwork_request19" : "Get the finished artwork delivered<by>One and only interior!",
+   "Artwork_request20" : "Gallery360 AI Painter",
+   
+   "Artwork_request_Alert1" : "Upload an image to be styled.",
+   "Artwork_request_Alert2" : "Please select a template to apply the style to.",
+   "Artwork_request_Alert3" : "Gallery360 AI Qrie is making art.....",
+   "Artwork_request_Alert4" : "An image file must be selected.",
+   "Artwork_request_Alert5" : "Are you sure you want to delete the image?<hr>",
+
+   "Artwork_request_Alert6" : "Please enter the title",
+   "Artwork_request_Alert7" : "Please enter the content",
+   "Artwork_request_Alert8" : "Please select a artwork shape",
+   "Artwork_request_Alert9" : "Please enter a artwork height",
+   "Artwork_request_Alert10" : "Please enter a artwork width",
+   "Artwork_request_Alert11" : "Please enter a artwork size",
+   
+   "Artwork_request_Alert12" : "Please enter the requested amount",
+   "Artwork_request_Alert13" : "Please enter the requested amount as a number",
+   "Artwork_request_Alert14" : "Please select a delivery request date",
+   "Artwork_request_Alert15" : "The requested data has been successfully registered.",
+   
+  
+  
+  
+  "마이페이지_작가" : "-----------------------------------------------------",
+  
+  "Artist_Mypage1" : "Profile Setting",
+  "Artist_Mypage2" : "Account Setting",
+  "Artist_Mypage3" : "Art Project",
+  "Artist_Mypage4" : "Art List",
+  "Artist_Mypage5" : "VRGallery",
+  
+  "Artist_Mypage6" : "",
+  "Artist_Mypage7" : "",
+  "Artist_Mypage8" : "",
+  "Artist_Mypage8_0" : "",
+  "Artist_Mypage8_1" : "",
+  "Artist_Mypage8_2" : "",
+  
+  "Artist_Mypage9" : "Professional",
+  "Artist_Mypage10" : "Satisfy",
+  "Artist_Mypage11" : "Communicate",
+  "Artist_Mypage12" : "Schedule",
+  "Artist_Mypage13" : "Positive",
+  "Artist_Mypage14" : "Detailed item evaluation",
+  
+  "Artist_Mypage15" : "Recommend",
+  "Artist_Mypage16" : "Creation",
+    
+    
+  "Group" : "Group",
+  "Educational_Info" : "Educational Info",
+  "Career" : "Career",
+  
+  "Project_of_Interest" : "Project of Interest",
+  "Application_details" : "Application details",
+  "Project_in_progress" : "Project in progress",
+  "Finished_project" : "Finished project",
+    
+  "My_Art_Project" : "My Art Project",
+  "My_Art_Project1" : "<span id='favorite_count'></span>Interest project",
+  "My_Art_Project2" : "<span id='support_ing_count'></span>Application details",
+  "My_Art_Project3" : "<span id='ing_count'></span>Project in progress",
+  "My_Art_Project4" : "<span id='end_count'></span>Finished project",
+  
+  "Average_score" : "Average score",
+  "Rating_distribution" : "Rating distribution",
+    
+  "Completed_project" : "Completed project",
+  "Portfolio" : "Portfolio",
+  
+  "More" : "More",
+  
+  "Artworks_on_sale" : "<span id='img_ing'></span>Artworks on Sale",
+  "Sold_artworks" : "<span id='img_end'></span>Sold Artworks",
+  
+  "Gallery_on_display" : "<span id='vr_ing'></span>Gallery on display",
+  "All_gallery" : "<span id='vr_all'></span>All Gallery",
+   
+  "Total_Apply1" : "Apply ",
+  "Total_Apply2" : " people in total",
+  
+  "OnDisplay" : "on display",
+  
+  "Evaluation_Info" : "Evaluation Info",
+  "Detail_Evaluation" : "Detail Evaluation",
+  "Score" : " score",
+  "Accumulated_Amount" : "Accumulated Amount : ",
+    
+  "Curie_Art_Alert1" : "You must enter detailed information in the PC version before requesting a work.",
+  "Curie_Art_Alert2" : "You must enter detailed information before requesting a work.",
+  
+  "Sales_Request" : "Sales Request",
+  "Temporary_Save" : "Temporary Save",
+  
+  "Edit_Button" : "/img/account/btn-mp-edit-basic-info-normal_en.png",
+  
+  "프로필세팅_작가,아트컨설턴트" : "-----------------------------------------------------",
+  
+  "About_Me" : "About Me",
+  "MyInfo" : "My Info",
+  "Artist_registration" : "Artist Registration",
+  "Useit1" : "Register artist",
+  "Useit2" : "and use it.",
+  
+  "Client_Rating" : "Client_Rating",
+  "Artwork_creating_status" : "Creating Status",
+  
+  "Partners_Info" : "Partners Info",
+  "Update1" : "Update",
+    
+  "School" : "School",
+  "Major" : "Major",
+  "Type1" : "Type",
+  "Status" : "Status",
+  "Admission_date" : "Admission",
+  "Graduation_date" : "Graduation",
+  
+  "Start1" : "Start",
+  "End1" : "End",
+  
+  "Period" : "Period",
+  "Details" : "Details",
+  
+  "Certificate" : "Certificate",
+  "Issuer" : "Issuer",
+  "Date1" : "Date",
+  
+  "Evaluation_Info" : "Evaluation Info",
+    
+  "Request_artwork" : "Request artwork",
+  "Contract_date" : "Contract date",
+  "Request_title" : "Request title",
+  "Price1" : "Price",
+  "Period1" : "Period",
+  "Creating_period" : "Creating period",
+  "Client" : "Client",
+  "Edit" : "Edit",
+  
+  "ProfileSetting_1" : "day(s) + delivery period 5 days",
+  "ProfileSetting_2" : "Write your own personal introduction. It is displayed in the Artist introduction part.",
+  "ProfileSetting_3" : "Describe your own artwork. It is displayed in the Artist introduction part.",
+  
+  "OK2" : "OK",
+   
+  "ProfileSetting_4" : "Please enter your field",
+  "ProfileSetting_5" : "Choose your skill level",
+  "ProfileSetting_6" : "Choose your career",
+  
+  "Technology" : "Technology",
+  "Field" : "Field",
+  "Skill_level" : "Skill level",
+  
+  "Beginner" : "Beginner",
+  "Intermediate" : "Intermediate",
+  "Advanced" : "Advanced",
+    
+  "ProfileSetting_7" : "3 years or less",
+  "ProfileSetting_8" : "More 3 and less 5 years",
+  "ProfileSetting_9" : "More 5 and less 10 years",
+  "ProfileSetting_10" : "10 years or more",
+  
+  "Add" : "Add",
+  "Choice" : "Choice",
+  
+  "ProfileSetting_11" : "Awards",
+  "ProfileSetting_12" : "Artswork Collection",
+  
+  "Exhibit_Project_1" : "Exhibit and project experience",
+  "Exhibit_Project_2" : "Details",
+  
+  "ProfileSetting_13" : "Please enter your Organization",
+  "ProfileSetting_14" : "Please enter your Department",
+  "ProfileSetting_15" : "Please enter your Position",
+    
+  "PhD" : "PhD",
+  "Master" : "Master",
+  "Bachelor" : "Bachelor",
+  
+  "Graduation" : "Graduation",
+  "Dropout" : "Dropout",
+  "Undergraduate" : "Undergraduate",
+  "Completion" : "Completion",
+  
+  "ProfileSetting_16" : "Please enter school name",
+  "ProfileSetting_17" : "Please enter your major",
+  
+  "ProfileSetting_18" : "Please enter period",
+  "ProfileSetting_19" : "Please enter career",
+  
+  "ProfileSetting_20" : "Please enter Artswork Collection",
+  "ProfileSetting_21" : "Please enter exhibit details",
+  
+  
+  "Cumulative_amount" : "Cumulative Amount",
+  "Average_amount" : "Average Amount",
+  
+  "Average_price" : "Average Price",
+  "Lowest_price" : "Lowest Price",
+  "Highest_price" : "Highest Price",
+  
+  "Project_average_period" : "Project average period",
+  "Average_period" : "Average period",
+  "Shortest_period" : "Shortest period",
+  "Longest_period" : "Longest period",
+  
+  "First" : "First",
+  "Final" : "Final",
+  
+  "ProfileSetting_Alert1" : "The same nickname exists.<br>Please enter a different name.",
+  "ProfileSetting_Alert2" : "The intro photo's optimal size is 1140px * 570px.",
+  "ProfileSetting_Alert3" : "The artist photo's optimal size is 380px * 190px.",
+  "ProfileSetting_Alert4" : "<strong>'Artist Details'</strong> is a representative image.",
+  "ProfileSetting_Alert5" : "top menu <strong>'Artist'</strong> is exposed photo when clicked.",
+  "ProfileSetting_Alert6" : "Artist Photo<button class='btn btn_info_sh'>Info</button>",
+  "ProfileSetting_Alert7" : "Intro Photo<button class='btn btn_info_sh'>Info</button>",
+  
+  "List" : "List",
+  
+  "Photo_registration" : "Photo registration",
+  
+  
+  
+  "계정설정_작가" : "-----------------------------------------------------",
+  
+  "Edit_basic_info" : "Edit basic info",
+  "Partner_type" : "Partner type",
+  "AccountSetting_1" : "An error occurred during the request. \n Please contact the administrator.",
+  "Type2" : "Type",
+  "Gender" : "Gender",
+  "English_name" : "English name",
+  "AccountSetting_2" : "The optimal size for an artist's photo is 1180px * 470px",
+  "Intro_photo" : "Intro photo",
+  "AccountSetting_3" : "The optimal size for an intro photo is 1140px * 570px",
+  "Password" : "Password",
+  
+  
+  
+  "아트프로젝트_작가" : "-----------------------------------------------------",
+  
+  "Find_project" : "Find project",
+  "Artwork_recommend" : "Artwork recommendation",
+  "Artwork_creating" : "Artwork creating",
+  "Applyforproject" : "Apply for project",
+  "Closedproject" : "Closed project",
+  "Completeproject" : "Complete project",
+
+  
+  "Artproject1" : " Art project",
+  "Artproject2" : "Proposal to hang it in space",
+  "Suggest" : "Suggest",
+  "My_Artwork" : "My Artwork",
+  "Search" : "Search",
+  "Complete" : "Complete",
+  
+  "Artproject3" : "'s shipping address info",
+  "Artproject4" : "[Checking the manager's deposit - When the manager checks the deposit, start the project]",
+  "Artproject5" : "[Manager checked the deposit - Proceed with the project]",
+  "Artproject6" : "[Waiting for the buyer's deposit - When the manager checks the deposit, start the project]",
+  "Artproject7" : "Share your progress with your clients.",
+  "Artproject8" : "Progress",
+  "Artproject9" : "% (After entering 100%, it will be processed when saving.)",
+  "Artproject10" : "Please enter your progress.",
+  
+  "Artproject11" : "Register your progress",
+  "Artproject12" : "[Awaiting manager deposit]",
+  "Artproject13" : "[Manager deposit completed | Finished project]",
+ 
+  "Artproject14" : "Recommendation Application",
+  "Artproject15" : "Recommendation request",
+  "Artproject16" : "Production Application",
+  "Artproject17" : "Production request",
+  "Creating_period" : "Creating period",
+  
+  "Artproject18" : "support amount <span> Enter the amount including 10% of the gallery 360 usage fee.</span>",
+  "Artproject19" : "The amount you entered is <strong id='art_price_dis'></strong>.",
+  "Artproject20" : "Delivery date <span>*Please enter the date you wish to deliver.</span>",
+  "Artproject21" : "The delivery date you entered is <strong id='send_date_dis'></strong>.",
+  "Artproject22" : "Period of creating <span>Enter the period it takes to create.</span>",
+  "Artproject23" : "Contents of support <span>*Contents that induce direct transactions may result in sanctions against service use.</span>",
+  "Artproject24" : "Submit",
+  "Artproject25" : "Upload an image of your work in progress",
+  
+  "Application_contents" : "Application contents",
+  "Fold_Progress" : "Fold Progress",
+    
+  "Choose_delivery_date" : "Choose delivery date",
+  "My_Artwork" : "My artwork",
+  
+  "Artproject26" : "An error occurred while loading data.",
+  "Artproject27" : "This work has already been added.",
+  "Artproject28" : "You must select a delivery date.",
+  "Artproject29" : "You must select a work to recommend.",
+  "Artproject30" : "You must upload an image file to check the progress",
+  "Artproject31" : "An error occurred while processing the favorite data.",
+  
+  "Select_Artwork" : "Select Artwork",
+  "Artproject32" : "Already been selected",
+  
+  
+  
+  
+  "작품보관함_작가" : "-----------------------------------------------------",
+  
+  "ArtList1" : "All",
+  "ArtList2" : "Requesting for sale",
+  "ArtList3" : "On sale",
+  "ArtList4" : "Sold out",
+  "ArtList5" : "Delivery and remittance details",
+  "ArtList6" : "Sales history",
+  
+  "Buyer" : "Buyer",
+  "Remittance_scheduled" : "Remittance scheduled",
+  "Remittance_completed" : "Remittance completed",
+  "ArtList7" : "Do you want to process the work delivery completion for the work?",
+  
+  "ArtList8" : "It has been registered .<br>It changes to the status of delivery completed.",
+  "ArtList9" : "An error occurred.<br>Please contact the administrator.",
+  
+  "Delivery_company" : "Courier company",
+  "Invoice_number" : "Invoice number",
+  
+  "ArtList10" : "Buyer shipping info",
+  "ArtList11" : "Send artwork",
+  "ArtList12" : "Shipping info registration",
+  "ArtList13" : "Order Cancel",
+  "ArtList14" : "The invoice number isn't registered with the courier company.<br>Check again.",
+  "ArtList15" : "It has been registered.<Br>It is changed to shipping status.",
+  "ArtList16" : "An error occurred when retrieving invoices.",
+  "ArtList17" : "An error occurred while linking data.",
+  
+  
+  "Invoice1" : "Product",
+  "Invoice2" : "Sender",
+  "Invoice3" : "Receiver",
+  "Invoice4" : "Receiver Address",
+  "Invoice5" : "Delivery Status",
+  "Invoice6" : "Date",
+  
+  "ArtList18" : "Unexposed",
+  "ArtList19" : "Requesting",
+  "ArtList20" : "On sale",
+  "ArtList21" : "Sold out",
+  "ArtList22" : "Stop selling",
+  "ArtList23" : "Request",
+  
+  "Edit_artwork" : "Edit artwork",
+  "Change_Saling" : "Change it to sale.",
+  
+  
+  
+  "VR갤러리_작가" : "-----------------------------------------------------",
+  
+  "All_Gallery1" : "All Gallery",
+  "Gallery_on_display1" : "Gallery on display",
+  "Make_VR_Gallery" : "Make VR Gallery",
+  
+  "End_exhibit" : "End exhibit",
+  "Open_exhibit" : "Open exhibit",
+  
+  "VRGallery1" : "Do you want to open the created VR gallery?<hr>",
+  "VRGallery2" : "An error occurred when changing settings.",
+  "VRGallery3" : "Are you sure you want to unregister the VR Gallery?",
+  "VRGallery4" : "An error occurred when deleting VR Gallery.",
+  
+  "VRGallery5" : "It was sent to 360Talk and shared with site members.",
+  "VRGallery6" : "An error occurred while sending to 360Talk.",
+  "VRGallery7" : "An error occurred when adding views.",
+  
+  "VRGallery8" : "Delete VR Gallery?",
+  
+  
+  
+  "작품등록하기" : "-----------------------------------------------------",
+  
+  "Register_Artwork1" : "Register artwork",
+  "Register_Artwork2" : "Category <span> * Please enter a category for artwork.</span>",
+  "Register_Artwork3" : "Artswork image <span>Please upload the artwork image as a high-resolution original image.</span>",
+  "Register_Artwork4" : "The copyright image is automatically extracted from original.",
+  "Register_Artwork5" : "(10% price of original art)",
+  "Register_Artwork6" : "Automatic watermark is applied to uploaded works.",
+  "Register_Artwork7" : "Related images",
+  "Register_Artwork8" : "If you upload the image of the work on display together, you can be chosen well by the buyer.",
+  "Register_Artwork9" : "Please select an image on which the work is displayed. (.jpg,&nbsp;.png,&nbsp;.tif)<br>You can change the order by dragging the image.",
+  "Register_Artwork10" : "Enter the YouTube URL that describes the artswork. (Gallery 360 is not responsible for copyright issues related to videos.)",
+  "Register_Artwork11" : "Artwork Info <span>* Information on the artwork is essential.</span>",
+  "Register_Artwork12" : "Enter the production year.",
+  "Register_Artwork13" : "Please enter the title of the artwork.",
+  "Register_Artwork14" : "Wood, acrylic, nothing.",
+   
+  "Register_Artwork15" : "Explanation",
+  "Register_Artwork16" : "You have to write down the details of the artwork so that buyers can trust and choose.",
+  "Register_Artwork17" : "Reason",
+  "Register_Artwork18" : "You have to fill out the reason for recommending the artwork well so that buyers can choose a lot.",
+  "Register_Artwork19" : "Search tag",
+  "Register_Artwork20" : "Joy, sadness, sunset, buildings, people",
+  
+  "Register_Artwork21" : "Sales Info <span>*Please enter the sales amount.</span>",
+  "Register_Artwork22" : "[Please enter the price of the original artwork]",
+  "Register_Artwork23" : "* Professional delivery will be set at 100,000 won in the region, and Additional charges for other regions will be added upon delivery.",
+  
+  
+  "Help" : "Help",
+  "Type_of_work" : "Type",
+  "Original_Artwork" : "Original Artwork",
+  "Copyright_image" : "Copyright Image",
+  "Artswork_file" : "File",
+  "Youtube_URL" : "URL",
+  "Title" : "Title",
+  
+  "Painting" : "Painting",
+  "Engraving" : "Engraving",
+  "Sculpture" : "Sculpture",
+  "Photo" : "Photo",
+  "Digital_Art" : "Digital Art",
+  "Etc" : "Etc",
+   
+  "Canvas" : "Canvas",
+  "Oil_paint" : "Oil paint",
+  "Acrylic_paint" : "Acrylic paint",
+  "Watercolor" : "Watercolor",
+  "Unit_cm" : "Unit cm",
+  
+  "Sales_price" : "Price",
+  "Sales_price0" : "Guide to the usage fee for Gallery 360",
+  "Sales_price1" : "Selling artworks",
+  "Sales_price2" : "Recommend",
+  "Sales_price3" : "Production",
+  "Sales_price4" : "Applied time: 01/01/2020",
+  
+  "Delivery" : "Delivery",
+  "Individual_delivery" : "Individual delivery",
+  "Professional_delivery" : "Professional delivery",
+  "Date" : "Date",
+  
+  "Register_Artwork_Alert1" : "You must select a artwork type.",
+  "Register_Artwork_Alert2" : "You must enter the height value of the artswork.",
+  "Register_Artwork_Alert3" : "You must enter the width value of the artswork.",
+  "Register_Artwork_Alert4" : "You must enter at least 1 value in the height value of the work.",
+  "Register_Artwork_Alert5" : "You must enter at least 1 value in the width value of the work.",
+  
+  "Register_Artwork_Alert6" : "You must enter the selling price of the artwork.",
+  "Register_Artwork_Alert7" : "You have to enter the title of the artwork.",
+  "Register_Artwork_Alert8" : "You have to choose the artist name.<br>If there is no registered artist, <br>you must register using “Artist Registration.”",
+  "Register_Artwork_Alert9" : "We are revising the artwork information. Please wait a moment...",
+  "Register_Artwork_Alert10" : "The artwork is being registered. Please wait......",
+  
+  "Register_Artwork_Alert11" : "You must select an image file.",
+  
+  "Register_Artwork_Alert12" : "Select the image file<br>Maxsize:300M(.jpg,&nbsp;.png)",
+  "Register_Artwork_Alert13" : "Select the docent file<br>Maxsize:300M(.mp3, .m4a)",
+  "Register_Artwork_Alert14" : "Select a video explaining the artwork <br>Maxsize:300M(.mp4)",
+  
+  "Register_Artwork_Alert15" : "It has exceeded the uploadable size.",
+  "Register_Artwork_Alert16" : "The same file already exists. Please select another artwork file.",  
+  
+  "Register_Artwork_Alert17" : "Up to ",
+  "Register_Artwork_Alert18" : "can be uploaded.",
+  
+  
+  "Register_Artwork_Alert19" : "If you want to change name, Change it from ",
+  "Register_Artwork_Alert20" : "the account settings.",
+  "Register_Artwork_Alert21" : "",
+  "Register_Artwork_Alert22" : "Would you like to request the sale of your artwork?",
+   
+  "Register_Artwork_Alert23" : "The artwork has been revised normally.",
+  "Register_Artwork_Alert24" : "The artwork has been registered normally.<br>You can check it in Art List.",
+  
+  "Profile_Setting" : "Profile Setting",
+  
+  
+  
+  
+ "작품결제" : "-----------------------------------------------------",
+  
+  "OrderPayment" : "Order Payment",
+  "Orderer_Info" : "User Info",
+  "Orderer" : "User",
+  "Mobile" : "Mobile",
+  "Telephone" : "Telephone",
+  "Delivery_Info" : "Delivery Address Info",
+  "DefaultAddress" : "Default Address",
+  "NewAddress" : "New Address",
+  "Recipient" : "Recipient",
+  "Message" : "Message",
+  "Payment_Info" : "Payment Info",
+  "Payment_Method" : "Payment Method",
+  "FindAddr" : "Find Addr",
+  "Credit_Card" : "Credit Card",
+  "Bank_Transfer" : "Account Transfer",
+  "Without_Bankbook" : "Deposit without bankbook",
+  "Ethereum" : "Ethereum",
+  "Apply_Coupon" : "Apply Coupon",
+  "CouponCode" : "Enter coupon code",
+  "Apply" : "Apply",
+  "All_Total" : "All Total",
+  "sp_price1" : "Over ",
+  "sp_price2" : " can only be deposited without a bankbook",
+  "Artwork_Order_Info" : "Artwork Order Info",
+  "Image_Order_Info" : "Image Order Info",
+  "jum" : " work(s)",
+  "NumberOfWorks" : "Number of Works",
+  
+  "Purchase_Agree1" : "Do you agree to the purchase order agreement, purchase service terms and conditions, collection and use of personal information, and provision/entrustment of personal information to a third party?",
+  "Purchase_Agree2" : "Have you checked the order artwork information, payment amount, and shipping information, would you like to agree to the order?",
+  
+  "Agree1" : "Full Agreement",
+  "Agree2" : "Purchase Agreement",
+  "Agree3" : "Accept for purchase services",
+  "Agree4" : "Consent to provide/entrust personal information to third parties",
+  
+  "Art_Purchase_Alert1" : "Check the purchase agreement.",
+  "Art_Purchase_Alert2" : "Agree to the terms and conditions of purchase service.",
+  "Art_Purchase_Alert3" : "Write the recipient's name.",
+  "Art_Purchase_Alert4" : "Select an address.",
+  "Art_Purchase_Alert5" : "Provide a detailed address.",
+  "Art_Purchase_Alert6" : "Recipient contact information (mobile phone) must be registered.",
+  
+  "Art_Purchase_Alert7_1" : "The work title ",
+  "Art_Purchase_Alert7_2" : "cannot be purchased because it has been sold.",
+  
+  "Art_Purchase_Alert8" : "The purchase was completed by direct deposit.<br>You can check the purchase details in the artwork purchase information menu.",
+  "Art_Purchase_Alert9" : "You can check the progress of the work request project in the 'Project in Progress' menu.",
+  "Art_Purchase_Alert10_1" : "The work title ",
+  "Art_Purchase_Alert10_2" : "is a work that has been sold.\n Payment has been canceled.",
+  "Art_Purchase_Alert11" : "Provide your detailed address.",
+  "Art_Purchase_Alert12" : "Payment has been completed.<br>You can check your purchase details in the artwork purchase information menu.",
+    
+  
+  "msg1" : "Payment is complete.",
+  "msg2" : "unique ID : ",
+  "msg3" : "store transaction ID : ",
+  "msg4" : "Amount of payment : ",
+  "msg5" : "Card authorization number : ",
+  
+  "Art_Purchase_Alert13" : "Please connect with MetaMask.",
+  "Art_Purchase_Alert14" : "Install MetaMask.",
+  "Art_Purchase_Alert15" : "Artwork production requests can only be made by deposit without a bankbook.",
+  
+  "MaximumDiscount" : "Maximum Discount",
+  "DiscountRate" : "Discount Rate",
+  "Payment_Principal" : "Payment Principal",
+  "Discount_Amount" : "Discount Amount",
+  
+  "NotExist_CouponCode" : "Coupon code does not exist.",
+  
+  "Purchase_Complete" : "Purchase Complete",
+  
+  "Confirmation_of_payment" : "Confirmation of Payment",
+  "Virtual_account_deposit" : "Virtual Account Deposit",
+  "Deposit" : "Deposit",
+  "Preparing" : "Preparing",
+  
+  "Virtual_Account" : "Virtual Account",
+  "Bank_Branch" : "Bank Branch",
+  "End_Date" : "End Date",
+  "Bank_Explain" : "* After payment is complete, click the Request Payment Confirmation button.",
+  "Confirm_Request" : "Confirm Request",
+  "Purchase_Cancel" : "Cancel",
+  
+  "Image_Purchase" : "Image Purchase",
+  "Receipt_Print" : "Receipt Print",
+  
+  "LastOK_Alert" : "Delivery Confirmation<br>Are you sure you want to send the final amount to the seller?<hr>",
+  "PurchaseCancel_Alert" : "Are you sure you want to cancel your purchase?",
+  "Cancel2" : "Cancel",
+  "Nohave_purchase1" : "There are no artworks for sale.",
+  "Error_Alert1" : "An error occurred while processing the data of the artist's other works.",
+  
+  "And_More1" : " and",
+  "And_More2" : "more",
+  
+  "Art_Purchase_Popup" : "Buy Art",
+  
+  
+  
+  "카트" : "-----------------------------------------------------",
+  
+  "Cart" : "Cart",
+  "Order_Info" : "Order Info",
+  "Artwork_Price" : "Artwork Price",
+  "Delete_Selection" : "Delete Selection",
+  "Add_MyCollection" : "Add to My Collection",
+  "Total_works" : "Total number of Works",
+  "Total_amount" : "Total amount",
+  "Cart_Alert" : "Choose a artwork to purchase",
+     
+  
+ "즐겨찾기" : "-----------------------------------------------------",
+  
+  "Nohave_favorite1" : "There are no favorite artworks.",
+  "Nohave_favorite2" : "There are no favorite artists.",
+  "Nohave_favorite3" : "There are no favorite vr gallery.",
+  
+ "gallery360.common" : "-----------------------------------------------------",
+  
+  "No_Shipping_Info_Alert" : "No shipping information.",
+  "Error_Occurred" : "Error Occurred",
+  "Road_Name" : "Road Name",
+  "Road_Number" : "Road Number",
+  "Adding_views_Alert" : "An error occurred when adding views.",
+  
+  
+  "Common_Alert1" : "Enter the name.",
+  "Common_Alert2" : "A nickname or email address exists. Please change it.<br>(An existing account cannot be used.)",
+  "Common_Alert3" : "An error occurred during user registration.",
+  "Common_Alert4_1" : "In the e-mail",
+  "Common_Alert4_2" : "click the member registration verification button and log in.",
+  "Common_Alert5" : " : You can use it after logging in with the corresponding account.",
+  "Common_Alert6" : "(reg) An error occurred during registration.",
+  "Common_Alert7" : "There is an ID that has already been registered for this subscription type.",
+  "Common_Alert8" : "(be_reg) An error occurred during registration.",
+  
+  
+  "Email_Alert0" : "Enter the email.",
+  "Email_Alert1" : "Remove the spaces between emails.",
+  "Email_Alert2" : "Check your email format once more.",
+  "Email_Alert3" : "Click the Email Duplicate Check button.",
+  "Email_Alert4" : "Enter your email in the correct format.",
+  "Email_Alert5" : "Enter your email.",
+  "Email_Alert6" : "Select your email address.",
+  
+  "Password_Alert1" : "You must enter the same password.",
+  
+  "Error_Alert" : "An error occurred during the request. <br>Please contact the administrator.",
+  "Relogin_Alert" : "Automatically logged out after not using for a long time. Please log in again and try again.",
+  
+  "이용약관" : "-----------------------------------------------------",
+  
+  "terms_1" : "It stipulates necessary matters in relation to the use of Gallery 360.",
+  "terms_2" : "Terms of Use",
+  "terms_3" : "Contents",
+  "terms_4" : "Chapter 1 Service Use Agreement",
+  "terms_5" : "Chapter 2 Payment Protection System",
+  "terms_6" : "Chapter 3 Safe Arbitration Solution",
+  "terms_7" : "addendum",
+  "terms_8" : "Final Terms and Conditions Effective Date: July 20, 2020 <br> Revision: July 20, 2020 <br> Enforcement: May 27, 2019",
+  
+  "terms_9" : "Chapter 1 Service Use Agreement",
+  "terms_9_1" : "Article 1 (Purpose)",
+  "terms_9_2" : "The purpose of these terms and conditions is to stipulate rights, obligations, responsibilities, and other necessary matters between Gallery 360 and members in relation to the use of services provided by Gallery 360 Co., Ltd. (hereinafter referred to as “Gallery 360”) to members.",
+  
+  "terms_10" : "Article 2 (Definition)",
+  "terms_10_1" : "The definitions of terms used in these terms and conditions are as follows.",
+  "terms_10_2" : "(1) “Member” agrees to these Terms and Conditions and uses the Gallery 360 platform (meaning the entire service platform including websites and applications managed/operated by Gallery 360, including the Gallery 360 website (www.gallery360.co.kr)) It means a person who has completed the membership registration process.",
+  "terms_10_3" : "(2) “General user” means a person who becomes a member to use the services provided to the company in accordance with these Terms of Use and RM/RF usage regulations to purchase works, request works, or purchase copyright images among members.",
+  "terms_10_4" : "(3) “Art consultant” means a curator or gallery who uploads and introduces works and copyright images on behalf of the artist, and refers to a person who has become a member to sell works and produce works by the artist at the request of general users .",
+  "terms_10_5" : "(4) “Artist” means a person who uploads and introduces works and copyright images, and a person who becomes a member to sell works and produce works at the request of general users.",
+  "terms_10_6" : "(5) “Partner” means art consultants and artists. ",
+  "terms_10_7" : "(6) “Service” means an online service that provides the right to acquire the right to copyright image for a certain period of time by paying the online transaction and usage fee through request for suitable works and works, and requests for work production through partners for works requested by general users. . It also refers to offline services that provide brokerage for signing service contracts between Gallery 360 members and payment protection systems. Copyright images must comply with the RM·RF license usage regulations. ",
+  "terms_10_8" : "(7) “Account (ID)” means a combination of letters and numbers selected by a member and given by Gallery 360 for member identification and service use.",
+  "terms_10_9" : "(8) “Password” means a combination of letters, numbers, or special characters that the member selects and manages secretly to confirm that the member is a member that matches the account (ID) given to the member and to protect the member's information and rights and interests. means.",
+  "terms_10_10" : "(9) “Account information” refers to generated information such as general information and service usage information provided to Gallery 360 by the member, such as the member’s account (ID), password, and name.",
+  
+  "terms_11" : "Article 3 (Explanation and Amendment of Terms and Conditions)",
+  "terms_11_1" : "Gallery 360 notifies members by posting the contents of these terms and conditions on the Gallery 360 platform or providing a connection screen so that members can know.",
+  "terms_11_2" : "Gallery 360 takes measures so that members can ask and answer questions about Gallery 360 and the contents of these terms and conditions.",
+  "terms_11_3" : "Gallery 360 may revise these Terms and Conditions to the extent that it does not violate relevant laws, such as the 「Act on the Regulation of Terms and Conditions」.",
+  "terms_11_4" : "In case of revising the Terms and Conditions, Gallery 360 specifies the date of application, the contents of the amendment, and the reason for the amendment, and at least 7 days prior to the effective date (30 days before the effective date of changes that are unfavorable to members or significant changes) Until the period elapses, it is notified through the initial screen or the connection screen with the initial screen.",
+  "terms_11_5" : "In case of revising the terms and conditions, Gallery 360, in principle, confirms whether the member agrees to the application of the revised terms and conditions after notification of the revised terms and conditions. However, if the notice of the revised terms and conditions is also notified that if the member does not express consent or refusal, it will be deemed to have been accepted.",
+  "terms_11_6" : "If the member does not agree to the application of the revised terms and conditions, the member may terminate the Gallery 360 service use contract.",
+  
+  "terms_12" : "Article 4 (Membership)",
+  "terms_12_1" : "A person who wants to become a member must agree to the terms and conditions, fill out the form provided on the membership registration page of the Gallery 360 platform, and apply for use by registering as a member.",
+  "terms_12_2" : "In order to use the services provided by Gallery 360, such as registration of work requests or work production requests by general users, or support for work requests or work production requests by partners even after membership registration in Paragraph 1 is completed, name, corporate name, mobile phone number, Additional information such as company type, partner information, self-introduction, technology possessed, portfolio, etc. must be entered. If additional information is not entered, service use may be restricted.",
+  "terms_12_3" : "Gallery 360 may request real name verification, identity verification, and other necessary information from those who want to become members, and the procedure and method shall be in accordance with relevant laws and regulations.",
+  "terms_12_4" : "A person who intends to become a member must provide actual information for the information items required in Paragraphs 1 and 2 when applying for use. In the event of false information or theft of another person's name, the member's rights cannot be claimed under these terms and conditions, and Gallery360 may cancel or terminate the service use contract without refund.",
+  "terms_12_5" : "Membership registration is established when the member agrees to the terms of use and the Gallery 360 accepts the member's application for use. To agree to the Terms of Use, select to agree to the Gallery 360 Terms of Use at the time of application for use, or express your intention through other consent buttons or signatures.",
+  
+  "terms_13" : "Article 5 (Approval and Restriction of Application for Use)",
+  "terms_13_1" : "If a person who wants to become a member has legitimately applied for use as stipulated in Article 4, Gallery 360 accepts the application for use unless there is a good reason.",
+  "terms_13_2" : "Gallery 360 may not accept any application for use that falls under any of the following subparagraphs.",
+  "terms_13_3" : "(1) In case of application for use in violation of Article 4",
+  "terms_13_4" : "(2) When a person who has a record of restrictions on use for reasons attributable to him/her applies for use",
+  "terms_13_5" : "(3) When applying for use for the purpose of committing an illegal act prohibited by law",
+  "terms_13_6" : "(4) When applying for the purpose of undermining the interests of Gallery 360",
+  "terms_13_7" : "(5) If you have lost your membership in the past and have not obtained approval for re-registration as a member of Gallery 360",
+  "terms_13_8" : "(6) In other cases where approval is judged inappropriate for reasons equivalent to subparagraphs 1 to 5",
+  "terms_13_9" : "In the case of any of the following cases, Gallery 360 may withhold approval until the cause is resolved.",
+  "terms_13_10" : "(1)In case there is not enough room in the facilities of Gallery 360, such as insufficient capacity related to the service",
+  "terms_13_11" : "(2)If there is a technical disability",
+  "terms_13_12" : "(3)In other cases where it is difficult to accept the application for use due to reasons similar to the above",
+  "terms_13_13" : "If Gallery 360 approves the member's application for use in Article 5, it is deemed that the service use contract is validly concluded between the member and Gallery 360 unless the member violates these Terms and Conditions and related laws.",
+  
+  "terms_14" : "Article 6 (Member account (ID) and password)",
+  "terms_14_1" : "Gallery 360 grants an account (ID) to the member.",
+  "terms_14_2" : "Gallery 360 has the authority to perform all member management tasks, such as determining whether the member can use the service through account information, and may request or change member ID and password for the following reasons.",
+  "terms_14_3" : "(1)If the member ID is registered as the member's phone number, etc., and there is concern about invasion of privacy",
+  "terms_14_4" : "(2)When an application is made for the purpose of giving aversion to others or undermining public morals",
+  "terms_14_5" : "(3)When there is a need to change for the purpose of security and ID policy, smooth provision of services, etc.",
+  "terms_14_6" : "(4)If other gallery 360 is deemed necessary",
+  "terms_14_7" : "Members must manage their account information by fulfilling their duty of care as a good manager. The member is responsible for any damage caused by the member's negligence in managing his or her account information or consenting to the use of a third party.",
+  "terms_14_8" : "The member is responsible for managing the password, and if the member wishes, it can be changed at any time for security reasons, etc.",
+  "terms_14_9" : "Members must change their password on a regular basis.",
+  "terms_14_10" : "If a member recognizes that account information is being stolen or a third party is using it, he or she must immediately notify Gallery360 and follow the instructions of Gallery360. Gallery 360 is not responsible for any damage caused by the member's failure to notify even if he/she is aware of this, or if he/she does not follow the instructions of Gallery 360, unless intentionally or negligently.",
+  "terms_14_11" : "Members must log out at the end of each connection.",
+  
+  "terms_15" : "Article 7 (Provision and Change of Member Information)",
+  "terms_15_1" : "When a member is required to provide information to Gallery 360 in accordance with these terms and conditions, he/she must provide truthful information, and he/she is not protected from any disadvantages caused by providing false information.",
+  "terms_15_2" : "Members can view and modify their personal information at any time through the Gallery 360 platform. However, modification of real name and account (ID) required for service management may be restricted. In this case, you must re-register with a new account (ID), and re-registration of the account (ID) that has been withdrawn from membership is restricted.",
+  "terms_15_3" : "In the event that the information provided to Gallery 360 is changed, the member must make the correction online without delay or notify Gallery 360 of the change if it is impossible to correct it by himself/herself.",
+  "terms_15_4" : "Gallery 360 is not responsible for any disadvantages caused by members failing to revise changes in member information in accordance with Paragraph 2 or notifying Gallery 360 in accordance with Paragraph 3 It is for members.",
+  
+  "terms_16" : "Article 8 (Protection and Management of Personal Information)",
+  "terms_16_1" : "Gallery 360 strives to protect members' personal information, including account information, as stipulated by relevant laws and regulations. Regarding the protection and use of members' personal information, the relevant laws and the privacy policy separately notified by Gallery 360 apply.",
+  "terms_16_2" : "Gallery 360 must have a security system to protect personal and credit information so that members can use the service safely, and disclose and comply with the personal information processing policy. Gallery 360 prevents the disclosure or provision of personal information of members to third parties, except as stipulated in the relevant laws, these Terms and Conditions and the Privacy Policy.",
+  "terms_16_3" : "Gallery 360 does not take any responsibility for all personal and confidential information of others, including account information of members exposed due to reasons attributable to the member.",
+  "terms_16_4" : "When Gallery 360 expands or adds services within the platform, members' personal information and data can be transferred, and the transferred personal information and data can be used.",
+  
+  "terms_17" : "Article 9 (Obligations of Gallery 360)",
+  "terms_17_1" : "Gallery 360 must faithfully and in good faith exercise the rights and fulfill the obligations stipulated in the relevant laws and regulations and these Terms and Conditions.",
+  "terms_17_2" : "In order to provide continuous and stable service, Gallery 360 repairs or restores without delay, unless there are unavoidable reasons such as natural disasters, emergencies, technical defects that are difficult to solve, etc. We will do our best to do so. However, if there is a failure in the partner's facilities or data is lost due to the partner's intention or negligence, Gallery360 is exempted from liability unless there is an intentional or gross negligence on the part of Gallery360.",
+  "terms_17_3" : "In the event of damage to the member due to the services provided by Gallery 360, the liability is limited only if the damage is caused by the intention or negligence of Gallery 360, and the scope of liability is limited to ordinary damages.",
+  "terms_17_4" : "Gallery 360 must deal with opinions or complaints raised by members promptly if it is recognized as justified. However, if prompt processing is difficult, the member must be notified of the reason and the processing schedule.",
+  "terms_17_5" : "Gallery 360 confirms/guarantees that exhibition-related materials such as exhibition planning and exhibition promotional materials do not infringe the intellectual property rights and other rights of third parties.",
+  "terms_17_6" : "Gallery 360 must faithfully conduct advertising, publicity and marketing until the contract period expires so that content and works can be smoothly sold to general users.",
+  
+  "terms_18" : "Article 10 (Responsibilities of Members)",
+  "terms_18_1" : "Partners must update and manage works and artist information (artist profile, work description, introduction video, etc.) on the Gallery 360 website, including art activities, and actively participate in projects operated by Gallery 360.",
+  "terms_18_2" : "Partners must do their best to:",
+  "terms_18_3" : "(1)Check whether the work meets the dignity of Gallery 360 and the client's request.",
+  "terms_18_4" : "(2)Produce the work in a sellable quality.",
+  "terms_18_5" : "Partners shall not engage in any act that infringes on the exclusive rights of Gallery 360, and shall not enter into a contract identical to or similar to this Agreement with a third party without the prior written consent of Gallery 360.",
+  "terms_18_6" : "The partner confirms/warrants that the work activities and works do not infringe the intellectual property rights and other rights of third parties.",
+  "terms_18_7" : "The partner must upload the materials necessary for the transfer or sale of the corresponding content work to the Gallery 360 website by the end of this contract.",
+  "terms_18_8" : "Partners must provide high-resolution content on the Gallery360 website and are responsible for avoiding poor reproduction quality, delays or consequential damage.",
+  "terms_18_9" : "Members must not engage in the following acts (or including acts equivalent to them).",
+  "terms_18_10" : "(1)  Abnormal system access",
+  "terms_18_11" : "Acts of intentionally or negligently installing or distributing programs such as malicious codes or viruses",
+  "terms_18_12" : "Crawling to collect works and artist information, work request or work request information, and partner information",
+  "terms_18_13" : "Copying, disassembling, imitation or other transformation of the service through reverse engineering, decompilation, disassembly, and any other processing",
+  "terms_18_14" : "(2)  Abnormal use of services",
+  "terms_18_15" : "Signing up with false or other people's information",
+  "terms_18_16" : "Activities with multiple accounts without justifiable reasons",
+  "terms_18_17" : "Intentionally withdrawing/rejoining the account in order to delete adverse information in the account",
+  "terms_18_18" : "The act of habitually using the service for the purpose of determining whether it is possible to estimate and implement a work without the intention to purchase the work, or to make a request for work or to make a request for work",
+  "terms_18_19" : "An act of a general user habitually requesting works or registering a request for production of works and then proceeding with only inspection and consultation and not proceeding with purchase",
+  "terms_18_20" : "An act of habitually changing or adjusting the contents of a request for work or a request for production of works by general users during recruitment",
+  "terms_18_21" : "The act of repeatedly registering requests for works of the same or similar content (including cost and period) or requests for production of works against the will of Gallery 360",
+  "terms_18_22" : "(3)  Entering false or exaggerated information",
+  "terms_18_23" : "Partners entering work that they do not own or cannot sell",
+  "terms_18_24" : "An act in which a partner falsely deceives his/her identity (curator, writer)",
+  "terms_18_25" : "The act of an artist who is a partner selling the work of another artist other than his or her own work",
+  "terms_18_26" : "The act of registering or maintaining a partner's copyright image without permission",
+  "terms_18_27" : "Selling fake works as if they were genuine",
+  "terms_18_28" : "Acts of selling a work that has already been sold by entering it falsely as if it were a work for sale",
+  "terms_18_29" : "Acts of general users entering false information when requesting works or registering requests for production of works",
+  "terms_18_30" : "Other acts of entering false or exaggerated information regarding all information entered by members when using Gallery 360 services",
+  "terms_18_31" : "(4)  Interfere with others' use of services",
+  "terms_18_32" : "Failing to report progress without prior consultation",
+  "terms_18_33" : "Habitually delaying the progress schedule",
+  "terms_18_33_1" : "Habitual non-compliance with the progress schedule",
+  
+  "terms_18_34" : "Acts of making a request different from the registered work, request for work, or request for work production",
+  "terms_18_35" : "Failing to fulfill the contract entered into within the service without justifiable reasons",
+  "terms_18_36" : "(5)  Inducing direct transactions in services where direct transactions are restricted",
+  "terms_18_37" : "Entering information that facilitates identification, such as trademarks, addresses, phone numbers, and email addresses, such as trade names (names) and logos in the Gallery 360 platform",
+  "terms_18_38" : "Direct transactions except for Gallery 360 without prior consultation",
+  "terms_18_39" : "(6)  obstruction of business",
+  "terms_18_40" : "Sending wallpaper advertisements, promotional spam, etc.",
+  "terms_18_41" : "Partners habitually failing to issue tax invoices (including proof of any transaction, such as receipts, invoices, and transaction statements) or issuing later than the transaction date",
+  "terms_18_42" : "(7)  violation of public order",
+  "terms_18_43" : "Acts that discriminate against or promote prejudice against gender, politics, religion, disability, age, social status, race, region, occupation, etc.",
+  "terms_18_44" : "Acts that discriminate, slander, or defame Gallery 360 or other members or third parties",
+  "terms_18_45" : "An act of swearing, abusing, or threatening to Gallery 360 or other members or third parties",
+  "terms_18_46" : "An act of registering information on the Gallery 360 site that is against good morals, such as depicting excessive body exposure or obscene behavior, sharing information related to prostitution, or posting content that may cause sexual shame or displeasure to others",
+  "terms_18_47" : "Posting hateful photos or content, using profanity, profanity, or slang",
+  "terms_18_48" : "(8) violation of the rights of others",
+  "terms_18_49" : "Acts that infringe or threaten to infringe intellectual property rights such as patents, trademarks, and copyrights of Gallery 360, other members, and third parties",
+  "terms_18_50" : "Acts that infringe on the personal information of others",
+  "terms_18_51" : "Any act that infringes or is likely to infringe on the rights of others, such as other web hacking programs, macro programs, and mirroring sites for voice phishing",
+  "terms_18_52" : "(9)  Account transaction, transfer, proxy, exchange, etc.",
+  "terms_18_53" : "Selling, transferring, or renting the account and the contents of the account to others, or permitting or attempting to use the account to others, and arranging such actions",
+  "terms_18_54" : "(10) Impersonation, theft, etc.",
+  "terms_18_55" : "Impersonating other members, third parties, or employees of Gallery360",
+  "terms_18_56" : "(11) Etc",
+  "terms_18_57" : "Acts in accordance with this Article that impair the profit (business) of Gallery 360",
+  "terms_18_58" : "Acts of using the service for profit, sales, advertising, political activities, etc. without the consent of Gallery 360",
+  "terms_18_59" : "Distributing false information for the purpose of giving property benefits to self or others or inflicting damage to others",
+  "terms_18_60" : "Acts that are prohibited by related laws, are not allowed in good customs or other social norms, or that adversely affect the smooth provision of services",
+    
+  "terms_19" : "Article 11 (Sanctions for Violation of Member's Obligations)",
+  "terms_19_1" : "If a member violates the obligations of Article 10, Gallery 360 may impose the following sanctions on the member in consideration of the importance of the matter and the damage suffered by other members, third parties, and Gallery 360.",
+  "terms_19_2" : "(1)written warning",
+  "terms_19_3" : "Gallery 360 notifies members who have violated the obligations of Article 10 through wire, e-mail, or other methods in advance, unless otherwise specified, You can notify us after the action",
+  "terms_19_4" : "(2)Restrictions on use",
+  "terms_19_5" : "Gallery 360 may limit work requests, registration and support for work requests, meetings and logins by setting a certain period of time.",
+  "terms_19_6" : "(3)permanent stop",
+  "terms_19_7" : "Gallery 360 may permanently suspend a member's account.",
+  "terms_19_8" : "Gallery 360 notifies members who are subject to sanctions for violating the obligations of Article 10 through e-mail, etc.",
+  
+  "terms_20" : "Article 12 (Service to provide information to members)",
+  "terms_20_1" : "General users and partners can receive the following services through the Gallery 360 platform. The service in this article is provided free of charge through the Gallery 360 platform all over the world. ",
+  "terms_20_2" : "(1) General users can proceed with the purchase of the works they need.",
+  "terms_20_3" : "(2) General users can purchase works by requesting works from art consultants and artists for the works they need.",
+  "terms_20_4" : "(3) General users can purchase the type of work they want to own through an art consultant and artist through a production request.",
+  "terms_20_5" : "(4) Art consultants can register works that can be sold on behalf of the artist.",
+  "terms_20_6" : "(5) Partners may exhibit and sell art works in the site VR Gallery at any time and at any time according to the authority granted to Gallery 360.",
+  "terms_20_7" : "(6) Partners can register their own profiles for general users to sell works.",
+  "terms_20_8" : "(7) The partner can introduce the work through the contents requested by the general user.",
+  "terms_20_9" : "(8) Partners can register their own profiles in order for general users to purchase works or request works.",
+  "terms_20_10" : "(9) The partner may proceed with a work production request in order to fulfill the work production request requested by the general user.",
+  "terms_20_11" : "(10) A partner can apply for a registered work production request in order to carry out the work production request of a general user that he or she wants.",
+ 
+  "terms_21" : "Article 13 (Mediation regarding the conclusion of a service contract between Gallery 360 members)",
+  "terms_21_1" : "If there is a desired partner among the partners supported in accordance with Article 12, Paragraph 3, the general user requests Gallery 360 and proceeds with the partner under the mediation of Gallery 360. Unless there is the prior written consent of Gallery 360, general users and partners cannot conduct sales and purchase services without the mediation of Gallery 360. Unable to.",
+  "terms_21_2" : "General users must pay the sale price at the same time as they express their intention to purchase art on the Gallery 360 website.",
+  "terms_21_3" : "When a general user decides on a partner to request a work request or a work production request through Gallery 360, the general user and the partner enter into a contract (hereinafter referred to as the “Service contract between Gallery 360 members”) is concluded according to the contents determined by mutual agreement between Gallery 360, general users, and partners. The conclusion of the contract is that the contract is automatically determined according to the purchase decision of the general user and the voluntary service use for the sale of works by the partner and the sale of proposals.",
+  "terms_21_4" : "After signing a service contract between Gallery 360 members, general users pay to Gallery 360 according to the terms of the contract, Gallery 360 keeps it for the duration of the contract, and pays to partners as determined in the service contract between Gallery 360 members do.",
+  "terms_21_5" : "General users and partners may express their intentions within 7 days (hereinafter referred to as the “confirmation period”), including public holidays, with the exception of special provisions in the service contract between Gallery 360 members for various requests that occur in the course of business. I have an obligation. If you do not comply with this, you are responsible for all matters handled (refunds, cancellations, dispute resolution procedures, etc.).",
+  "terms_21_6" : "The services in this article are provided for a fee. When a general user and a partner agree to mutually request works or make a request for work and enter into a service contract between Gallery 360 members, the partner pays the usage fee to Gallery 360 in accordance with the Gallery 360 service contract, and Gallery 360 is a general user The amount of the amount deposited by Gallery 360, excluding value-added tax, multiplied by the ratio determined by Gallery 360, is deducted from the Gallery 360 usage fee and paid to the partner.",
+  "terms_21_7" : "Gallery 360 does not guarantee the process and results of the partner's work in accordance with the service contract between Gallery 360 members, and does not take any responsibility for this.",
+  
+  "terms_22" : "Article 14 (Exchange of Artwork and Refund of Purchase Price)",
+  "terms_22_1" : "If there is a problem with the artwork purchased by the general user, or if an exchange or refund due to a simple change of mind is desired, it is possible within 7 days from the date of delivery of the artwork. However, if the request for exchange or refund is not due to a problem found on the day of delivery, exchange or refund is possible only if there is no problem in the artwork and it is available for resale.",
+  "terms_22_2" : "The general user shall bear the travel expenses and shipping costs incurred when a refund or exchange is requested due to a simple change of mind of the general user rather than a defect in the artwork. If you request a refund due to a simple change of mind after installation is complete, Gallery 360 will return the purchase price excluding business trip, delivery, and installation costs.",
+  "terms_22_3" : "The purchase price is returned to the member's bank account within 15 days after the product is returned and the defect is confirmed.",
+  "terms_22_4" : "In the case of a decrease in the value of goods due to general users' use or partial consumption, changes in the art market, etc., it is not a reason for return.",
+  "terms_22_5" : "Exchanges and refunds for works produced by general users' requests for work are not permitted under any circumstances, except when the work is found to be a forgery or there is a defect in the work.",
+  "terms_22_6" : "Other exchanges and refunds are subject to Article 17 of the Consumer Protection Act in Electronic Commerce Transactions, etc.",
+ 
+  "terms_23" : "Article 15 (Cancellation of contract for works of art)",
+  "terms_23_1" : "If the artwork sold by Gallery 360 to general users is found to be a forgery, the general user may cancel the sale contract. Art appraisal follows the standards of the Korean Art Appraisal Institute, and if an appraisal by the relevant institution is desired, all costs are borne by the general user.",
+  "terms_23_2" : "In the event of the reason for cancellation of the contract in the preceding paragraph, the general user notifies Gallery 360 of his intention to cancel, and the cancellation effect takes effect at the same time.",
+  "terms_23_3" : "If the sale contract is canceled due to the reason in Paragraph 1 of this Article, the purchase price received by Gallery 360 shall be returned to the “member”, and the general user shall return the purchased art to the partner.",
+  "terms_23_4" : "In the case of a request for production of a work, the contract can be canceled only when the request for production is canceled within 3 days from the date of conclusion of the contract. However, if the partner who received the request for the work notifies of his intention to start the work, the contract cannot be canceled even within 3 days of the contract signing date.",
+  "terms_23_5" : "In the case of installment sales, if the general user does not fulfill the obligation to pay the installment payment, in accordance with Article 11 of the Installment Transaction Act, Gallery 360 may cancel the contract for the sale of artworks. In this case, the general user must immediately return the artwork to the partner.",
+  "terms_23_6" : "In the event that the sales contract is canceled due to a cause attributable to the general user, the general user shall be responsible for all damages resulting therefrom.",
+  
+  "terms_24" : "Article 16 (Conditions for use of paid services, etc.)",
+  "terms_24_1" : "In providing paid services, Gallery 360 may set the terms of use, such as the amount of use of the paid service (regardless of the name, etc.) or the usage period, to the members according to the policy of Gallery 360. The terms of use of paid services are set in each paid service detailed usage guideline or individual contract, or posted on each artwork registration screen, art project progress screen, etc. to notify members.",
+  "terms_24_2" : "Members may pay the usage amount to Gallery 360 in the method specified by Gallery 360 (account transfer, credit card, virtual account, or other payment methods determined by Gallery 360).",
+  
+  "terms_25" : "Article 17 (Change of service and modification of contents)",
+  "terms_25_1" : "Gallery 360 may revise or change the service contents according to operational and technical needs, and in this case, the change will be notified to the Gallery 360 platform. <br />Gallery 360 does not bear any responsibility to members or third parties for this.",
+  
+  "terms_26" : "Article 18 (Provision and Suspension of Services, etc.)",
+  "terms_26_1" : "Gallery 360 starts the service when the member's application for use is approved in accordance with Articles 5 and 6. However, if Gallery 360 is required, some services may be started from a specific point in time. In this case, Gallery360 will notify you in advance or afterward. Even after you sign up as a member, some services may only provide services to specific members if you need Gallery 360. Gallery 360 divides the service into a certain range and can set the available time for each range separately. In this case, the content is posted on the site in advance or after the fact, or the member is notified.",
+  "terms_26_2" : "The service is in principle 24 hours a day, 365 days a year. However, depending on the nature of the service, the service may be limited on Saturdays, Sundays, public holidays, and weekdays after 6pm.",
+  "terms_26_3" : "Notwithstanding Paragraph 2, the service may not be provided for a certain period of time in any of the following cases, and Gallery 360 has no obligation to provide the service during that time.",
+  "terms_26_4" : "(1)In case it is necessary for maintenance, replacement, regular inspection, or modification of services of information and communication facilities such as computers",
+  "terms_26_5" : "(2)When it is necessary to respond to electronic infringement accidents such as hacking, communication accidents, abnormal service usage behavior of members, and unpredictable instability of the service",
+  "terms_26_6" : "(3)In case the provision of services is prohibited in a specific time or method under the relevant laws",
+  "terms_26_7" : "(4)When it is impossible to provide normal services due to natural disasters, national emergencies, power outages, failure of service facilities, or congestion of service use",
+  "terms_26_8" : "(5)In case of serious business need of Gallery 360, such as division, merger, business transfer, business abolition, deterioration of the service revenue, etc.",
+  "terms_26_9" : "In the case of each subparagraph of Paragraph 3, Gallery 360 notifies members of the fact one week in advance on the initial screen of individual services or on the Gallery 360 platform. No. Impossible to provide services due to unavoidable circumstances that cannot be notified in advance (emergency system check/extension/replacement, system administrator’s intentional or negligent disk failure/system down, third party PC communication company, key communication service provider, etc.) If there are circumstances beyond the control of Gallery 360, etc.), notice may be given immediately after the circumstances are over.",
+  "terms_26_10" : "In addition, due to the above service suspension, the contents of messages stored or transmitted in this service and other communication messages may not be stored, deleted, not transmitted, or loss of other communication data may occur. After the suspension period, it is necessary to check whether messages, etc. are transmitted. Gallery 360 is not responsible for this unless there is no intentional or negligence on the part of Gallery 360. In the event that the service must be permanently suspended due to the circumstances of Gallery 360, the above provisions apply mutatis mutandis. However, in this case, the notice period in advance is one month.",
+  
+  "terms_27" : "Article 19 (Provision of Information and Posting of Advertisements)",
+  "terms_27_1" : "For the convenience of members, Gallery 360 may provide members with various information and advertisements deemed necessary while using the service through banner posting, e-mail, letter mail, mobile phone text message, phone call, messenger notification, application notification, etc. can. If a member does not want this, he or she can opt out of receiving it according to the method provided by Gallery 360.",
+  "terms_27_2" : "Even in the case of a member who refuses to receive according to the proviso to the preceding paragraph, the provision of information, etc. in the manner of the preceding paragraph, for matters that the member must know, such as changes to the terms of use, personal information protection policy, and other important matters that may affect the interests of the member can do.",
+  "terms_27_3" : "The Gallery 360 platform may include various types of advertisements such as banners and links, which may be linked to pages provided by third parties.",
+  "terms_27_4" : "In the case of a link to a page provided by a third party pursuant to Paragraph 3, since the page is not in the service area of ​​Gallery 360, Gallery 360 does not guarantee reliability and stability, and Gallery 360 is not responsible for any damages to members. not.",
+  "terms_27_5" : "Gallery 360 has special provisions in the relevant laws or the intention of Gallery 360 for any loss or damage that occurs as a result of a member's participation in, communication or transaction posted on the service or with a third party through the service. We are not responsible unless it is caused by gross negligence or gross negligence.",
+
+  "terms_28" : "Article 20 (Termination of Membership)",
+  "terms_28_1" : "A member may terminate the service use contract (hereinafter referred to as “membership withdrawal”) through the Gallery 360 platform. When a member applies for membership withdrawal, Gallery 360 can check whether the member's application is the member's own, and Gallery 360 takes action according to the member's request after verification is complete.",
+  
+  "terms_29" : "Article 21 (Termination of Gallery 360)",
+  "terms_29_1" : "If a member violates these terms and conditions or in any of the following cases, Gallery 360 notifies the member to fix it by setting a period of 10 days, and may terminate the service use contract if the correction is not made during that period. However, if a member violates the current law or causes damage to Gallery 360 by intention or gross negligence, the service use contract may be terminated without prior notice.",
+  "terms_29_2" : "(1) If the data provided by the member is found to be false, such as non-real name registration or theft of resident registration number",
+  "terms_29_3" : "(2) In case of criminal activity",
+  "terms_29_4" : "(3) When planning or executing service use for the purpose of impairing the national interest or social public interest",
+  "terms_29_5" : "(4) If you steal someone else's service ID and password",
+  "terms_29_6" : "(5) In case of damaging the reputation of others or giving a disadvantage",
+  "terms_29_7" : "(6) When the same user double-registered with a different ID",
+  "terms_29_8" : "(7) In case of impeding the sound use of the service, such as harming the service",
+  "terms_29_9" : "(8) In case of violation of other related laws or conditions of use set by Gallery 360",
+  "terms_29_10" : "If the contract is terminated pursuant to Paragraph 1, all services provided to the member will be stopped, and all accumulated matters related to the member's activities will be treated privately.",
+  
+  "terms_30" : "Article 22 (Sanctions against members of Gallery 360)",
+  "terms_30_1" : "If a member violates the terms of this Agreement, he/she may arbitrarily restrict or suspend the use of the service. In this case, Gallery 360 may prohibit members from accessing, and may arbitrarily delete all or part of the content posted by members.",
+  "terms_30_2" : "If you are a member who has been inactive for more than one year, you can stop using the service after a notice period of one week after the announcement or announcement.",
+  "terms_30_3" : "If the content of the information provided by the member is found to be false or there is a reasonable reason to suspect that it is false, the member may suspend part or all of the service use, We do not assume any responsibility.",
+  
+  "terms_31" : "Article 23 (Prohibition of transfer)",
+  "terms_31_1" : "Members cannot transfer or donate the right to use the service under these Terms and Conditions, the rights and status of other usage contracts, such as the service contract between Gallery 360 members, to another person, and cannot provide this as collateral.",
+  
+  "terms_32" : "Article 24 (Attribution of author's right to work, permission to use, etc.)",
+  "terms_32_1" : "The author's copyright belongs to the author's own work.",
+  "terms_32_2" : "However, the artist must not use or provide to a third party the products and images from the art project participation process without the prior written consent of Gallery 360. The copyright for the work produced by the client's order and production request, such as an art project, belongs to the client, and the artist cannot claim the right to this work.",
+  "terms_32_3" : "Gallery 360 can distribute/transmit works by duplicating them in booklets and electronic documents in the form of lists for the purpose of explaining or introducing works. Gallery 360 may use works for archiving purposes after the end of this contract.",
+  
+  "terms_33" : "Article 25 (Exemption)",
+  "terms_33_1" : "Gallery 360 is exempt from liability in the following cases.",
+  "terms_33_2" : "(1) In case the service cannot be provided due to war, disaster, natural disaster, national emergency, technical defect that is difficult to solve, or other force majeure reasons",
+  "terms_33_3" : "(2) In the event of service suspension, use disorder, and service use contract termination due to reasons attributable to the member",
+  "terms_33_4" : "(3) In case the key telecommunication service provider suspends or fails to provide the telecommunication service normally",
+  "terms_33_5" : "(4) In case the service is stopped or a failure occurs due to unavoidable reasons such as maintenance, replacement, regular inspection, construction, etc. of previously notified service facilities",
+  "terms_33_6" : "(5) In case of any problems caused by the member's computer environment or problems caused by the network environment without the intention or gross negligence of Gallery 360",
+  "terms_33_7" : "(6) If a dispute arises between members or between a member and a third party through the service without intention or gross negligence of Gallery 360",
+  "terms_33_8" : "(7) If there is no intentional or gross negligence of Gallery 360 in relation to the free service",
+  "terms_33_9" : "(8) If there is no intentional or gross negligence of Gallery 360 in relation to the services provided by operators other than Gallery 360",
+  "terms_33_10" : "(9) In case the member does not obtain or loses the profit or result that the member subjectively expects despite the service being provided normally, or in the case of damage caused by the member's choice of choice",
+  "terms_33_11" : "(10) In the case of damage due to a computer error of the member, or in the case of damage due to incorrect or inaccurate entry of personal information and e-mail address",
+  "terms_33_12" : "(11) In case the service cannot be provided according to relevant laws and government policies",
+  "terms_33_13" : "(12) If there is no intention or gross negligence of Gallery 360 with respect to the reliability and accuracy of information, data, facts, etc. posted or transmitted by a member or a third party in the service or on the website",
+  
+  "terms_33_14" : "Members' information such as profiles posted on the Gallery 360 platform are directly written by general users and partners, and Gallery 360 does not verify or guarantee the authenticity of them, and does not take any responsibility for them.",
+  "terms_33_15" : "Members post information and opinions on the Gallery 360 platform with their own authority and responsibility, and Gallery 360 has no obligation to verify or approve the truth of information and opinions displayed by members or third parties during the service process. Gallery 360 does not guarantee the truth, accuracy, and reliability of information (including, but not limited to, posts such as member's career, profile, and evaluation) and opinions posted on the service by members or other related organizations. Therefore, Gallery 360 is not responsible for any kind of loss or damage suffered by the member as a result of trusting the above information and opinions.",
+  "terms_33_16" : "In the event that damage to Gallery 360 occurs or is subject to criminal punishment or sanctions by an investigation agency or administrative agency due to an illegal act of a member or an act that violates these Terms and Conditions, the member shall pay the member’s expenses (including damages, litigation costs, attorney’s fees, etc.) However, it is not limited to this), and you must indemnify Gallery 360.",
+  "terms_33_17" : "Gallery 360 is not obligated to inspect or inspect the results of the partner's work after the conclusion of the service contract between Gallery 360 members according to Article 13.",
+
+  
+  "terms_34" : "제26조 (손해배상)",
+  "terms_34_1" : "갤러리360은 회원간 서비스 계약 체결 전 제공되는 서비스와 관련하여 회원에게 어떠한 손해가 발생하더라도 갤러리360이 고의 또는 중과실에 의한 손해를 제외하고는 어떠한 책임도 부담하지 아니합니다.",
+  
+  "terms_35" : "제27조 (재판관할)",
+  "terms_35_1" : "갤러리360의 서비스 제공과 관련하여 갤러리360과 회원 사이에 분쟁이 발생한 경우, 갤러리360과 회원은 발생한 분쟁을 원만하게 해결하기 위하여 필요한 모든 노력을 하여야 합니다. 발생한 분쟁에 대하여 소송이 제기될 경우에는 당사자의 주소지를 관할하는 법원을 관할 법원으로 합니다. 다만 본 조의 규정은 갤러리360 회원간 서비스 계약에 의하여 중재로 해결하는 경우에는 적용되지 아니합니다.",
+  
+  "terms_36" : "제28조 (갤러리360 플랫폼 컨텐츠)",
+  "terms_36_1" : "회원이 게시한 모든 컨텐츠의 저작권은 회원이 소유하며, 갤러리360은 플랫폼 내에 이를 게시(변형, 가공, 요약, 발췌, 취합 행위를 포함)할 수 있는 권리를 갖습니다. 갤러리360은 다음 각 호에 해당하는 컨텐츠의 게시를 금지합니다. 이를 위반한 경우, 갤러리360은 해당 컨텐츠에 대해 사전통지 없이 삭제, 이동 또는 등록 거부의 조치를 취할 수 있습니다.",
+  "terms_36_2" : "(1) 서비스 이용 목적에 부합하지 않는 경우",
+  "terms_36_3" : "(2) 일치하거나 유사한 내용이 있어 중복되는 경우",
+  "terms_36_4" : "(3) 이메일 주소, 핸드폰, 전화번호, 주소, URL 등의 내용을 직접 기재한 경우",
+  "terms_36_5" : "(4) 갤러리360이 제공하는 대금 지급 이외의 형태를 제안하는 경우",
+  "terms_36_6" : "(5) 본 서비스를 통하지 않고 직접 거래를 유도하거나 권유, 제안하는 경우",
+  "terms_36_7" : "(6) 본 서비스 약관에 위배되거나 상용 또는 불법, 음란, 저속하다고 판단되는 내용인 경우",
+  "terms_36_8" : "(7) 다른 회원 또는 제 3자를 비방하거나 중상모략으로 명예를 손상시키는 내용인 경우",
+  "terms_36_9" : "(8) 공공질서 및 미풍양속에 위반되는 내용인 경우",
+  "terms_36_10" : "(9) 범죄적 행위에 결부된다고 인정되는 내용일 경우",
+  "terms_36_11" : "(10) 제3자의 초상권, 저작권 등 기타 권리를 침해하는 내용인 경우",
+  "terms_36_12" : "(11) 서비스 성격에 부합하지 않는 정보의 경우",
+  "terms_36_13" : "(12) 기타 관계 법령에 위배되는 경우",
+  "terms_36_14" : "갤러리360은 컨텐츠가 게시된 지 상당한 기간 이상 경과되어, 컨텐츠로서의 효용성이 없어진 경우 해당 콘텐츠를 이동 또는 삭제할 수 있습니다.",
+  "terms_36_15" : "갤러리360은 타인의 저작권을 침해하는 콘텐츠에 대하여 저작권법에 정해진 절차에 의하여 저작권자 또는 회원의 요청에 의해 해당 콘텐츠를 삭제하거나 다시 게시할 수 있으며, 이 경우 갤러리360은 면책됩니다. 회원의 컨텐츠가 타인의 저작권을 침해함으로써 발생하는 민, 형사상의 책임은 전적으로 회원이 부담하여야 합니다.",
+  "terms_36_16" : "회원은 서비스를 이용하여 얻은 정보를 가공, 판매하는 행위 등 플랫폼에 게재된 컨텐츠를 상업적으로 사용할 수 없습니다.",
+  "terms_36_17" : "갤러리360이 제공하는 서비스, 그에 필요한 소프트웨어, 이미지, 마크, 로고, 디자인, 서비스 명칭, 정보 및 상표 등과 관련된 지적재산권 및 기타 권리는 갤러리360에게 있습니다. 회원은 갤러리360이 명시적으로 승인한 경우를 제외하고는 상기 항에 기재한 소정의 각 재산에 대한 전부 또는 일부의 수정, 대여, 대출, 판매, 배포, 제작, 양도, 재라이센스, 담보권설정행위, 상업적 이용행위를 할 수 없으며, 제3자로 하여금 이와 같은 행위를 하도록 허락할 수 없습니다.",
+  
+  "terms_37" : "제29조 (지적재산권)",
+  "terms_37_1" : "파트너는 갤러리360 회원간 서비스 계약을 체결한 후 계약에 따른 업무를 수행함에 있어서 특허권, 상표권, 저작권 등 제3자의 지적재산권을 침해하여서는 아니 됩니다. 만일 업무에 따른 결과물이 제3자의 지적재산권을 침해하여 일반사용자 또는 제3자에게 손해를 끼칠 경우에 파트너는 민ᆞ형사상의 모든 책임을 지게 됩니다.",
+  "terms_37_2" : "제1항의 경우 일반사용자 또는 갤러리360이 제3자로부터 이의제기, 경고, 민ᆞ형사상 소송, 행정 구제 절차 등의 청구를 받은 경우 파트너는 자신의 비용으로 지적재산권을 침해 당한 제3자에게 배상하여야 하며, 일반사용자 또는 갤러리360을 면책(손해배상금, 소송비용, 변호사 비용 등을 포함하되 이에 한정하지 아니함)하여야 합니다.",
+  "terms_37_3" : "갤러리360은 파트너의 결과물이 제3자의 지적재산권을 침해하는지 여부에 대해 조사하지 않으며, 이에 대해서는 일반사용자가 직접 도용이나 침해 여부를 조사하여야 합니다.",
+  "terms_37_4" : "갤러리360는 콘텐츠의 저작재산권을 행사함에 있어 갤러리360의 실명 또는 이명(異名)을 표시하여야 하고, 콘텐츠의 내용, 형식 및 제호의 동일성을 유지하여야 한다.",
+  "terms_37_5" : "당사자의 별도 동의가 없는 한 데이터 등에 내장된 기타 저작권 및 소유권 정보를 삭제 또는 변경하는 것은 금지되며 디지털 저작권법을 위반하는 것으로 간주되어, 갤러리360은 해당 법령에 따라 이용 가능한 모든 벌칙과 상에 대해 갤러리360에게 책임을 질 것이다.",
+  
+  "terms_38" : "제30조 (저작권이미지 서비스 이용계약의 성립)",
+  "terms_38_1" : "저작권이미지 서비스 이용계약(이하 “이용계약”)은 회원이 갤러리360 서비스 회원가입 후 본 약관에 동의하고 저작권이미지에 대한 RM 또는 RF 라이선스 비용을 지불함으로써 성립됩니다.<br> 갤러리360서비스를 이용하는 회원에 대하여 RM 또는 RF 라이선스에 따라 이용기간, 용도, 규격, 매체 등을 구분하여 제공할 수 있습니다. <br>민법상 미성년자인 회원이 서비스를 이용할 경우, 결제 전 법정대리인의 동의를 받아야 하며, 그렇지 않았을 경우 본인 또는 법정대리인이 계약을 취소할 수 있습니다.",
+  
+  "terms_39" : "제31조 (저작권이미지 서비스 구분 및 사용료 안내)",
+  "terms_39_1" : "저작권이미지 서비스는 RMㆍRF 라이선스로 구분되며, 구체적인 사용범위와 기간, 사용료는 RMㆍRF 라이선스 사용규정에 따릅니다. <br>구매한 저작권이미지는 구입일로부터 48시간 동안 다운로드 할 수 있으며, 24시간 내 최대 3회까지 가능하며 디지털이미지의 구매 및 사용 계약 후 1년 동안 사용이 가능합니다.",
+  
+  "terms_40" : "제32조 (저작권이미지 판매/양도허락의 범위)",
+  "terms_40_1" : "갤러리360은 작가가 생성 또는 촬영하여 전달하는 저작물(원화)에 대한 콘텐츠를 원화가격의 10%에 달하는 가격으로 갤러리360 웹사이트에서 판매, 배포할 권리를 부여한다. ",
+  "terms_40_2" : "작가는 콘텐츠가 저장되는 매체(갤러리360 웹사이트 등)을 포함한 갤러리360에 저작권을 부여하며, 갤러리360는 이를 광고, 홍보, 마케팅 등에 대한 목적으로 사용할 수 있다.",
+  "terms_40_3" : "갤러리360이 작가의 원작에 대하여 직접 촬영 혹은 제작한 콘텐츠에 대한 판매, 저작권은 갤러리360에 있다.",
+  "terms_40_4" : "콘텐츠와 관련된 저작권은 본 계약의 유일한 배타적 재산으로 남는다. 당사자들이 서면으로 서명하지 않는 한, 본 계약의 조건을 준수한다. ",
+  
+  "terms_41" : "제33조 (저작권이미지 환불)",
+  "terms_41_1" : "디지털 저작권이미지의 특성상 일단 다운로드 받으면 반품이 불가하므로, 환불은 원칙적으로 불가합니다. <br> 과오금의 경우에는 환불 요청을 받은 날로부터 3영업일 이내에 과오금 전액을 고지하고, 이후 3영업일 이내에 대금의 결제와 동일한 방법으로 이를 환급합니다. 갤러리360 과오금 전액을 환급함에 있어서 회원이 신용카드 등으로 대금을 결제한 때에는 지체 없이 신용카드사 등의 결제업자로 하여금 이용자에 대한 대금의 청구를 정지 또는 취소하도록 요청하여야 합니다.",
+  
+  "terms_42" : "제34조 (저작권이미지의 저작권)",
+  "terms_42_1" : "갤러리360에서 제공되는 저작권이미지의 저작권은 그 적법한 창작자 내지 관련 권리자에게 있으며, 갤러리360이 저작권이미지의 판매를 대행합니다. 회원은 이용권 종류에 따라 허용되는 용도의 범위 내에서만 사용 허락을 받는 것이며, 회사가 저작권이미지의 저작권 자체를 판매하는 것은 아닙니다.",
+  "terms_42_2" : "갤러리360에서 제공되는 저작권이미지의 무단 복제, 무단 사용 또는 회사와 사전협의 없이 이용계약에서 정한 “사용목적/광고주”를 벗어나는 행위에 대해서는 저작권법 및 관련 법률에 의한 권리 침해로 간주됩니다. 따라서 회원은 이 약관과 이용계약에서 정한 “사용목적/광고주”에 의하여 명시적으로 허용하는 사용 용도 이외의 이미지 사용으로 발생하는 모든 종류의 손해 또는 책임에 대해 회사와 제3자에게 손해를 배상하여야 합니다. 또한 제3자의 청구에 대해서는 그의 비용으로 회사를 면책시켜야 합니다.",
+  "terms_42_3" : "갤러리360에서 제공되는 저작권이미지의 피사체(인물, 건물, 장소)에 대한 초상권, 재산권, 저작권, 상표권, 특허권, 디자인권(이하 ”저작권 등”)은 회사가 보유하지 않은 것이 있을 수 있습니다(예: 군중 속 인물의 초상권, 배경 건물의 재산권 등). 따라서 저작권이미지의 일부 피사체는 사용 형태에 따라서는 회원이 사용 전에 직접 해당 권리를 취득해야 하는 경우가 있을 수 있으므로, 사용 시 저작권 등에 대한 권리의 존재가 의심이 되는 일부 피사체에 대하여는 사전에 회사에 문의하셔야 합니다. 만일 회사와 사전협의 없이 사용하여 제3자와 이들 권리에 대한 분쟁이 발생할 경우 갤러리360일체의 책임을 지지 않으며, 모든 책임은 회원에게 있습니다. 회원은 이러한 사용으로 인한 제3자의 회사에 대한 청구가 있을 경우, 회원의 비용으로 회사를 면책시켜야 합니다.",
+  "terms_42_4" : "저작권이미지에 일부 포함될 수 있는 로고, 심벌, 캐릭터, 트레이드마크, 서비스마크 등에 대한 권리는 회사가 아닌 해당 권리자에게 있으므로 해당 권리의 침해가 되는 형태로 사용하려 할 경우 권리자로부터 사전에 승인을 받아야 합니다.",
+  "terms_42_5" : "갤러리360에서 제공되는 저작권이미지에는 외부CP(해외 포함)가 제공한 저작권이미지가 포함되어 있으며, 계약이 중도 해지되거나, 회사가 시행하는 철저한 저작권이미지 검수에도 불구하고 제3자로부터 사용중지를 요청 받거나 저작권 침해 소송이 제기되는 경우가 발생할 수 있습니다. 갤러리360즉시 사실관계를 확인한 후 해당 저작권이미지의 삭제 조치를 취한 후 사이트 공지사항에 기재하여 이를 회원들에게 고지합니다. 회원은 즉시 공지된 해당 저작권이미지의 사용을 중지하여야 하며, 저작권 침해와 관련된 저작권이미지는 이전에 제작된 제작물에도 소급하여 해당 저작권이미지를 수정 또는 삭제조치를 하여야 합니다.",
+  "terms_42_6" : "전항의 경우 회원이 사용 중지 및 삭제조치 처리에 협조하지 않아 발생하는 저작권 분쟁이나 이로 인해 확대된 손해에 대한 책임은 회원에게 있으며, 갤러리360해당 분쟁이나 확대된 손해에 대하여 책임지지 않습니다.",
+  "terms_42_7" : "회사와 회원의 신속한 조치가 있었음에도 갤러리360에서서비스한 이미지로 인하여 회원이 제3자로부터 저작권 침해 소송에서 패소할 경우 갤러리360현행 저작권법에서 정하는 손해배상액의 한도에서 배상책임을 집니다. 단, 회원은 소송의 진행과정을 회사에 고지하고 소송 과정에서 회사와 긴밀히 협의하여야 합니다. 이러한 배상은 오직 적법한 라이선스를 취득한 회원에 한하며, 용도에 어긋난 라이선스 구매자이거나 본 약관을 위반한 회원일 경우 회사의 배상책임에서 제외됩니다.",
+  "terms_42_8" : "위 각 항 중, 회사와 회원의 책임이 문제되는 제3자와의 분쟁이 있을 경우, 회원은 회사의 동의 없이 그 제3자에 대해 책임을 인정하거나 조정·합의를 할 수 없으며, 만일 회원이 회사의 동의없이 제3자에 대한 책임인정, 조정, 기타 여하한 합의를 하더라도 이는 회사에 대해 효력을 미칠 수 없습니다.",
+  "terms_42_9" : "저작권이미지의 저작권 사용허락은 국내에 한정됩니다. 회사와 사전협의 없이 해외에서 사용할 경우 저작권 침해에 대한 모든 책임은 이용 회원에게 있습니다.",
+  "terms_42_10" : "작가는 계약기간 동안 본 건 저작권을 포기할 수 없으며, 타인에 저작재산권 전부 또는 일부 양도하거나 이에 대하여 질권을 설정하고자 할 경우에는 이를 갤러리360에 지체없이 통보하여야 하고, 법률상 기타 행정상 필요에 의하여 양도할 경우 갤러리360의 권리보호를 위한 제반 조치를 취해야 한다.",
+  "terms_42_11" : "갤러리360와 파트너 당사자 간에 승인한 콘텐츠 저작권과 판매권리 일부 및 전부에 대해서 당사자간의 사전서면에 의한 동의없이 제 3자에게 양도하거나 판매의 권리를 재설정할 수 없다.",
+  "terms_42_12" : "일반사용자는 디지털 이미지를 사용함에 저작물의 내용, 형식의 동일성을 유지하여야 한다.",
+  "terms_42_13" : "작가의 별도 동의가 없는 한 데이터 등에 내장된 기타 저작권 및 소유권 정보를 삭제 또는 변경하는 것은 금지되며, 디지털 저작권법을 위반하는 것으로 간주되어 일반사용자은 해당 법령에 따라 이용 가능한 모든 벌칙과 상에 대해 작가에게 책임을 진다.",
+  
+  "terms_43" : "제35조 (저작권이미지 이용시 제한사항)",
+  "terms_43_1" : "갤러리360에서 제공되는 저작권이미지는 단순 “이미지 컷”으로만 사용하여야 하며 모든 저작권이미지는 개별적 대상을 꾸미기 위한 디자인 요소로써만 사용되어야 합니다.",
+  "terms_43_2" : "모든 저작권이미지는 비독점적 사용을 전제로 제공되는 것이며, 독점사용을 위하여는 별도협의에 따른 회사의 동의가 필요합니다.",
+  "terms_43_3" : "모든 저작권이미지에 대하여 변경, 모방, 가공 등의 방법으로 재배포, 재판매 할 수 없습니다.",
+  "terms_43_4" : "회원은 저작권이미지 원본 또는 가공한 저작권이미지(월페이퍼, 스크린세이버, 바탕화면 등)를 외부에서 다운로드 할 수 있도록 온라인이나 휴대전화로 배포할 수 있는 형태로 업로드 해서는 안됩니다.",
+  "terms_43_5" : "회원은 사이트에서 제공하는 저작권이미지의 전체 혹은 그 일부와 등록된 회원에게 부여되는 권리에 대하여 타인에게 하위 라이선스를 발행하거나, 판매, 재판매, 배급, 양도, 대여, 임대, 임차, 복제, 송신(메신저/웹하드/ftp/네트워크 등)해서는 안됩니다. 또한 회원은 회사와 협의 없이 갤러리360 링크 및 저작권이미지를 직접 게시하는 방식으로 이용하거나, 회사의 비즈니스와 경쟁하는 방식으로 저작권이미지를 사용할 수 없습니다.",
+  "terms_43_6" : "다운로드 받은 저작권이미지를 전시회/공모전, 로고, 심벌, 트레이드마크, 서비스마크, 상표 등으로 사용할 수 없습니다.",
+  "terms_43_7" : "작품 저작권이미지는 작가의 명예를 훼손하거나 사회미풍양속을 저해(성인오락실, 성인대화방, 전화방, 음란물, 성인관련 사이트 및 인쇄물, 성인제품, 유흥업소 및 숙박업소, 고리대금업, 운세상담, 사주풀이, DVD방, 즉석만남, 미팅알선, 기타 풍속업 등)하거나, 작가의의 명예나 품위, 인격권을 훼손하는 용도로 사용하는 것을 금합니다. 또한 특정작품을 합성하여 재가공하는 행위 등을 금합니다. 작품이미지의  잘못된 사용은 법적 분쟁의 대상이 될 수 있습니다. 그 외의 인물저작권이미지의 사용을 원할 경우 회사에 문의 후 사용하여야 합니다.",
+  "terms_43_8" : "회원은 외설적인, 중상모략적인, 음성적인, 타인을 비방하는 용도 또는 기타 어떠한 비합법적인 용도로 사이트에서 제공한 저작권이미지를 사용하거나 또는 다른 이가 사용하게 할 수 없습니다.",
+  "terms_43_9" : "회원은 파트너, 사용자의 일반사용자, 기타 그 외의 제3자가 볼 수 있도록 저작권이미지를 디지털 형태로 저장하거나 네트워크 상에 저장할 수 없습니다(예를 들어, 회원사 사이트나 웹하드, 블로그에 원본이미지를 게시하는 행위, 사내 메신저를 통하여 제공하는 행위를 금합니다).",
+  "terms_43_10" : "RM 라이선스의 경우, 기간이 지난 이후에는 저작권이미지를 별도로 저장 매체에 보관할 수 없으며, 즉시 삭제하여야 합니다. 또한 기간 동안 다운로드 받은 원본 저작권이미지를 이용하여 새로운 저작물을 만들어서는 안됩니다.",
+  "terms_43_11" : "판매용 상품으로 사용한 저작권이미지는 라이선스 구매 시 갤러리360에 상세한 내용을 등록을 하여야 라이선스 인정을 받을 수 있습니다.",
+  "terms_43_12" : "저작권이미지를 타인이 다운로드 받을 수 있도록 자체적으로 운영하는 웹사이트 또는 P2P사이트, 블로그, 카페, 저작권이미지 공유 네트워크, 온라인 백업 시스템 등에 올리는 행위 자체를 금합니다.",
+  "terms_43_13" : "원본이미지를 홈페이지 내에 자료실 형태로 보관하거나 블로그, 카페, 인스타그램 등을 포함한 인터넷 사이트 및 일체의 SNS에 스크랩하는 것을 금하며, 원본 이미지를 가공하여 제작한 결과물을 사용용도 외에 제3자에게 배포하는 행위도 금합니다.",
+  "terms_43_14" : "다운로드 받은 저작권이미지 및 2차 저작물에 대하여 지적재산권의 권리등록을 금합니다.",
+  "terms_43_15" : "저작권이미지를 가공하여 제작한 저작물을 납품(제2차 사용자에게 제공)할 경우, 저작물의 원본 소스(저작권이미지)는 동시에 납품할 수 없습니다. 만일 원본 저작물을 납품하여 일반사용자가 원본 저작권이미지를 이용하여 2차 제작물을 제작할 경우, 그로 인한 모든 책임은 납품한 회원에게 있습니다.",
+  
+  "terms_44" : "제36조 (저작권이미지 손해배상)",
+  "terms_44_1" : "갤러리360에서 제공되는 저작권이미지의 무단 복제, 무단 사용 또는 본 약관에 규정된 내용을 벗어나는 행위(사용범위 초과 사용, 저작권이미지 이용 시 제한 사항을 위반 사용 등)는 저작권법 및 관련법률에 의한 저작권 침해에 해당합니다. 이 경우 회원은 저작권이미지 1컷당 사용료의 5배에 상당하는 금액을 기준으로 하여 회사에게 발생한 손해를 배상하여야 하며, 회사가 이를 초과하는 손해를 입은 경우 그 초과 손해도 배상해야 합니다. 회원의 위와 같은 행위로 인하여 제3자가 회사에 대해 손해배상을 청구할 경우, 회원은 자신의 비용으로 회사를 면책시켜야 합니다.",
+  
+  "terms_45" : "제37조 (저작권이미지 면책조항)",
+  "terms_45_1" : "갤러리360에서 서비스하는 이미지저작권에 대해 제3자가 사용 중지 및 저작권 침해 소송을 제기하는 경우, 갤러리360즉시 사실관계를 확인한 후 해당 저작권이미지의 삭제 조치를 한 후 사이트 공지사항에 기재하여 이를 회원들에게 고지합니다. 회원은 즉시 공지된 해당 저작권이미지의 사용을 중지하여야 하며, 이전에 제작된 제작물에도 소급하여 해당 저작권이미지를 수정 또는 삭제조치를 하여야 합니다. 공지된 이후에도 해당 저작권이미지를 계속 사용하여 문제가 발생할 경우에는 갤러리360책임을 지지 않습니다.",
+  "terms_45_2" : "갤러리360에서 회원에게 제공하는 저작권이미지의 키워드 정보는 검색의 편의를 위한 참고자료로 제공되는 것이며, 정보의 정확성이나 신뢰도 등의 내용에 대해서는 책임을 지지 않습니다.",
+  "terms_45_3" : "갤러리360각 저작권이미지에 제공되는 이미지정보와 키워드, 캡션(caption:삽화, 사진 따위에 붙는 짧은 해설문), 저작권이미지 내 문구(text) 및 디자인의 정확성을 보증하지 않습니다. 저작권이미지에 입력된 문자는 사용예시에 불과하며, 각 정보를 확인할 의무는 회원에게 있으므로 갤러리360잘못된 정보에 대한 책임을 지지 않습니다.",
+  "terms_45_4" : "저작권이미지의 작가 고유 권한과 재량에 따라 일부 저작권이미지의 서비스를 중지하거나 변경, 또는 비슷한 대체 저작권이미지로 교체 할 수 있습니다. 일반사용자의 기존 라이선스 계약에 따른 서비스 이용에 문제가 없는 경우 별도의 개별 통지를 하지 않으나, 회사가 이메일 공지로 교체 사실을 통보할 경우에는 이전 저작권이미지에 대한 이용허락은 취소되고, 교체된 저작권이미지에 라이선스가 적용됩니다. 갤러리360회원이 기존 저작권이미지를 이용한 창작물 내지 2차저작물의 사용을 중단하고, 사용의 중단 및 종료에 필요한 모든 작업을 수행하기로 동의한 것으로 간주합니다.",
+  
+  "terms_46" : "제38조 (대관서비스 이용신청)",
+  "terms_46_1" : "- 대관자명 : 회사명, 개인이름 <br>- 대표자성명<br>- 사업자일 경우에는 사업자번호<br>- 전화번호 : 유선전화, 휴대폰<br>- 주소<br>- 이메일주소<br>- 기타 갤러리360 이 지정한 사항",
+  
+  "terms_47" : "제39조 (대관서비스 이용계약의 성립)",
+  "terms_47_1" : "이용계약은 대관자의 약관동의, 신청, 갤러리360 의 승인에 의하여 성립합니다.",
+  "terms_47_2" : "갤러리360 은 다음에 해당하는 경우 이용신청을 거부할 수 있습니다.",
+  "terms_47_3" : "(1) 대표자의 실명을 사용하지 않거나 사업자번호 등 회사정보를 허위로 등록할 경우",
+  "terms_47_4" : "(2) 다른 사람의 명의를 사용하여 신청한 경우",
+  "terms_47_5" : "(3) 이용신청시 기재 내용을 허위로 작성한 경우",
+  "terms_47_6" : "(4) 갤러리360 이 정한 대관자의 요건에 충족되지 못할 경우",
+  "terms_47_7" : "갤러리360은 다음에 해당하는 사용신청에 대하여는 승낙을 유보할 수 있습니다.",
+  "terms_47_8" : "(1) 대관자의 인적사항 및 이용목적이 불분명할 경우",
+  "terms_47_9" : "(2) 전산상의 장애 또는 기술상의 긴급 점검사항이 발생할 경우",
+  "terms_47_10" : "갤러리360은 다음에 해당되는 경우 등록된 모든 데이터를 삭제할 수 있습니다.",
+  "terms_47_11" : "(1) 서비스 해지 및 만료 후  보관된 데이터",
+  "terms_47_12" : "(2) 특정 데이터의 문제로 전산상의 장애를 일으키는 경우",
+  "terms_47_13" : "(3) 사회적 관념에 따라 미풍양속을 저해하는 데이터를 올리는 경우",
+  "terms_47_14" : "(4) 타인 및 타사의 명의도용,작품 및 기타 저작물을 도용한 경우",
+  
+  "terms_48" : "제40조 (대관서비스 회원 해지 및 자격 상실)",
+  "terms_48_1" : "대관자가 다음 사유에 해당하는 경우 대관서비스의 이용을 제한하거나 회원의 자격을 해지할 수 있습니다.",
+  "terms_48_2" : "(1) 가입 신청시 각종 정보를 허위로 등록한 경우",
+  "terms_48_3" : "(2) 다른 대관자의 아이디와 비밀번호를 도용한 경우",
+  "terms_48_4" : "(3) 서비스 운영을 고의로 방해한 경우",
+  "terms_48_5" : "(4) 같은 이용자가 다른 아이디로 이중 등록한 경우",
+  "terms_48_6" : "(5) 공공질서 및 미풍양속에 저해되는 내용을 고의로 유포시킬 경우",
+  "terms_48_7" : "(6) 다른 대관자 또는 고객의 명예를 손상시키거나 불이익을 주는 경우",
+  "terms_48_8" : "(7) 대관서비스의 통계자료 및 여론을 고의로 조작하는 경우",
+  "terms_48_9" : "(8) 타인 및 타사의 명의도용,작품 및 기타 저작물을 도용한 경우",
+  "terms_48_10" : "본 회원의 해지 및 자격 상실은 대관자 홈페이지 서비스에 국한되며 대관규약 상의 위반내용이 아닌 한, 대관자 자격을 상실하는 것은 아닙니다.",
+  
+  
+  
+  
+  
+  "" : ""
+  
+}

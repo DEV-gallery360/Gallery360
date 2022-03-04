@@ -1,0 +1,410 @@
+/*** 공통 ***/
+
+
+/*** table ***/
+.table_area table{width:100%;table-layout:fixed;font-size:16px;}
+.table_area table th,.table_area table td{height:40px;vertical-align:middle;}
+.table_area table th{line-height:auto;background:#f9f9f9;padding-top:0;padding-right:0;text-align:left;border-top:none;}
+.table_area table th,.table_area table td{padding-left:20px;}
+.table_area td{font-weight:300;}
+
+.contract table{width:100%;table-layout:fixed;font-size:14px;}
+.contract table th{line-height:auto;padding-top:0;padding-left:0;vertical-align:middle;}
+.contract table th,.contract table td{text-align:left;padding-left:20px;padding-right:0;height:45px;overflow:hidden;}
+.contract .t_th{width:112px;border-right:1px solid #e0e0e0;}
+.contract .t_th:nth-child(3){border-left:1px solid #e0e0e0;}
+.contract table td{color:#a4a4a4;}
+.contract table td strong{color:#000;}
+.contract table td span{color:#000;}
+.contract table th div{font-size:12px;color:#a4a4a4;}
+.process table th,.process table td{height:62px;position:relative;}
+.process .btn_add_file{width:102px;height:30px;font-size:14px;position:absolute;right:20px;top:50%;transform:translateY(-50%);}
+.process table td span{display:block;padding-right:142px;}
+/*** 프로필관리 ***/
+.partners_info .thm_partner{width:120px;height:120px;overflow:hidden;border-radius:100%;margin-left:10px;float:left;display:inline;margin-right:30px;}
+.partners_info .thm_partner img{width:100%;}
+.partners_info dl{padding:20px 30px;border-left:1px solid #d8d8d8;overflow:hidden;}
+.partners_info dt{font-size:30px;line-height:1.33;font-weight:500;margin-bottom:10px;}
+.partners_info dd li{float:left;display:inline;font-size:18px;margin-right:13px;}
+.partners_info dd li:before{content:"";width:30px;height:30px;display:inline-block;background:red;vertical-align:middle;margin-right:7px;margin-top:-6px;}
+.partners_info dd li:after{content:"";width:1px;height:25px;background:#d8d8d8;display:inline-block;vertical-align:middle;margin-top:-4px;margin-left:15px;}
+.partners_info dd li:last-child:after{display:none;}
+.partners_info dd .p_job:before{background:url(/img/account/icon-profile-job.svg) no-repeat left center;background-size:100% auto;}
+.partners_info dd .p_team:before{background:url(/img/account/icon-profile-team.svg) no-repeat left center;background-size:100% auto;}
+.partners_info dd .p_certificate:before{background:url(/img/account/icon-profile-certificate.svg) no-repeat left center;background-size:100% auto;}
+.partners_info dd .p_contact:before{background:url(/img/account/icon-profile-contact.svg) no-repeat left center;background-size:100% auto;}
+.partners_infograph{width:100%;overflow:hidden;}
+.partners_infograph td{border-top:none;}
+.pi_content{border-right:1px solid #e0e0e0;}
+.pi_right{border-right:none;}
+.pi_left,.pi_right{width:33.3%;}
+.pi_center img,.pi_right img{width:100%;}
+.pi_center{width:33.4%;}
+.pi_left{text-align:center;padding:30px 26px;}
+.pi_left .star{margin-bottom:20px;}
+.pi_left .star img{margin-right:5px;}
+.pi_left .star img:last-child{margin-right:0;}
+.pi_left dl{width:100%;text-align:left;overflow:hidden;}
+.pi_left dt{float:left;display:inline;font-size:16px;line-height:2;margin-top:3px;}
+.pi_left dd{float:right;display:inline;font-size:18px;line-height:1.78;font-weight:500;}
+.introduce p{font-size:16px;line-height:1.63;font-weight:300;text-align:justify;}
+
+.t_skill th:nth-child(2),.t_skill td:nth-child(2){width:105px;} /*숙련도*/
+.t_skill th:nth-child(3),.t_skill td:nth-child(3){width:195px;} /*경력*/
+.t_education th:nth-child(1),.t_education td:nth-child(1){width:200px;} /*학교명*/
+.t_education th:nth-child(2),.t_education td:nth-child(2){width:100px;} /*전공*/
+.t_education th:nth-child(3),.t_education td:nth-child(3){width:100px;} /*상태*/
+.t_education th:nth-child(4),.t_education td:nth-child(4){width:100px;} /*입학일*/
+.t_education th:nth-child(5),.t_education td:nth-child(5){width:100px;} /*졸업일*/
+.t_career th:nth-child(1),.t_career td:nth-child(1){width:138px;} /*기간*/
+.t_team th:nth-child(2),.t_team td:nth-child(2){width:185px;} /*부서*/
+.t_team th:nth-child(3),.t_team td:nth-child(3){width:115px;} /*직위*/
+.t_certificate th:nth-child(2),.t_certificate td:nth-child(2){width:385px} /*발행처*/
+.t_certificate th:nth-child(3),.t_certificate td:nth-child(3){width:115px} /*취득일자*/
+.certificate{text-align:center !important;}
+.certificate p{font-size:16px;line-height:1.5;color:#a4a4a4;margin:6px 0 15px 0;}
+.certificate .btn_violet{width:100px;height:32px;border-radius:3px;font-size:14px;}
+.evaluation_info{width:100%;overflow:hidden;margin-top:12px;}
+.evaluation_info dl,.evaluation_info dt,.evaluation_info dd{float:left;display:inline;font-size:16px;}
+.evaluation_info dl{padding-right:10px;}
+.evaluation_info dl:after{content:"";width:1px;height:23px;background:#a4a4a4;display:inline-block;margin-left:10px;vertical-align:middle;}
+.evaluation_info dl:last-child:after{display:none;}
+.evaluation_info dt{font-weight:500;margin-right:14px;}
+
+/*** 편집 테이블 공통 ***/
+.table_area .t_edit td{padding:10px;}
+.t_delete{width:56px;} /*편집-삭제*/
+.t_modify{width:36px;} /*편집-수정*/
+.sub_common_content .bottom_area{padding-right:0;margin-bottom:0;text-align:right;}
+.sub_common_content .bottom_area button{width:90px;height:45px;}
+.btn_cell_add{float:left;display:inline;margin-left:0 !important;}
+.btn_cell_add:before{content:"";width:16px;height:16px;background:url(/img/account/icon-plus.svg) no-repeat left center;background-size:100% auto;display:inline-block;vertical-align:middle;margin-right:3px;margin-top:-3px;}
+.table_type1 .t_block td{padding-top:10px;padding-bottom:10px;}
+
+/*** 자기소개 편집 ***/
+.sub_common_content .introduce .txt.textarea{margin:0;background:#fcfcfc;height:250px;padding:10px;}
+.introduce span{font-size:14px;color:#a4a4a4;line-height:1.86;}
+
+/*** 보유기술 편집 ***/
+.t_skill_edit th:nth-child(2),.t_skill_edit td:nth-child(2){width:100px;} /*편집-숙련도*/
+.t_skill_edit th:nth-child(3),.t_skill_edit td:nth-child(3){width:200px;} /*편집-경력*/
+
+/*** 학력정보 편집 ***/
+.t_education_edit{border:1px solid #e0e0e0;background:#fff;}
+.t_education_edit .t_th{width:95px;}
+.t_education_edit th,.t_education_edit td{padding:10px 20px;text-align:left;vertical-align:middle;position:relative;}
+.sub_common_content .t_education_edit .btn-group{width:calc(50% - 5px);}
+.t_education_edit .t_date .btn-group:nth-child(2){margin-left:6px;}
+.t_education_edit th:after{content:"";width:5px;height:5px;border-radius:100%;background:#ef2857;position:absolute;top:50%;transform:translateY(-50%);margin-left:5px;}
+
+/*** 경력 편집 ***/
+.t_career_edit th:first-child,.t_career_edit .t_date{width:285px;}
+.t_career_edit .t_date .btn-group{width:calc((100% - 20px)/3);margin-right:6px;}
+.t_career_edit .t_date .btn-group:last-child{margin-right:0;}
+
+/*** 자격증 편집 ***/
+.t_certificate_edit th:nth-child(3),.t_certificate_edit .t_date{width:190px;}
+.t_certificate_edit .t_date .btn-group{width:calc(50% - 5px);margin-right:6px;}
+.t_certificate_edit .t_date .btn-group:last-child{margin-right:0;}
+
+/*** 클라이언트 평가 ***/
+.ei_title{height:54px;background:#f9f9f9;border-bottom:1px solid #e0e0e0;padding:0 20px 0 20px;line-height:54px;}
+.ei_title dt{float:left;display:inline;font-size:16px;font-weight:300;}
+.ei_title dd{float:right;display:inline;font-size:18px;font-weight:500;}
+.ei_title img{width:30px;height:30px;vertical-align:middle;margin-top:-4px;}
+.ei_title dd span{margin-left:10px;}
+.evaluation_infograph .wrap_col h4{font-size:14px;font-weight:500;margin-bottom:8px;}
+.evaluation_detail{padding:17px 20px;width:175px;float:left;display:inline;}
+.evaluation_detail dl{width:100%;overflow:hidden;font-size:14px;line-height:2;}
+.evaluation_detail dt{float:left;display:inline;font-weight:300;}
+.evaluation_detail dd{float:right;display:inline;font-weight:500;}
+.evaluation_average{overflow:hidden;padding-top:16px;padding-bottom:16px;}
+.evaluation_average img{width:100%;}
+.evaluation_distribute{padding:17px 20px;}
+.evaluation_distribute *{display:inline-block;}
+.evaluation_distribute li{width:100%;margin-bottom:14px;}
+.evaluation_distribute li img{width:23px;height:23px;margin-top:-4px;}
+.evaluation_distribute .star span{margin-left:10px;font-size:16px;font-weight:300;margin-right:15px;color:#4a4a4a;}
+.evaluation_distribute .bar_graph{height:20px;width:calc(100% - 182px);position:relative;overflow:hidden;margin-bottom:-4px;padding-right:70px;}
+.evaluation_distribute .bar_graph .bar{height:18px;background:#f5a623;border:1px solid rgba(245,166,35,.5);box-shadow:0 1px 1px 0 rgba(240, 136, 19, 0.5);}
+.evaluation_distribute .bar_graph span{position:absolute;right:0;top:50%;transform:translateY(-50%);}
+.contract_star{width:100%;border-top:1px solid #e0e0e0;overflow:hidden;}
+.contract_star li{width:20%;float:left;display:inline;border-right:1px solid #e0e0e0;text-align:center;padding:15px 0;}
+.contract_star li:last-child{border-right:0;}
+.contract_star li img{width:21px;height:21px;}
+.comment{border-top:1px solid #e0e0e0;padding:20px;overflow:hidden;}
+.thm_comment{width:75px;height:75px;overflow:hidden;border-radius:100%;float:left;display:inline;margin-right:20px;}
+.thm_comment img{width:100%;}
+.comment dl{overflow:auto;}
+.comment dt{font-size:16px;margin-bottom:3px;}
+.comment dt strong{margin-right:10px;}
+.comment dd{font-size:14px;line-height:1.71;word-break:break-all;}
+.comment dt span{display:inline-block;background:rgba(164,164,164,.5);border-radius:3px;font-size:14px;color:#4a4a4a;margin-left:2px;padding:0 10px;}
+.comment_client{background:#fff;}
+.comment_partner{padding-left:95px;position:relative;background:#fcfcfc;}
+.comment_partner:before{content:"";position:absolute;left:58px;top:20px;width:27px;height:39px;border-radius:0 0 0 10px;border:2px solid rgba(164,164,164,.5);border-top:0;border-right:0;background-size:100% auto;}
+
+/*** 프로젝트 히스토리 ***/
+.pj_title{width:100%;overflow:hidden;}
+.project_infograph .ei_title{width:50%;float:left;display:inline;border-right:1px solid #e0e0e0;}
+.project_infograph .ei_title:last-child{border-right:0;}
+.project_infograhp .wrap_flex{clear:left;border:1px solid red;width:100%;}
+.project_Infograph .wrap_col{padding:17px 20px;}
+.project_infograph .wrap_col h4{font-size:14px;font-weight:500;margin-bottom:8px;}
+.pj_detail img{width:100%;}
+.project_infograph .wrap_flex dl{width:100%;overflow:hidden;font-size:14px;line-height:2;}
+.project_infograph .wrap_flex dt{float:left;display:inline;font-weight:300;}
+.project_infograph .wrap_flex dd{float:right;display:inline;font-weight:500;}
+.project_infograph .wrap_flex dl:first-child{margin-bottom:10px;}
+.project_infograph .wrap_flex dl:first-child dd{font-size:16px;color:#3e0cc4;}
+.pj_bar{width:100%;font-size:12px;color:#90a4ae;border-top:2px solid #674eec;margin-top:26px;position:relative;}
+.pj_bar:after{content:"";clear:both;display:block;}
+.pj_bar li{width:calc(100% / 3);float:left;display:inline;position:relative;padding-top:12px;}
+.pj_bar li:nth-child(2){text-align:center;color:#674eec;font-weight:500;}
+.pj_bar li:last-child{text-align:right;}
+.pj_bar li:first-child:before,.pj_bar li:last-child:before{content:"";width:14px;height:14px;background:#674eec;border:2px solid #fff;position:absolute;border-radius:100%;top:0;margin-top:-7px;}
+.pj_bar li:first-child:before{left:0;}
+.pj_bar li:last-child:before{right:0;}
+.pj_bar li:nth-child(2):before{content:"";width:14px;height:14px;background:#fff;border:2px solid #674eec;border-radius:100%;position:absolute;left:50%;transform:translateX(-50%);top:0;margin-top:-7px;}
+.btn_view_area{position:absolute;right:20px;top:20px;z-index:99;}
+.btn_detail_view,.btn_detail_fold{width:102px;height:30px;font-size:14px;}
+.group_section{position:relative;}
+
+
+
+
+@media (max-width:1200px){
+	.sub_common_content .group_header h3{padding-left:0;}
+	.pi_left .star img{width:30px;height:30px;}
+	.pi_left{padding:20px;}
+	.partners_info dd li{font-size:16px;}
+}
+@media (max-width:1000px){
+	.partners_infograph td{width:100%;display:block;float:left;border-right:none;border-bottom:1px solid #e0e0e0;}
+	.partners_infograph td:last-child{border-bottom:0;}
+	.pi_left .star img{width:40px;height:40px;}
+
+	/*** 클라이언트 평가 (평가정보)***/
+	.evaluation_infograph{display:block !important;}
+	.wrap_col{border-right:0;}
+	.wrap_col:first-child{border-bottom:1px solid #e0e0e0;}
+
+	/*** 프로젝트 히스토리 ***/
+	.project_infograph .wrap_flex{display:block !important;}
+	.project_infograph .wrap_col{border-bottom:1px solid #e0e0e0;}
+	.project_infograph .wrap_col:last-child{border-bottom:0;}
+}
+@media (max-width:800px){
+	.group_header.type3 h3{font-size:16px;}
+	.group_header.type3 .btn_update,.group_header.type3 .btn_more{font-size:14px;}
+	.partners_info .thm_partner{width:90px;height:90px;margin-left:0;margin-right:20px;}
+	.partners_info dl{padding:0 20px;position:absolute;left:130px;top:50%;transform:translateY(-50%);}
+	.partners_info dt{font-size:24px;}
+	.partners_info dd li{margin-right:4px;font-size:16px;}
+	.partners_info dd li:before{margin-right:4px;}
+	.partners_info dd li:after{margin-left:8px;height:20px;}
+	.partners_info dd li:before{width:24px;height:24px;}
+	.group_section .pi_left{padding-top:20px !important;}
+	.pi_left dd{font-size:16px;}
+
+	/*** table ***/
+	.table_area table{font-size:14px;}
+	.certificate p{font-size:14px;}
+	
+	.evaluation_info dl, .evaluation_info dt, .evaluation_info dd{font-size:14px;}
+	
+	/*** contract table ***/
+	.contract table colgroup{width:100%;display:block;}
+	.contract table th,.contract table td{display:block;float:left;height:auto;padding-top:10px;padding-bottom:10px;}
+	.contract table th{width:110px;}
+	.contract table td{width:calc(100% - 110px);border-left:1px solid #e0e0e0;}
+
+	.process table colgroup{display:table-column-group;}
+	.process table .t_th{width:110px;}
+	.process table th,.process table td{display:table-cell;float:none;}
+
+	/*** 클라이언트 평가 (평가정보) ***/
+	.evaluation_detail{width:100%;float:none;border-bottom:1px solid #e0e0e0;overflow:hidden;display:block;}
+	.evaluation_detail dl{width:calc(50% - 20px);float:left;display:inline;}
+	.evaluation_detail dl:nth-child(odd){margin-right:40px;}
+
+	/*** 프로젝트 히스토리 ***/
+	.btn_view_area{position:relative;right:auto;top:auto;z-index:99;}
+	.btn_detail_view,.btn_detail_fold{width:100%;height:33px;font-size:14px;border-radius:0;background:#fff;font-size:14px;border:0;border-top:1px solid #e0e0e0;color:#4a4a4a;}
+	.btn_detail_view:hover,.btn_detail_fold:hover{background:#fff;color:#4a4a4a;}	
+}
+@media (max-width:640px){
+	.group_header.type3{padding-left:0;}
+	/*** table ***/
+	.t_skill th:nth-child(2),.t_skill td:nth-child(2){width:70px;} /*숙련도*/
+	.t_skill th:nth-child(3),.t_skill td:nth-child(3){width:145px;} /*경력*/
+	.t_career th:nth-child(1),.t_career td:nth-child(1){width:98px;} /*기간*/
+	
+	/*** t_float ***/
+	.t_float thead tr{background:#f9f9f9;display:block;width:100%;float:left;padding:10px 20px;}
+	.t_float tbody tr{position:relative;display:block;width:100%;float:left;border-top:1px solid #e0e0e0;padding-left:20px;padding:10px 20px;position:relative;}
+	.table_area .t_float th,.table_area .t_float td{padding-left:0;width:auto !important;display:block;float:left;border-top:none;height:auto;/*min-height:40px;*/}
+	.t_float th:not(:first-child):before,.t_float td:not(:first-child):before{content:"/";margin-left:4px;margin-right:4px;}
+
+	/*** t_block ***/
+	.edit_section{padding:0;border:0;box-shadow:none;background:transparent;}
+	.edit_section .term{padding:0;}
+	.edit_section .group_header{border:1px solid #e0e0e0;border-bottom:none;border-radius:3px 3px 0 0;}
+	.edit_section .group_header h3{font-weight:500;}
+	.skill_edit .group_header,.t_block thead{display:none;}
+	.edit_section .round_table{border:0;padding:0;border-radius:0;}
+	.t_block tr,.t_block td{width:100% !important;display:block;float:left;height:auto !important;position:relative;}
+	.t_block tr{background:#fff;border:1px solid #e0e0e0;margin-bottom:20px;border-radius:3px;box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+	.t_block tr:first-child{border-radius:0 0 3px 3px;border-top:none;}
+	.skill_edit .t_block tr:first-child{border-radius:3px;}
+	.t_block tr:last-child{margin-bottom:0;}
+	.t_block td:first-child{border-top:none;}
+	.t_block td{padding:15px 20px !important;}
+	/*.t_block td:before{font-size:16px;}*/
+	td.t_delete{width:24px !important;height:24px !important;border:none;position:absolute;right:20px;top:10px;padding:0 !important;}
+
+	.skill_edit .t_block td:nth-child(1):before{content:"분야";display:block;font-weight:500;margin-bottom:10px;}
+	.skill_edit .t_block td:nth-child(2):before{content:"숙련도";display:block;font-weight:500;margin-bottom:10px;}
+	.skill_edit .t_block td:nth-child(3):before{content:"경력";display:block;font-weight:500;margin-bottom:10px;}
+
+	.team_edit .t_block td:nth-child(1):before{content:"소속 및 단체명";display:block;font-weight:500;margin-bottom:10px;}
+	.team_edit .t_block td:nth-child(2):before{content:"부서";display:block;font-weight:500;margin-bottom:10px;}
+	.team_edit .t_block td:nth-child(3):before{content:"직위";display:block;font-weight:500;margin-bottom:10px;}
+
+	.career_edit .t_block td:nth-child(1):before{content:"기간";display:block;font-weight:500;margin-bottom:10px;}
+	.career_edit .t_block td:nth-child(2):before{content:"경력사항";display:block;font-weight:500;margin-bottom:10px;}
+
+	.certificate_edit .t_block td:nth-child(1):before{content:"자격증명";display:block;font-weight:500;margin-bottom:10px;}
+	.certificate_edit .t_block td:nth-child(2):before{content:"발행처";display:block;font-weight:500;margin-bottom:10px;}
+	.certificate_edit .t_block td:nth-child(3):before{content:"취득일자";display:block;font-weight:500;margin-bottom:10px;}
+
+
+	/*** 학력정보 편집 ***/
+	.t_education .t_modify:before, .t_education .t_delete:before{display:none;}
+	.t_education .t_modify, .t_education .t_delete{position:absolute;top:50%;transform:translateY(-50%);background:#fcfcfc;}
+	.t_education td.t_modify{right:44px;}
+	.t_education td.t_delete{right:20px;}
+
+	.education_edit .wrap_group.table_area{border:1px solid #e0e0e0;border-bottom:0;padding:20px;}
+	.education_edit .wrap_group.table_area .round_table{border:1px solid #e0e0e0;border-radius:3px;}
+	.education_edit tbody,.education_edit col,.t_education_edit th,.t_education_edit td{width:100% !important;display:block;float:left;}
+	.t_education_edit{border:none;background:transparent;}
+	.t_education_edit tr{margin:0;box-shadow:none;border:0;border-radius:0;background:none;}
+	.t_education_edit tbody{border:1px solid #e0e0e0;border-top:0;margin-bottom:0px;border-radius:0 0 3px 3px;box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.05);}
+	.t_education_edit tr:first-child th:first-child{border-top:0;}	
+	.t_education_edit td{border-top:0;padding-top:0 !important;}
+
+	/*** 경력 편집 ***/
+	.table_type1 .t_block tr{margin-bottom:0;border-radius:0;border-top:0;}
+	.table_type1 .t_block tr:last-child{border-radius:0 0 3px 3px;}
+
+	/*** contract***/
+	.evaluation_info{margin-top:6px;}
+	.evaluation_info dl:after{height:14px;margin-top:2px;}
+	
+	.btn_cell_add{width:70px !important;}
+	.btn_cell_add:before{width:14px;height:14px;}
+
+	/*** 클라이언트 평가 ***/
+	.evaluation_distribute .star span,.evaluation_distribute .bar_graph span{font-size:14px;}
+	.contract_star{overflow:hidden;height:91px;overflow:hidden;}
+	.contract_star li{width:100%;height:100%;border-right:0;}
+	.contract_star li img{width:23px;height:23px;}
+	.comment_partner{padding-left:80px;}
+	.comment_partner:before{left:43px;height:34px;}
+	.thm_comment{width:55px;height:55px;}
+	.comment dt{font-size:14px;}
+
+	/*** 프로젝트 히스토리 ***/
+	.project_infograph .ei_title{width:100%;}
+	.project_infograph .ei_title:first-child{border-right:0;}
+
+}
+@media (max-width:480px){
+	.group_header.type3 .btn_update, .group_header.type3 .btn_more{font-size:12px;right:7px;padding-right:18px;}
+	.group_header.type3 .btn_update:after, .group_header.type3 .btn_more:after{width:14px;height:14px;}
+	.partners_info .thm_partner{width:66px;height:66px;margin-right:10px;}
+	.partners_info dl{padding:0 10px;left:87px;}
+	.partners_info dt{font-size:14px;}
+	.partners_info dd li{font-size:12px;}
+	.partners_info dd li:before{width:20px;height:20px;}
+	.pi_left dt{font-size:13px;line-height:1.85;}
+	.pi_left dd{font-size:16px;line-height:1.71;}
+	.term{padding:10px;}
+	.introduce p{font-size:13px;}
+	.table_area table{font-size:13px;}
+	.table_area table th, .table_area table td{padding-left:10px;height:32px;}
+	.t_float thead tr,.t_float tbody tr{padding:7px 10px;}
+	.t_skill th:nth-child(2), .t_skill td:nth-child(2){width:65px;} /*숙련도*/
+	.t_skill th:nth-child(3), .t_skill td:nth-child(3){width:115px;} /*경력*/
+	.t_career th:nth-child(1), .t_career td:nth-child(1){width:78px;} /*기간*/
+	.certificate img{width:37px;}
+	.certificate p{font-size:13px;}
+	.certificate .btn_violet{font-size:13px;}
+	
+	.evaluation_info dl, .evaluation_info dt, .evaluation_info dd{font-size:12px;letter-spacing:-0.5px;}
+	.evaluation_info dl{margin-right:5px;}
+	.evaluation_info dl:after{display:none;}
+	.evaluation_info dt{margin-right:5px;}
+	
+	.contract table th, .contract table td{padding-left:10px;font-size:12px;}
+	.contract table th{width:68px;}
+	.contract table td{width:calc(100% - 68px);}
+	
+	.sub_common_content .introduce .txt.textarea{height:309px !important;font-size:13px;padding:5px;}
+	.introduce span{font-size:12px;line-height:1.67;}
+	.sub_common_content .bottom_area{text-align:right;}
+	.sub_common_content .bottom_area button{height:40px;margin-bottom:10px;}
+	
+	
+	/*** t_block ***/
+	.t_block tr{margin-bottom:10px;}
+	.t_block tr:last-child{margin-bottom:0;}
+	.t_block td{padding:10px !important;}
+	td.t_delete{right:20px;top:-3px;}
+
+	/*** 학력정보 편집 ***/
+	.t_education td.t_modify{right:34px;}
+	.t_education td.t_delete{right:10px;}
+	
+	.education_edit .wrap_group.table_area{padding:10px;}
+	.t_education_edit{font-size:13px;}
+	.t_education_edit th{padding:10px;padding-bottom:0;}
+	.t_education_edit tr{margin-bottom:0;}
+	.t_education_edit tr:first-child .btn-group{width:100%;}
+	.t_education_edit th:after{margin-top:5px;}
+
+	/*** 클라이언트 평가 ***/
+	.ei_title{height:40px;line-height:40px;padding:0 10px 0 10px;}
+	.ei_title dt,.ei_title dd{font-size:13px;}
+	.ei_title img{width:22px;height:22px;}
+	.ei_title dd span{margin-left:5px;font-weight:500;}
+	.evaluation_detail{padding:10px;}
+	.evaluation_average{padding:10px 0;}
+	.evaluation_distribute{padding:10px;}
+	.evaluation_distribute li img{width:18px;height:18px;}
+	.evaluation_distribute .star span, .evaluation_distribute .bar_graph span{font-size:12px;}
+	.evaluation_distribute .bar_graph{height:14px;width:calc(100% - 152px);}
+	.evaluation_distribute .bar_graph .bar{height:12px;}
+	.contract_star li{font-size:14px;}
+	.comment{padding:10px;}
+	.comment_partner{padding-left:10px;}
+	.comment_partner:before{top:10px;left:28px;height:34px;width:14px;height:23px;border-radius:0 0 0 6px;}
+	.thm_comment{width:40px;height:40px;margin-right:10px;}
+	.comment dl{overflow:visible;}
+	.comment dt{font-size:14px;font-size:13px;margin-top:3px;}
+	.comment dt strong{display:block;}
+	.comment dt span{padding:0 4px;font-size:13px;}
+	.comment dd{font-size:12px;line-height:1.5;margin-top:10px;}
+	.comment_partner .thm_comment{margin-left:40px;}
+
+	/*** 프로젝트 히스토리 ***/
+	.project_Infograph .wrap_col{padding:10px;}
+	.project_infograph .wrap_flex dl{font-size:13px;}
+	.process .btn_add_file{width:57px;font-size:12px;right:10px;}
+	.btn_detail_view, .btn_detail_fold{font-size:12px;}
+	.process table .t_th{width:68px;}
+	.process table th div{letter-spacing:-0.5px;}
+	.process table td span{padding-right:77px;}
+}
+

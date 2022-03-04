@@ -1,0 +1,680 @@
+@charset "UTF-8";
+
+/* 그룹보기 */
+
+		.inv-cor-wrap-cover{
+			position: absolute;
+			top: 20px;
+			right: -20px;
+		}
+		
+ 		.inv-cor-wrap{
+            position: relative;
+            width:525px; height: 420px;
+            background: #cbcbcb;border-radius: 2px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        }
+        
+        /*팝업창 닫기*/
+        .inv-cor-wrap .inv-cor-close{
+            position: absolute;top: 5px;right: 10px;
+            width:30px;height: 30px;
+            border-right: 2px;
+            transition: all 0.2s ease 0s;
+            cursor: pointer;
+        }
+        .inv-cor-close span{
+            position: absolute;top: 13px;
+            width:100%;height: 4px;display: block;
+            background: #fff;border-radius: 5px;
+            transform: rotate(45deg);
+        }
+        .inv-cor-close span:nth-child(2){transform: rotate(-45deg);}
+        .inv-cor-close:hover{background: #fff}
+        .inv-cor-close:hover span{background: #333}
+        
+        
+        /*테이블 레이아웃*/
+        .inv-cor-grp{
+            width:100%;height: 100%;float: left;
+            font-size: 14px;
+        }
+        
+        /*테이블 공통*/
+        .inv-cor-grp .inv-tname{
+            width:100px;float: left;margin-right: 20px;
+            
+            display: inline-block;
+		    white-space: nowrap;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+        }
+        .inv-cor-grp .inv-tmb{
+            width:100px;float: left;margin-right: 20px;
+        }
+        .inv-cor-grp .inv-tmail{
+            width:200px;float: left;margin-right: 10px;
+        }
+        .inv-cor-grp .inv-cor-btn{
+            width:40px;float: left;
+            margin-top: 5px;
+        }
+        .inv-cor-grp .inv-cor-btn span{
+            width:30px;height: 20px;display: block;
+            margin: 0 auto;text-align: center;
+            font-size: 12px;line-height: 20px;
+            color: #fff;background: #999;
+            border-radius: 2px;cursor: pointer;
+            transition: all 0.2s ease 0s;
+        }
+        
+        /*테이블 헤더*/
+        .inv-cor-grp thead{
+            width:100%;height: 40px;float: left;
+            background: #333;padding-left: 25px;
+            color: #fff;line-height: 40px;
+        }
+        .inv-cor-grp thead .inv-cor-btn{font-size: 0;}
+        
+        /*그룹원 리스트*/
+        .inv-cor-grp tbody{
+            width:100%;max-height: 275px;float: left;
+            overflow-y: auto;margin: 20px 0;
+            padding:0 10px 0 20px;
+            line-height: 30px;color: #444;
+        }
+        .inv-cor-grp tbody .inv-tmail{
+            text-overflow: ellipsis;white-space: nowrap;
+            overflow: hidden;
+        }
+        
+        .inv-cor-grp tbody::-webkit-scrollbar{width:3px}
+        .inv-cor-grp tbody::-webkit-scrollbar-thumb{background: #333}
+        
+        
+        .inv-cor-grp .inv-cor-person .inv-cor-btn:hover .inv-correction{background: #333;}
+        
+        /*그룹원 디테일 수정*/
+        .inv-cor-grp tfoot{
+            position: absolute; bottom: 0;left: 0;
+            width: 100%; height: 74px;
+            background: #fff; padding-left: 33px;
+            line-height: 45px; color: #d1d1d1;
+        }
+        .inv-cor-grp tfoot .inv-cor-name{
+            width:350px; float: left;
+            margin-right: 20px;
+            font-weight: bold;
+            
+            display: inline-block;
+		    white-space: nowrap;
+
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+        }
+        .inv-cor-grp tfoot .inv-cor-mb{
+            width:162px; float: left; margin-right: 15px; margin-top: -15px;
+        }
+        .inv-cor-grp tfoot .inv-cor-mail{
+            width:250px; float: left;
+            margin-right: 0px;  margin-top: -15px;
+        }
+        .inv-cor-grp input{
+            border: none;border-bottom: 1px solid #999;
+            text-align: right;cursor: pointer;
+            margin-top: 12px
+        }
+        .inv-cor-grp input::placeholder{color: #d1d1d1;}
+        .inv-cor-grp .inv-cor-mb input{width:125px; height: 20px;}
+        .inv-cor-grp .inv-cor-mail input{width:190px;height: 20px;}
+        .inv-cor-grp tfoot .inv-cor-done{margin-top: -7px;background:#d1d1d1}
+        
+
+/* 그룹보기 끝 */
+
+.inv-send-wrap{
+    position: fixed;top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+    width:1350px;height: 740px;
+    background: #b3b3b3;
+    color:#333;
+}
+
+/* .inv-send-wrap{
+    position: fixed;top: 50%;left: 50%;
+    transform: translate(-50%,-50%);
+    width:1290px;height: 720px;
+    background: #b3b3b3;
+    color:#333;
+} */
+
+/*header*/
+.inv-send-header{
+    width:100%;height: 70px;float: left;
+    background: #fff;
+}
+.inv-send-header h2{
+    width:250px;line-height: 70px;float: left;
+    font-size: 20px;color: #fff;text-align: center;
+    text-indent: 40px;font-weight: 500;
+    background: #333 url(/resource/image/rental/invitaion_title.png) no-repeat;
+    background-position: 58px center;
+}
+.inv-header-txt{
+    width:1040px;line-height: 70px;float: left;
+}
+.inv-header-txt p{font-size: 18px;float: left;margin-left: 30px}
+
+.inv-header-txt span{font-size: 14px;float: right;margin-right: 44px;}
+
+.btn-close_addsd{
+    position: absolute;top: 15px;right: 15px;
+    width:40px;height:40px;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.btn-close_addsd span{
+    position: absolute;top:17px;
+    width: 100%;height: 5px;display: block;
+    background: #444;border-radius: 20px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease 0s;
+}
+.btn-close_addsd span:nth-child(2){transform: rotate(-45deg);}
+.btn-close_addsd:hover{background: #333}
+.btn-close_addsd:hover span{background: #fff}
+
+
+/*main contents*/
+.inv-send-con{
+    width:100%;
+    height: 670px;
+    float: left;
+    padding: 30px;
+    position: relative;
+    
+}
+
+/*초대장 받는분 정보*/
+.inv-rx-info{
+    width:850px;height: 100%;float: left;
+}
+/* .inv-rx-info{
+    width:790px;height: 100%;float: left;
+} */
+/*주소록 탭버튼*/
+.inv-contacts{
+    width: 400px;height: 520px;float: left;
+    margin-right: 40px;
+}
+/* .inv-contacts{
+    width: 340px;height: 520px;float: left;
+    margin-right: 40px;
+} */
+.inv-cont-btn{
+    width: 200px;height: 40px;margin: 0 auto;
+    margin-bottom: 20px;
+    background: #fff;border-radius: 50px;
+    font-size: 16px;line-height: 40px;
+}
+.inv-cont-btn li{
+    width: 100px;line-height: 40px;float: left;
+    text-align: center;border-radius: 50px;
+    cursor: pointer;
+}
+.inv-cont-btn li a{
+    width:100%;height: 100%;display: block;
+    font-size: 14px;text-decoration: none;
+    border-radius: 50px;
+    color: #333;
+}
+.inv-cont-btn li a.onCon{
+    background: #9b3de4;color:#fff;
+}
+
+
+/*주소록 탭 컨텐츠*/
+.inv-cont-panel{
+    width: 100%;height: 460px;
+    background: #fff;padding: 20px 10px 20px 20px;
+    border-radius: 2px;
+}
+
+/*주소록 그룹탭*/
+#gglist{
+    position: relative;
+    width: 100%;max-height:420px;float: left;
+    overflow-y: auto;
+    transition: all 0.2s ease 0s;
+}
+#gglist li{
+    width: 100%; line-height: 35px;float: left;
+    font-size: 14px;cursor: pointer; 
+}
+#gglist li:hover{color: #9b3de4}
+
+/*주소록 개인탭*/
+#gplist{
+    position: relative;
+    width: 100%;max-height:420px;float: left;
+    overflow-y: auto;
+    transition: all 0.2s ease 0s;
+}
+#gplist .inv-info{
+    width: 100%;float: left;
+    margin-bottom: 10px; 
+    font-size: 14px;cursor: pointer; 
+}
+#gplist .inv-info:last-child{margin-bottom: 0;}
+
+  #gplist .inv-info b{
+    width:120px;height: 100%;float: left;
+    line-height: 28px;
+    margin-right: 15px;
+    
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}  
+
+/*   #gplist .inv-info b{
+    width:65px;height: 100%;float: left;
+    line-height: 28px;
+    margin-right: 10px;
+} */
+
+/*  #gplist .inv-info b{
+    width:65px;
+    height: 100%;
+    float: left;
+    line-height: 28px;
+    margin-right: 10px;
+    
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}  */
+
+/*  #gplist .inv-info b{
+    width:100%;
+    height: 100%;
+    float: left;
+    line-height: 28px;
+    margin-right: 10px;
+    
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}  */
+
+.inv-detail{
+    width:230px;height: 100%;float: left;
+}
+.inv-detail li{line-height: 28px;}
+.inv-info .inv-detail-mail{
+    width:210px;text-overflow: ellipsis;
+    overflow: hidden;white-space: nowrap;
+}
+.inv-info:hover{color: #9b3de4}
+
+
+/*수신자 목록*/
+
+/* 툴팁(tooltip) 시작 */
+
+[data-tooltip-text]:hover {
+	position: relative;
+}
+
+[data-tooltip-text]:after {
+	-webkit-transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
+	-moz-transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
+	transition: bottom .3s ease-in-out, opacity .3s ease-in-out;
+
+	background-color: rgba(0, 0, 0, 0.8);
+
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	box-shadow: 0px 0px 3px 1px rgba(50, 50, 50, 0.4);
+	
+  -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+  color: #FFFFFF;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 7px 12px;
+	position: absolute;
+	width: auto;
+	min-width: 50px;
+	max-width: 300px;
+	word-wrap: break-word;
+
+	z-index: 9999;
+
+	opacity: 0;
+	left: -9999px;
+  top: 90%;
+	
+	content: attr(data-tooltip-text);
+}
+
+[data-tooltip-text]:hover:after {
+	top: 130%;
+	left: 0;
+	opacity: 1;
+}
+/* 툴팁(tooltip) 끝 */
+
+.inv-receiver{
+    position: relative;
+    width:410px;height: 520px;float: left;
+    padding: 20px;padding-right: 10px;border-radius: 2px;
+    background: #fff;
+}
+.inv-arrow{
+    position: absolute;top: 50%;left: -24px;
+    content: url(/resource/image/rental/invitation_arrow.png) ;
+    width:10px;height: 14px;
+}
+#gslist{
+    width:380px;max-height: 480px;float: left;
+    overflow-y: auto;
+    transition: all 0.2s ease 0s;
+}
+#gslist .inv-rx-info{
+    position: relative;width:100%;float: left;
+    padding-left: 10px;
+    font-size: 14px;cursor: pointer;
+}
+#gslist .inv-rx-info:last-child{margin-bottom: 0}
+#gslist .inv-rx-info b{
+    height: 100%;float: left;
+    line-height: 30px;margin-right: 10px;
+}
+
+
+#gslist .inv-rx-per b{
+	width:115px;
+	display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;	
+}
+
+
+.inv-rx-per .inv-rx-detail{
+    width:245px;text-overflow: ellipsis;
+    overflow: hidden;white-space: nowrap;
+}
+.inv-rx-detail li{line-height: 30px}
+
+
+.inv-grp-detail{
+    position: absolute;top: 5px;right: 35px;
+    width:60px;height: 20px;display: block;
+    background: #999;border-radius: 2px;text-align: center;
+    font-size: 12px;line-height: 18px;color: #fff;
+}
+.inv-grp-detail.onGrp{background: #333}
+
+.inv-rx-del{
+    position: absolute;top: 50%;right: 10px;
+    transform: translateY(-50%);
+    width:12px;height: 12px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.inv-rx-del span{
+    position: absolute;top: 4px;
+    width:100%;height: 3px;display: block;
+    background: #333;border-radius: 5px;
+    transform: rotate(45deg);
+}
+.inv-rx-del span:nth-child(2){transform: rotate(-45deg);}
+
+#gslist li:hover{background: #eee}
+#gslist li:hover .inv-grp-detail{background: #111;transition: all 0.2s ease 0s;}
+#gslist li:hover .inv-rx-del{visibility: visible}
+
+
+/*수신자 정보 스크롤*/
+#gplist::-webkit-scrollbar, #gglist::-webkit-scrollbar,#gslist::-webkit-scrollbar{
+    width:5px;
+}
+#gplist::-webkit-scrollbar-thumb, #gglist::-webkit-scrollbar-thumb, #gslist::-webkit-scrollbar-thumb{
+    border-radius: 3px;background: #999;
+}
+#gplist:hover::-webkit-scrollbar-thumb, #gglist:hover::-webkit-scrollbar-thumb, #gslist:hover::-webkit-scrollbar-thumb{
+    background: #333;
+}
+
+/*초대장 발송*/
+.inv-sending{
+    width:100%;height: 70px;float: left;
+    margin-top: 20px;border: 1px solid #333;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inv-sending p{
+    width:294px;
+    margin-right: 20px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.inv-sending p span{font-size: 12px;}
+
+.inv-group,
+.inv-method{
+    width:calc(100% - 200px);
+    padding-left: 10px;
+    display: flex;
+}
+
+.inv-sending input{
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.inv-sending label{
+    font-size: 14px;line-height: 20px;
+    cursor: pointer;
+}
+
+.inv-group label[for="inv_grp_sep"]{margin-right: 20px;}
+
+
+.inv-sending label[for="inv_check_kakao"]{margin-right: 49px;}
+
+.inv-sending-btn{
+    width:200px;height: 100%;
+    line-height:67px;text-align: center;
+    font-size: 16px;color: #fff;
+    display: inline-block;
+    background:#333 url(/resource/image/rental/invitaion_sending.png) no-repeat;
+    background-position: 140px center;
+    text-indent: -40px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+}
+.inv-sending-btn:hover{
+    background:#111 url(/resource/image/rental/invitaion_sending_on.png) no-repeat;
+    background-position: 140px center;
+}
+
+/* .inv-sending{
+    width:100%;height: 50px;float: left;
+    margin-top: 20px;border: 1px solid #333;
+    border-radius: 2px;
+}
+.inv-sending p{
+    margin-left: 20px;float: left;
+    line-height: 48px;font-size: 14px;
+    margin-right:55px;
+}
+.inv-sending p span{font-size: 12px;}
+.inv-sending input{width:16px;display: inline-block;cursor: pointer;}
+
+.inv-sending input{width:15px;height: 15px;}
+.inv-sending label{
+    position: relative;top:-2px;left: 5px;
+    font-size: 14px;line-height:50px;
+    cursor: pointer;
+}
+.inv-sending label[for="inv_check_kakao"]{margin-right: 20px;}
+.inv-sending-btn{
+    width:220px;height: 100%;float: right;
+    line-height: 45px;text-align: center;
+    font-size: 16px;color: #fff;
+    background:#333 url(/resource/image/rental/invitaion_sending.png) no-repeat;
+    background-position: 150px center;
+    text-indent: -40px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+}
+.inv-sending-btn:hover{
+    background:#111 url(/resource/image/rental/invitaion_sending_on.png) no-repeat;
+    background-position: 150px center;
+}
+ */
+
+/*초대장 미리보기*/
+.inv-preview{width:400px;height: 100%;float: right;}
+.inv-preview .inv-pre-header{width:100%;height: 50px;float: left}
+.inv-pre-header h3{
+    width:160px;line-height: 50px;float: left;
+    font-size: 16px;text-align: center;
+    border-top-left-radius: 2px;border-top-right-radius: 2px;
+    background: #eee;
+}
+
+/*미리보기 탭버튼*/
+.inv-pre-header .inv-pre-btn{width:240px;float: left;}
+.inv-pre-header .inv-pre-btn li{width:50%;float: left;}
+.inv-pre-header .inv-pre-btn li a{
+    width: 100%;height: 100%;display: block;
+    line-height: 50px;font-size: 16px;text-align: center;
+    border-top-left-radius: 5px;border-top-right-radius: 5px;
+    background: #999;color: #fff;
+    text-decoration: none;
+}
+
+.inv-pre-header .inv-pre-btn li a.onPre{background: #9b3de4}
+
+
+/*미리보기 탭 공통컨텐츠*/
+.inv-pre-panel{
+    width:100%;height:540px;float: left;
+    border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+    background: #fff;
+}
+.inv-pre-con{width:100%;height: 470px;float: left;}
+.inv-preview-btn{
+    width:100%;height: 90px;float: left;
+    background: #999;
+}
+.inv-preview-btn input{
+    width:200px;height: 40px;float: left;
+    margin: 25px;border: none;
+    border-radius: 50px;line-height: 40px;
+    font-size: 12px;color: #333;
+    text-align: center;cursor: pointer;
+}
+.inv-preview-btn input::placeholder{
+    font-size: 12px;color: #b7b7b7;
+    text-align: center;
+}
+.inv-test-btn{
+    width:150px;height: 100%;float: left;
+    font-size: 14px;color:#fff;
+    text-align: center;padding-top: 26px;
+    background: #333;cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+.inv-test-btn span{font-size: 12px;display: block;}
+.inv-test-btn:hover{background: #111;}
+
+
+/*미리보기 카카오톡탭*/
+#inv_pre_kakao .inv-kakao-profile{
+    width:90px;height: 90px;float: left;
+    margin: 10px 5px 0 0;
+    background: url(/resource/image/rental/invite_katalk_profile.png) no-repeat center;
+}
+#inv_pre_kakao .inv-pre-con>p{
+    font-size: 14px;margin: 30px 0 15px;
+}
+.inv-kakao-msg{
+    width:290px;float: left;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;        
+}
+.inv-kakao-msg h4{
+    font-size: 14px;line-height: 40px;
+    padding-left: 14px;background: #fde500;
+}
+.inv-kakao-msg p{
+    font-size: 12px;padding: 14px;
+    word-break: break-all;
+    text-align: justify
+}
+.inv-kakao-msg .inv-kakao-btn{
+    width:270px;line-height: 36px;
+    margin: 0 auto;margin-bottom: 15px;
+    font-size: 14px;text-align: center;
+    background: #eee;
+}
+
+
+/*미리보기 이메일탭*/
+#inv_pre_mail .inv-pre-con .inv-mail-back{
+    width:350px;margin:0 auto;
+    margin-top: 20px;
+    background: url(/resource/image/rental/invitation_envelope.png) no-repeat;
+    background-size: 100% 100%;
+}
+#inv_pre_mail .inv-mail-back h4{
+    font-size: 12px;text-align: center;
+    padding-top: 45px;margin-bottom:15px;
+}
+#inv_pre_mail .inv-mail-back h5{
+    width:70%;margin: 0 auto;
+    font-size: 14px;text-align: center;
+}
+
+#inv_pre_mail .inv-mail-back .inv-title-pic{
+    width:70px;height: 70px;margin: 20px auto 15px;
+    background: url(/resource/image/rental/unnamed.jpg) no-repeat center;
+    background-size: cover;box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+}
+#inv_pre_mail .inv-mail-back p{
+    width:70%;margin: 0 auto;
+    font-size: 12px;text-align: center;
+    margin-bottom: 15px;
+}
+#inv_pre_mail .inv-mail-back p b{color: #9b3de4}
+#inv_pre_mail .inv-mail-back .inv-mail-btn{
+    width:140px;height: 25px;margin: 0 auto;
+    font-size: 12px;line-height: 25px;
+    background: #9b3de4;text-align: center;
+    color: #fff;
+}
+#inv_pre_mail .inv-mail-back .inv-logo-btn{
+    width:100%;height: 17px;
+    padding-top: 110px;
+    background: url(/resource/image/rental/logo_grey.png) no-repeat center;
+    background-size: 92px 17px;background-position: 95% 90%;
+    opacity: .6;
+}

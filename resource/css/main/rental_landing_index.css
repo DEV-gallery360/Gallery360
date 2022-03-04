@@ -1,0 +1,1924 @@
+@charset "utf-8";
+
+/*common*/
+.rental-land {font-family: 'Noto Sans KR', sans-serif;line-height: 1;color: #111}
+.rental-land h2{font-family: 'Montserrat', sans-serif;font-weight: 700;}
+#body_content:after {content:" "; clear:both; display: block;}
+#bottom_content {margin-top:0 !important;}
+.wrapper {overflow: visible;}
+.title-banner.parallex {position:relative;height:80vh !important;}
+.title-banner h2 {position: -webkit-sticky;position:sticky; top:60px;}
+.parallex .ani-trigger {
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 100px;
+}
+.fadein-wait {opacity:0;}
+
+/*global*/
+.clearfix:after{content:" ";clear: both;display: block}
+.screen_out{position: absolute;top: -999em}
+.ir_pm{text-indent: -99em;white-space: nowrap;overflow: hidden}
+
+body{overflow-x: hidden;}
+/*mobile*/
+.tablet, .pc{display: none}
+.rental-land .wrap, .rental-land .container, .rental-land .fullbox{width:100%;float:left}
+
+/*animation*/
+@keyframes slideLft{
+    from{opacity: 0;transform: translateX(100px)}
+}
+@keyframes slideRgt{
+    from{opacity: 0;transform: translateX(-100px)}
+}
+@keyframes slideUp{
+    from{opacity: 0;transform: translateY(200px)}
+}
+@keyframes slideDown{
+    from{opacity: 0;transform: translateY(-200px)}
+}
+
+@keyframes rotateCircle{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(359deg)}
+}
+
+header{
+    position: fixed;top: 0;left: 0;
+    width:100%;height: 50px;
+    z-index: 90;
+    background: #111;
+}
+header h1{
+    color: #fff;text-align: center;
+    line-height: 50px;
+}
+
+#rental_top_banner{
+	position: relative;
+    width: 100%;float: left;
+    margin-top: 50px;
+    /*background: url(/img//rental_landing/main_banner.jpg) no-repeat center;
+    background-size: cover;*/
+    height: 100vh;
+}
+
+#rental_top_banner .container {
+	position: relative;
+}
+
+/** 메인 배너 하단 스크롤 이미지 **/
+@-webkit-keyframes scrollDown {
+	0% {
+		top: 10px;
+		opacity: 0;
+	}
+	15% {
+		top: 10px;
+		opacity: 1;
+	}
+	30% {
+		top: 10px;
+		opacity: 1;
+	}
+	45% {
+		top: 28px;
+		opacity: 1;
+	}
+	100% {
+		top: 28px;
+		opacity: 0;
+	}
+}
+@keyframes scrollDown {
+	0% {
+		top: 10px;
+		opacity: 0;
+	}
+	15% {
+		top: 10px;
+		opacity: 1;
+	}
+	30% {
+		top: 10px;
+		opacity: 1;
+	}
+	45% {
+		top: 28px;
+		opacity: 1;
+	}
+	100% {
+		top: 28px;
+		opacity: 0;
+	}
+}
+.scroll-down {
+    position: absolute;
+    top: auto;
+    bottom: 80px;
+    left: 50%;
+    display: none;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 9;
+    opacity: .8;
+}
+
+.scroll-mouse {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 46px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.scroll-wheel {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-animation: scrollDown 2.5s infinite;
+    animation: scrollDown 2.5s infinite;
+}
+
+.rent-banner-txt {
+	position: absolute;
+	top: 250px;
+	left: 9.3%;
+}
+
+.rent-banner-txt p {
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 2px 2px 0px #000;
+	margin-bottom: 50px;
+}
+
+.rent-banner-txt .show-every-btn {
+	cursor: pointer;
+	width: 200px;
+	line-height: 45px;
+	float: left;
+	font-size: 18px;
+	color: #333;
+	background: #fff;
+	font-weight: 500;
+	text-align: center;
+}
+
+/*main contents*/
+/*title banner control*/
+.contents{
+    background: #fff;float: left;
+    width:100%;
+}
+.contents section{
+    width:100%;float: left;
+}
+.contents section .title-banner{
+    width:100%;height:150px;float: left;
+    background:#111 url(/img//rental_landing/title_smart.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+#smart .title-banner{position: relative}
+#smart .title-banner .shutter{
+    position: absolute;top: 0;left: 0;
+    width:100%;height: 100%;float: left;
+    background: #fff;
+}
+#high .title-banner{
+    height: 175px;
+    background:#111 url(/img//rental_landing/title_high.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#anyone .title-banner{
+    background:#111 url(/img//rental_landing/title_anyone.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#reliable .title-banner{
+    background:#111 url(/img//rental_landing/title_reliable.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#easy .title-banner{
+    background:#111 url(/img//rental_landing/title_easy.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contents .title-banner h2{
+    font-size: 44px;color:#fff;
+    text-align: center;
+    margin-top: 120px;
+}
+#high .title-banner h2{margin-top: 110px}
+
+/*SMART*/
+#smart .container>p{
+    width: 100%;
+    font-size: 28px;line-height: 36px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    float: left;
+    word-break: keep-all;
+}
+
+#smart .container>p>span{color:#9b3de4;font-weight: 700;}
+#smart .smart-sub{
+    width: 100%;float: left;
+    margin-bottom: 70px;
+}
+#smart .smart-sub:last-child{margin-bottom: 90px;}
+
+#smart .smart-sub .smart-txt{
+    margin:0 auto;margin-top: 45px;margin-bottom:70px;
+    text-align: center;
+}
+
+/*smart-sub h3 icon*/
+.smart-sub .smart-txt>span{
+    width:50px ;height: 50px;display: block;
+    margin: 0 auto;
+    background: url(/img//rental_landing/rental.png) no-repeat center;
+    background-size: 35px 35px;
+    border: 1px solid #808080;
+    border-radius: 2.5px;
+}
+.vr-exhibit .smart-txt>span{
+    background: url(/img//rental_landing/vr360.png) no-repeat center;
+    background-size: 35px 35px;
+}
+.vr-together .smart-txt>span{
+    background: url(/img//rental_landing/together.png) no-repeat center;
+    background-size: 35px 35px;
+}
+.smart-sub .smart-txt h3{
+    font-size: 24px;font-weight: 500;
+    margin: 30px 0 40px;
+}
+.smart-sub .smart-txt h3 span{
+    color: #9b3de4;
+    font-weight: 500;
+}
+.smart-sub .smart-txt p{
+    font-size: 18px;line-height: 24px;
+    font-weight: 300;color: #808080;
+}
+.smart-sub .smart-txt a{
+    font-size: 16px; margin-top: 20px;
+    font-weight: 500;
+    display: block;color: #111;
+}
+#smart .vr-exhibit {
+	border-top: 1px solid #c3c3c3;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+
+/*smart-sub contents*/
+/*vr-rent vr-together*/
+.vr-rent .video-wrap{
+    position: relative;
+    width:100%; height: 300px;
+    margin: 0 auto;
+}
+
+.vr-together .video-wrap{
+    position: relative;
+    width:100%; height: 242px;
+    margin: 0 auto;
+}
+.vr-rent.ani .video-wrap, .vr-together.ani .video-wrap{animation: slideRgt 0.5s ease 0.1s backwards;}
+.vr-rent .video-wrap .videobox, .vr-together .video-wrap .videobox{
+    position: absolute;top:50%;left: 50%;
+    width:100%;height: 100%;
+    transform: translate(-50%,-50%);
+}
+
+/*vr-exhibit*/
+.vr-exhibit .imgbox{
+    position: relative;
+    width:300px;height: 300px;margin: 0 auto;
+    margin-top: 70px;
+    background: url(/img/rental_landing/vrshow_gray.png) no-repeat center;
+    background-size:100px 50px;
+}
+.vr-exhibit .imgbox div{
+    position: absolute;top:0;left:0;
+    width: 100%;height:100%;
+    background: url(/img/rental_landing/vr_circle.png) no-repeat center;
+    background-size: contain;
+}
+.vr-exhibit.ani .imgbox div{animation: rotateCircle 15s infinite linear 0.1s}
+
+
+/*HIGH PERFORMANCE*/
+#high .container>p:nth-child(1){
+    font-size: 28px;line-height: 36px;
+    text-align: center;word-break: keep-all;
+}
+#high .container>p:nth-child(1) span{color: #9b3de4; font-weight:bolder;}
+
+#high .container>p:nth-child(2){
+    font-size: 16px;line-height: 20px;
+    width:350px;margin: 40px auto 55px;
+    font-weight: 300;
+    text-align: center;word-break: keep-all;
+}
+
+#high .perform-icon{
+    width:300px;margin: 0 auto;
+}
+#high .perform-icon li{
+    width:100%;float: left;
+    margin-bottom: 30px;
+}
+#high .perform-icon li:nth-child(1){
+	animation-delay: .1s;
+}
+#high .perform-icon li:nth-child(2){
+	animation-delay: .2s;
+}
+#high .perform-icon li:nth-child(3){
+	animation-delay: .3s;
+}
+#high .perform-icon li:nth-child(4){
+	animation-delay: .4s;
+}
+#high .perform-icon li:nth-child(5){
+	animation-delay: .5s;
+}
+#high .perform-icon li:nth-child(6){
+	animation-delay: .6s;
+}
+
+
+#high .perform-icon li:last-child{
+    margin-bottom: 90px
+}
+.perform-icon li h3{
+    line-height: 50px;text-indent:70px;
+    font-size: 20px;font-weight:400;
+    background: url(/img//rental_landing/vr360_pp.png) no-repeat 0 50%;
+    background-size: contain;
+    margin-bottom:0px;
+}
+
+.perform-icon li:nth-child(2) h3{
+    background: url(/img//rental_landing/docent_pp.png) no-repeat 0 50%;
+    background-size: contain;
+}
+.perform-icon li:nth-child(3) h3{
+    background: url(/img//rental_landing/4d_pp.png) no-repeat 0 50%;
+    background-size: contain;
+}
+.perform-icon li:nth-child(4) h3{
+    background: url(/img//rental_landing/video_empty_pp.png) no-repeat 0 50%;
+    background-size: contain;
+}
+.perform-icon li:nth-child(5) h3{
+    background: url(/img//rental_landing/link_pp.png) no-repeat 0 50%;
+    background-size: contain;
+}
+.perform-icon li:nth-child(6) h3{
+    background: url(/img//rental_landing/dbook_pp.png) no-repeat 0 50%;
+    background-size: contain;
+}
+.perform-icon li p{
+    font-size: 14px;line-height: 24px;
+    margin-left:70px;font-weight: 300;
+    word-break: keep-all;
+}
+
+
+/*ANYONE*/
+#anyone .title-banner{margin-bottom: 0;}
+#anyone .fullbox .anyone-top{
+    width:100%;float: left;
+    background: #50125a;
+}
+#anyone .anyone-top .txtbox{
+    width: 100%;float: left;
+    padding: 90px 0 100px ;
+}
+#anyone .anyone-top .txtbox p{
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+    margin: 0 auto;
+}
+#anyone .anyone-top .txtbox p:nth-child(1){margin-bottom:70px}
+#anyone .anyone-top .txtbox span{display: block;}
+#anyone .anyone-top .txtbox strong{
+    font-size: 36px;margin: 15px 0;
+    display: block;
+}
+
+#anyone .anyone-btm{width:100%;float: left;overflow: hidden;}
+#anyone .anyone-btm .txt-indi{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    margin: 70px auto 50px;
+    cursor: pointer;
+}
+.txt-indi li{
+    display: inline-block;height: 50px;
+    line-height: 46px;font-size: 15px;
+    padding: 0 15px;margin: 5px 0;
+    border: 1px solid #9b3de4;
+    border-color: transparent;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+.txt-indi li.on{
+    border-color:#9b3de4;
+    color: #9b3de4;
+}
+#anyone .anyone-btm .anyone-slider{
+    width:100%;float: left;
+    margin-bottom:90px;
+}
+#anyone_slider .owl-stage-outer {
+	overflow: visible;
+}
+#anyone_slider .owl-item {
+	transition: all 0.5s ease;
+	opacity: 0.5;
+}
+#anyone_slider .owl-item:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    content: "";
+    border-radius: 4px;
+    box-shadow: 5px 10px 38px -4px rgba(0,0,0,0.75);
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+#anyone_slider .active.center {
+	z-index: 10;
+	opacity: 1;
+	transform: scale(0.9);
+	cursor: pointer;
+}
+#anyone_slider .owl-item.active.center:after {
+	opacity: 1;
+}
+#anyone_slider .owl-item .imgbox {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#anyone_slider .owl-item .imgghost {
+	padding-top: 70%;
+}
+#anyone_slider .owl-item .slide-text-wrap {
+	display: none;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    padding: 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#anyone_slider .owl-item.active.center .slide-text-wrap {
+	display: block;
+}
+
+/*RELIABLE*/
+#reliable .container .reliable-top{
+    width:100%;float: left;
+    text-align: center
+}
+.reliable-top p{
+    font-size: 20px;font-weight: 300;
+}
+.reliable-top p:nth-child(2){
+    margin: 10px 0;
+}
+.reliable-top p:nth-child(3){
+    font-size: 30px;font-weight: 500;
+}
+.reliable-top p:nth-child(3) strong{
+    color: #9b3de4
+}
+
+#reliable .container .reliable-mdl{
+    width:100%;float: left;
+    text-align: center;
+    margin: 50px 0 90px;
+}
+.reliable-mdl .imgbox{
+    width:350px;height: 300px;margin: 0 auto;
+    background: url(/img/rental_landing/reliable_expert.jpg) no-repeat center;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+.reliable-mdl p{
+    font-size: 18px;line-height: 24px;
+    font-weight: 300;
+}
+.reliable-mdl p span{font-size: 14px;}
+
+
+/*EASY*/
+#easy{
+    background: #35263c;color:#fff;
+    text-align: center;
+}
+
+#easy .container>p:nth-child(1){
+    font-size: 20px;font-weight: 300;
+}
+#easy .container>p:nth-child(2){
+    font-size: 28px;line-height: 36px;
+    font-weight: 500;
+    margin: 15px 0 55px;
+}
+#easy .container .step{
+    width:300px;margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#easy .step .step-num{
+    width:70px;float: left;
+    margin-right: 30px;
+}
+.step-num .numbering{
+    position: relative;
+    width:70px;height:70px;float: left;
+    line-height: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.step-num .numbering:nth-child(1){margin-top: 10px}
+.step-num .numbering:last-child{margin-bottom: 10px}
+.step-num .numbering div{
+    position: absolute;top: 0;left:0;
+    width:100%;height: 100%;
+    z-index: 4;
+    border-radius: 100px;
+    background: rgb(184,79,224);
+    background: -webkit-linear-gradient(left, rgba(184,79,224,1) 0%, rgba(82,37,214,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,79,224,1) 0%, rgba(82,37,214,1) 100%);
+    background: linear-gradient(to right, rgba(184,79,224,1) 0%, rgba(82,37,214,1) 100%);
+}
+.step-num .numbering p{
+    position: absolute;top:0;left:50%;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+.step-num .n02 div{transform: rotate(90deg)}
+.step-num .n03 div{transform: rotate(180deg)}
+.step-num .n04 div{transform: rotate(270deg)}
+
+.step-num .border-box{
+    width:100%;height:50px;
+    float: left
+}
+.step-num .border-box span{
+    width:1px;height: 100%;display: block;
+    background: #fff;margin-left: 50%;
+}
+#easy .step .step-txt{
+    width: 200px;float: left;
+}
+
+.step-txt .txtbox{
+    width:100%; float: left;
+    text-align:left;
+    margin-bottom: 45px;
+}
+.step-txt .txtbox:last-child{margin-bottom: 0}
+.step-txt .txtbox h3{
+    font-size: 20px;font-weight: 400;
+    margin-bottom: 10px
+}
+.step-txt .txtbox p{
+    font-size: 16px;font-weight: 200;
+    line-height: 24px;
+    word-break: keep-all;
+}
+#easy .container>p:nth-child(4){
+    font-size: 20px;font-weight:lighter;
+    line-height: 26px;
+    text-align: center;
+}
+
+#easy .container .rent-easy-btn{
+    font-size: 16px;font-weight: 200;
+    line-height: 48px;
+    width:200px;height:50px;
+    border: 1px solid #fff;
+    margin: 30px auto 90px;
+}
+
+/*SHARE*/
+#share{
+	height: 460px;
+	background: url(/img/rental_landing/share_txt_filled.jpg) no-repeat center;
+	background-size: contain;
+	background-attachment: fixed;
+}
+#share_invert{
+	height: 460px;
+	background: black url(/img/rental_landing/share_txt_wht.jpg) no-repeat center;
+	background-size: contain;
+	background-attachment: fixed;
+}
+
+/*PRICE*/
+#price{
+    position: relative;
+    background: #683f7a;
+}
+#price:before{
+    content: "";height: 13%;background: #50125a;
+    position: absolute;left: 0;right:0;bottom: 0;
+}
+#price .container{position: relative;z-index: 5}
+#price .container .price-title{width:100%;float: left}
+#price .price-title span{
+    margin: 0 auto;margin-top: 60px;
+    width:35px;height: 35px;display: block;
+    background: url(/img//rental_landing/payment.png) no-repeat center;
+    background-size: contain;
+}
+#price .price-title h2{
+    font-size:45px;margin: 10px auto;
+    text-align: center;
+    color:#fff;
+}
+#price .price-title p{
+    font-size: 20px;text-align: center;
+    color:#fff;font-weight: 300;
+    margin-bottom: 40px;
+}
+#price .container .price-panel{width: 100%;float: left;}
+#price .container .monthly{
+    width:80%;margin: 0 auto;
+    background: #fff;border-radius: 10px;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.3);
+}
+#price .container .monthly .txtbox{
+    width: 100%;float: left;
+}
+#price .container .monthly .txtbox p:nth-child(1) {
+	font-size: 20px;
+	font-weight: 300;
+	margin: 40px 0 20px;
+	padding-left: 10%;
+}
+#price .container .monthly .txtbox p:nth-child(3) {
+	font-size: 16px;
+	margin-top: 10px;
+	font-weight: 300;
+	padding-left: 10%;
+}
+#price .container .monthly h3{
+    font-size: 40px;font-weight: 900;
+    padding-left: 10%;
+}
+#price .container .monthly .service{
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+#price .container .monthly .service p{
+    font-size: 18px;line-height: 40px;
+    font-weight: 300;
+}
+#price .container .monthly .service p span{
+    width: 20px;height: 40px;display: block;float: left;
+    margin-right: 10px;
+    background: url(/img//rental_landing/tick.png) no-repeat center;
+    background-size: contain;
+    
+}
+#price .container .monthly .rent-price-btn{
+    width:80%;height: 60px; margin: 0 auto;
+    line-height: 60px;text-align: center;
+    background: #9967ba;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: block;
+    padding: 0;
+}
+
+#price .container .month-1{
+    height: 555px;
+    margin-bottom: 40px;
+}
+#price .container .month-6{
+    height: 612px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+#price .container .month-6 img{
+    position: absolute;top: 0;left: 0;
+    width:100%;height: 200px;
+}
+#price .container .month-1 .txtbox{
+	margin-bottom: 30px;
+}
+#price .container .month-1 .btn{
+    margin-bottom: 50px;
+}
+#price .container .month-6 .txtbox{
+    background: #683f7a;
+    position: relative;
+    z-index: 10;
+}
+#price .container .month-6 .txtbox p{
+	color: white;
+}
+#price .container .month-6 .txtbox h3{
+	color: white;
+}
+#price .container .month-6 path{
+	fill: #683f7a;
+}
+#price .container .month-6 .txtbox h3 span{
+    font-size: 24px;font-weight: 400;
+    margin-right: 10px
+}
+#price .container .month-6>p:last-child{
+    font-size: 16px;font-weight: 300;
+    margin: 10px 10% 40px;
+    text-align: right;
+    
+}
+#price .container .rent-price-notice{
+    width: 80%;margin: 40px auto;
+    text-align: left;
+}
+#price .container .rent-price-notice li{
+    line-height: 20px;
+    font-size: 13px;font-weight:100;
+    color: #fff;word-break: keep-all
+}
+#price .container .rent-price-notice li a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*RECOMMAND*/
+#recommand .fullbox .txtbox{
+    position: relative;
+    width:100%;height:420px;float: left;
+    background: url(/img//rental_landing/recommend0001.jpg) no-repeat center;
+    background-size: cover;
+}
+#recommand .fullbox .txtbox h2{
+    position: absolute;right: 8%;bottom: 230px;
+    width:auto;line-height:30px;font-weight: 700;
+    font-size:20px;text-align: right;
+    background: rgba(255, 255, 255,.8);
+    padding: 10px 20px
+}
+#recommand .fullbox .txtbox .rent-recommand-btn{
+    position: absolute;right: 8%;bottom: 150px;
+    width:220px;text-align: center;
+    font-size: 14px;height: 50px; line-height: 50px;
+    background: #111;color: #fff;
+    font-weight: 200;cursor: pointer;
+    padding: 0;
+}
+#recommand .fullbox .recomm-list{
+    width:100%;height: 210px;float: left;
+    background: url(/img//rental_landing/recommend0010.jpg) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#recommand .recomm-list .hoverbox{
+    position: relative;
+    width: 100%;height: 100%;float: left;
+    background: rgba(17, 17, 17, 0.5);
+}
+#recommand .recomm-list .hoverbox h3{
+    position: absolute;left: 30px;bottom:20px;
+    font-size: 16px;color: #fff;
+    font-weight: 300;
+}
+#recommand .recomm-list .ellipsis{
+    width:calc(100% - 50px);height:20px;
+    padding-right:50px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*recomm-list background img*/
+#recommand .fullbox .recomm-list:nth-child(3){
+    background: url(/img//rental_landing/recommend0003.jpg) no-repeat center;
+    background-size: cover;
+}
+#recommand .fullbox .recomm-list:nth-child(4){
+    background: url(/img//rental_landing/recommend0015.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+#recommand .fullbox .recomm-list:nth-child(5){
+    background: url(/img//rental_landing/recommend0004.jpg) no-repeat 0 20%;
+    background-size: cover;
+}
+#recommand .fullbox .recomm-list:nth-child(6){
+    background: url(/img//rental_landing/recommend0002.jpg) no-repeat center;
+    background-size: cover;
+}
+#recommand .fullbox .recomm-list:nth-child(7){
+    background: url(/img//rental_landing/recommend0009.jpg) 100% 0;
+    background-size: cover;
+}
+
+
+
+
+
+/*min width576*/
+@media all and (min-width:576px){
+	#rental_top_banner .container p {
+		width: 350px;
+		word-break: keep-all
+	}
+    .rental-land .container{
+        max-width: 540px;float: none;
+        margin: 0 auto;
+    }
+    
+    .vr-rent .video-wrap{width:100%; height: 400px;}
+    .vr-together .video-wrap{
+        width:540px; height:348px;
+    }
+    
+    .vr-exhibit .imgbox{width:500px; height: 400px;}
+    
+    
+    
+}
+
+/*min width 768*/
+@media all and (min-width:768px){
+    
+    .tablet{display: block}
+    .rental-land .container{max-width: 720px;}
+    
+    header{height: 60px;}
+    header h1{line-height: 60px;}
+
+    #rental_top_banner{
+    	height: 100vh;
+    }
+    .rent-banner-txt {
+		top: 350px;
+		left: 8.6%;
+	}
+	
+	.rent-banner-txt p {
+		width: 560px;
+		line-height: 72px;
+		font-size: 48px;
+	}
+	
+	.rent-banner-txt .show-every-btn {
+		line-height: 60px;
+		transition: all 0.3s ease 0s;
+	}
+	
+	.rent-banner-txt .show-every-btn:hover {
+		background: #9b3de4;
+		color: #fff;
+	}
+    #rental_top_banner .container p{
+        top: 230px;left:8.6%;
+        width:600px;line-height: 72px;
+        font-size: 48px;
+    }
+    #rental_top_banner .container p br{display: none}
+    
+    .scroll-down {display:inline-block;}
+    
+    /*main contents*/
+    
+    .vr-rent .video-wrap{ height:450px;}
+    .vr-together .video-wrap{width:100%;height:450px;}
+    
+    
+    /*title banner control*/
+    .contents section .title-banner{
+        height:350px;
+        margin-bottom: 150px;
+    }
+
+    #high .title-banner{height: 470px;}
+
+    .contents .title-banner h2{
+        font-size: 85px;
+        margin-top: 130px;
+    }
+    #high .title-banner h2{margin-top: 150px}
+    
+    /*SMART*/
+    #smart .container>p{
+        font-size: 52px;line-height: 72px;
+        margin-bottom: 130px;
+    }
+
+    #smart .smart-sub{margin-bottom: 150px;}
+    #smart .smart-sub:last-child{margin-bottom: 180px;}
+
+    #smart .smart-sub .smart-txt{
+        margin:0 auto;margin-top: 90px;
+        text-align: right;
+        padding-right: 8.6%;
+    }
+    #smart .vr-exhibit .smart-txt{
+        text-align: left;
+        padding-right: 0;
+        padding-left: 8.6%;
+    }
+
+    /*smart-sub h3 icon*/
+    .smart-sub .smart-txt>span{
+        width:75px ;height: 75px; float: right;
+        margin: 0;background-size: 50px 50px;
+    }
+    #smart .vr-exhibit .smart-txt>span,#smart .vr-exhibit .smart-txt a{float: left}
+    .vr-exhibit .smart-txt>span{background-size: 50px 50px;}
+    .vr-together .smart-txt>span{background-size: 50px 50px;}
+    .smart-sub .smart-txt h3{
+        width: 100%;float: right;
+        font-size: 40px;
+        margin: 60px 0 50px;
+    }
+    .smart-sub .smart-txt p{
+        width: 100%;float: right;
+        font-size: 24px;line-height: 32px;
+    }
+    .smart-sub .smart-txt a{
+        float: right;
+        font-size: 20px; margin-top:45px;
+        transition: all 0.3s ease 0s;
+    }
+    .smart-sub .smart-txt a:hover{
+        color:#9b3de4;
+    }
+    /*smart-sub contents*/
+    /*vr-rent vr-together*/
+    
+    
+    /*vr-exhibit*/
+    .vr-exhibit .imgbox{
+        width:600px;height: 450px;
+        margin-top: 150px;
+        background-size: 172px 80px
+    }
+    #smart .vr-exhibit .smart-txt a {
+    	margin-bottom: 150px;
+	}
+	
+    /*HIGH PERFORMANCE*/
+    #high .container>p:nth-child(1){
+        font-size:42px;line-height: 60px;
+    }
+
+    #high .container>p:nth-child(2){
+        font-size: 20px;line-height: 28px;
+        width:480px;margin: 60px auto 90px;
+    }
+
+    #high .perform-icon{
+        width:650px;margin: 0 auto;
+    }
+    #high .perform-icon li{
+        width:45%;float: left;
+        margin-bottom: 60px;
+    }
+    #high .perform-icon li:last-child{
+        margin-bottom:180px
+    }
+    #high .perform-icon li:nth-child(odd){
+        margin-right: 10%;
+    }
+    .perform-icon li h3{font-size: 24px;}
+    .perform-icon li p{font-size: 16px;}
+    
+    /*ANYONE*/
+    #anyone .anyone-top .txtbox{padding: 180px 0 190px 8.6%;}
+    #anyone .anyone-top .txtbox p{
+        font-size: 32px;text-align:left;
+        margin: 0;
+    }
+    #anyone .anyone-top .txtbox p:nth-child(1){margin-bottom:70px}
+    #anyone .anyone-top .txtbox span{
+        display: block;
+        margin-bottom: 15px
+    }
+    #anyone .anyone-top .txtbox strong{
+        font-size: 42px;margin:0;
+        display: inline-block;
+    }
+    #anyone .anyone-top .txtbox span:last-child{
+        display: inline-block;
+        margin-bottom: 0
+    }
+
+    #anyone .anyone-btm{width:100%;float: left;}
+    #anyone .anyone-btm .txt-indi{
+        margin: 120px auto 90px;
+    }
+    .txt-indi li{
+        padding: 0 30px;font-size: 22px;
+    }
+    .txt-indi li:hover{
+        border:1px solid #9b3de4;
+        color: #9b3de4;
+    }
+    #anyone .anyone-btm .anyone-slider{margin-bottom:280px;}
+    
+    #anyone_slider .owl-item .imgbox{
+    	max-height: 450px;
+    }
+    #anyone_slider .owl-item .imgghost{
+    	padding-top: 60%;
+    }   
+    #anyone_slider .active.center{
+		transform: scale(1.2);
+	}
+	
+    
+    /*RELIABLE*/
+    #reliable .container .reliable-top{
+        padding-right: 8.6%;
+        text-align: right
+    }
+    .reliable-top p{font-size: 24px;}
+    .reliable-top p:nth-child(2){
+        font-size: 36px;font-weight: 500;
+        margin: 20px 0 30px;
+    }
+    .reliable-top p:nth-child(3){
+        font-size: 48px;font-weight: 500;
+    }
+    .reliable-top p:nth-child(3) strong{font-size: 60px;}
+
+    #reliable .container .reliable-mdl{
+        text-align: right;
+        margin: 90px 0 60px;
+    }
+    .reliable-mdl .imgbox{
+        width:560px;height: 530px;margin: 0;
+        margin-left: 8.6%;
+        margin-bottom: 10px;
+    }
+    .reliable-mdl p{
+        font-size: 28px;line-height: 40px;
+        font-weight: 400; padding-right: 8.6%;
+    }
+    .reliable-mdl p span{font-size: 20px;font-weight: 300;}
+
+    #reliable .container .reliable-btm{
+        width:100%;float: left;
+        text-align: right;
+        padding-right: 8.6%;
+        margin-bottom: 180px;
+    }
+    .reliable-btm>b{
+        width: 100%; float:right;
+        font-size: 24px;line-height: 48px;
+        
+    }
+    .reliable-btm p{
+        width: 570px;float: right;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .reliable-btm p:nth-child(2){
+        float: right;
+        font-size: 14px;margin-bottom: 30px;
+    }
+    .reliable-btm p b{
+        float: left;
+        text-align: left;
+        margin-right: 20px;
+    }
+    
+    /*EASY*/
+    #easy .container>p:nth-child(1){
+        font-size: 24px;font-weight: 400;
+    }
+    #easy .container>p:nth-child(2){
+        font-size: 48px;line-height: 60px;
+        font-weight: 700;
+        margin: 30px 0 120px;
+    }
+    #easy .container .step{
+        width:350px;
+        margin-bottom: 130px;
+    }
+
+    #easy .step .step-txt{
+        width: 200px;float:right;
+    }
+
+    #easy .container>p:nth-child(4){
+        font-size: 26px;
+        line-height: 36px;
+    }
+    #easy .container>p:nth-child(4) br{display: none}
+
+    #easy .container .rent-easy-btn{
+        cursor: pointer;
+        font-size: 20px;font-weight: 200;
+        line-height: 58px;
+        width:280px;height:60px;
+        margin: 50px auto 180px;
+        transition: background 0.3s ease 0s;
+    }
+    #easy .container .rent-easy-btn:hover{
+        background: #fff;
+        color:#50125a;
+        font-weight: 400;
+    }
+    
+    
+    /*SHARE*/
+    #share{height: 910px;}
+    #share_invert{height: 910px;}
+    
+    
+    /*PRICE*/
+    #price:before{height: 20%;}
+    
+    #price .price-title span{
+        margin: 0;margin-top:120px;
+        
+        margin-left: 2.5%;
+        width:50px;height: 50px;
+    }
+    #price .price-title h2{
+        font-size:90px;margin: 20px 0;
+        
+        margin-left: 2.5%;
+        text-align:left;
+    }
+    #price .price-title p{
+        font-size: 30px;text-align:left;
+        margin-bottom: 80px;
+        
+        margin-left: 2.5%;
+    }
+    #price .container .monthly{
+        width:45%;margin: 0;float: left;
+    }
+    
+    #price .container .monthly .txtbox{
+        width: 100%;float: left;
+    }
+    #price .container .monthly-1 .txtbox{
+        margin-bottom:40px;
+    }
+    #price .container .monthly .txtbox p{
+        font-size: 24px;
+        margin: 40px 0 20px;
+    }
+    #price .container .monthly h3{
+        font-size: 60px;font-weight: 900;
+        padding-left: 10%;
+    }
+    #price .container .monthly .service{
+        margin-left: 10%;
+        margin-bottom: 40px;
+    }
+    #price .container .monthly .rent-price-btn{transition: all 0.3s ease 0s;}
+    #price .container .monthly .rent-price-btn:hover{background: #111;}
+    
+    #price .container .month-1{
+        height:auto;
+        margin: 0 5% 0 2.5%;
+    }
+    #price .container .month-6{
+        height: auto;
+    }
+    #price .container .month-1 .rent-price-btn{
+        margin-bottom: 60px;
+    }
+    #price .container .month-6 .txtbox h3 span{
+        font-size: 24px;font-weight: 400;
+        margin-right: 10px
+    }
+    #price .container .month-6>p:last-child{
+        font-size: 16px;font-weight: 300;
+        margin: 10px 10% 45px;
+    }
+    #price .container .rent-price-notice{
+        width:100%;margin:0;float: left;
+        margin-bottom: 50px;
+        margin-left: 2.5%;
+    }
+    #price .container .month-6 img{
+        height: 230px;
+    }
+    
+    /*RECOMMAND*/
+    #recommand .fullbox .txtbox{height:640px;}
+    #recommand .fullbox .txtbox h2{
+        right: 5.2%;bottom: 234px;
+        width:auto;line-height: 42px;
+        font-size: 48px;
+        padding: 15px 20px
+    }
+    #recommand .fullbox .txtbox p{
+        position: absolute;right: 5.2%;bottom: 160px;
+        width:auto;line-height: 24px;
+        font-size:20px;word-break: keep-all;
+        text-align: right;background: rgba(255, 255, 255,.8);
+        padding: 15px 20px;
+        font-weight:300;
+    }
+    #recommand .fullbox .txtbox .rent-recommand-btn{
+        right: 5.2%;bottom: 50px;
+        transition: all 0.3s ease 0s;
+    }
+    #recommand .fullbox .txtbox .btn:hover{background: #50125a}
+    
+    #recommand .fullbox .recomm-list{height: 320px;}
+
+    #recommand .recomm-list .hoverbox{
+        position: relative;
+        width: 100%;height: 100%;float: left;
+        background: rgba(17, 17, 17, 0.5);
+        transition: all 0.5s ease 0s;
+        opacity: 0;
+    }
+    #recommand .recomm-list .hoverbox:hover{opacity: 1}
+    #recommand .recomm-list .hoverbox  h3{
+        bottom:30px;
+        font-size: 18px;line-height: 24px;
+    }
+    #recommand .recomm-list .ellipsis{
+        height: 25px;
+    }
+}
+
+/*min-width 992*/
+@media all and (min-width:992px){
+    
+    .rental-land .container{max-width: 960px;}
+    
+    #rental_top_banner .container p{left:4.2%;}
+    
+    /*main contents*/
+    /*title banner control*/
+    .contents .title-banner h2{
+        font-size: 110px;
+        margin-top: 120px;
+    }
+    #high .title-banner h2{margin-top: 120px}
+    
+    /*SMART*/
+    #smart .container>p{
+        font-size: 60px;line-height: 90px;
+    }
+    #smart .smart-sub{margin-bottom: 130px;height:600px;}
+
+    #smart .smart-sub .smart-txt{
+        margin:0;margin-top: 100px;
+        text-align: right;
+        padding-right:2%;
+        width: 50%; float: right;
+    }
+    #smart .vr-exhibit .smart-txt{
+    	margin-top: 130px;
+        text-align: left;
+        padding-right: 0;
+        padding-left: 2%;
+        float: left;
+    }
+    #smart .vr-exhibit .smart-txt a{
+    	margin-bottom: 130px;
+    }
+
+    /*smart-sub contents*/
+    /*vr-rent*/
+    .vr-rent{position: relative;}
+    .vr-rent .video-wrap{
+        position: absolute;right: 50%;
+        width:50vw; height:550px;
+        float: none;
+    }
+    .vr-together{position: relative}
+    .vr-together .video-wrap{
+    	position: absolute;right: 55%;
+        width:45%; height:550px;
+        float: none;
+    }
+    .vr-rent .video-wrap .videobox, .vr-together .video-wrap .videobox{
+        width:100%;height: auto;
+    }
+    /*vr-exhibit*/
+    .vr-exhibit .imgbox{
+        float: right;margin:0 2.5%;
+        width:45%;height: 610px;
+        background-size: 120px 60px;
+    }
+    
+    /*HIGH PERFORMANCE*/
+    #high .container>p:nth-child(1){font-size:48px;}
+
+    #high .container>p:nth-child(2){
+        width:auto;margin: 50px auto 90px;
+    }
+
+    #high .perform-icon{
+        width:750px;margin: 0 auto;
+    }
+    #high .perform-icon li{
+        width:45%;float: left;
+        margin-bottom: 60px;
+    }
+    #high .perform-icon li:nth-child(odd){
+        margin-right: 10%;
+    }
+    
+    /*ANYONE*/
+    #anyone .fullbox .anyone-top .txtbox{padding: 180px 0 190px 8.6%;}
+
+    #anyone .anyone-btm .txt-indi{
+        margin: 140px auto 90px;
+    }
+    
+    
+    
+    /*RELIABLE*/
+    #reliable .container .reliable-top{padding-right: 2%;}
+    .reliable-top p:nth-child(2){
+        width:auto;display: inline-block;
+        font-size: 36px;font-weight: 500;
+        margin: 0;margin-top: 50px; margin-right: 10px;
+    }
+    .reliable-top p:nth-child(3){display: inline-block}
+
+    #reliable .container .reliable-mdl{
+        text-align: right;
+        margin: 0;margin-top: 160px;
+    }
+    .reliable-mdl .imgbox{
+        width:45%;height: 415px;margin: 0;float: left;
+        margin-left: 2%;
+    }
+    .reliable-mdl p{
+        width:auto;float: right;
+        padding-right: 2%;
+        margin-top: 80px;
+    }
+    #reliable .container .reliable-btm{
+        padding-right: 2%;
+        margin-top: -30px;
+    }
+    
+    /*EASY*/
+  
+    #easy .container>p:nth-child(2) br{display: none}
+    #easy .container .step{
+        width:100%;
+        margin-bottom: 120px;
+    }
+
+    #easy .step .step-num{
+        width:860px;float: none;
+        margin-right: 0;margin: 0 auto;
+    }
+    .step-num .numbering{
+        width:110px;height:110px;
+        line-height: 108px;
+        font-size: 28px;
+    }
+    .step-num .numbering:nth-child(1){margin-top:0px}
+    .step-num .numbering:last-child{margin-bottom:0px}
+    .step-num .border-box{
+        width:140px;height:55px;
+        float: left;
+        border-bottom: 1px solid #fff;
+    }
+    .step-num .border-box span{
+        display: none;
+    }
+    #easy .step .step-txt{
+        width: 100%;float:left;
+        margin-top: 50px;
+    }
+
+    .step-txt .txtbox{
+        width:200px; float: left;
+        text-align:center;
+        margin-bottom:0;
+    }
+    .step-txt .txtbox:last-child{margin-bottom: 0}
+    .step-txt .txt-01{margin:0 55px 0 0px}
+    .step-txt .txt-03{margin:0 55px 0 50px}
+    
+    .step-txt .txtbox h3{margin-bottom: 20px;}
+    
+    
+    /*SHARE*/
+    #share{height: 100vh;}
+    #share_invert{height: 100vh;}
+    
+    
+    /*PRICE*/
+    #price:before{height: 20%;}
+    
+    #price .price-title p{ margin-bottom: 90px;}
+    #price .container .price-panel{
+        width: auto;float: right;
+        margin-right: 2%;
+    }
+    #price .container .monthly{width:330px;}
+    
+    #price .container .month-1{
+        margin: 0;margin-right: 40px;
+    }
+    
+    #price .container .rent-price-notice{margin-left: 2%;float:left;}
+    #price .container .rent-price-notice li{
+        font-size: 16px;line-height: 24px;
+    }
+    
+    /*RECOMMAND*/
+    #recommand .fullbox .txtbox{width:50%;}
+    #recommand .fullbox .txtbox h2{
+        bottom: 258px;width:390px;line-height: 60px;
+    }
+    #recommand .fullbox .txtbox p{width:265px;}
+    
+    
+    #recommand .fullbox .recomm-list{height: 320px;}
+    #recommand .fullbox .small-box{width: 25%;}
+    #recommand .fullbox .large-box{width: 50%;}
+    
+}
+
+/*min-width 1200*/
+@media all and (min-width:1200px){
+    .pc{display: block}
+    .rental-land .container{max-width: 1200px;}   
+    
+    #rental_top_banner {margin-top:60px;}
+    .rent-banner-txt {
+		left: 60px;
+	}
+	
+	.rent-banner-btn {
+		width: 240px;
+		font-size: 20px;
+		float: left;
+		margin-left: 30px;
+		line-height: 60px;
+		color: #fff;
+		font-weight: 500;
+		opacity: .6;
+		transition: all 0.3s ease 0s;
+	}
+	
+	.rent-banner-btn span {
+		width: 40px;
+		height: 60px;
+		display: block;
+		float: left;
+		background: url(/img/rental_landing/playW.png) no-repeat center;
+		margin-right: 15px;
+	}
+	
+	.rent-banner-btn:hover {
+		opacity: 1
+	}
+    
+    
+    /*main contents*/
+    /*title banner control*/
+    .contents section .title-banner{height: 450px;}
+    .contents .title-banner h2{
+        font-size: 140px;
+        margin-top: 160px;
+    }
+    
+    #high .title-banner{height:  550px;}
+    #high .title-banner h2{margin-top: 150px}
+    
+    /*SMART*/
+    #smart .smart-sub .smart-txt{
+        padding-right:5%;
+        width: 45%;
+    }
+    #smart .vr-exhibit .smart-txt{padding-left: 5%;}
+
+    /*smart-sub contents*/
+    /*vr-rent*/
+    
+    .vr-rent .video-wrap .videobox, .vr-together .video-wrap .videobox{
+        width:100%;height: auto;
+    }
+   	.vr-rent .video-wrap{
+        right: 45%;width:55vw; 
+    }
+	.vr-together .video-wrap{
+        right: 50%; width:45%;
+    }
+    
+    /*vr-exhibit*/
+    .vr-exhibit .imgbox{
+        width:40%;margin:0 5%;
+    }
+
+    
+    
+    /*HIGH PERFORMANCE*/
+    #high .container>p:nth-child(2){margin-bottom: 130px}
+    
+    #high .perform-icon{width:1100px}
+    #high .perform-icon li:nth-child(odd){
+        margin-right: 50px;
+    }
+    #high .perform-icon li{
+        width: 330px;margin-right: 50px
+    }
+    #high .perform-icon li:nth-child(3),#high .perform-icon li:nth-child(6){margin-right: 0;}
+    
+    
+    /*ANYONE*/
+    #anyone .fullbox .anyone-top{
+        height: 670px;
+    }
+    #anyone .fullbox .anyone-top .txtbox{
+        width:50%;float: left;
+        padding:0;
+        padding-top: 140px;padding-left: 60px;
+    }
+    
+    #anyone .anyone-top .txtbox span{margin-bottom: 15px}
+    #anyone .anyone-top .txtbox strong{
+        margin:15px 0;
+        display:block;
+    }
+    #anyone .anyone-top .imgbox{
+        width:50%;height: 100%; float: right;
+        background: url(/img//rental_landing/anyone_mockup.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    #anyone .anyone-btm .txt-indi{margin: 140px auto 100px;}
+    
+    
+    
+    /*RELIABLE*/
+    #reliable .container .reliable-top{padding-right: 60px;}
+
+    #reliable .container .reliable-mdl{margin-top: 130px;}
+    .reliable-mdl .imgbox{
+        width:590px;height: 560px;
+        margin-left: 60px;
+    }
+    .reliable-mdl p{
+        padding-right: 60px;
+        margin-top: 45px;
+    }
+    #reliable .container .reliable-btm{
+        width: 570px;float: right;
+        padding-right: 0;
+        margin-right: 60px;
+        margin-top: -210px;
+        margin-bottom: 215px
+    }
+    
+    /*EASY*/
+    #easy .step .step-num{width:960px;}
+    .step-num .numbering{
+        width:120px;height:120px;
+        line-height: 118px;
+    }
+    .step-num .border-box{
+        width:160px;height:60px;
+        float: left;
+        border-bottom: 1px solid #fff;
+    }
+
+    .step-txt .txt-01,.step-txt .txt-03{margin:0 80px 0 80px}
+    
+    .step-txt .txtbox h3{margin-bottom: 20px;}
+    
+    
+    /*SHARE*/
+        
+    
+    /*PRICE*/
+    #price:before{height: 15%;}
+    #price .container {margin-bottom: 30px;}
+    #price .container .price-title{
+        width:410px;margin-left: 60px;
+    }
+    #price .price-title h2{font-size: 74px;}
+    
+    #price .price-title p{
+        font-size: 20px;margin-bottom: 210px;
+    }
+    #price .container .price-panel{margin-top: 130px;}
+    #price .container .monthly{width:310px;}
+    
+    #price .container .rent-price-notice{
+        width:410px;
+        margin-left: 60px;
+    }
+    
+    /*RECOMMAND*/
+    
+    
+}
+
+/*min-width 1201*/
+@media all and (min-width:1201px){
+	#rental_top_banner{margin-top: 60px;}
+}
+
+/*min-width 1500*/
+@media all and (min-width:1500px){
+    /*SMART*/
+    #smart .smart-sub .smart-txt{padding-right:0;}
+    #smart .vr-exhibit{height:810px;}
+    #smart .vr-exhibit .smart-txt{padding-left:0;margin-top: 230px;}
+    
+
+    /*smart-sub contents*/
+    /*vr-rent*/
+    .vr-together .video-wrap{width:50%;margin:0;}
+    
+    /*vr-exhibit*/
+    .vr-exhibit .imgbox{
+        width:50%;margin:0;
+        height:550px;
+        margin-top:130px;
+    }
+
+    /*vr-together*/
+    .vr-together .imgbox{
+        width:50%; margin:0;
+        padding: 0
+    }
+    
+    
+    /*ANYONE*/
+    #anyone .fullbox .anyone-top .txtbox{
+        padding-top: 170px;padding-left:5%;
+    }
+    
+    #anyone .anyone-top .txtbox strong{
+        margin:15px 0;margin-right: 10px;
+        display:inline-block;
+    }
+    
+    /*RELIABLE*/
+    #reliable .container .reliable-top{padding-right:0px;}
+
+    .reliable-mdl .imgbox{margin-left: 0px;}
+    .reliable-mdl p{padding-right:0px;}
+    #reliable .container .reliable-btm{ margin-right: 0px;}
+    
+
+    
+    /*PRICE*/
+    #price .container .price-title{margin-left: 0px;}
+    #price .container .price-panel{margin-top: 130px;}
+    #price .container .monthly{width:330px;}
+    
+    #price .container .rent-price-notice{margin-left: 0px;}
+    
+    /*RECOMMAND*/
+    #recommand .fullbox .txtbox h2{
+        bottom: 234px;width:auto;
+    }
+    #recommand .fullbox .txtbox p{width:auto;}
+}
+
+/*min-width 1921*/
+@media all and (min-width:1921px){
+    #smart .title-banner .shutter{display: none;}
+    #anyone .fullbox .anyone-top .txtbox{
+        padding-top: 170px;padding-left:10%;
+    }
+    
+    #recommand .fullbox .txtbox{height:1000px}
+    #recommand .fullbox .txtbox h2{
+        bottom:auto;top: 400px;
+    }
+    #recommand .fullbox .txtbox p{
+        bottom:auto;top:510px;
+    }
+    
+    #recommand .fullbox .recomm-list{height: 320px;}
+    
+    #recommand .fullbox .recomm-list{height: 500px;}
+}
+
+
+
+.rental-land-ani {
+	opacity: 0;
+}
+
+/* Safari 10.1+ background-attachment:fixed 안되므로 Safari예외처리*/
+@media not all and (min-resolution:.001dpcm) { @media {
+	.title-banner{
+	    background-attachment: scroll !important;
+	}
+	
+	#share {
+		background-attachment: scroll;
+	}
+    #share_invert { 
+        display: none;
+    }
+}}
+
+/* IE Only */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	 .title-banner h2{opacity:1 !important;}
+	 .title-banner{
+	    background-attachment: scroll !important;
+	}
+	#share {
+		background-attachment: scroll;
+	}
+    #share_invert { 
+        display: none;
+    }
+}
+
+/* 대관 그룹리스트 */
+.group-list-layer {position:fixed;top:0;left:0;width:100%;height:100%;z-index:10000;overflow:hidden;}
+.dim_tp-imgpick{width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,1);}
+.contaier_group-list_rental{position: relative; width: 100%; height: 100%; overflow-y:auto; overflow-x: hidden;}
+.contaier_group-list_rental .gnbbar_group-list_rental{width: calc(100% - 20px); height: 72px; background-color: #000; box-shadow: 0 1px 5px rgba(0,0,0,0.1); position: fixed; top:0; z-index:10;}
+.gnbbar_group-list_rental .group-list_rental-title{height: 100%;}
+.gnbbar_group-list_rental .group-list_rental-title h2{position: relative; left: 165px;  top: 50%; transform: translateY(-58%); font-weight: 500; font-size: 23px; color: #6f43d6; letter-spacing: -0.3px;}
+.gnbbar_group-list_rental .group-list_rental-title h2:before{content: ''; width: 50px; height: 32px; background: url(/img/rental/rental-group-logo_v.png) ;display: inline-block; margin-right: 16px; position: relative; top: 4px;}    
+.gnbbar_group-list_rental .btn-cancel_tp-vr{position: absolute; right: 30px; top: 17px; background: url(/img/account/btn-popup-quit-w.svg) no-repeat center/16px 16px;opacity: .8; cursor: pointer; overflow: hidden; display: inline-block; font-size: 0; width: 40px; height: 36px; border: .5px solid #696969; border-radius: 3px; background-color: #000; transition: background-color 0.3s ease; }
+.gnbbar_group-list_rental .btn-cancel_tp-vr:hover{background: url(/img/account/btn-profile-quit.svg) no-repeat center; background-color: #fff; opacity: 1; }
+.main-warp-group-list_rental{max-width: 81%; margin: 0 auto; margin-top: 72px;}
+.group-list-cnt-wrapper{color:#fff;text-align:right;margin-top:30px;margin-right: 10px;}
+.group-list-cnt-wrapper img {margin-bottom: 2px;}
+.group-list-cnt-wrapper div {display: inline-block; margin-left:20px;}
+.group-list-cnt-wrapper .group-list-cnt {color:#6f43d6;font-weight:bold;margin-left:5px;}
+
+.list-titlemm_group-list_rental>h3{color: #fff; font-size: 46px; letter-spacing: -1.8px; font-weight: 500; margin-top: 30px; margin-bottom: 20px; display:inline-block; word-break:keep-all;}    
+.list-titlemm_group-list_rental>p{max-width: 40%; color: #ccc; font-size: 18px;  line-height: 1.6; padding-left: 0.4em;}
+
+.list-wrap_group-list_rental{margin-top: 10px;}
+
+.select_group-list_rental{position: relative;display: inline-block;cursor: pointer;overflow: hidden;width: calc(33.33% - 20px);margin:10px 10px 30px 10px;box-shadow: 2px 2px 5px rgba(0,0,0,0.5);transition: transform 0.1s ease;}
+.select_group-list_rental.private-rental {cursor: not-allowed;}
+
+.select_group-list_rental:before{content: '';position: absolute;top: 0;left: 0;display: block;width: 100%;height: 100%;z-index: 1;transition: border 0.08s ease;}
+
+
+.imgbox_group-list_rental{
+	position: relative; 
+	width: 100%;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imgbox_group-list_rental .imgbox-lock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(/img/rental_landing/icon-rental-private.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+}
+.imgbox_group-list_rental .imgbox-blank {
+	width: 100%;
+	padding-top: 60%;
+}
+
+.select_group-list_rental .detail-text{position: absolute;top:100%;transform:translate(0, -60px);height: 100%;width: 100%;left: 0px;transition: all 0.5s ease;background: rgba(0,0,0,0.5);}
+
+.select_group-list_rental .detail-text h4{color: #fff;font-size: 1.375rem;height: 60px;line-height: 60px;text-shadow: 1px 1px 3px #000;padding:0 35px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition: all 0.5s ease;}
+
+.select_group-list_rental .detail-text p{width: 100%;white-space: pre-line;text-overflow: ellipsis;overflow: hidden;color: #fff;word-break: keep-all;display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;line-height: 1;font-size: 18px;padding:0 36px;margin-top:15px;font-weight: 300;position: relative;}
+
+
+.select_group-list_rental:hover:before{border: 8px solid #6f43d6; }
+.select_group-list_rental:active { transform: translate3d(0.8px,0.8px,0); box-shadow: 2px 2px 5px rgba(0,0,0,0.3);}
+
+.select_group-list_rental:hover .imgbox-lock {background-image: url(/img/rental_landing/icon-rental-private-over.png);}
+.select_group-list_rental:hover .detail-text {transform:translate(0, -100%);}
+
+.select_group-list_rental:hover .detail-text h4{
+	color: #cc6af1;
+	margin-top: 30px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+	height: auto;
+    white-space: initial;
+    line-height: 30px;
+    word-break: break-word;
+    white-space: normal;
+    height: auto;
+}
+
+.imgbox_group-list_rental .rental-view-cnt {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 20px;
+    color: #fff;
+}
+    
+    
+@media (max-width:1680px){
+	.gnbbar_group-list_rental .group-list_rental-title h2 {left: 30px;}
+    .main-warp-group-list_rental{max-width: 90%;}
+}    
+@media (max-width:1440px){
+    .main-warp-group-list_rental{max-width: 72%;}
+    .list-titlemm_group-list_rental>h3{margin-top: 6%;}
+    .select_group-list_rental {width:calc(50% - 20px);}
+}       
+    
+@media (max-width:1280px){
+    .main-warp-group-list_rental{max-width: 78%;}
+    .list-wrap_group-list_rental{margin-top: 10px;}
+}
+@media (max-width:1200px){
+    .main-warp-group-list_rental{max-width: 83%;}
+}
+@media (max-width:1000px){
+    .main-warp-group-list_rental{max-width: 97%;}
+    .list-titlemm_group-list_rental{padding-left: 5%;}
+    .list-titlemm_group-list_rental>p{max-width: 70%;}
+}
+
+@media (max-width:800px){
+    .main-warp-group-list_rental{max-width: 62%;}
+    .list-titlemm_group-list_rental{padding-left: 10px;}
+    .list-titlemm_group-list_rental>h3{margin-top: 9%;}
+    .list-wrap_group-list_rental{margin-top: 10px;}
+    .list-titlemm_group-list_rental>p{max-width: 100%;}
+    .select_group-list_rental {width:calc(100% - 20px); margin:10px;}
+    .group-list-cnt-wrapper div {display: block;}
+    
+}
+@media (max-width:640px){
+    .main-warp-group-list_rental{max-width: 80%;}
+}
+
+@media (max-width:480px){
+    .main-warp-group-list_rental{max-width: 100%;}
+    .contaier_group-list_rental .gnbbar_group-list_rental {width: 100%;}
+    .gnbbar_group-list_rental .group-list_rental-title h2 {left:20px;}
+    .gnbbar_group-list_rental>.btn-cancel_tp-vr {right:20px;}
+    .list-wrap_group-list_rental{margin-top: 7%;}
+    .list-titlemm_group-list_rental{padding-left: 20px;}
+    .list-titlemm_group-list_rental>h3{margin-top: 20px; width: 95%; font-size:24px;}
+    .list-titlemm_group-list_rental>p{width: 90%;}
+    .select_group-list_rental .detail-text h4 {padding:0 20px;}
+    .select_group-list_rental:hover .detail-text h4 {height:30px;line-height:30px;margin-top:10px;}
+    .select_group-list_rental .detail-text p {font-size:16px;padding:0 20px;}
+    .imgbox_group-list_rental .imgbox-lock{width:50px; height:50px;}
+    
+}
+/* 대관 그룹리스트 end */

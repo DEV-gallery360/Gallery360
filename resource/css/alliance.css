@@ -1,0 +1,63 @@
+
+.alliance{max-width:1920px;margin:60px auto 120px auto;min-width:320px;text-align:center;}
+.alliance_wrap{max-width:1180px;margin:0 auto;text-align:left;position:relative;}
+.alliance_wrap h3{font-size:24px;font-weight:500;}
+.alliance_wrap p{position:absolute;right:0;font-size:14px;color:#a4a4a4;margin-top:-18px;font-weight:300;}
+.top_info ul{width:100%;clear:both;border-top:2px solid #000;padding-top:24px;padding-bottom:25px;margin-top:18px;}
+.top_info ul li{font-size:14px;line-height:28px;padding-left:39px;position:relative;}
+.top_info ul li:after{content:"";width:17px;height:17px;background:url(/img/alliance/icon-alert.svg) no-repeat left center;background-size:100% auto;position:absolute;left:12px;top:7px;}
+/*** table ***/
+.alliance_content table{width:100%;border-top:2px solid #000;border-bottom:2px solid #000;font-size:16px;text-align:left;table-layout:fixed;}
+.alliance_content th,.alliance_content td{height:59px;border-bottom:1px solid #d5d5d5;}
+.alliance_content th{width:208px;padding-left:29px;font-weight:500;vertical-align:top;padding-top:16px;}
+.alliance_content th span{font-weight:500;position:relative;}
+.alliance_content td{padding-top:10px;padding-bottom:10px;padding-right:20px;}
+.alliance_content td .txt{max-width:315px;background:#fcfcfc;}
+.alliance_content td .selectbox{max-width:315px;}
+.alliance_content td .btn_ghost{border-radius:3px;height:32px;font-size:14px;font-weight:300;line-height:32px;margin-bottom:0;padding-top:0;padding-bottom:0;}
+.alliance_content td .btn_file{width:76px;}
+.alliance_content td .btn_delete{width:60px;position:absolute;bottom:0;left:457px;}
+.alliance_content .t_file span{font-size:14px;line-height:28px;color:#4a4a4a;margin-left:62px;}
+.alliance_content .t_file .file_list{position:relative;height:166px;}
+.alliance_content .t_file ul{width:441px;height:100%;margin-top:8px;border:1px solid #e2e2e2;padding:16px 26px;overflow-y:auto;}
+.alliance_content .t_file li{width:100%;}
+.alliance_content .t_file li .custom-control{width:100%;margin-bottom:3px;margin-top:0;}
+.alliance_content .t_file li:last-child .custom-control{margin-bottom:0;}
+.alliance_content .t_file .explain{width:100%;height:auto;border:none;padding:0;}
+.alliance_content .t_file .explain li{padding-left:21px;position:relative;}
+.alliance_content .t_file .explain li:after{content:"";width:4px;height:4px;border-radius:4px;background:#5e5e5e;position:absolute;left:11px;top:50%;transform:translateY(-50%);}
+.alliance_content .t_file .explain li, .alliance_content td p {font-size:12px !important;line-height:20px;color:#a4a4a4 !important;font-weight:400;}
+.alliance_content .txt.textarea{width:100%;max-width:100%;height:358px;font-size:16px;color:#000;padding:10px 10px;line-height:20px;font-weight:300;}
+
+@media (max-width:1200px){
+	.alliance_wrap{padding:0 20px;}
+	.alliance_wrap p{right:20px;}
+}
+@media (max-width:800px){
+	/*** table ***/
+	.alliance_content th, .alliance_content td{display: block !important;width:100%;height:auto;min-height:auto;float:left;position:relative;}
+	.alliance_content th{border:none;text-align:left;padding-left:0px;padding-top:11px;}
+	.alliance_content td{padding-right:0;}
+	.alliance_content td .txt,.alliance_content td .selectbox{max-width:100%;}
+	.alliance_content td .btn_ghost{position:absolute;right:0;}
+	.alliance_content td .btn_delete{left:auto;margin-bottom:-45px;}
+	.alliance_content .t_file span{margin-left:0;}
+	.alliance_content .t_file ul{width:100%;}
+	.alliance_content .t_file .explain{width:calc(100% - 60px);}
+}
+@media (max-width:480px){
+	.alliance{margin:42px auto 40px auto;}
+	.alliance_wrap{padding:0 10px;}
+	.alliance_wrap h3{font-size:13px;font-weight:500;}
+	.alliance_wrap p{font-size:12px;right:10px;position:relative;margin-top:0;right:auto;margin-top:4px;}
+	.top_info ul{margin-top:10px;}
+	.top_info ul li{font-size:12px;line-height:20px;padding-right:10px;margin-bottom:10px;}
+	.top_info ul li:last-child{margin-bottom:0;}
+	.top_info ul li:after{top:2px;}
+	.alliance_content table{font-size:12px;}
+	.alliance_content td .btn_file{width:65px;margin-top:-31px;}
+	.alliance_content .t_file ul{padding:12px;}
+	.alliance_content td .btn_ghost{font-size:13px;}
+	.alliance_content .t_file li .custom-control label{font-size:12px;}
+	.alliance_content .txt.textarea{font-size:12px;height:225px !important;padding:6px;}
+}

@@ -1,0 +1,57 @@
+.privacy{margin:30px auto 40px auto;min-width:320px;text-align:left;}
+.layer_wrap .privacy{padding: 0 20px;}
+.privacy_wrap{max-width:1180px;margin:0 auto;text-align:left;position:relative;}
+.privacy h2{border-top:2px solid #000;border-bottom:2px solid #000;font-size:24px;font-weight:700;padding:20px 0;text-align:center;}
+.privacy h3{font-size:18px;margin:39px 0 18px 24px;font-weight:500;}
+.privacy_info{background:#f9f9f9;border-bottom:1px solid #a4a4a4;padding:5px 24px 5px 24px;font-size:15px;line-height:1.6;letter-spacing:-0.5px;margin-bottom:10px;text-align:left;}
+.layer_wrap .privacy_info{padding:65px 24px;}
+.privacy_info.center{text-align:center;}
+.privacy_content dl{margin-top:34px;margin-left:24px;margin-right:24px;font-size:15px;line-height:1.6;}
+.privacy_content dt{font-weight:700;}
+.privacy_content dd *{font-weight:300;letter-spacing:-1px;}
+.privacy_content li span{color:#ef2857;font-weight:400;}
+.privacy_content .disc_list{padding-left:20px;}
+.privacy_content .disc_list li{list-style:disc;list-style-position:outside;}
+.privacy_content ol,.privacy_content ol ol ol{padding-left:12px;}
+.privacy_content ol li{list-style:decimal;list-style-position:outside;text-align;justify;}
+.privacy_content ol ol{padding-left:0;}
+.privacy_content ol li li{list-style:none;}
+.privacy_content .list_bracket_num{padding-left:0;}
+.privacy_content .list_bracket_num li{list-style:none;}
+.privacy_content .circle_list{padding-left:20px;}
+.privacy_content .circle_list li{list-style:circle;list-style-position:outside;}
+.list_contents{padding-left:24px;padding-bottom:40px;border-bottom:1px solid #a4a4a4;}
+.list_contents li{font-size:18px;line-height:1.67;}
+.list_contents .privacy_date{font-size:15px;color:#a4a4a4;}
+
+/** 약관 **/
+.archivex .layer_content {
+	overflow-y:auto;
+	width:100%;
+	height:calc(100% - 56px);
+	transform:unset;
+}
+
+@media (max-width:1200px){
+	.privacy{padding-left:20px;padding-right:20px;}
+}
+@media (max-width:640px){
+	.privacy h2{font-size:18px;}
+	.privacy_info{font-size:14px;padding:80px 20px 30px 20px;}
+	.layer_wrap .privacy_info{padding:30px 20px;}
+	.privacy_content dl{font-size:14px;}
+}
+@media (max-width:480px){
+	.archivex .layer_content {
+		height:calc(100% - 50px);
+	}
+	.privacy{margin:83px auto 40px auto;padding-left:10px;padding-right:10px;}
+	.privacy h2{font-size:16px;}
+	.privacy h3{margin-left:10px;margin-top:20px;font-size:14px;}
+	.list_contents{padding-left:10px;padding-bottom:20px;}
+	.list_contents li{font-size:13px;}
+	.list_contents .privacy_date{font-size:12px;}
+	.privacy_info{font-size:12px;padding:70px 10px 20px 10px;}
+	.layer_wrap .privacy_info{padding:20px 10px;}
+	.privacy_content dl{font-size:12px;margin-top:20px;margin-left:10px;margin-right:10px;}
+}

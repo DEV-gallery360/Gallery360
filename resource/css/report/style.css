@@ -1,0 +1,131 @@
+
+/* ----------------------------------------------------------------
+	Buttons
+-----------------------------------------------------------------*/
+
+
+.button {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	white-space: nowrap;
+	margin: 5px;
+	padding: 8px 22px;
+	font-size: 0.875rem;
+	line-height: 24px;
+	background-color: #1ABC9C;
+	color: #FFF;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+body:not(.device-touch) .button {
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.button.button-dark {
+	background-color: #444;
+}
+
+.button.button-light {
+	background-color: #EEE;
+	color: #333;
+	text-shadow: none !important;
+}
+
+.button:hover {
+	background-color: #444;
+	color: #FFF;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.button.button-dark:hover { background-color: #1ABC9C; }
+
+.button.button-mini {
+	padding: 4px 14px;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.button.button-small {
+	padding: 7px 17px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.button.button-large {
+	padding: 8px 26px;
+	font-size: 1rem;
+	line-height: 30px;
+}
+
+.button.button-xlarge {
+	padding: 9px 32px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	line-height: 34px;
+}
+
+.button.button-desc {
+	text-align: left;
+	padding: 24px 34px;
+	font-size: 1.25rem;
+	height: auto;
+	line-height: 1;
+	font-family: 'Poppins', sans-serif;
+}
+
+.button.button-desc span {
+	display: block;
+	margin-top: 10px;
+	font-size: 0.875rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'PT Serif', serif;
+	font-style: italic;
+	text-transform: none;
+}
+
+.button i {
+	position: relative;
+	margin-right: 5px;
+	width: 16px;
+	text-align: center;
+}
+
+.button.text-right i { margin: 0 0 0 5px; }
+
+.button-mini i { margin-right: 3px; }
+
+.button-mini.text-right i { margin: 0 0 0 3px; }
+
+.button-small i { margin-right: 4px; }
+
+.button-small.text-right i { margin: 0 0 0 4px; }
+
+.button-xlarge i {
+	margin-right: 8px;
+}
+
+.button-xlarge.text-right i { margin: 0 0 0 8px; }
+
+.button.button-desc i {
+	font-size: 48px;
+	width: 48px;
+	text-align: center;
+	margin-right: 12px;
+}
+
+.button.button-desc.text-right i { margin: 0 0 0 12px; }
+
+.button.button-desc div { display: inline-block; }
+
+.button.button-rounded { border-radius: 3px; }
+
+

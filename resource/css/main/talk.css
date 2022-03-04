@@ -1,0 +1,285 @@
+/*@import '/resource/css/base.css';*/
+.talk{max-width:370px;min-width:370px;position:absolute;right:0;top:60px;/*bottom:0;*/min-height:calc(100% - 60px);background:#f9f9f9;border-left:3px solid #263238;text-align:left;}
+.talk:before{content:"";width:12px;height:12px;background:#263238;position:absolute;margin-top:-6px;right:118px;transform:rotate(-45deg);}
+.talk_header{min-height:103px;background:#263238;padding:13px 10px 0 7px;position:relative;}
+.btn_talk_close{display:none;width:20px;height:20px;background:url(/img/talk/btn-360-talk-close.svg) no-repeat center center;background-size:100% auto;text-indent:-5000px;overflow:hidden;border-radius:0;position:absolute;right:13px;top:8px;}
+.talk h1{margin-left:9px;margin-top:0px;}
+.talk h1 img{width:85px;height:28px;}
+.talk h2{display:none;}
+.talk_search{position:absolute;top:16px;right:10px;}
+.txt_talk_search{width:150px;height:24px;background:rgba(255,255,255,0.2);border:0;border-radius:12px;padding-left:10px;font-size:12px;color:#fff;}
+.txt_talk_search::placeholder{color:rgba(255,255,255,.5);font-weight:300;}
+.btn_talk_search{width:24px;height:24px;position:absolute;right:0;top:0;background:url(/img/talk/btn-360-talk-search.svg) no-repeat center center;overflow:hidden;text-indent:-5000px;}
+.btn_talk_alarm{width:24px;height:24px;background:url(/img/talk/btn-360-talk-alert-normal.svg) no-repeat;position:absolute;right:166px;top:15px;overflow:hidden;text-indent:-5000px;border-radius:0;}
+.btn_talk_alarm.on{background:url(/img/talk/btn-360-talk-alert-focus.svg) no-repeat;}
+.btn_talk_alarm.new:after{content:"";width:4px;height:4px;background:#ff4169;border-radius:100%;position:absolute;top:2px;right:2px;}
+.talk_comment{margin-top:9px;width:100%;position:relative;}
+.talk_comment .txt_comment{width:100%;height:40px;border:0;border-radius:3px;background:rgba(255,255,255,0.2);padding-left:13px;padding-right:100px;font-size:14px;color:#fff;}
+.talk_comment .txt_comment::placeholder{color:rgba(255,255,255,.3);font-weight:300;}
+.talk_comment .btn{position:absolute;top:9px;overflow:hidden;text-indent:-5000px;width:24px;height:24px;}
+.talk_comment .btn2{top:9px;overflow:hidden;text-indent:-5000px;width:24px;height:24px;}
+.btn_chatbot{background:url(/img/talk/oval-copy-25@2x.png) no-repeat center center;background-size:21px auto;right:43px;}
+.btn_chatbot.on{background:url(/img/talk/btn-360-chatbot-focus@2x.png) no-repeat center center;background-size:21px auto;}
+.btn_attach{background:url(/img/talk/btn-360-talk-attached-file-normal.svg) no-repeat center center;right:45px;}
+.btn_attach.on{background:url(/img/talk/btn-360-talk-attached-file-focus.svg) no-repeat center center;}
+.btn_send{background:url(/img/talk/btn-360-talk-send-normal.svg) no-repeat center center;right:13px;}
+.btn_send.on{background:url(/img/talk/btn-360-talk-send-focus.svg) no-repeat center center;}
+.talk_content{width:100%;padding:14px 10px 10px 7px;overflow-y:auto;/*max-height:calc(100% - 103px);*/}
+.talk_date{width:100%;position:relative;text-align:center;font-size:12px;color:#acacac;}
+.talk_date:before{content:"";width:100%;height:1px;background:#e6e6e6;position:absolute;left:0;top:50%;}
+.talk_date span{position:relative;padding:0 10px;background:#f9f9f9;}
+.talk_section li{width:100%;background:#fcfcfc;border:1px solid #e6e6e6;border-radius:3px;box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.05);/*padding:10px 10px 0 10px;*/margin-top:10px;}
+.talk_section dl{font-size:12px;margin-bottom:10px;overflow:hidden;padding:10px 10px 0 10px;}
+.talk_section dt,.mention dt,.file_info .file_title dt{float:left;display:inline;margin-right:10px;}
+.talk_section dt .icon,.talk_thm{width:40px;height:40px;overflow:hidden;border-radius:100%;position:relative;}
+.talk_section dt .icon img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+.talk_section dd{margin-top:3px;}
+.talk_section dd span,.mention dd span{display:block;color:#c5c5c5;margin-top:2px;}
+.talk_section p{font-size:14px;clear:left;color:#4a4a4a;word-break:break-all;padding:0 10px 10px 10px;}
+.talk_section p strong{font-weight:400;color:#007bff;}
+.icon_green{background:#17c671;}
+.icon_blue{background:#007bff;}
+.icon_violet{background:#674eec;}
+.icon_orange{background:#ee4035;}
+.talk_section dt .talk_thm img{width:100%;}
+.talk_art,.talk_movie{padding:0 10px;}
+.talk_art span,.talk_movie span{font-size:12px;color:#4a4a4a;display:inline-block;margin-right:10px;}
+.talk_art_thm,.talk_movie_content{width:100%;overflow:hidden;margin-top:5px;margin-bottom:10px;}
+/*.talk_art_thm img{width:calc(50% - 1px);float:left;display:inline;margin-right:2px;}*/
+.talk_art_thm img{width:70%;float:left;display:inline;margin-right:2px;}
+.talk_art_thm img:nth-child(even){margin-right:0;}
+.talk_count{background:#fff;border-top:1px solid #e6e6e6;padding:5px 10px;font-size:12px;color:#674eec;}
+.talk_count .btn{width:20px;height:20px;border-radius:0;overflow:hidden;text-indent:-5000px;margin-right:2px;border-radius:0;vertical-align:middle;margin-top:-3px;}
+.talk_count .btn_talk_reply{background:url(/img/talk/icon-360-talk-comment.svg) no-repeat left center; background-size:20px 20px;}
+.talk_count .btn_talk_like{background:url(/img/talk/icon-360-talk-like.svg) no-repeat left center; background-size:20px 20px;}
+.talk_count span{display:inline-block;margin-right:7px;}
+.talk_attach{padding:0 10px;position:relative;width:100%;}
+.talk_attach a,.talk_attach a:hover{color:#4a4a4a;}
+.talk_attach a:hover{text-decoration:none;}
+.talk_attach dl{background:#f2f2f2;padding:7px;border-radius:3px;}
+.talk_attach dt .icon{border-radius:3px;}
+.talk_attach dd span{color:#4a4a4a;}
+.talk_attach .btn-group{width:16px;height:16px;cursor:pointer;position:absolute;right:13px;bottom:11px;}
+.talk .dropdown-menu{right:0 !important;float:none;}
+.talk .dropdown-menu a{font-size:14px;max-height:33px;overflow:hidden;}
+.talk .dropdown-menu a img{margin-top:-3px;}
+.talk .dropdown-toggle::after{display:none;}
+.talk_movie_content{position:relative;padding-top:56.25%; /* 16:9 Aspect Ratio */}
+.talk_movie .ratio{position:absolute;top:0;left:0;bottom:0;right:0;text-align:center;font-size:20px;color:white;}
+.talk_movie .ratio img{width:100%;}
+.mention{background:#fff;border-radius:3px;box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.3);position:absolute;left:7px;right:10px;z-index:99;overflow:hidden;}
+.mention dl{width:100%;padding:9px 20px;overflow:hidden;font-size:14px;color:#4a4a4a;cursor:pointer;height:54px;border-bottom:1px solid #dfdfdf;}
+.mention dl:last-child{border-bottom:none;}
+.mention dl:hover{background:#ededed;}
+.mention .talk_thm{width:34px;height:34px;}
+.mention img{width:100%;}
+.mention dd{color:#000;}
+.mention dd span{font-size:12px;}
+.mention_list{padding-bottom:6px;}
+.mention_list li{display:inline-block;font-size:12px;border-radius:2px;background:rgba(255,255,255,0.15);padding:0 0 0 5px;margin-right:2px;color:rgba(255,255,255,0.4);height:18px;font-weight:300;}
+/*.mention_list li span:before{content:" / ";}*/
+.mention_list li button{width:16px;height:16px;background:url(/img/talk/icon-m-delete.svg) no-repeat center center;background-size:8px 8px;text-indent:-5000px;overflow:hidden;vertical-align:middle;border-radius:0;margin-top:-3px;}
+.talk_chat{padding:4px 10px 10px 10px;border-top:1px solid #dfdfdf;background:#fff;}
+.talk_chat li{border:0;box-shadow:none;background:transparent;margin-top:6px;}
+.talk_chat .talk_thm{width:34px;height:34px;float:left;display:inline;margin-right:5px;}
+.talk_chat .talk_thm img{width:100%;}
+.talk_chat .balloon{overflow:hidden;}
+.talk_chat p{clear:none;background:#ececec;padding:9px 8px;border-radius:17px;font-size:12px;display:inline-block;letter-spacing:-0.5px;}
+.talk_chat p span{color:#674eec;display:inline-block;margin-right:7px;}
+.talk_chat .btn_talk_reply,.talk_chat .reply_date{font-size:12px;}
+.talk_chat .btn_talk_reply{padding:0;background:none;margin-left:11px;margin-right:11px;color:#674eec;}
+.talk_chat .reply_date{color:#4a4a4a;}
+.talk_chat li ul{margin-left:55px;}
+.talk_chat li li .talk_thm{width:24px;height:24px;margin-top:5px;}
+.talk_chat .talk_comment{clear:left;overflow:hidden;}
+.talk_chat .talk_comment input{overflow:hidden;width:calc(100% - 39px);border:1px solid #dfdfdf;background:#ececec;border-radius:17px;height:34px;padding-left:10px;font-size:12px;}
+.talk_chat .talk_comment input::placeholder{color:#a4a4a4;}
+
+/*** file_info ***/
+.file_info .talk_header{width:370px;height:59px;min-height:auto !important;overflow:hidden;padding-top:0;}
+.file_info .talk_header h3{width:100%;padding:0 16px 0 54px;font-size:18px;color:#fff;line-height:59px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:300;}
+.file_info .talk_header .btn_back{position:absolute;left:20px;top:50%;transform:translateY(-50%);width:24px;height:24px;border-radius:0;text-indent:-5000px;overflow:hidden;background:url(/img/talk/btn-ma-back.svg) no-repeat left center;background-size:100% auto;}
+.file_info_content{width:100%;position:relative;text-align:center;padding-top:37px;}
+.file_info .btn_fullscreen{position:absolute;top:10px;right:44px;width:18px;height:18px;background:url(/img/talk/btn-fullscreen-normal.svg) no-repeat left center;background-size:100% auto;border-radius:0;text-indent:-5000px;overflow:hidden;padding:0;}
+.file_info .btn_file_more{position:absolute;right:6px;top:10px;}
+.btn_file_more .dropdown-menu{transform:translate3d(0px, 18px, 0px) !important;left:auto !important;right:0;}
+.file_thm{width:240px;height:135px;margin:0 auto 27px auto;overflow:hidden;}
+.file_thm img{width:100%;}
+.file_info .file_title,.file_info_list{font-size:14px;color:#4a4a4a;padding:0 23px;}
+.file_info .file_title dt{margin-top:3px;margin-right:7px;width:34px;height:34px;overflow:hidden;border-radius:100%;position:relative;}
+.file_info .file_title dt .icon{width:100%;height:100%;}
+.file_info .file_title dt img{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.file_info .file_title dd{text-align:left;letter-spacing:-0.5px;overflow:hidden;}
+.file_info .file_title dd span{display:block;}
+.file_info_list{text-align:left;clear:both;margin-top:20px;overflow:hidden;}
+.file_info_list dl{width:100%;overflow:hidden;font-size:13px;line-height:1.69;color:#4a4a4a;}
+.file_info_list dt{float:left;display:inline;width:126px;font-weight:500;}
+.file_info_list dd{overflow:hidden;}
+
+/*** mypage ***/
+.talk.mypage{left:50%;top:200px;margin-left:590px;border-left:0;z-index:99;}
+.talk.mypage:before{display:none;}
+.talk.mypage .talk_header{background:#f9f9f9;padding-top:0;padding-left:10px;min-height:auto;}
+.talk.mypage h1{display:none;}
+.talk.mypage h2{display:block;font-size:14px;color:#9b9b9b;padding-top:4px;padding-bottom:1px;}
+.talk.mypage .talk_search{top:0;}
+.talk.mypage .btn_talk_alarm{top:1px;}
+.talk.mypage .talk_comment{margin-top:13px;}
+.talk.mypage .talk_content{padding:14px 10px 0 10px;max-height:none;}
+.talk.mypage .txt_talk_search{background:#f2f2f2;border:1px solid #e9e9e9;color:#4a4a4a;}
+.talk.mypage .txt_talk_search::placeholder{color:#c9c9c9;}
+.talk.mypage .btn_talk_alarm{background:url(/img/talk/btn-360-talk-alert-mp-normal.svg) no-repeat;}
+.talk.mypage .btn_talk_alarm.on{background:url(/img/talk/btn-360-talk-alert-mp-focus.svg) no-repeat;}
+.talk.mypage .btn_chatbot{background:url(/img/talk/btn-360-chatbot-normal@2x.png) no-repeat center center;background-size:21px auto;}
+.talk.mypage .btn_chatbot.on{background:url(/img/talk/btn-360-chatbot-focus@2x.png) no-repeat center center;background-size:21px auto;}
+.talk.mypage .btn_attach{background:url(/img/talk/btn-360-talk-attached-file-mp-normal.svg) no-repeat center center;}
+.talk.mypage .btn_attach.on{background:url(/img/talk/btn-360-talk-attached-file-mp-focus.svg) no-repeat center center;}
+.talk.mypage .btn_send{background:url(/img/talk/btn-360-talk-mp-send-normal.svg) no-repeat center center;}
+.talk.mypage .btn_send.on{background:url(/img/talk/btn-360-talk-mp-send-focus.svg) no-repeat center center;}
+.talk.mypage .talk_comment .txt_comment{background:#fff;border:1px solid #e6e6e6;color:#4a4a4a;}
+.talk.mypage .talk_comment .txt_comment::placeholder{color:#d3d3d3;}
+.talk.mypage .mention{left:10px;}
+.talk.mypage .mention_list{border-bottom:1px solid #e6e6e6;}
+.talk.mypage .mention_list li,.layer_wrap .mention_list li{background:rgba(103, 78, 236, 0.2);color:#674eec;}
+.talk.mypage .talk_chat{background:#f9f9f9;}
+.talk.mypage.file_info .talk_header{}
+.talk.mypage .talk_header h3{color:#4a4a4a;border-bottom:1px solid #e6e6e6;line-height:55px;}
+.talk.mypage.file_info .talk_header .btn_back{background:url(/img/talk/btn-ma-back_b.svg) no-repeat;}
+.file_info .btn_fullscreen,.file_info .btn_file_more{top:9px;}
+
+
+/*** layer upload ***/
+.layer{z-index:1031;position:absolute;width:100%;height:100%;top:0;left:0;}
+.layer_wrap{width:1180px;background:#fff;border-radius:8px;overflow:hidden;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);box-shadow:0 7px 15px 0 rgba(155, 155, 155, 0.8), 0 3px 10px 0 rgba(0, 0, 0, 0.12);}
+.layer h2{height:56px;font-size:18px;font-weight:500;text-align:center;line-height:56px;overflow:hidden;border-bottom:1px solid #dfdfdf;color:#4a4a4a;}
+.layer .btn_layer_close{width:20px;height:20px;background:url(/img/request/btn-popup-quit.svg) no-repeat 0 0;position:absolute;border-radius:0;right:18px;top:18px;text-indent:-5000px;overflow:hidden;}
+.layer_upload_content{text-align:center;background:#fafafa;}
+.layer .btn_layer_cancel{background:#f9f9f9;border:1px solid rgba(164,164,164,.3);color:#4a4a4a;margin-left:0;}
+.layer .upload .bottom_area{border-top:1px solid #dfdfdf;display: -webkit-flex; display: -ms-flexbox; display: flex;margin:0;padding-right:0;}
+.layer .wrap_col{position:relative;min-height:56px;flex:none;}
+.layer .wrap_col:first-child{border-right:1px solid #dfdfdf;width:calc(100% - 209px);padding:19px 0 18px 20px;text-align:left;}
+.layer .wrap_col:last-child{text-align:center;width:209px;}
+/*** upload ***/
+.layer_wrap.upload{width:698px;}
+.layer_wrap.upload .layer_upload_content{padding:115px 0;}
+.upload_file p{font-size:20px;color:#4a4a4a;}
+.upload_file p span{font-size:16px;display:block;margin-top:10px;margin-bottom:20px;}
+.upload_file .btn_file,.layer_list_content .btn_file_add{background:#fff;border:1px solid #e0e0e0;color:#4a4a4a;font-size:14px;line-height:30px;padding:0;height:32px;}
+.upload_file .btn_file{width:160px;}
+.layer_wrap.upload .bottom_area .btn_layer_cancel,.layer_wrap.upload .bottom_area .btn_layer_upload{width:80px;height:32px;font-size:14px;line-height:28px !important;font-weight:400;padding:0;position:absolute;top:50%;transform:translateY(-50%);}
+.layer_wrap.upload .bottom_area .btn_layer_upload{margin-right:10px;left:20px;}
+.layer_wrap.upload .bottom_area .btn_layer_cancel{right:20px;}
+.txt_upload_mention{border:0;font-size:14px;display:inline-block;height:18px;text-align:left;width:178px;}
+.txt_upload_mention::placeholder{color:#a4a4a4;}
+.layer .mention_list li:last-child{background:none;padding-left:0;}
+.layer .mention_list li button{margin:0 0 0 0;}
+.layer_wrap .share{height:45px;border-top:1px solid #dfdfdf;padding:12px 20px 0 20px;}
+.layer_wrap .share dt,.layer_wrap .share dd{float:left;display:inline;font-size:14px;color:#4a4a4a;line-height:1.7;}
+.layer_wrap .share dd .custom-control{display:inline-block;margin-left:20px;}
+
+/*** flie_list ***/
+.layer_list_content{min-height:346px;background:#fafafa;}
+.layer_list_content .btn_file_add{margin-left:20px;margin-top:16px;width:77px;}
+.layer_list_content li{width:100%;position:relative;border-bottom:1px solid #dfdfdf;padding:14px 41px 14px 41px;font-size:14px;color:#4a4a4a;word-break:break-all;}
+.layer_list_content li:before{content:"";width:11px;height:14px;background:url(/img/talk/icon-360-talk-file.svg) no-repeat;position:absolute;left:20px;top:17px;}
+.layer_list_content li .btn_list_delete{position:absolute;right:20px;top:50%;transform:translateY(-50%);width:16px;height:16px;text-indent:-5000px;border-radius:0;padding:0;background:url(/img/request/btn-popup-quit.svg) no-repeat;background-size:100% auto;}
+.layer_list_content li span{color:#a4a4a4;margin-left:20px;display:inline-block;vertical-align:middle;}
+.layer_list_content .progress{width:100px;height:14px;border-radius:0;position:absolute;right:20px;top:50%;transform:translateY(-50%);border:1px solid #a4a4a4;background:transparent;padding:1px;}
+.layer_list_content .progress_bar{display:block;background:url(/img/talk/progress.png) repeat-x;margin-left:0;}
+.layer_list_content.uploading li{padding-right:140px;}
+
+/*** chatbot ***/
+.talk_chatbot{padding-bottom:10px;}
+.talk_chatbot dl{margin-bottom:0;padding-left:0;padding-right:0;padding-top:6px;}
+.talk_chatbot dt{margin-right:0;}
+.talk_chatbot .talk_thm{width:36px;height:36px;margin-top:8px;}
+.talk_chatbot dd{color:#9b9b9b;overflow:hidden;letter-spacing:-0.5px;padding-left:10px;}
+.talk_chatbot dd span{display:inline;margin-left:10px;color:#c8c7cc;}
+.talk_chatbot dd p{position:relative;clear:none;font-size:13px;color:#4a4a4a;background:#dcd7f6;border:1px solid #d1c9f5;border-radius:0 15px 15px 15px;padding:6px 8px;margin-top:3px;display:inline-block;}
+.talk_chatbot dd p:before{content:"";width:9px;height:9px;background:url(/img/talk/chatbot_tail.png) no-repeat;position:absolute;top:-1px;left:-8px;}
+.talk_chatbot dd p strong{background:#fff;border-radius:2px;border:1px solid #d0c9f5;color:#4a4a4a;}
+.talk_chatbot dd a,.talk_chatbot dd a:hover{color:#4a4a4a;text-decoration:none;margin-top:3px;margin-bottom:1px;display:inline-block;}
+.talk_chatbot .weblink{display:inline-block;width:36px;height:34px;background:#3fa9f5;border-radius:3px;text-align:center;padding-top:4px;margin:4px 2px;}
+.talk_chatbot .me dt{float:right;margin-right:0;}
+.talk_chatbot .me dd{text-align:right;padding-right:10px;padding-left:0;}
+.talk_chatbot .me dd p{background:#f9f4b6;border:1px solid #f8f3a6;border-radius:15px 0 15px 15px;}
+.talk_chatbot .me dd p:before{display:none;}
+.talk_chatbot .me dd p:after{content:"";width:9px;height:9px;background:url(/img/talk/me_tail.png) no-repeat;position:absolute;top:-1px;right:-8px;}
+
+@media (max-width:1830px){
+	.talk.mypage{left:auto;right:0;margin-left:0;} /* 음.. 아무리봐도 이상하다... */
+}
+
+/*
+@media (max-width:1024px){
+	.view_wrap{width:100% !important;text-align:center;}
+	.view_wrap .img_content img{width:100%;}
+}
+*/
+@media (max-width:700px){
+	/*** layer upload ***/
+	.layer_wrap{left:20px;right:20px;width:auto !important;transform:translate(0,-50%);}
+	.layer_wrap.upload{width:100%;}
+}
+
+
+@media (max-width:480px){
+	.talk,.talk.mypage{max-width:100%;width:100%;min-width:320px;top:42px;border-left:0;min-height:calc(100% - 42px);z-index:1031;}
+	.talk:before{display:none;}
+	.talk_header,.talk.mypage .talk_header{padding-top:32px;padding-left:10px;min-height:123px;background:#263238;}
+	.talk h1,.talk.mypage h1{margin-left:0;display:block;}
+	.talk.mypage h2{display:none;}
+	.btn_talk_close{display:block;}
+	.talk_search,.talk.mypage .talk_search{top:36px;}
+	.btn_talk_alarm,.talk.mypage .btn_talk_alarm{top:35px;}
+	.talk.mypage .txt_talk_search{background:rgba(255,255,255,0.2);border:0;color:#fff;}
+	.talk.mypage .talk_comment{margin-top:9px;}
+	.talk.mypage .talk_comment .txt_comment{width:100%;height:40px;border:0;border-radius:3px;background:rgba(255,255,255,0.2);padding-left:13px;padding-right:100px;font-size:14px;color:#fff;}
+	.talk.mypage .btn_chatbot{background:url(/img/talk/oval-copy-25@2x.png) no-repeat center center;background-size:21px auto;right:79px;}
+	.talk.mypage .btn_attach{background:url(/img/talk/btn-360-talk-attached-file-normal.svg) no-repeat center center;right:45px;}
+	.talk.mypage .btn_attach.on{background:url(/img/talk/btn-360-talk-attached-file-focus.svg) no-repeat center center;}
+	.talk.mypage .btn_send{background:url(/img/talk/btn-360-talk-send-normal.svg) no-repeat center center;right:13px;}
+	.talk.mypage .btn_send.on{background:url(/img/talk/btn-360-talk-send-focus.svg) no-repeat center center;}
+	.talk.mypage .mention_list li{display:inline-block;font-size:12px;border-radius:2px;background:rgba(255,255,255,0.15);padding:0 0 0 5px;margin-right:2px;color:rgba(255,255,255,0.4);height:18px;font-weight:300;}
+	.talk_content{padding:14px 10px 0 10px;/*max-height:calc(100% - 145px);*/}
+	.talk_section p{font-size:13px;}
+	.talk.mypage .mention_list{border-bottom:none;}
+	.talk.file_info .talk_header{padding-top:0;}
+	.talk.file_info .talk_header h3{color:#fff;line-height:42px;border-bottom:0;}
+	.talk.mypage.file_info .talk_header .btn_back{position:absolute;left:20px;top:50%;transform:translateY(-50%);width:24px;height:24px;border-radius:0;text-indent:-5000px;overflow:hidden;background:url(/img/talk/btn-ma-back.svg) no-repeat left center;background-size:100% auto;}
+
+
+	/*** layer upload ***/
+	.layer_wrap{left:0;right:0;top:42px;transform:translate(0,0);border-radius:0;box-shadow:none;}
+	.layer h2{height:40px;font-size:14px;line-height:40px;}
+	.layer .btn_layer_close{width:16px;height:16px;background-size:100% auto;top:12px;right:14px;}
+	.layer_wrap .share{padding-left:10px;padding-right:10px;}
+	.layer_wrap .share dt,.layer_wrap .share dd label{font-size:12px;}
+	.layer_wrap .share dd{float:right;}
+	.layer .custom-radio .custom-control-label::after,.layer .custom-radio .custom-control-label::before{margin-top:-2px;}
+	.layer .bottom_area{display:block;}
+	.layer .bottom_area .wrap_col{width:100%;border-right:0;}
+	.layer .bottom_area .wrap_col:first-child{min-height:auto !important;padding-top:11px;padding-bottom:5px;border-bottom:1px solid #dfdfdf;padding-left:10px;padding-right:10px;}
+	.layer_wrap .share dd .custom-control{margin-left:10px;}
+	.layer_wrap.upload .bottom_area .btn_layer_cancel,.layer_wrap.upload .bottom_area .btn_layer_upload{top:auto;left:auto;right:auto;position:relative;transform:translateY(0);margin-top:18px;margin-bottom:18px;}
+	
+	/*** flie_list ***/
+	.layer_list_content li{font-size:13px;}
+	.layer_list_content li .btn_list_delete{right:14px;width:14px;height:14px;}
+	.layer_list_content .btn_file_add{margin-top:10px;}
+	.layer_list_content .progress{width:80px;right:14px;}
+	.layer_list_content.uploading li{padding-right:108px;}
+	.layer .mention_list li button{margin:-3px 0 0 0;}
+
+	/*** file_info ***/
+	.file_info .talk_header{width:100%;height:42px;}
+	.file_info .talk_header h3{line-height:42px;font-size:16px;}
+	.file_info .file_title, .file_info_list{padding:0 10px;max-width:320px;margin-left:auto;margin-right:auto;}
+}
+
+
+
+
+.talk_count .btn_talk_delete{background:url(/img/talk/icon-360-talk-delete.png) no-repeat left center; background-size:20px 20px;}
+.talk_chat .btn_reply_delete{width:16px;height:16px;text-indent:-5000px;background:url(/img/talk/icon-m-delete.svg) no-repeat center center;background-size:10px 10px;}
+.talk_chat p{max-width:calc(100% - 20px);}

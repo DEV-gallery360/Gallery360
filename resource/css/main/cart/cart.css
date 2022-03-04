@@ -1,0 +1,179 @@
+/*@import '/resource/css/base.css';*/
+.cart .btn_ghost,.buy .btn_ghost{border:1px solid #a4a4a4;border-radius:0;height:40px;font-size:14px;letter-spacing:-0.3px;padding-top:0;padding-bottom:0;padding-left:12px;padding-right:12px;line-height:40px;overflow:hidden;}
+.cart .btn_ghost:hover,.buy .btn_ghost:hover{background:#a4a4a4;}
+.cart.wrap_section,.buy.wrap_section{max-width:1180px;position:relative;}
+.cart ol,.buy ol{position:absolute;right:0;top:13px;}
+.cart ol li,.buy ol li{float:left;display:inline;color:#a4a4a4;font-size:20px;line-height:1.7;font-weight:300;letter-spacing:-0.5px;padding-left:30px;margin-left:15px;position:relative;}
+.cart ol li:before,.buy ol li:before{content:"";width:16px;height:16px;background:url(/img/cart/btn-right-arrow.svg) no-repeat center center; background-size:100% auto;position:absolute;left:0;top:50%;transform:translateY(-50%);}
+.cart ol li:first-child,.buy ol li:first-child{margin-left:0;padding-left:0;}
+.cart ol li:first-child:before,.buy ol li:first-child:before{display:none;}
+.cart ol li.on,.buy ol li.on{color:#000;font-weight:400;}
+
+/*** cart table ***/
+.cart table{width:100%;table-layout:fixed;color:#000;}
+.cart th{height:50px;/*background:#f9f9f9;font-size:16px;*/text-align:left;}
+.cart th,.cart td{border-bottom:1px solid #eee;}
+.cart td{padding-top:20px;padding-bottom:20px;}
+.t_check,.t_delete{text-align:center !important;}
+.t_check{width:100px;}
+.t_check .custom-control-label,.btn_area .custom-control-label{height:18px;}
+.t_price{width:250px;}
+td.t_price{font-size:14px;font-weight: 500;}
+.t_delivery_charge{width:84px;}
+.t_delete{width:112px;}
+.i_subject{font-size:14px;font-weight:500;text-align:left;}
+.i_name{font-size:14px;font-weight:300;text-align:left;}
+.i_size{font-size:14px;color:#a4a4a4;text-align:left;}
+.thm_cart{width:100px;margin-right:40px;}
+.thm_cart img{width:100%;}
+.thm_cart, .cart_info{display:inline-block;vertical-align:middle;}
+.t_art .cart_info{width:calc(100% - 150px);}
+.i_price{display:none;text-align:left;}
+.btn_cart_delete{width:32px;height:32px;background:url(/img/cart/btn-cart-delete.svg) no-repeat;background-size:100% auto;overflow:hidden;text-indent:-5000px;}
+.btn_area{margin-top:20px;}
+.btn_area .custom-control{display:inline-block;vertical-align:middle;margin-left:40px;margin-right:11px;}
+.btn_area button{margin-right:6px;}
+.t_account_info{border-bottom:2px solid #000;}
+.t_account_info dl{padding-left:20px;padding-right:20px;width:100%;overflow:hidden;font-size:16px;line-height:1.5;}
+.t_account_info dt{float:left;font-weight:500;}
+.t_account_info dd{float:right;}
+.total_price{font-size:20px;font-weight:500;line-height:1.2;}
+.cart .btn_buy{width:380px;height:60px;box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.2);}
+.cart .naver_pay{display:inline-block;width:380px;height:81px;vertical-align:middle;}
+.cart .naver_pay img{width:100%;}
+
+/*** buy ***/
+.buy_info{width:100%;overflow:hidden;}
+.buy_left{width:calc(100% - 400px);float:left;display:inline;margin-right:20px;}
+.buy_right{width:380px;float:left;display:inline;}
+.buy table{width:100%;table-layout:fixed;color:#000;}
+.buy th,.buy td,.buy_tab{border-bottom:1px solid #eee;height:50px;}
+.buy th{width:204px;padding-left:20px;font-size:16px;font-weight:500;}
+.buy td{padding-top:7px;padding-bottom:7px;position:relative;}
+.buy td .txt{height:36px;}
+.buy td .btn_ghost{border:1px solid #000;margin-left:10px;width:76px;height:36px;line-height:34px;padding:0;}
+.buy td .btn_ghost:hover{background:#000;}
+.buy td .btn_change{margin-left:83px;}
+.buy .t_tel .txt{width:calc((100% - 26px)/3);max-width:90px;}
+.buy .txt_address1{max-width:326px;vertical-align:middle;}
+.buy .txt_address2{max-width:412px;margin-top:10px;}
+.buy .txt_name{max-width:150px;}
+.buy .txt_message{margin-top:10px;}
+.buy .sel_message{width:100%;height:36px;}
+.buy .txt_point{width:calc(100% - 86px);max-width:150px;vertical-align:middle;}
+.buy .t_point span{margin-left:20px;font-size:14px;color:#a4a4a4;font-weight:300;}
+.buy .t_point em{font-weight:300;}
+.buy td .custom-control{float:left;display:inline;margin-right:40px;}
+.buy_tab li{float:left;display:inline;margin:0 20px;cursor:pointer;font-size:15px;}
+.buy_tab li a{line-height:49px;display:inline-block;color:#a4a4a4;}
+.buy_tab li a:hover{text-decoration:none;}
+.buy_tab li.on a{border-bottom:1px solid #000;color:#000;}
+.buy_right .cart{border:2px solid #000;padding:20px 20px 0 20px;margin-top:90px;}
+.buy_right h3{margin:0;border-width:1px;}
+.buy_right .thm_cart{margin-right:17px;}
+.buy_right .cart_info{width:calc(100% - 123px);}
+.buy_right .i_price{display:block;}
+.buy_right tr:last-child td{border-bottom:0;}
+.buy_right .t_account_info{border-bottom:0;border-top:1px solid #000;}
+.buy_right .t_account_info tr:nth-child(2) td{border-bottom:0;}
+.buy_right .t_account_info tr:last-child td{padding-top:20px;padding-bottom:20px;border-top:1px solid #000 !important;}
+.buy_right .t_account_info dl{padding-left:0;padding-right:0;line-height:1.88;}
+.buy_right .t_account_info dt{font-weight:300;}
+.buy_right .t_account_info dt strong{font-weight:500;}
+.buy_right .t_account_info dd{font-size:16ppx;font-weight:400;}
+.buy_right .btn_buy{width:100%;height:60px;box-shadow:0 5px 10px 0 rgba(0, 0, 0, 0.2);border-radius:0;margin-top:10px;font-size:20px;}
+.buy_right .agree{margin-top:24px;border:1px solid #e0e0e0;}
+.buy_right .agree .custom-control-label{line-height:1.7;}
+.buy_right .agree p{font-size:14px;line-height:1.57;font-weight:300;padding-left:0;padding-top:0}
+.buy_right .whole_agree p{margin-bottom:9px;}
+.buy_right .agree li{padding:14px 20px;border-top:1px solid #e0e0e0;width:100%;position:relative;}
+.buy_right .whole_agree{padding:14px 20px;background:#f9f9f9;}
+.buy_right .custom-control .btn_ghost{width:76px;height:32px;border-radius:3px;border:1px solid #000;line-height:30px;position:absolute;right:0px;top:50%;transform:translateY(-50%);}
+.buy_right .custom-control .btn_ghost:hover{background:#000;}
+.buy_right .agree li p{display:none;margin-top:3px;}
+.buy_right .agree li.on p{display:block;}
+.buy_right .agree li.on .btn_ghost{display:none;}
+.buy_right .custom-control{padding-left:0;}
+@media (max-width:1200px){
+	.cart,.buy{/*padding-left:20px;padding-right:20px;*/}
+	.cart ol,.buy ol{right:20px;}
+	.buy th{width:120px;}
+}
+@media (max-width:1000px){
+	.t_check{width:60px;}
+	.t_price{width:180px;}
+	.thm_cart{margin-right:20px;}
+	.thm_cart img{width:100%;}
+	.t_delete{width:70px;}
+	.btn_area .custom-control{margin-left:20px;}
+	.cart .naver_pay{display:block;width:100%;}
+	.cart .btn_buy{width:100%;margin-left:0;margin-top:40px;}
+	.buy .txt_address1{max-width:auto;width:calc(100% - 86px);}
+	.buy td .btn_change{position:absolute;right:0;top:50%;transform:translateY(-50%);}
+	.buy .txt_point{max-width:100%;}
+	.buy .t_point span{display:block;margin-left:0;}
+}
+@media (max-width:800px){
+	.t_price,.t_delivery_charge{display:none;}
+	.i_price{display:block;font-size:16px;font-weight:500;margin-top:5px;}
+	.buy_left,.buy_right{float:none;display:block;width:100%;}
+	.buy td .txt{max-width:100%;}
+	.buy .t_point span{margin-left:0;}
+	.buy .t_tel .txt{max-width:100%;}
+	.buy_right .cart{border:0;padding:0;margin-top:0;}
+	.buy_right h3{margin-top:55px;border-width:2px;}
+	.buy_right .t_account_info{border-width:2px;}
+	.buy_right .t_account_info tr:last-child td{border-bottom:2px solid #000;}
+	.buy_right .btn_buy{margin-top:20px;}
+}
+@media (max-width:640px){
+	.cart h3 .ico_btn,.buy h3 .ico_btn{display:block;position:absolute;right:0;bottom:7px;padding:0;width:20px;height:20px;}
+	.thm_cart{width:85px;}
+	.btn_cart_delete{width:26px;height:26px;}
+	.cart .t_delete{position:relative !important;top:auto !important;right:auto !important;}
+	
+}
+@media (max-width:480px){
+	.cart,.buy{padding-left:10px;padding-right:10px;}
+	.cart h2, .buy h2{font-size:16px;}
+	.cart ol,.buy ol{position:relative;right:auto;top:auto;margin-top:10px;}
+	.cart ol li,.buy ol li{font-size:13px;}
+	.cart ol li:not(first-child),.buy ol li:not(first-child){padding-left:13px;margin-left:5px;}
+	.cart ol li:before,.buy ol li:before{width:10px;height:10px;}
+	.wrap_section h3{margin-top:30px;font-size:13px;padding-bottom:10px;}
+	.cart h3 .ico_btn,.buy h3 .ico_btn{width:15px;height:14px;}
+	.cart th{height:40px;font-size:13px;}
+	.t_check{width:34px;}
+	.t_delete{width:26px;}
+	.thm_cart{width:72px;}
+	.i_subject{font-size:13px;}
+	.i_name,.i_size{font-size:12px;}
+	.i_price{font-size:14px;}
+	.btn_cart_delete{width:18px;height:18px;}
+	.cart .btn_ghost{font-size:13px;height:32px;line-height:32px;}
+	.btn_area .custom-control{margin-left:5px;}
+	.t_account_info dl{font-size:12px;padding-left:0;padding-right:0;}
+	.total_price{font-size:14px;}
+	.cart .btn_buy{font-size:16px;height:50px;margin-top:30px;/*padding-top:0;padding-bottom:0;*/}
+	.buy th,.buy td{font-size:12px;display: block !important;width:100%;height:auto;float:left;position:relative;}
+	.buy th{padding-left:0;border:none;text-align:left;padding-top:11px;}
+	.buy td{padding-bottom:14px;}
+	.buy .fl_left{border-bottom:1px solid #e0e0e0;}
+	.buy .fl_left th{width:102px !important;min-height:40px;}
+	.buy .fl_left td{width:calc(100% - 102px);min-height:40px;border-bottom:none;line-height:2.2;padding-bottom:7px;}
+	.buy_tab{height:39px;}
+	.buy_tab li{width:50%;margin:0;text-align:center;}
+	.buy_tab li a{font-size:13px;height:39px;line-height:37px;}
+	.buy .btn_ghost{font-size:13px;}
+	.buy td .btn_ghost{width:65px;height:32px;line-height:30px;margin-left:5px;}
+	.buy td .custom-control{float:none;display:block;}
+	.buy td .custom-control-label{font-size:12px;}
+	.buy .txt_address1,.buy .txt_point{width:calc(100% - 70px);}
+	.buy .txt_address2{margin-top:5px;}
+	.buy .t_point span{font-size:12px;}
+	.buy_right .btn_buy{font-size:16px;height:50px;}
+	.buy_right .agree p,.buy_right .agree .custom-control-label,.buy_right .custom-control .btn_ghost{font-size:13px;}
+	.buy_right .custom-control .btn_ghost{width:65px;height:32px;padding:0;}
+	.buy_right .whole_agree,.buy_right .agree li{padding:10px;}
+	.buy_right .agree .custom-control-label{line-height:1.9;}
+}

@@ -1,0 +1,54 @@
+.order_status{width:100%;overflow:hidden;}
+.order_status li{width:25%;float:left;display:inline;position:relative;height:120px;text-align:center;border-right:1px solid #e0e0e0;}
+.order_status li:last-child{border-right:0;}
+.order_status li strong{font-size:45px;color:#674eec;font-weight:400;padding-top:39px;display:inline-block;}
+.order_status li span{position:absolute;left:7px;top:7px;font-size:14px;font-weight:300;}
+.order_status li span img{margin-top:-4px;}
+
+.buy .t_buy{font-size:14px;}
+.buy .t_buy a{color:#000;}
+.buy .t_buy th,.buy .t_buy td{height:auto;min-height:auto;}
+.buy .t_buy th{padding:15px 0 15px 40px;vertical-align:middle;text-align:left;border-top:none;}
+.buy .t_buy td{padding:20px 0 20px 40px;}
+.buy .t_header{display:none;}
+.buy .t_cs{width:120px;}
+.buy .t_no{width:175px;}
+.buy .t_date,.buy .t_fin_date{width:123px;}
+.buy .t_status{width:95px;}
+.buy .t_title{width:auto;}
+
+
+@media (max-width:1200px){
+	.buy .t_buy th,.buy .t_buy td{padding-left:20px;}
+	.buy .t_cs{width:100px;}
+	.buy .t_no{width:155px;}
+	.buy .t_date,.buy .t_fin_date{width:103px;}
+	.buy .t_status{width:75px;}
+}
+@media (max-width:1000px){
+	.buy .t_buy th{display:none;}
+	.buy .t_buy tbody tr{width:100%;display:block;float:left;border-bottom:1px solid #e0e0e0;position:relative;}
+	.buy .t_buy td{background:#fdfdfd;display:block;float:left;border-top:none;}
+	.buy .t_date,.buy .t_fin_date,.t_no{display:none !important;}
+	.buy .t_header{width:100%;padding:15px 0 15px 20px !important;background:#fff !important;font-size:14px;}
+	.buy .t_header a{position:absolute;right:20px;top:50%;transform:translateY(-50%);}
+	.buy .t_header a:before{content:"주문번호";margin-right:5px;}
+	.buy .t_title{width:calc(100% - 100px);padding-right:78px !important;}
+	.buy td.t_status{width:48px !important;padding:2px 5px !important;text-align:center;border:none;display:inline-block;color:#fff;border-radius:3px;position:absolute;right:20px;top:50%;transform:translateY(-50%);}
+	.buy td.complete{background:#674eec;}
+	.buy td.preparing{background:#90a4ae;}
+}
+
+@media (max-width:480px){
+	.order_status li{width:50%;height:100px;}
+	.order_status li:nth-child(even){border-right:none;}
+	.order_status li:nth-child(1),.order_status li:nth-child(2){border-bottom:1px solid #e0e0e0;}
+	.order_status li strong{font-size:35px;padding-top:33px;}
+
+	.buy .t_header{font-size:13px;padding:7px 0 7px 10px !important;}
+	.buy .t_cs,.buy .t_title{font-size:13px;padding:10px 0 10px 10px !important;}
+	.buy .t_cs{width:66px;}
+	.buy .t_title{width:calc(100% - 66px);padding-right:65px !important;}
+	.buy td.t_status{font-size:11px;height:19px;width:41px;padding:0 !important;line-height:17px;right:10px;}
+	.buy .t_header a{right:10px;}
+}
