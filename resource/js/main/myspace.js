@@ -915,7 +915,7 @@ MySpace.prototype = {
 		var $figcap = $('<figcaption></figcaption>')
 					.append('<h2>' + data_info.art_title + '</h2>')
 					.append('<p>' + data_info.art_artist + '</p>')
-					.append('<p class="text-muted">' + data_info.art_height + ' x ' + data_info.art_width + 'cm ' + (data_info.art_hosu != null ? '(' + data_info.art_hosu + '호)' : "" ) + '</p>');
+					.append('<p class="text-muted">' + data_info.art_height + ' x ' + data_info.art_width + 'cm ' + (data_info.art_hosu != null && g360.g_lang.Lang =="ko" ? '(' + data_info.art_hosu + '호)' : "" ) + '</p>');
 		
 		$fig.append($img).append($figcap).appendTo($div);
 		
@@ -1341,6 +1341,7 @@ MySpace.prototype = {
 			}
 			
 		});
+
 		
 		/**
 		 * 공간 선택하기
@@ -1459,7 +1460,7 @@ MySpace.prototype = {
 			var el_myroom = $(this).closest('.myroom').get(0);
 			var _is_selected_delete = false;
 			
-			var _msg = '등록된 공간을 삭제할까요?';
+			var _msg = g360.g_lang.Delete_HangingArt;
 			
 			var del_key = $(this).closest('.space_tmpl').data('space-id');
 			
@@ -1478,7 +1479,7 @@ MySpace.prototype = {
 				escapeKey : false,
 				buttons : {		
 					confirm : {
-						text : "확인",
+						text : g360.g_lang.OK,
 						btnClass : "btn-default",
 						action : function(){
 							// DB에서 삭제처리
@@ -1500,7 +1501,7 @@ MySpace.prototype = {
 						}
 					},
 					moreButtons : {
-						text : "취소"
+						text : g360.g_lang.Cancel
 					}
 				}
 			});	
@@ -2010,7 +2011,13 @@ MySpace.prototype = {
 		function _makeHtml(ho, w, h) {
 			w = Math.round(w / 10);
 			h = Math.round(h / 10);
-			return '<a class="dropdown-item" href="#" data-ho="' + ho + '">' + ho + '호 (' + h + 'cm * ' + w + 'cm)</a>';
+			var html = ''; 
+			if(g360.g_lang.Lang == "ko"){
+				html = '<a class="dropdown-item" href="#" data-ho="' + ho + '">' + ho + '호 (' + h + 'cm * ' + w + 'cm)</a>';				
+			}else{
+				html = '<a class="dropdown-item" href="#" data-ho="' + ho + '" data-ho-en="'+ h +'cm * '+ w +'cm">' + h + 'cm * ' + w + 'cm</a>';
+			}
+			return html;
 		}
 		
 		$.each(FRAME_SIZE, function(_key, _val) {
@@ -2089,7 +2096,13 @@ MySpace.prototype = {
 			
 			_self._removePicture();			
 			_self._createFrame(_info);
-			$('#btn_deco_size').text(ho+'호');		
+			
+			if(g360.g_lang.Lang == "ko"){
+				$('#btn_deco_size').text(ho+'호');						
+			}else{
+				$('#btn_deco_size').text($(this).data('ho-en'));
+			}
+			//$('#btn_deco_size').text(ho+'호');		
 		});
 		
 		$menu.on('mouseover', 'a', function(){
@@ -2097,10 +2110,13 @@ MySpace.prototype = {
 			if (_self.picture.length) return;
 			
 			$menu.find('a').removeClass('active');
+			
 			$(this).addClass('active');
 			var ho = $(this).data('ho');
 			var _shape, _w, _h;
+			
 			_self.size_type = ho;
+			
 			if (_self.shape_type == 'square') {
 				_w = FRAME_SIZE[ho]['S'].w;
 				_h = FRAME_SIZE[ho]['S'].h;
@@ -2121,7 +2137,15 @@ MySpace.prototype = {
 			
 			_self._removePicture();
 			_self._createFrame(_info);
-			$('#btn_deco_size').text(ho+'호');		
+			
+			
+			// 호수 클릭
+			if(g360.g_lang.Lang == "ko"){
+				$('#btn_deco_size').text(ho+'호');						
+			}else{
+				$('#btn_deco_size').text($(this).data('ho-en'));
+			}
+			
 		});
 	},
 	_getPixelPerMm: function(){
