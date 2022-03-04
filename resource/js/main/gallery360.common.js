@@ -159,17 +159,23 @@ gallery360.prototype = {
 	},
 	
 	"init_text_load" : function(){
-//		var user_lang = g360.UserInfo.email + "_lang";
-//		var lang = localStorage.getItem(user_lang);
-		
 		// ko, us
-		var lang = 'us';
-		
+		var lang = 'ko';
+				
+		// 1. 사용자가 설정한 언어
+		var user_lang = localStorage.getItem('g360_lang');
+		if (user_lang) {
+			lang = user_lang == 'ko' ? 'ko' : 'us';
+		} else {
+			// 2. 브라우저 언어
+			var browser_lang = navigator.language;
+			if (browser_lang) {
+				browser_lang = navigator.language.toLowerCase().substring(0,2);
+				lang = browser_lang == 'ko' ? 'ko' : 'us';
+			}
+		}
+
 		var c_lang = lang + '.json';
-		
-//		if(lang!=null){
-//			c_lang = lang+".json";
-//		}
 
 		this.lang = lang;
 		

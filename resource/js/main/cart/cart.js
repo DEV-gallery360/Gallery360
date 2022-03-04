@@ -194,13 +194,22 @@ gMainCart.prototype = {
 					html += "			<li class='i_price'>"+g360.comma(g360.setWon(dx.price))+"</li>";
 					html += "		</ul>";
 					html += "	</td>";
-					html += "	<td class='t_price'>"+ g360.comma(g360.setWon(dx.price))+"</td>";
+					if(g360.g_lang.Lang == "ko"){
+						html += "	<td class='t_price'>"+ g360.comma(g360.setWon(dx.price))+"</td>";
+					}else {
+						html += "	<td class='t_price'> ￦"+ g360.comma(dx.price)+"</td>";
+					}
+					
+					
 					var fee = 0;
 					if (dx.sales_type == "art"){
 						var fee = (typeof(dx.shipping_fee) == "undefined" ? 0 : dx.shipping_fee);
 					}
-					
-					html += "	<td class='t_delivery_charge'>"+g360.comma(g360.setWon(fee))+"</td>";
+					if(g360.g_lang.Lang == "ko"){
+						html += "	<td class='t_delivery_charge'>"+g360.comma(g360.setWon(fee))+"</td>";
+					}else{
+						html += "	<td class='t_delivery_charge'> ￦"+g360.comma(fee)+"</td>";
+					}
 					html += "	<td class='t_delete'><button class='btn btn_cart_delete' onclick=\"gMCart.delete_item('"+dx.unique_key+"')\">삭제</button></td>";
 					html += "</tr>";
 					
