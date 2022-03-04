@@ -19,12 +19,6 @@ function gArtRecommandMain(){
 gArtRecommandMain.prototype = {		
 
 	"init" : function(){
-		if(g360.g_lang.Lang != "ko"){
-			//$("#art_price .r_label").css('width', '107px !important');
-			$('.r_label').attr('style', 'width: 120px; !important');
-			$('.r_label').text("x 10,000 KRW");
-		}
-		
 		var _self = this;
 		g360.scroll_Top();
 		
@@ -78,18 +72,12 @@ gArtRecommandMain.prototype = {
 		
 		$("#art_price").blur(function(){
 			var price = parseInt($(this).val().replace(/,/gi,"")) * 10000;
-			if(g360.g_lang.Lang == "ko"){
-				price = g360.comma(g360.setWon(price));				
-			}else{
-				price = g360.comma(price);
-				price = "￦ "+price;
-			}
-			
+			price = g360.comma(g360.setWon(price));
 			$("#art_price_dis2").text("‘"+price+"’");
 		});
 		
 		$("#art_price").keyup(function(event){
-			if(event.which >= 37 && event.which <= 40) return;
+			  if(event.which >= 37 && event.which <= 40) return;
 			  // format number
 			  $(this).val(function(index, value) {
 			    return value
@@ -888,14 +876,7 @@ gArtRecommandMain.prototype = {
 		function _makeHtml(ho, w, h) {
 			w = Math.round(w / 10);
 			h = Math.round(h / 10);
-			var html = '';
-			if(g360.g_lang.Lang == "ko"){
-				html = '<a class="dropdown-item" href="#" data-ho="' + ho + '" data-ho_en ="h' + h + 'cm x w' + w + 'cm">' + ho + '호 (h' + h + 'cm x w' + w + 'cm)</a>';
-			}else{
-				html = '<a class="dropdown-item" href="#" data-ho="' + ho + '" data-ho_en ="h' + h + 'cm x w' + w + 'cm"> h' + h + 'cm x w' + w + 'cm </a>';
-			}
-				
-			return html;
+			return '<a class="dropdown-item" href="#" data-ho="' + ho + '">' + ho + '호 (h' + h + 'cm x w' + w + 'cm)</a>';
 		}
 		
 		$.each(FRAME_SIZE, function(_key, _val) {
@@ -927,19 +908,12 @@ gArtRecommandMain.prototype = {
 			$menu.find('a').removeClass('active');
 			$(this).addClass('active');
 			var ho = $(this).data('ho');
-			var ho_en = $(this).data('ho_en');
 			var _shape, _w, _h;
 			_self.size_type = ho;
 			_self._createFrame();
-
+			$('#btn_request_size').text(ho+'호');
 			$('#request_size_text').text(g360.g_lang.Artwork_Recom6_1+' \'' + $('#btn_request_shape').text() + ' ' + $(this).text() + '\' '+g360.g_lang.Artwork_Recom6_2);
-
-			if(g360.g_lang.Lang == "ko"){
-				$('#request_size_text_m').text($(this).text().split(' (')[1].replace(/[()]/g, ''));
-				$('#btn_request_size').text(ho+'호');				
-			}else{
-				$('#btn_request_size').text(ho_en);
-			}
+			$('#request_size_text_m').text($(this).text().split(' (')[1].replace(/[()]/g, ''));
 			return false;
 		});
 		
@@ -950,20 +924,11 @@ gArtRecommandMain.prototype = {
 			$menu.find('a').removeClass('active');
 			$(this).addClass('active');
 			var ho = $(this).data('ho');
-			var ho_en = $(this).data('ho_en');
 			_self.size_type = ho;
 			_self._createFrame();
-			
 			$('#request_size_text').text(g360.g_lang.Artwork_Recom6_1+' \'' + $('#btn_request_shape').text() + ' ' + $(this).text() + '\' '+g360.g_lang.Artwork_Recom6_2);
-			
-			if(g360.g_lang.Lang == "ko"){
-				$('#request_size_text_m').text($(this).text().split(' (')[1].replace(/[()]/g, ''));
-				$('#btn_request_size').text(ho+'호');				
-			}else{
-				$('#btn_request_size').text(ho_en);
-			}
-			
-					
+			$('#request_size_text_m').text($(this).text().split(' (')[1].replace(/[()]/g, ''));
+			$('#btn_request_size').text(ho+'호');		
 		});
 	},
 	_getPixelPerMm: function(){

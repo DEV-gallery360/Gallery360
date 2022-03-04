@@ -347,27 +347,6 @@ button.btn_help{width:24px;height:24px;background-color:#fff;border-radius:100%;
   height: 30px;
   object-fit: contain;
 }
-.m-lang-wrap {
-	padding: 25px 0;
-	text-align: center;
-}
-.m-lang-wrap button {
-    cursor: pointer;
-	width: 54px;
-    height: 26px;
-    border-radius: 15px;
-    border: 1px solid #fff;
-    background: #000;
-    color: #fff;
-    font-size: 13px;
-}
-.m-lang-wrap button:nth-child(2) {margin-left:8px;}
-.m-lang-wrap button.on {
-    border: 1px solid #000;
-    background: #fff;
-    color: #000;
-    font-weight: bold;
-}
 
 .user-profile {padding: 14px 22px; overflow: hidden;}
 .user-profile .pic {width: 66px; height: 66px; overflow:hidden; border-radius: 50%; margin-right: 14px; background: url(/img/btn-gnb-my-account-normal@2x.png) no-repeat 0 0; background-size: cover; background-position:center;}
@@ -1064,29 +1043,12 @@ footer .mobile-tel {display:none;}
 footer .signmanu {}
 footer .signmanu-btn {font-size: 10px; color:#a4a4a4; padding: 2px 14px; border: solid 1px #a4a4a4; display: inline-block;}
 footer .signmanu-btn.mobile-help-bbs {display: hidden;}
-footer .sns-btn {height: 108px;}
+footer .sns-btn {height: 134px;}
 footer .sns-btn a {display: block; float: left;margin-right: 12px;}
 footer .sns-btn a:last-child {margin-right: 0;}
 footer .ask-notice {}
 footer .ask-notice h5 {font-weight: bold; font-size: 13px;}
 footer .ask-notice p {color: #a4a4a4; font-size: 12px;}
-footer .pc-lang-wrap button {
-    cursor: pointer;
-	width: 54px;
-    height: 26px;
-    border-radius: 15px;
-    border: 1px solid #fff;
-    background: #000;
-    color: #fff;
-    font-size: 13px;
-}
-footer .pc-lang-wrap button:nth-child(2) {margin-left:3px;}
-footer .pc-lang-wrap button.on {
-    border: 1px solid #000;
-    background: #fff;
-    color: #000;
-    font-weight: bold;
-}
 
 .tel-fit-tit {color: #fff; font-size: 13px;   font-weight: 600;}
 
@@ -2338,7 +2300,6 @@ a.nav-link.active .nav-ico.image {background-image: url(/img/icon-img-purchase-f
 	.artist-slide {margin-top: 50px;}
 	.search-parker .form-inline input {max-width:150px;}
 	.btn-detail-close,.btn-detail-full-close {top: 60px;}
-	.pc-lang-wrap {display:none;}
 	
 	.full-popup-title h1{height:50px;line-height:50px;}
  	.btn-popup-close {width:24px;height:24px;top:12px;right:20px;}

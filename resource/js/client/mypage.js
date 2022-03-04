@@ -97,6 +97,7 @@ gClientMyPage.prototype = {
 			}
 		});
 		
+		console.log("dd");
 		_self.g_lang();
 	},
 	
