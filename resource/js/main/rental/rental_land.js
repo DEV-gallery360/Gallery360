@@ -138,7 +138,21 @@ gRentalLanding.prototype = {
 				var $nav = $('#anyone_slider_nav');
 				var $slide = $('#anyone_slider');
 				$.each(vr_list, function(idx){
-					var $nav_item = $('<li data-slide-idx="' + idx + '">#' + this.category + '</li>');
+					var _category = '';
+					var _lending_name = '';
+					var _organizer_name = '';
+					
+					if (g360.g_lang.Lang == 'kr') {
+						_category = this.category;
+						_lending_name = this.lending_name;
+						_organizer_name = this.organizer_name;
+					} else {
+						_category = this.category_en || this.category;
+						_lending_name = this.lending_name_en || this.lending_name;
+						_organizer_name = this.organizer_name_en || this.organizer_name;
+					}
+					
+					var $nav_item = $('<li data-slide-idx="' + idx + '">#' + _category + '</li>');
 					$nav.append($nav_item);
 					
 					var img_url = '/artimage/lending/' + this.image;
@@ -148,7 +162,7 @@ gRentalLanding.prototype = {
 						'		<div class="imgghost"></div>'+
 						'	</div>'+
 						'	<div class="slide-text-wrap">'+
-						'		<span>' + this.lending_name + ' / ' + this.organizer_name + '</span>'+
+						'		<span>' + _lending_name + ' / ' + _organizer_name + '</span>'+
 						'	</div>'+
 						'</div>';
 					var $slide_item = $(_html);			
