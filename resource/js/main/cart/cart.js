@@ -180,8 +180,8 @@ gMainCart.prototype = {
 					html += "			<li class='i_name'>"+dx.artist+"</li>";
 					
 					if (dx.sales_type == "art"){
-						if (dx.hosu == null){
-							html += "			<li class='i_size'>"+dx.height+" x "+dx.width+"cm</li>";
+						if (dx.hosu == null || g360.g_lang.Lang != "ko"){
+							html += "			<li class='i_size'>"+dx.height+"cm x "+dx.width+"cm</li>";
 						}else{
 							html += "			<li class='i_size'>"+dx.height+" x "+dx.width+"cm("+dx.hosu+"호)</li>";
 						}
@@ -210,7 +210,7 @@ gMainCart.prototype = {
 					}else{
 						html += "	<td class='t_delivery_charge'> ￦"+g360.comma(fee)+"</td>";
 					}
-					html += "	<td class='t_delete'><button class='btn btn_cart_delete' onclick=\"gMCart.delete_item('"+dx.unique_key+"')\">삭제</button></td>";
+					html += "	<td class='t_delete'><button class='btn btn_cart_delete' onclick=\"gMCart.delete_item('"+dx.unique_key+"','"+dx.sales_type+"')\">삭제</button></td>";
 					html += "</tr>";
 					
 					if (dx.sales_type == "art"){
@@ -275,14 +275,21 @@ gMainCart.prototype = {
 		
 		
 		$("#total_art_count").text(cnt);
-		$("#total_art_price").text(g360.comma(g360.setWon(p1)));
-		$("#total_art_fee").text(g360.comma(g360.setWon(p2)));
-		$("#total_art_price_with_fee").text(g360.comma(g360.setWon(p3)));
+		if(g360.g_lang.Lang == "ko"){
+			$("#total_art_price").text(g360.comma(g360.setWon(p1)));
+			$("#total_art_fee").text(g360.comma(g360.setWon(p2)));
+			$("#total_art_price_with_fee").text(g360.comma(g360.setWon(p3)));
+		}else{
+			$("#total_art_price").text("￦ "+g360.comma(p1));
+			$("#total_art_fee").text("￦ "+g360.comma(p2));
+			$("#total_art_price_with_fee").text("￦ "+g360.comma(p3));
+		}
+
 	},
 	
-	"delete_item" : function(id){
+	"delete_item" : function(id, sales_type){
 	
-		var url = g360.root_path + "/delete_cart.mon?key=" + id;
+		var url = g360.root_path + "/delete_cart.mon?key=" + id + "&type=" +sales_type;
 		url += "&" + new Date().getTime();
 		$.ajax({
 			type : "GET",

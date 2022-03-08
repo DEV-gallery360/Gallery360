@@ -521,7 +521,7 @@ header h1{
 .reliable-top p{
     font-size: 20px;font-weight: 300;
 }
-.reliable-top p:nth-child(2){
+.reliable-top p:nth-child(2), .reliable-top p:nth-child(4){
     margin: 10px 0;
 }
 .reliable-top p:nth-child(3){
@@ -1085,7 +1085,7 @@ header h1{
         text-align: right
     }
     .reliable-top p{font-size: 24px;}
-    .reliable-top p:nth-child(2){
+    .reliable-top p:nth-child(2), .reliable-top p:nth-child(4){
         font-size: 36px;font-weight: 500;
         margin: 20px 0 30px;
     }
@@ -1384,7 +1384,7 @@ header h1{
     
     /*RELIABLE*/
     #reliable .container .reliable-top{padding-right: 2%;}
-    .reliable-top p:nth-child(2){
+    .reliable-top p:nth-child(2), .reliable-top p:nth-child(4){
         width:auto;display: inline-block;
         font-size: 36px;font-weight: 500;
         margin: 0;margin-top: 50px; margin-right: 10px;
@@ -1393,7 +1393,9 @@ header h1{
 
     #reliable .container .reliable-mdl{
         text-align: right;
-        margin: 0;margin-top: 160px;
+        margin: 0;
+        /* margin-top: 160px; */
+        margin-top: 90px;
     }
     .reliable-mdl .imgbox{
         width:45%;height: 415px;margin: 0;float: left;
@@ -1442,7 +1444,7 @@ header h1{
     }
 
     .step-txt .txtbox{
-        width:200px; float: left;
+        width:194px; float: left;
         text-align:center;
         margin-bottom:0;
     }

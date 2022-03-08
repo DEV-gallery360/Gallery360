@@ -1054,16 +1054,18 @@ gArtDetail.prototype = {
 				g360.gAlert("Error",g360.g_lang.Art_Detail_Alert12, "red", "left");
 				return false;
 			} else {
-			//	debugger;
 				var price = '₩ ' + g360.numberComma(_self.cur_art_info.art_price);
 				var info = _self.cur_art_info;
+				
 				if (typeof(info.opt) != "undefined" && info.opt == "none"){
+					//$('#detail_art_price').text(g360.g_lang.Ask_Price);
 					$('#detail_art_price').text(g360.g_lang.Ask_Price);
 					$('#eth_disp_wrap').hide();
 				}else{
+					$('#detail_art_price').text(price);
 					g360.transCoinPrice(_self.cur_art_info.art_price, function(eth, usd){
 						
-						$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');	
+					$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');	
 						
 						//if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
 					});
@@ -1101,6 +1103,7 @@ gArtDetail.prototype = {
 				$('#detail_art_price').removeClass('soldout');
 				
 				var info = _self.cur_art_info;
+				
 				if (typeof(info.opt) != "undefined" && info.opt == "none"){
 					$('#detail_art_price').text(g360.g_lang.Ask_Price);
 					$('#eth_disp_wrap').hide();

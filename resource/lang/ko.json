@@ -782,7 +782,8 @@
   "Footer_2" : "채용정보",
   "Help_Center" : "헬프센터",
   "Service_Center" : "서비스센터",
-  "Time" : "평일  10 : 00 ~ 17:00 / 점심시간  12:30 ~ 13:30 <br>주말/공휴일 휴무",
+  "Time" : "평일  10:00 ~ 17:00 / 점심시간  12:30 ~ 13:30 <br>주말/공휴일 휴무",
+  "Mobile_Time" : "평일  10:00 ~ 17:00",
   
   "Info_detail_1" : "상호 &nbsp;:&nbsp; 갤러리360(주) &nbsp;|&nbsp; 대표 &nbsp;:&nbsp; 신효미 <br>사업자등록번호 &nbsp;:&nbsp; 828-88-01007 &nbsp;|&nbsp; 호스팅 제공자&nbsp;:&nbsp; Google Cloud Platform<br>",
   "Info_detail_2" : "통신판매업신고 &nbsp;:&nbsp;  제2019-경기파주-0223호<br>주소 &nbsp;:&nbsp; 경기도 파주시 소리천로25, 916호 (유은타워 7차)<br>",
@@ -898,6 +899,7 @@
   
   "마이페이지_일반사용자" : "-----------------------------------------------------",
   
+  "General_User" : "일반사용자",
   "Image_Crop_Title" : "이미지 등록하기",
   
   "Mypage1" : "마이페이지",

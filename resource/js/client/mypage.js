@@ -280,7 +280,7 @@ gClientMyPage.prototype = {
 
 				
 				$("#client_email").text(data.email);
-				$("#client_name").text(data.nickname + " / 일반사용자");
+				$("#client_name").text(data.nickname + " / " + g360.g_lang.General_User);
 				
 								
 				//4.3 / 평가32개			
