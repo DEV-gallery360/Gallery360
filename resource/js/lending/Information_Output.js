@@ -49,6 +49,10 @@ SYlending.prototype = {
 			    	var category = lending[i].category;
 			    	var lending_name = lending[i].lending_name;	
 			    	var organizer_name = lending[i].organizer_name;
+			    	var category_en = lending[i].category_en || '';
+			    	var lending_name_en = lending[i].lending_name_en || '';	
+			    	var organizer_name_en = lending[i].organizer_name_en || '';
+			    				    	
 			    	var short_url = lending[i].short_url;
 			    	var image = lending[i].image;
 			    	
@@ -58,6 +62,11 @@ SYlending.prototype = {
 			    	html+= "<td class='info_category'>"+category+"</td>";
 			    	html+= "<td class='info_lending_name'>"+lending_name+"</td>";
 			    	html+= "<td class='info_organizer_name'>"+organizer_name+"</td>";
+			    	
+			    	html+= "<td class='info_category_en' style='display:none;'>"+category_en+"</td>";
+			    	html+= "<td class='info_lending_name_en' style='display:none;'>"+lending_name_en+"</td>";
+			    	html+= "<td class='info_organizer_name_en' style='display:none;'>"+organizer_name_en+"</td>";
+			    	
 			    	html+= "<td class='info_short_url'><a  href='"+short_url+"' target='_blank' >"+short_url+"</a></td>";
 			    	html+= "<td><img src='"+link+image+"' style='width:100px;'></td>"; 
 			    	 html+= "<td>"+image+"</td>";  
@@ -158,11 +167,11 @@ SYlending.prototype = {
 		
 		html+="<button class='b_btn' onclick='sylending.load()' style='margin-top:10px; cursor:pointer;'>목록</button>";
 		html+="<br>";
-		html+="카테고리값 : <input type='text' class='category'/>";
+		html+="카테고리값 : <input type='text' class='category' placeholder='한글'/> / <input type='text' class='category_en' placeholder='영문'/>";
 		html+="<br><br>";
-		html+="대관명 : <input type='text' class='lending_name'/>";
+		html+="대관명 : <input type='text' class='lending_name' placeholder='한글'/> / <input type='text' class='lending_name_en' placeholder='영문'/>";
 		html+="<br><br>";
-		html+="주최자 : <input type='text'  class='organizer_name'/>";
+		html+="주최자 : <input type='text' class='organizer_name' placeholder='한글'/> / <input type='text' class='organizer_name_en' placeholder='영문'/>";
 		html+="<br><br>";
 		html+="short_URL : <input type='text' size='34' class='short_url'/>";
 		html+="<br><br>";
@@ -237,6 +246,10 @@ SYlending.prototype = {
 		$(".category").val($(".c_"+index).children(".info_category").text());
 		$(".lending_name").val($(".c_"+index).children(".info_lending_name").text());
 		$(".organizer_name").val($(".c_"+index).children(".info_organizer_name").text());
+		$(".category_en").val($(".c_"+index).children(".info_category_en").text());
+		$(".lending_name_en").val($(".c_"+index).children(".info_lending_name_en").text());
+		$(".organizer_name_en").val($(".c_"+index).children(".info_organizer_name_en").text());
+		
 		$(".short_url").val($(".c_"+index).children(".info_short_url").text());
 		
 		
@@ -305,6 +318,9 @@ SYlending.prototype = {
 			formData.append("category",$('.category').val());
 			formData.append("lending_name",$('.lending_name').val());
 			formData.append("organizer_name",$('.organizer_name').val());
+			formData.append("category_en",$('.category_en').val());
+			formData.append("lending_name_en",$('.lending_name_en').val());
+			formData.append("organizer_name_en",$('.organizer_name_en').val());
 			formData.append("short_url",$('.short_url').val());
 			
 			
@@ -360,6 +376,9 @@ SYlending.prototype = {
 			formData.append("category",$('.category').val());
 	        formData.append("lending_name",$('.lending_name').val());
 	        formData.append("organizer_name",$('.organizer_name').val());
+	        formData.append("category_en",$('.category_en').val());
+	        formData.append("lending_name_en",$('.lending_name_en').val());
+	        formData.append("organizer_name_en",$('.organizer_name_en').val());
 	        formData.append("short_url",$('.short_url').val());
 	        formData.append("image",image);
 

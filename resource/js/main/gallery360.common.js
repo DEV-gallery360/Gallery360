@@ -176,8 +176,6 @@ gallery360.prototype = {
 		}
 
 		var c_lang = lang + '.json';
-
-		this.lang = lang;
 		
 		var url = g360.root_path + "/resource/lang/" + c_lang + "?ver=220215";
 		//console.log("test url : "+url);
