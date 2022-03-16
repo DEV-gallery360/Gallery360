@@ -118,11 +118,19 @@ gRentalLanding.prototype = {
 		$(".g_lang_Price_16").html(g360.g_lang.Price_16);
 		$(".g_lang_Price_17").html(g360.g_lang.Price_17);
 		$(".g_lang_Price_18").html(g360.g_lang.Price_18);
+		$(".g_lang_Price_19").html(g360.g_lang.Price_19);
 		
 		$(".g_lang_VR_Recommand_1").html(g360.g_lang.VR_Recommand_1);
 		$(".g_lang_VR_Recommand_2").html(g360.g_lang.VR_Recommand_2);
 		$(".g_lang_VR_Recommand_3").html(g360.g_lang.VR_Recommand_3);
-		
+
+		// 영문인 경우 가격표시 글자크기 조정
+		if (g360.g_lang.Lang != 'ko') {
+			$(".g_lang_Price_11").addClass('small');
+			$(".g_lang_Price_19").addClass('small');
+			$('#btn_rental_price_1').hide();
+			$('#btn_rental_price_6').hide();
+		}
 	},
 	
 	"setVRCarousel" : function(key) {
@@ -142,7 +150,7 @@ gRentalLanding.prototype = {
 					var _lending_name = '';
 					var _organizer_name = '';
 					
-					if (g360.g_lang.Lang == 'kr') {
+					if (g360.g_lang.Lang == 'ko') {
 						_category = this.category;
 						_lending_name = this.lending_name;
 						_organizer_name = this.organizer_name;

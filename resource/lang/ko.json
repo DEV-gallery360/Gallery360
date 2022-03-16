@@ -219,7 +219,7 @@
   "Video" : "동영상",
   "Youtube" : "유튜브",
   
-  "Ethereum" : "이더리움",
+  "Ethereum_1" : "이더리움",
   "Theme" : "테마",
   "Color" : "색상",
   "Form" : "형태",
@@ -298,6 +298,8 @@
   "Artist_Name3" : "활동명",
   "Original_Name" : "영문명",
   "Make_Year" : "제작연도",
+  "Year" : "년",
+  "Won" : "원",
   "Genre" : "장르",
   "Ingredient" : "재료",
   "Art_Code" : "작품코드",
@@ -544,6 +546,7 @@
   "Price_16" : "* 복수 대관 요금 및 대행등록서비스, VR갤러리 커스터마이징(로고 및 이미지 변경 등) 관련하여 상담을 원하시는 경우에는",
   "Price_17" : "고객센터",
   "Price_18" : "를 이용하여 주세요.",
+  "Price_19" : "15만원",
   
   "VR_Recommand_1" : "이런 아이디어는 어떠신가요?",
   "VR_Recommand_2" : "현재 대관 중인 전시를 통해 아이디어를 펼쳐보세요",
@@ -1905,6 +1908,53 @@
   "Nohave_favorite2" : "즐겨찾기된 작가가 없습니다.",
   "Nohave_favorite3" : "즐겨찾기된 VR갤러리가 없습니다.",
   
+ "VRGallery" : "----------------------------------------------------",
+  
+  "Back_VR" : "VR 갤러리로 돌아가기",
+  "VRStep1_detail" : "*원하는 갤러리 테마를 선택하여 주세요.",
+  "VRStep1" : "Step1. 갤러리 선택",
+  "VRStep2_detail" : "*선택하신 갤러리에 작품을 삽입하세요.",
+  "VRStep2" : "Step2. 작품 선택",
+  "VRStep3_detail" : "*전시에 대한 소개글을 입력 해 주세요.",
+  "VRStep3" : "Step3. 전시 정보 입력",
+  
+   "Front" : "전면",
+   "Left" : "좌측",
+   "Right" : "우측",
+   "Behind" : "후면",
+  
+   "Choice_BGM" : "배경음악을 선택하세요",
+   "BGM1" : "리스트 - 사랑의 꿈",
+   "BGM2" : "마스네: 타이스 - 명상곡",
+   "BGM3" : "멘델스존 - 노래의 날개 위에",
+   "BGM4" : "파헬벨 - 캐논",
+   "BGM5" : "슈만 - 트로이메라이",
+   "BGM6" : "비발디: 사계 - 겨울",
+   "BGM7" : "슈베르트 - 즉흥곡 3번 90-3",
+   "BGM8" : "쇼팽 - 발라드 4번",
+   "BGM9" : "바흐 - G선상의 아리아",
+   "BGM10" : "멘델스존 - 봄의 노래",
+   "BGM0" : "배경음악 없음",
+   
+   "Choice_VR_Placeholder1" : "전시 제목을 입력해주세요.",
+   "VR_Detailed_Introduction" : "전시 소개 글",
+   "Choice_VR_Placeholder2" : "전시 소개글을 입력해주세요.",
+   "Choice_VR_Register" : "생성",
+   
+   "Choice_VR_Alert1" : "VR갤러리를 생성하고 있습니다. 잠시만 기다려주세요",
+   "Choice_VR_Alert2" : "VR갤러리를 수정하고 있습니다. 잠시만 기다려주세요",
+   "Choice_VR_Alert3" : "작품등록 >> 작품보관함에서 판매요청하기 >> 관리자 승인된 작품이 1개 이상 존재해야  VR갤러리를 생성하실 수 있습니다.",
+   "Choice_VR_Alert4_1" : "",
+   "Choice_VR_Alert4_2" : "에 이미 전시된 작품입니다.<br>중복으로 작품을 전시할까요?",
+   "Choice_VR_Alert5" : "갤러리를 선택하셔야 합니다.",
+   "Choice_VR_Alert6" : "VR갤러리 생성 프로세스를 완료하고 생성하기 버튼을 클릭해 주세요",
+   "Choice_VR_Alert7" : "현재까지 작업된 내용은 저장되지 않습니다\n계속 진행할까요?",
+   "Choice_VR_Alert8" : "VR갤러리 제목을 입력하셔야 합니다.",
+   
+   "Choice_VR_Error1" : "VR갤러리 정보를 로드하는 과정에 오류가 발생하였습니다.",
+   "Choice_VR_Error2" : "VR갤러리 생성시 오류가 발생하였습니다.",
+   
+   
  "gallery360.common" : "-----------------------------------------------------",
   
   "No_Shipping_Info_Alert" : "배송 정보가 없습니다.",

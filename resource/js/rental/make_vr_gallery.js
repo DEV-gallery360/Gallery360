@@ -754,7 +754,7 @@ gMakeVrGallery_Rental.prototype = {
 	    $(canvas.wrapperEl).append(deleteBtn);
 	    
 	},
-	"selectPicture" : function(el, info){
+	"selectPicture" : function(el, info, def){
 		var _self = this;
 		
 		$(el).closest('.grid-item').addClass('on');
@@ -850,6 +850,8 @@ gMakeVrGallery_Rental.prototype = {
 				// 편집시 데이터 불러올 때 로딩 중 이미지 표시
 				_self.loaded_cnt++;
 				_self.loadImageCheck();
+				
+				def.resolve(true);
 			} else {
 				_self.picture[_self.cur_type][dockey] = new fabric.Image(img, opt);
 				
@@ -864,10 +866,14 @@ gMakeVrGallery_Rental.prototype = {
 				//_self.picture[_self.cur_type][dockey].applyFilters();
 				_self.canvas[_self.cur_type].add(_self.picture[_self.cur_type][dockey]);
 				_self.canvas[_self.cur_type].renderAll();
+				
+				def.resolve(true);
 			}
 
 			// 전시된 작품 개수 표시
 			$('#gallery_art_count').text(_self.getAllImageCount());
+			
+			
 		}
 		
 		// 로딩중 오류나는 이미지도 카운트 처리
@@ -896,14 +902,11 @@ gMakeVrGallery_Rental.prototype = {
 
 		var url = "/vr_info_rental.mon?key=" + _self.call_key;
 
-		//왼쪽 이미지 로드
-		_self.load_saved_image_info();
-		
 		$.ajax({
 			url : url,
 			datatype : "json",
 			success : function(data){
-				
+
 				var tmpl = data.vr_template;
 				if (g360.UserInfo.custom == "T"){
 					tmpl = data.vr_template[0];
@@ -919,13 +922,26 @@ gMakeVrGallery_Rental.prototype = {
 				// 로드되야 하는 이미지 개수
 				_self.target_cnt = vr_info.imagelist.length;
 				
+				var def = $.Deferred();
 				_self.loadTemplate(tmpl, function(type){					
-					//오른쪽 vr이미지 로드
-					_self.loadVRImage(type, vr_info.email, vr_info.imagelist);
+					//오른쪽 vr이미지 로드  > 여기서 이미지 순서체크
+					_self.loadVRImage(type, vr_info.email, vr_info.imagelist, def);
 					
 				});
+				
 				// vr음악,...등등
 				_self.loadVRInfo(vr_info);	
+
+				def.then(
+					function(data){
+						//console.log(data);
+						
+						//왼쪽 이미지 로드 > loadVRInfo가 다 완료되어야만 이미지 체크표시가 생략되지 않는다.
+						_self.load_saved_image_info();
+						
+					}	
+				);
+				
 			},
 			error : function(err){
 				g360.gAlert("Info","VR갤러리 정보를 로드하는 과정에 오류가 발생하였습니다.", "blue", "top");
@@ -986,7 +1002,8 @@ gMakeVrGallery_Rental.prototype = {
 
 	},
 	// 이미지 표시
-	"loadVRImage" : function(type, email, pics){
+	"loadVRImage" : function(type, email, pics, def){
+		
 		var _self = this;
 		
 		$.each(pics, function(){			            
@@ -1013,7 +1030,7 @@ gMakeVrGallery_Rental.prototype = {
 				.data('version', this.version)
 				.attr('src', imgsrc);
 			
-			_self.selectPicture($el, opt);
+			_self.selectPicture($el, opt, def);
 		});
 	},
 	
@@ -1140,7 +1157,6 @@ gMakeVrGallery_Rental.prototype = {
 				//	gPAProjectlist.draw_art_list2(data[i], opt);
 					if (data[i].totalcount) continue;
 					var spl = data[i];
-					
 					gMakeVR_Rental.draw_image_display(spl, i);	
 					
 				}
@@ -1211,7 +1227,6 @@ gMakeVrGallery_Rental.prototype = {
 		
 		if (isNaN(_width)) _width = 1000;
 		if (isNaN(_height)) _height = 1000;
-		
 		
 		// 편집일 때만 선택되어 있는 작품인지를 체크
 		if (_self.call_mode == "modify"){
@@ -1428,6 +1443,7 @@ gMakeVrGallery_Rental.prototype = {
 	},
 	
 	"hasPicture" : function(checkkey){
+		
 		// 남아있는 그림이 있는지 체크해서 좌측 그림에서 on 클래스 뺴기
 		var _self = this;
 		var has_picture = false;
@@ -1439,7 +1455,8 @@ gMakeVrGallery_Rental.prototype = {
 		
 		
 		$.each(gMakeVR_Rental.picture, function(key, val){
-		
+			//val 은 해당 vr에 걸려있는 작품들 정보 (& 위치정보)
+			
 //			console.log(val);
 //			console.log(Object.keys(val).length);
 

@@ -55,6 +55,53 @@ gMakeVrGallery.prototype = {
 		}
 		
 		_self._eventBind();
+		_self.ch_lang();
+	},
+	
+	"ch_lang" : function(){
+	
+		$("#back_vr_gallery_main").html(g360.g_lang.Back_VR);
+		$("#vr_room_cancel").html(g360.g_lang.Cancel);
+		$(".g_lang_Make_VR_Gallery").html(g360.g_lang.Make_VR_Gallery);
+		$(".g_lang_choice").html(g360.g_lang.Choice);
+		$(".g_lang_VRStep1").html(g360.g_lang.VRStep1);
+		$(".g_lang_VRStep1_detail").html(g360.g_lang.VRStep1_detail);
+		$(".g_lang_VRStep2").html(g360.g_lang.VRStep2);
+		$(".g_lang_VRStep2_detail").html(g360.g_lang.VRStep2_detail);
+		$(".g_lang_VRStep3").html(g360.g_lang.VRStep3);
+		$(".g_lang_VRStep3_detail").html(g360.g_lang.VRStep3_detail);
+		
+		$(".g_lang_Title").html(g360.g_lang.Title);
+		$("#vr_room_title").attr("placeholder",g360.g_lang.Choice_VR_Placeholder1);
+		$(".g_lang_Detail").html(g360.g_lang.VR_Detailed_Introduction);
+		$("#vr_room_express").attr("placeholder",g360.g_lang.Choice_VR_Placeholder2);
+		$("#vr_room_create").html(g360.g_lang.Choice_VR_Register);
+		
+		$(".g_lang_Front").html(g360.g_lang.Front);
+		$(".g_lang_Left").html(g360.g_lang.Left);
+		$(".g_lang_Right").html(g360.g_lang.Right);
+		$(".g_lang_Behind").html(g360.g_lang.Behind);
+		$(".g_lang_ChoiceBGM").html(g360.g_lang.Choice_BGM);
+		
+		$(".g_lang_BGM1").html(g360.g_lang.BGM1);
+		$(".g_lang_BGM2").html(g360.g_lang.BGM2);
+		$(".g_lang_BGM3").html(g360.g_lang.BGM3);
+		$(".g_lang_BGM4").html(g360.g_lang.BGM4);
+		$(".g_lang_BGM5").html(g360.g_lang.BGM5);
+		$(".g_lang_BGM6").html(g360.g_lang.BGM6);
+		$(".g_lang_BGM7").html(g360.g_lang.BGM7);
+		$(".g_lang_BGM8").html(g360.g_lang.BGM8);
+		$(".g_lang_BGM9").html(g360.g_lang.BGM9);
+		$(".g_lang_BGM10").html(g360.g_lang.BGM10);
+		$(".g_lang_BGM0").html(g360.g_lang.BGM0);
+		
+		
+		
+		if(g360.g_lang.Lang != "ko"){
+			$("#btn_makevr_help").hide();
+			$(".direction_sh button").css("width","68px");
+		}
+		
 	},
 	
 	_eventBind: function(){
@@ -79,7 +126,7 @@ gMakeVrGallery.prototype = {
 			
 			var loc = _self.hasPicture($(e.target).data('dockey'));
 			if (loc != '') {
-				g360.gConfirm(loc + '에 이미 전시된 작품입니다.<br>중복으로 작품을 전시할까요?', function(){
+				g360.gConfirm(g360.g_lang.Choice_VR_Alert4_1 + loc + g360.g_lang.Choice_VR_Alert4_2 , function(){
 					_self.selectPicture(e.target);
 				});
 			} else {
@@ -93,13 +140,13 @@ gMakeVrGallery.prototype = {
 			
 			if (cnt == 0){
 				
-				g360.gAlert("Info","작품등록 >> 작품보관함에서 판매요청하기 >> 관리자 승인된 작품이 1개 이상 존재해야  VR갤러리를 생성하실 수 있습니다.", "blue", "top");
+				g360.gAlert("Info",g360.g_lang.Choice_VR_Alert3, "blue", "top");
 				return false;
 			}
 			
 			
 			if (gMakeVR.selectCode == ""){
-				g360.gAlert("Info","갤러리를 선택하셔야 합니다.", "blue", "top");
+				g360.gAlert("Info",g360.g_lang.Choice_VR_Alert5, "blue", "top");
 				return false;
 			}
 			
@@ -241,7 +288,7 @@ gMakeVrGallery.prototype = {
 			if (ky != "none"){
 				gMakeVR.make_VR_ROOM();
 			}else{
-				g360.gAlert("Info","VR갤러리 생성 프로세스를 완료하고 생성하기 버튼을 클릭해 주세요", "blue", "top");
+				g360.gAlert("Info",g360.g_lang.Choice_VR_Alert6, "blue", "top");
 				return false;
 			}
 			
@@ -253,7 +300,7 @@ gMakeVrGallery.prototype = {
 		});
 		
 		$("#vr_room_cancel").on("click", function(event){
-			g360.gConfirm("현재까지 작업된 내용은 저장되지 않습니다\n계속 진행할까요?", function(){
+			g360.gConfirm(g360.g_lang.Choice_VR_Alert7, function(){
 				g360.LoadPage("body_content", g360.root_path + "/partner/vr_gallery/make_vr_gallery.jsp");
 			});
 			return false;
@@ -553,7 +600,7 @@ gMakeVrGallery.prototype = {
 								
 			},
 			error : function(err){
-				g360.gAlert("Info","VR갤러리 정보를 로드하는 과정에 오류가 발생하였습니다.", "blue", "top");
+				g360.gAlert("Info",g360.g_lang.Choice_VR_Error1, "blue", "top");
 			}
 		})
 		
@@ -793,7 +840,7 @@ gMakeVrGallery.prototype = {
 			});			
 		});
 				
-		g360.loadingbar_open("VR갤러리를 수정하고 있습니다. 잠시만 기다려주세요");
+		g360.loadingbar_open(g360.g_lang.Choice_VR_Alert2);
 
 		gMakeVR.title = $("#vr_room_title").val();
 		gMakeVR.express = $("#vr_room_express").val();
@@ -850,7 +897,7 @@ gMakeVrGallery.prototype = {
 				}
 			},
 			error : function(e){
-				g360.gAlert("Info","VR갤러리 생성시 오류가 발생하였습니다.", "blue", "top");
+				g360.gAlert("Info",g360.g_lang.Choice_VR_Error2, "blue", "top");
 			}
 		})
 	},
@@ -863,7 +910,7 @@ gMakeVrGallery.prototype = {
 		gMakeVR.express = $("#vr_room_express").val();
 		
 		if (gMakeVR.title == ""){
-			g360.gAlert_focus("", "VR갤러리 제목을 입력하셔야 합니다.","","","vr_room_title");
+			g360.gAlert_focus("", g360.g_lang.Choice_VR_Alert8 ,"","","vr_room_title");
 			return false;
 		}
 		
@@ -889,7 +936,7 @@ gMakeVrGallery.prototype = {
 			});			
 		});
 				
-		g360.loadingbar_open("VR갤러리를 생성하고 있습니다. 잠시만 기다려주세요");
+		g360.loadingbar_open(g360.g_lang.Choice_VR_Alert1);
 
 		
 		
@@ -931,7 +978,7 @@ gMakeVrGallery.prototype = {
 				}
 			},
 			error : function(e){
-				g360.gAlert("Info","VR갤러리 생성시 오류가 발생하였습니다.", "blue", "top");
+				g360.gAlert("Info", g360.g_lang.Choice_VR_Error2 , "blue", "top");
 			}
 		})
 	},

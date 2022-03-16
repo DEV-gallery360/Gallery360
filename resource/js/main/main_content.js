@@ -126,7 +126,11 @@ gMainContent.prototype = {
 		
 		// 갤러리360 동영상 소개
 		$ms.find('.sl-welcome .banner-btn').on('click', function(){
-			var video_src = 'https://www.gallery360.co.kr/intro/gallery360_kr_web.mp4';
+			if (g360.g_lang.Lang == 'ko') {
+				var video_src = 'https://www.gallery360.co.kr/intro/gallery360_kr_web.mp4';				
+			} else {
+				var video_src = 'https://www.gallery360.co.kr/intro/gallery360_en_web.mp4';
+			}
 			g360.showVideo(video_src);
 		});
 		
@@ -137,7 +141,11 @@ gMainContent.prototype = {
 		
 		// D-Book 소개
 		$ms.find('.sl-dbook .banner-btn').on('click', function(){
-			g360.showNewsDetail(65); // 소식지로 연결
+			if (g360.g_lang.Lang == 'ko') {
+				g360.showNewsDetail(65);				
+			} else {
+				g360.showNewsDetail(148);
+			}
 		});
 		
 		// 작가모집
@@ -444,7 +452,7 @@ gMainContent.prototype = {
 					var _lending_name = '';
 					var _organizer_name = '';
 					
-					if (g360.g_lang.Lang == 'kr') {
+					if (g360.g_lang.Lang == 'ko') {
 						_category = this.category;
 						_lending_name = this.lending_name;
 						_organizer_name = this.organizer_name;

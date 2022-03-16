@@ -253,7 +253,11 @@ gArtistInfoMain.prototype = {
 		////////////////////////////////////////////////
 		$("#art_s8").blur(function(){
 			var price = $(this).val();
-			price = g360.comma(g360.setWon(price));
+			if(g360.g_lang.Lang == "ko"){
+				price = g360.comma(g360.setWon(price));				
+			}else{
+				price+="Won";
+			}
 			$("#art_price_dis22").text("‘"+price+"’");
 		});
 		
@@ -273,7 +277,11 @@ gArtistInfoMain.prototype = {
 		
 		$("#shipping_fee").blur(function(){
 			var price = $(this).val();
-			price = g360.comma(g360.setWon(price));
+			if(g360.g_lang.Lang == "ko"){
+				price = g360.comma(g360.setWon(price));				
+			}else{
+				price+="Won";
+			}
 			$("#art_price_dis222").text("‘"+price+"’");
 		});
 		$("#shipping_fee").keyup(function(event){
@@ -1060,6 +1068,11 @@ gArtistInfoMain.prototype = {
 		$(".g_lang_Delivery").html(g360.g_lang.Delivery);
 		$(".g_lang_Individual_delivery").html(g360.g_lang.Individual_delivery);
 		$(".g_lang_Professional_delivery").html(g360.g_lang.Professional_delivery);
+		
+		$(".g_lang_Year").html(g360.g_lang.Year);
+		$(".g_lang_Won").html(g360.g_lang.Won);
+		
+		if(g360.g_lang.Lang!="ko") $("#hosu1").hide();
 		
 	},
 	

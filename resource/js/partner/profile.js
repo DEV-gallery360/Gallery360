@@ -458,6 +458,8 @@ gPartnerProfile.prototype = {
 					var html = "";
 					
 					if ( (typeof (data.education) != "undefined") && data.education.length > 0){
+						var lev = "";
+						var stat = "";
 						for (var i = 0 ; i < data.education.length; i++){
 							var sp = data.education[i];
 							if (typeof(sp.schoolname) != "undefined"){
@@ -465,8 +467,29 @@ gPartnerProfile.prototype = {
 								html += "						<td id='edu_level_"+i+"' style='display:none'>"+sp.level+"</td>";
 								html += "						<td id='edu_schoolname_"+i+"'>"+sp.schoolname+"</td>";
 								html += "						<td id='edu_major_"+i+"'>"+sp.major+"</td>";
-								html += "						<td id='edu_level_"+i+"'>"+sp.level+"</td>";							
-								html += "						<td id='edu_status_"+i+"'>"+sp.status+"</td>";
+								
+								if(g360.g_lang.Lang == "ko"){
+									
+									html += "						<td id='edu_level_"+i+"'>"+sp.level+"</td>";							
+									html += "						<td id='edu_status_"+i+"'>"+sp.status+"</td>";
+								}else{
+									
+									lev = sp.level; stat = sp.status;
+									if(lev=="박사") lev = "Doctoral";
+									if(lev=="석사") lev = "Master";
+									if(lev=="학사") lev = "Bachelor";
+									if(lev=="기타") lev = "etc";
+									
+									if(stat=="졸업") stat = "Graduated";
+									if(stat=="중퇴") stat = "Drop_out";
+									if(stat=="재학") stat = "Ungraduated";
+									if(stat=="수료") stat = "Complete";
+									
+									
+									html += "						<td id='edu_level_"+i+"'>"+lev+"</td>";							
+									html += "						<td id='edu_status_"+i+"'>"+stat+"</td>";
+								}
+								
 								html += "						<td id='edu_start_"+i+"'>"+sp.start+"</td>";
 								html += "						<td id='edu_end_"+i+"'>"+sp.end+"</td>";							
 							//	html += "						<td class='t_modify' style='text-align:right'><button class='btn btn_cell_edit'  onclick=\"gPPF.edu_tr_edit('edu_tr_"+i+"')\">수정</button></td>";
@@ -619,6 +642,7 @@ gPartnerProfile.prototype = {
 	
 	
 	"edit_artistinfo" : function(){
+		debugger;
 		var html = "";
 		
 		html += "<div class='group_header type3 fixheight_m'>";
@@ -626,26 +650,26 @@ gPartnerProfile.prototype = {
 		html += "</div>";
 		html += "<div class='wrap_group introduce term bg_white minheight'>";
 		html += "	<textarea class='txt textarea' id='artistinfo_txt' placeholder='"+g360.g_lang.ProfileSetting_2+"'></textarea>";
+		html += "</div>";
 		
 		var gubun = g360.UserInfo.gubun;
 		if (gubun != "curator"){
 			html += "<div class='group_header type3 fixheight_m'>";
-			html += "	<h3>작가노트</h3>";
+			html += "	<h3>"+g360.g_lang.ArtistNote+"</h3>";
 			html += "</div>";
 			html += "<div class='wrap_group introduce term bg_white minheight'>";
 			html += "	<textarea class='txt textarea' id='artistinfo_txt2' placeholder='"+g360.g_lang.ProfileSetting_3+"'></textarea>";
-
+			
 		}
 		
-
-	//	html += "	<span>5000자 미만</span>";
+		
+		//	html += "	<span>5000자 미만</span>";
 		html += "	<div class='btn_area bottom_area'>";
 		html += "		<button class='btn btn_gray btn_cancel' onclick=\'gPPF.edit_cancel()\'>"+g360.g_lang.Cancel+"</button>";
 		html += "		<button class='btn btn_violet btn_ok'  onclick=\'gPPF.save_artist_info()\'>"+g360.g_lang.OK2+"</button>";
 		html += "	</div>";
 		
 		
-		html += "</div>";
 	
 		$("#artistinfo_section").html(html);
 		
@@ -3413,11 +3437,12 @@ gPartnerProfile.prototype = {
 	},
 	
 	"save_artist_info_modify" : function(){
+		//debugger;
 		$("#artist_delete").hide();
 		$("#artist_reg").show();
 		$("#artist_modify").hide();
 		
-		gPPF_Rental.opt = "edit";
+		//gPPF_Rental.opt = "edit";
 		
 		gPPF.show_edit_field();
 	},
@@ -3570,6 +3595,7 @@ gPartnerProfile.prototype = {
 	},
 	
 	"show_edit_field" : function(){
+		
 		$("#info_read1").hide();
 		$("#info_read2").hide();
 		$("#info_read3").hide();

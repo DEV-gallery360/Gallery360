@@ -533,14 +533,22 @@ gTopMainFunction.prototype = {
 		$('#btn_gnb_tech').on('click', function(){
 			g360.save_history_now('tech_dbook');
 			$('#navbarText').removeClass('active');
-			g360.showNewsDetail(65);
+			if (g360.g_lang.Lang == 'ko') {
+				g360.showNewsDetail(65);				
+			} else {
+				g360.showNewsDetail(148);
+			}
 			_self.mobile_menu_close(true);
 			return false;
 		});
 		$('#sub_tech_dbook, #m_sub_tech_dbook').on('click', function(){
 			g360.save_history_now('tech_dbook');
 			$('#navbarText').removeClass('active');
-			g360.showNewsDetail(65);
+			if (g360.g_lang.Lang == 'ko') {
+				g360.showNewsDetail(65);				
+			} else {
+				g360.showNewsDetail(148);
+			}
 			_self.mobile_menu_close(true);
 			return false;
 		});

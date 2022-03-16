@@ -234,7 +234,7 @@ gVrGalleryMain.prototype = {
 					escapeKey : false,
 					buttons : {		
 						confirm : {
-							text : "확인",
+							text : g360.g_lang.OK,
 							btnClass : "btn-default",
 							action : function(){
 								var url = contextpath + "/vrgallery_change_mode.mon?key="+key+"&show="+show;
@@ -259,7 +259,7 @@ gVrGalleryMain.prototype = {
 							}
 						},
 						moreButtons : {
-							text : "취소"
+							text : g360.g_lang.Cancel
 						}
 					}
 				});	

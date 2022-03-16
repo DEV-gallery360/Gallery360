@@ -705,8 +705,12 @@ header h1{
 	padding-left: 10%;
 }
 #price .container .monthly h3{
-    font-size: 40px;font-weight: 900;
+    font-size: 40px;
+    font-weight: 900;
     padding-left: 10%;
+}
+#price .container .monthly h3.small{
+    font-size: 30px;
 }
 #price .container .monthly .service{
     margin-left: 10%;
@@ -1215,8 +1219,12 @@ header h1{
         margin: 40px 0 20px;
     }
     #price .container .monthly h3{
-        font-size: 60px;font-weight: 900;
+        font-size: 60px;
+        font-weight: 900;
         padding-left: 10%;
+    }
+    #price .container .monthly h3.small{
+    	font-size: 38px;
     }
     #price .container .monthly .service{
         margin-left: 10%;

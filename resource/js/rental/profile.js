@@ -1425,9 +1425,9 @@ gPartnerProfile_Rental.prototype = {
 				html += "			</tr>";
 				
 				html += "			<tr>";
-				html += "				<th>입학일</th>";
+				html += "				<th class='no_necessary'>입학일</th>";
 				html += "					<td><input type='text' class='txt' id='start_"+(i+1)+"'  value='"+edc.start+"' placeholder='2010.09' /></td>";
-				html += "				<th>졸업일</th>";
+				html += "				<th class='no_necessary'>졸업일</th>";
 				html += "				<td><input type='text' class='txt'  id='end_"+(i+1)+"'  value='"+edc.end+"' placeholder='2014.03' /></td>";
 				
 				html += "			</tr>";
@@ -1529,9 +1529,9 @@ gPartnerProfile_Rental.prototype = {
 		html += "			</tr>";
 		
 		html += "			<tr>";
-		html += "				<th>입학일</th>";
+		html += "				<th class='no_necessary'>입학일</th>";
 		html += "					<td><input type='text' class='txt' id='start_"+(i+1)+"' placeholder='2010.09' /></td>";
-		html += "				<th>졸업일</th>";
+		html += "				<th class='no_necessary'>졸업일</th>";
 		html += "				<td><input type='text' class='txt' id='end_"+(i+1)+"' placeholder='2014.03' /></td>";
 		
 		html += "			</tr>";
@@ -1587,13 +1587,20 @@ gPartnerProfile_Rental.prototype = {
 				if(isOK){ g360.gAlert("Info","전공을 입력하세요", "blue", "top"); }
 				isOK = false;
 			}
+//			if (edu_start == ""){
+//				if(isOK){ g360.gAlert("Info","입학일을 입력하세요", "blue", "top"); }
+//				isOK = false;
+//			}
+//			if (edu_end == ""){
+//				if(isOK){ g360.gAlert("Info","졸업일을 입력하세요", "blue", "top"); }
+//				isOK = false;
+//			}
+
 			if (edu_start == ""){
-				if(isOK){ g360.gAlert("Info","입학일을 입력하세요", "blue", "top"); }
-				isOK = false;
+				edu_start = " ";
 			}
 			if (edu_end == ""){
-				if(isOK){ g360.gAlert("Info","졸업일을 입력하세요", "blue", "top"); }
-				isOK = false;
+				edu_end = " ";
 			}
 			
 			if (list == ""){
@@ -1770,9 +1777,9 @@ gPartnerProfile_Rental.prototype = {
 		html += "					<td><input type='text' class='txt'  value='"+obj.major+"' id='education_major_"+id+"'  /></td>";
 		html += "			</tr>";
 		html += "			<tr>";
-		html += "				<th>입학일</th>";
+		html += "				<th class='no_necessary'>입학일</th>";
 		html += "					<td><input type='text' class='txt' id='education_start_"+id+"'  value='"+obj.start+"' placeholder='2010.09' /></td>";
-		html += "				<th>졸업일</th>";
+		html += "				<th class='no_necessary'>졸업일</th>";
 		html += "				<td><input type='text' class='txt' id='education_end_"+id+"'  value='"+obj.end+"' placeholder='2014.039' /></td>";
 		
 		html += "				</tr>";

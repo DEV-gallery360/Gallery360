@@ -96,6 +96,7 @@
 .sub_common_content .t_education_edit .btn-group{width:calc(65% - 5px);}
 .t_education_edit .t_date .btn-group:nth-child(2){margin-left:6px;}
 .t_education_edit th:after{content:"";width:5px;height:5px;border-radius:100%;background:#ef2857;position:absolute;top:50%;transform:translateY(-50%);margin-left:5px;}
+.t_education_edit th.no_necessary:after{content:"";width:5px;height:5px;border-radius:100%;background:none;position:absolute;top:50%;transform:translateY(-50%);margin-left:5px;}
 
 /*** 경력 편집 ***/
 .t_career_edit th:first-child,.t_career_edit .t_date{width:285px;}
@@ -177,7 +178,7 @@
 
 @media (max-width:1200px){
 	.sub_common_content .group_header h3{padding-left:0;}
-	.pi_left .star img{width:30px;height:30px;}
+	.pi_left .star img{width:29px;height:29px;}
 	.pi_left{padding:20px;}
 	.partners_info dd li{font-size:16px;}
 	
@@ -186,7 +187,7 @@
 @media (max-width:1000px){
 	.partners_infograph td{width:100%;display:block;float:left;border-right:none;border-bottom:1px solid #e0e0e0;}
 	.partners_infograph td:last-child{border-bottom:0;}
-	.pi_left .star img{width:40px;height:40px;}
+	.pi_left .star img{width:39px;height:39px;}
 
 	/*** 클라이언트 평가 (평가정보)***/
 	.evaluation_infograph{display:block !important;}

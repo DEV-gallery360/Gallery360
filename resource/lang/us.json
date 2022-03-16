@@ -21,7 +21,7 @@
 	"AI_Recommendation" : "AI Recomm",
 	
 	"VR_Exhibit_Guide" : "User Guide",
-	"VR_Exhibit_List" : "Current Exhibition",
+	"VR_Exhibit_List" : "Current Exhibit",
 	"Recommended_Exhibit" : "Exhibit Recomm",
 	"Usage_Fee" : "Price",
 	
@@ -54,7 +54,7 @@
 	"Arts_Project" : "Arts Project",
 	"Purchased_Arts" : "Purchased Arts",
 	"Profile" : "Profile",
-	"Art_List" : "Art List",
+	"Art_List" : "Artwork List",
 	
 	"Integrated_Search" : "Integrated search for artists, VR galleries, and news",
 	
@@ -217,7 +217,7 @@
   "Video" : "Video",
   "Youtube" : "Youtube",
   
-  "Ethereum" : "Ethereum",
+  "Ethereum_1" : "Ethereum",
   "Theme" : "Genre",
   "Color" : "Color",
   "Form" : "Shape",
@@ -295,6 +295,8 @@
   "Artist_Name3" : "Artist Name",
   "Original_Name" : "Original Name",
   "Make_Year" : "Year",
+  "Year" : "Year",
+  "Won" : "Won",
   "Genre" : "Genre",
   "Ingredient" : "Materials",
   "Art_Code" : "Art Code",
@@ -313,7 +315,7 @@
   "Work_Inquiry" : " Inquiry",
   
   "Sale_Price" : "Price",
-  "Name_of_space" : "Name of space",
+  "Name_of_space" : "Name",
   "Width_of_space" : "Width of space",
   
   "Arts_Work_Detail0" : "Unauthorized use or redistribution of artwork images is prohibited.",
@@ -444,13 +446,13 @@
   "Artist_Detail_2" : "Art Work",
   "VRGallery" : "VR Gallery",
   "Link" : "Link",
-  "ArtistNote" : "Artist Note",
+  "ArtistNote" : "Artist Statement",
   "Affiliation_Organization" : "Organization",
   "Department" : "Department",
   "Position" : "Position",
   "Educational" : "Education",
   "Awards_History" : "Awards History",
-  "Collection_Artswork" : "Artswork Collection",
+  "Collection_Artswork" : "Collection",
   "Exhibit_Project" : "Exhibition & Project",
     
   "Artist_Detail_3" : "A gaze at eternity,<br>not a moment",
@@ -534,7 +536,7 @@
   "Price_8" : "<span></span>Invitation",
   "Price_9" : "1 month Rental",
   "Price_10" : "All-in-one rate <b>6 months</b>",
-  "Price_11" : "<span>About</span>80만원",
+  "Price_11" : "<span>About</span>￦800,000",
   "Price_12" : "Rent with 11% discount",
   "Price_13" : "* More than 3 months",
   "Price_14" : "* VAT excluded.",
@@ -542,6 +544,7 @@
   "Price_16" : "* If you are interested in multiple VR exhibit rates, display, service, and customise VR exhibit service (logo, image, etc.), please contact ",
   "Price_17" : "the customer center",
   "Price_18" : "",
+  "Price_19" : "￦150,000",
   
   "VR_Recommand_1" : "What do you think of this idea?",
   "VR_Recommand_2" : "Spread your idea through our current exhibitions",
@@ -715,7 +718,7 @@
   "Introduction_18" : "Consulting",
   "Introduction_19" : "Certification mark",
   "Introduction_20" : "Safe contract",
-  "Introduction_21" : "Payment protection system",
+  "Introduction_21" : "Protection",
   "Introduction_22" : "Safe arbitration",
   
   "Introduction_23_1" : "Meet the most suitable artworks and artworkers! ",
@@ -1074,7 +1077,7 @@
   "labels3" : "Communication",
   "labels4" : "Adherence to schedule",
   "labels5" : "Positiveness",
-  "labels6" : "Detailed item evaluation",
+  "labels6" : "Detailed evaluation",
   
   "Partners6" : "Contract partner",
   "Partners7" : "Contract signing date",
@@ -1346,8 +1349,8 @@
   "Artist_Mypage1" : "Profile Setting",
   "Artist_Mypage2" : "Account Setting",
   "Artist_Mypage3" : "Art Project",
-  "Artist_Mypage4" : "Art List",
-  "Artist_Mypage5" : "VRGallery",
+  "Artist_Mypage4" : "Artwork List",
+  "Artist_Mypage5" : "VR Gallery",
   
   "Artist_Mypage6" : "",
   "Artist_Mypage7" : "",
@@ -1357,32 +1360,32 @@
   "Artist_Mypage8_2" : "",
   
   "Artist_Mypage9" : "Professional",
-  "Artist_Mypage10" : "Satisfy",
-  "Artist_Mypage11" : "Communicate",
-  "Artist_Mypage12" : "Schedule",
+  "Artist_Mypage10" : "Satisfaction",
+  "Artist_Mypage11" : "Communication",
+  "Artist_Mypage12" : "On time",
   "Artist_Mypage13" : "Positive",
-  "Artist_Mypage14" : "Detailed item evaluation",
+  "Artist_Mypage14" : "Detailed evaluation",
   
   "Artist_Mypage15" : "Recommend",
   "Artist_Mypage16" : "Creation",
     
     
   "Group" : "Group",
-  "Educational_Info" : "Educational Info",
+  "Educational_Info" : "Education",
   "Career" : "Career",
   
-  "Project_of_Interest" : "Project of Interest",
+  "Project_of_Interest" : "Interested Project",
   "Application_details" : "Application details",
   "Project_in_progress" : "Project in progress",
   "Finished_project" : "Finished project",
     
   "My_Art_Project" : "My Art Project",
-  "My_Art_Project1" : "<span id='favorite_count'></span>Interest project",
+  "My_Art_Project1" : "<span id='favorite_count'></span>Interested project",
   "My_Art_Project2" : "<span id='support_ing_count'></span>Application details",
   "My_Art_Project3" : "<span id='ing_count'></span>Project in progress",
   "My_Art_Project4" : "<span id='end_count'></span>Finished project",
   
-  "Average_score" : "Average score",
+  "Average_score" : "Average rating",
   "Rating_distribution" : "Rating distribution",
     
   "Completed_project" : "Completed project",
@@ -1401,7 +1404,7 @@
   
   "OnDisplay" : "on display",
   
-  "Evaluation_Info" : "Evaluation Info",
+  "Evaluation_Info" : "Evaluation",
   "Detail_Evaluation" : "Detail Evaluation",
   "Score" : " score",
   "Accumulated_Amount" : "Accumulated Amount : ",
@@ -1416,36 +1419,36 @@
   
   "프로필세팅_작가,아트컨설턴트" : "-----------------------------------------------------",
   
-  "About_Me" : "About Me",
+  "About_Me" : "Self-introduction",
   "MyInfo" : "My Info",
   "Artist_registration" : "Artist Registration",
   "Useit1" : "Register artist",
   "Useit2" : "and use it.",
   
-  "Client_Rating" : "Client_Rating",
-  "Artwork_creating_status" : "Creating Status",
+  "Client_Rating" : "Client Rating",
+  "Artwork_creating_status" : "Creation Status",
   
   "Partners_Info" : "Partners Info",
   "Update1" : "Update",
     
   "School" : "School",
   "Major" : "Major",
-  "Type1" : "Type",
+  "Type1" : "Degree",
   "Status" : "Status",
-  "Admission_date" : "Admission",
-  "Graduation_date" : "Graduation",
+  "Admission_date" : "Enter date",
+  "Graduation_date" : "Graduated",
   
   "Start1" : "Start",
   "End1" : "End",
   
-  "Period" : "Period",
+  "Period" : "Date",
   "Details" : "Details",
   
   "Certificate" : "Certificate",
-  "Issuer" : "Issuer",
+  "Issuer" : "Issued by",
   "Date1" : "Date",
   
-  "Evaluation_Info" : "Evaluation Info",
+  "Evaluation_Info" : "Evaluation",
     
   "Request_artwork" : "Request artwork",
   "Contract_date" : "Contract date",
@@ -1483,9 +1486,9 @@
   "Choice" : "Choice",
   
   "ProfileSetting_11" : "Awards",
-  "ProfileSetting_12" : "Artswork Collection",
+  "ProfileSetting_12" : "Collection",
   
-  "Exhibit_Project_1" : "Exhibit and project experience",
+  "Exhibit_Project_1" : "Exhibition and Project",
   "Exhibit_Project_2" : "Details",
   
   "ProfileSetting_13" : "Please enter your Organization",
@@ -1529,8 +1532,8 @@
   "ProfileSetting_Alert1" : "The same nickname exists.<br>Please enter a different name.",
   "ProfileSetting_Alert2" : "The intro photo's optimal size is 1140px * 570px.",
   "ProfileSetting_Alert3" : "The artist photo's optimal size is 380px * 190px.",
-  "ProfileSetting_Alert4" : "<strong>'Artist Details'</strong> is a representative image.",
-  "ProfileSetting_Alert5" : "top menu <strong>'Artist'</strong> is exposed photo when clicked.",
+  "ProfileSetting_Alert4" : "This is representative image in the <strong>'Artist Details'</strong> page.",
+  "ProfileSetting_Alert5" : "This photo is exposed in the top menu <strong>'Artist'</strong>.",
   "ProfileSetting_Alert6" : "Artist Photo<button class='btn btn_info_sh'>Info</button>",
   "ProfileSetting_Alert7" : "Intro Photo<button class='btn btn_info_sh'>Info</button>",
   
@@ -1547,7 +1550,7 @@
   "AccountSetting_1" : "An error occurred during the request. \n Please contact the administrator.",
   "Type2" : "Type",
   "Gender" : "Gender",
-  "English_name" : "English name",
+  "English_name" : "Name",
   "AccountSetting_2" : "The optimal size for an artist's photo is 1180px * 470px",
   "Intro_photo" : "Intro photo",
   "AccountSetting_3" : "The optimal size for an intro photo is 1140px * 570px",
@@ -1558,8 +1561,8 @@
   "아트프로젝트_작가" : "-----------------------------------------------------",
   
   "Find_project" : "Find project",
-  "Artwork_recommend" : "Artwork recommendation",
-  "Artwork_creating" : "Artwork creating",
+  "Artwork_recommend" : "Recommendation Project",
+  "Artwork_creating" : "Creating Project",
   "Applyforproject" : "Apply for project",
   "Closedproject" : "Closed project",
   "Completeproject" : "Complete project",
@@ -1622,11 +1625,11 @@
   "작품보관함_작가" : "-----------------------------------------------------",
   
   "ArtList1" : "All",
-  "ArtList2" : "Requesting for sale",
+  "ArtList2" : "Requested for sale",
   "ArtList3" : "On sale",
   "ArtList4" : "Sold out",
   "ArtList5" : "Delivery and remittance details",
-  "ArtList6" : "Sales history",
+  "ArtList6" : "Image sale",
   
   "Buyer" : "Buyer",
   "Remittance_scheduled" : "Remittance scheduled",
@@ -1910,7 +1913,54 @@
   "Nohave_favorite1" : "There are no favorite artworks.",
   "Nohave_favorite2" : "There are no favorite artists.",
   "Nohave_favorite3" : "There are no favorite vr gallery.",
+   
+ "VRGallery" : "----------------------------------------------------",
   
+  "Back_VR" : "Back to VR Gallery",
+  "VRStep1_detail" : "*Select the gallery theme you want.",
+  "VRStep1" : "Step1. Choose Gallery",
+  "VRStep2_detail" : "*Insert your artwork into the gallery of your choice.",
+  "VRStep2" : "Step2. Choose Artwork",
+  "VRStep3_detail" : "*Enter an introduction about the exhibition.",
+  "VRStep3" : "Step3. Enter exhibition information",
+  
+   "Front" : "Front",
+   "Left" : "Left",
+   "Right" : "Right",
+   "Behind" : "Back",
+   
+   "Choice_BGM" : "Choose BGM",
+   "BGM1" : "Liszt - Liebestraume",
+   "BGM2" : "Massenet: Thais - Meditation",
+   "BGM3" : "F.Mendelssohn - On Wings of Song",
+   "BGM4" : "Pachelbel - Canon",
+   "BGM5" : "R.Schumann - Träumerei",
+   "BGM6" : "Vivaldi: Four Seasons - Winter",
+   "BGM7" : "Schubert - Impromptu No. 3, Op. 90",
+   "BGM8" : "F. Chopin - Ballade No.4 in F Minor",
+   "BGM9" : "Bach - Air on the G String",
+   "BGM10" : "F.Mendelssohn - Spring Song",
+   "BGM0" : "No BGM",
+   
+   "Choice_VR_Placeholder1" : "Enter the exhibition title",
+   "VR_Detailed_Introduction" : "Detailed Introduction",
+   "Choice_VR_Placeholder2" : "Enter an introduction to the exhibition.",
+   "Choice_VR_Register" : "Register",
+   
+   "Choice_VR_Alert1" : "VR Gallery is being created. Please wait..",
+   "Choice_VR_Alert2" : "VR Gallery is being edited. Please wait..",
+   "Choice_VR_Alert3" : "Artwork registration >> Request to sell from the Artwork List >> You can create a VR gallery only when there is at least one admin-approved work.",
+   "Choice_VR_Alert4_1" : "This work has already been exhibited on",
+   "Choice_VR_Alert4_2" : "<br>Do you want to duplicate artwork?",
+   "Choice_VR_Alert5" : "You must select a gallery.",
+   "Choice_VR_Alert6" : "Complete the VR gallery creating process and click the 'Register' button.",
+   "Choice_VR_Alert7" : "The work done so far is not saved.\n Shall we proceed?",
+   "Choice_VR_Alert8" : "You must enter a VR gallery title.",
+   
+   "Choice_VR_Error1" : "An error occurred in the process of loading VR Gallery information.",
+   "Choice_VR_Error2" : "An error occurred when creating VR Gallery.",
+   
+   
  "gallery360.common" : "-----------------------------------------------------",
   
   "No_Shipping_Info_Alert" : "No shipping information.",

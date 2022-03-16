@@ -177,7 +177,7 @@ gallery360.prototype = {
 
 		var c_lang = lang + '.json';
 		
-		var url = g360.root_path + "/resource/lang/" + c_lang + "?ver=220215";
+		var url = g360.root_path + "/resource/lang/" + c_lang + "?ver=220311";
 		//console.log("test url : "+url);
 		$.ajax({
 			type : "GET",

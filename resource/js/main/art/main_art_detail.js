@@ -39,7 +39,7 @@ gArtDetail.prototype = {
 		$(".g_lang_Youtube").html(g360.g_lang.Youtube);
 		$(".g_lang_Link").html(g360.g_lang.Link);
 		
-		$(".g_lang_Ethereum").html(g360.g_lang.Ethereum);
+		$(".g_lang_Ethereum_1").html(g360.g_lang.Ethereum_1);
 		$(".g_lang_Artist_Name").html(g360.g_lang.Artist_Name);
 		$(".g_lang_Make_Year").html(g360.g_lang.Make_Year);
 		$(".g_lang_Genre").html(g360.g_lang.Genre);
