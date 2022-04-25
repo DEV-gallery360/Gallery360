@@ -522,6 +522,8 @@ ArtDetail.prototype = {
 		
 		// 음성 플레이
 		_self.wrapper.find('.btn_sound').on('click', function(){
+			var top_pano = top._pano || top.__pano1 || '';
+			
 			try {
 				if ($(this).hasClass('on')) {
 					if ($(this).hasClass('pause')) {
@@ -531,11 +533,20 @@ ArtDetail.prototype = {
 						g360.time_interval = null;
 						g360.time_interval = setInterval(function(){_self.getAudioTime();}, 1000);
 						$(this).removeClass('pause');
+
+						//bgm 잠시멈춤
+						_self.vrSoundControl();
 					} else {
 						_self.audio.pause();
 						if (g360.time_interval) clearInterval(g360.time_interval);
 						g360.time_interval = null;
 						$(this).addClass('pause');
+						
+						//bgm 다시플레이
+						if(top_pano){
+							if (top_pano.krpano1.get('layer[snd2].crop') == '0|0|50|50') top_pano.krpano1.call('resumesound(bgsnd)'); 
+						}
+						
 					}
 					
 				} else {
@@ -544,11 +555,15 @@ ArtDetail.prototype = {
 						_self.getAudioTime();
 						g360.time_interval = setInterval(function(){_self.getAudioTime();}, 1000);
 						$(this).addClass('on');
+						
+						//bgm 잠시멈춤
+						_self.vrSoundControl();
 					} else {
 						g360.gAlert("Error","지원되지 않는 브라우져입니다", "red", "left");
 						return;
 					}
 				}
+				
 			}catch(ex){}
 		});
 		
