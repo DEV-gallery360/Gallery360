@@ -2507,7 +2507,7 @@ gArtistInfoMain_Rental.prototype = {
 
 					////////
 					//이미지가 있는지 확인 / 만약 dropzone1을 수정했다면..로드가 완료된후 코드실행
-						debugger;
+						//debugger;
 						gRen.init();
 						gRen.navBtnAction('main', 'art');
 						g360.gAlert("Info", gArtistInfo_Rental.text2 + "이(가) 정상적으로 수정 되었습니다." , "blue", "top");				

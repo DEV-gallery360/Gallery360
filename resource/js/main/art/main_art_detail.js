@@ -1065,7 +1065,8 @@ gArtDetail.prototype = {
 					$('#detail_art_price').text(price);
 					g360.transCoinPrice(_self.cur_art_info.art_price, function(eth, usd){
 						
-					$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');	
+						//$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');	
+						$("#detail_art_price_eth").html('<h1>' + eth + ' ETH</h1><span style="font-size:20px">($ ' + usd + ')</span>');
 						
 						//if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
 					});
@@ -1111,7 +1112,8 @@ gArtDetail.prototype = {
 					
 					$('#detail_art_price').text(price);
 					g360.transCoinPrice(pic_price, function(eth, usd){
-						$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');
+						//$("#detail_art_price_eth").html(eth + 'ETH<span style="font-size:20px">($' + usd + ')</span>');
+						$("#detail_art_price_eth").html('<h1>' + eth + ' ETH</h1><span style="font-size:20px">($ ' + usd + ')</span>');
 						//if(g360.g_lang.Lang == "us") $('#detail_art_price').text('$ '+g360.numberComma(usd));	
 					});
 					var artic = g360.transKRWtoARTIC(_self.cur_art_info.art_price);

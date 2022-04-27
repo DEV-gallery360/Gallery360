@@ -1979,6 +1979,8 @@ a.nav-link.active .nav-ico.image {background-image: url(/img/icon-img-purchase-f
 .cart-alt {padding: 30px; padding-top: 0}
 .cart-alt h2 {font-size: 22px; font-weight: 500; margin-bottom: 45px;}
 
+#detail_art_nav button {white-space:normal;}
+
 .modal-content.cart {max-width: 400px}
 
 /* artist */
