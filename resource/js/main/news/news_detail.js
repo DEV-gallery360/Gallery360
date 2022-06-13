@@ -40,6 +40,7 @@ gMainNewsDetail.prototype = {
 				$("#news_detail_body").html(g360.textToHtml(data.content));
 				clearTimeout(_self.loading);
 				$('#loadingbar').hide();
+				$('#news_detail_body map').imageMapResize();
 			},
 			error : function(e){
 				g360.error_alert();
