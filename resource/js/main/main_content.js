@@ -103,11 +103,21 @@ gMainContent.prototype = {
 		var _self = this;
 		
 		// 메인 배너 캐러셀 랜덤 기능 적용
-		var banner = $('#main_slider').find('.item');
+		//var banner = $('#main_slider').find('.item');
+		var banner = $('#main_slider').find('.item').not('.banner-renewal');
 		var random_banner = g360.arrayShuffle(banner);
+		
+		// 배너를 가장앞에 표시함
+		var banner_arr = [];
+		banner_arr.push($('#main_slider').find('.banner-renewal'));
 		random_banner.each(function(){
+			banner_arr.push(this);
+		});
+		
+		$.each(banner_arr, function(){
 			$('#main_slider').append(this)
 		});	
+		
 		$('#main_slider').owlCarousel({
 			loop: true,
 			items: 1,
@@ -123,6 +133,12 @@ gMainContent.prototype = {
 		 *  메인 배너 버튼 이벤트 Start
 		 */
 		var $ms = $('#main_slider');
+		
+		// 대관 리뉴얼 배너
+		// D-Book 소개
+		$ms.find('.banner-renewal .banner-btn').on('click', function(){
+			g360.showNewsDetail(150);
+		});
 		
 		// 갤러리360 동영상 소개
 		$ms.find('.sl-welcome .banner-btn').on('click', function(){
@@ -201,6 +217,8 @@ gMainContent.prototype = {
 		$ms.find('.sl-thecon-open-2022 .banner-btn').on('click', function(){
 			g360.showNewsDetail(147);
 		});
+		
+		
 		
 		/*
 		// 매거진 신청

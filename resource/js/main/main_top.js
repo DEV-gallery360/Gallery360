@@ -173,11 +173,14 @@ gTopMainFunction.prototype = {
 		
 		
 		$("#m_gnb_rental").on("click", function(event){
-//			g360.history_record("m_gnb_rental");
-//			_self.navBtnAction('rental');
-//			_self.mobile_menu_close();
+			// 신규 리뉴얼 사이트로 이동
+			window.open('https://exhibit.gallery360.co');
+			return false;
+			
+			/*
 			$(this).parent().toggleClass('active');
 			return false;
+			*/
 		});
 		
 		$("#m_gnb_ai").on("click", function(event){
@@ -409,7 +412,11 @@ gTopMainFunction.prototype = {
 			// 이음피음, 메이커스빌 아카이브 소식지 연결
 			$('#navbarText').removeClass('active');
 			g360.save_history_now('vr_archive');
-			g360.showNewsDetail(141);
+			if (g360.g_lang.Lang == 'ko') {
+				g360.showNewsDetail(141);
+			} else {
+				g360.showNewsDetail(1);
+			}
 			_self.mobile_menu_close(true);
 			return false;
 		});
@@ -492,12 +499,21 @@ gTopMainFunction.prototype = {
 		
 		
 		$("#btn_gnb_rental").on("click", function(event){
+			// 신규 리뉴얼 사이트로 이동
+			if (g360.UserInfo && g360.UserInfo.auth){
+				var url = "https://exhibit.gallery360.co/auth/" + g360.UserInfo.auth + "/https:--exhibit.gallery360.co";
+				window.open(url, null);
+			} else {
+				window.open('https://exhibit.gallery360.co');
+			}
+			return false;
+			/*
 			//대관 서비스
-		
 			g360.history_record("btn_gnb_rental");
 			g360.save_history_now('rental');
 			_self.navBtnAction('rental');
 			return false;
+			*/
 		});
 		$("#sub_rental_guide, #m_sub_rental_guide").on("click", function(event){
 			//대관 서비스 가이드
