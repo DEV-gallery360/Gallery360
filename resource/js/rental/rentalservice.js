@@ -2151,6 +2151,417 @@ RentalService.prototype = {
 		
 	},
 	
+	"setVoteMenu" : function(){
+		if (this.info.info.vote != 'T') return;
+		
+		var $vote_li = $('<li class="nav-item"><a class="nav-link" href="javascript:rs.showVoteLayer();">Vote</a></li>');
+		$('.navbar-nav').prepend($vote_li);
+	},
+	
+	"showVoteLayer" : function(){
+		var _self = this;
+		this.showBlockUI();
+		
+		var help = 
+		`<div class="vote-ly">
+			<div id="btn_vote_close" class="btn-close"><span></span><span></span></div>
+			<div class="W-con">
+		        <div class="cen-con">
+		            <p class="tit fw-900"><b class="p-color fw-900">작품 투표방법</b>을 한눈에!</p>
+		            <p class="s-tit">투표 전에 작품 투표방법을 확인하세요</p>
+		            
+		            <div id="vote_help_slick" class="slick-container">
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step01.png" alt="투표방법">
+		                    <img class="m" src="/resource/rental/img/vote/step01_m.png" alt="투표방법">
+		                    <p class="con-txt">작품 리스트에서 <b class="p-color">투표하고자 하는 작품을 선택</b>해주세요.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step02.png" alt="투표방법">
+		                    <img class="m" src="/resource/rental/img/vote/step02_m.png" alt="투표방법">
+		                    <p class="con-txt">선택 작품의 <b class="p-color">상세페이지에서 투표하기를 클릭</b>하세요.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step03.png" alt="투표방법">
+		                    <img class="m" src="/resource/rental/img/vote/step03_m.png" alt="투표방법">
+		                    <p class="con-txt">인증번호를 받기 위한 <b class="p-color">이메일 주소를 입력</b>해주세요.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step04.png" alt="투표방법">
+		                    <img class="m" src="/resource/rental/img/vote/step04_m.png" alt="투표방법">
+		                    <p class="con-txt">이메일로 전달 받은 <b class="p-color">인증번호를 입력한 후 투표하기 버튼을 클릭</b>해주세요.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step05.png" alt="투표방법">
+		                    <img class="m" src="/resource/rental/img/vote/step05_m.png" alt="투표방법">
+		                    <p class="con-txt"><b class="p-color">투표가 완료</b> 되었습니다!</p>
+		                </div>
+		            </div>
+		            
+		        </div>
+		    </div>
+	    </div>`;
+		
+		var help_en =
+		`<div class="vote-ly">
+			<div id="btn_vote_close" class="btn-close"><span></span><span></span></div>
+			<div class="W-con">
+		        <div class="cen-con">
+		            <p class="tit fw-900">How to <b class="p-color fw-900">vote!</b></p>
+		            <p class="s-tit">Check how to vote before you vote.</p>
+		            
+		            <div id="vote_help_slick" class="slick-container">
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step01_eng.png" alt="Voting method">
+		                    <img class="m" src="/resource/rental/img/vote/step01_m_eng.png" alt="Voting method">
+		                    <p class="con-txt">Please <b class="p-color">select the artwork you want to vote</b> for from the list of artworks.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step02_eng.png" alt="Voting method">
+		                    <img class="m" src="/resource/rental/img/vote/step02_m_eng.png" alt="Voting method">
+		                    <p class="con-txt">Click <b class="p-color">vote on the detail page</b> of the selected artwork.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step03_eng.png" alt="Voting method">
+		                    <img class="m" src="/resource/rental/img/vote/step03_m_eng.png" alt="Voting method">
+		                    <p class="con-txt">Please <b class="p-color">enter your email address</b> to reveice the varify code.</p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step04_eng.png" alt="Voting method">
+		                    <img class="m" src="/resource/rental/img/vote/step04_m_eng.png" alt="Voting method">
+		                    <p class="con-txt">Please <b class="p-color">enter the verify code</b> you received by email and <b class="p-color">click vote button.</b></p>
+		                </div>
+		                <div class="item">
+		                    <img class="pc" src="/resource/rental/img/vote/step05_eng.png" alt="Voting method">
+		                    <img class="m" src="/resource/rental/img/vote/step05_m_eng.png" alt="Voting method">
+		                    <p class="con-txt">The vote has been <b class="p-color">completed!</b></p>
+		                </div>
+		            </div>
+		            
+		        </div>
+		    </div>
+		</div>`;
+		
+		var $help = $(g360.lang == 'ko' ? help : help_en);
+		$('body').append($help);
+		$('#btn_vote_close').on('click', function(){
+			$('.vote-ly').remove();
+			_self.hideBlockUI();
+		});
+		$('#vote_help_slick').slick();
+		g360.history_record_rental("btn_vote_close");
+		
+		this.voteResultProc();
+
+	},
+	
+	"voteResultProc" : function(){
+		var _self = this;
+		
+		if (this.info.info.vote_open != 'T') {
+			if (g360.UserInfo == null) return;
+			if (g360.UserInfo.email != owner) return;
+		}
+		
+		if (this.info.info.group_code) {
+			
+			// 그룹정보를 가져온 경우 두 번호출 안되도록 처리
+			if (typeof(this.vote_group) != 'undefined') {
+				
+				this.getVoteResult(this.info.dockey, this.vote_group.length > 1 ? true : false);
+				
+			} else {
+
+				// 그룹에 대한 정보들을 가져옴
+				$.ajax({
+					type : "POST",
+					dataType: "json",
+					contenType : "application/json; charset=utf-8",
+					data : JSON.stringify({code:this.info.info.group_code, q_str : ''}),
+					url : '/load_group_list.mon',
+					success : function(res){
+						var gp = [];
+						
+						res.sort(function(a,b){
+							var num_regex = /^(\d*)/g;
+							var a_titl = parseInt(a.title.match(num_regex)[0] || "0", 10);
+							var b_titl = parseInt(b.title.match(num_regex)[0] || "0", 10);
+							
+							var res = 0;
+							if (a_titl != b_titl) {
+								// 앞 번호가 숫자인 경우 
+								res = (a_titl == 0 || a_titl > b_titl ? 1 : -1);
+							} else {
+				                			// 둘 다 문자인 경우
+								res = (a.title > b.title ? 1 : -1);
+							}
+							
+							return res;
+						});
+						
+						// 투표 기능 활성화된 대관만 처리
+						$.each(res, function(){
+							if (this.vote == 'T') {
+								gp.push(this);
+							}
+						});
+						
+						// vote_group 초기셋팅
+						_self.vote_group = gp;
+												
+						_self.getVoteResult(_self.info.dockey, _self.vote_group.length > 1 ? true : false);
+						
+					},
+					error : function(e){
+						console.log('rs.voteResultProc Error', e);
+					}
+					
+				});
+			}
+
+		} else {
+			this.getVoteResult(this.info.dockey, false);
+		}
+	},
+	"getVoteResult" : function(r_key, is_group) {
+		var _self = this;
+		$.ajax({
+			url : '/check_vote_result.mon?rk=' + r_key + '&group=' + (is_group ? 'T' : 'F'),
+			success: function(res){
+				_self.showVoteResult(r_key, res, is_group);					
+			}
+		});
+	},
+	
+	"showVoteResult" : function(r_key, data, is_group) {
+		$('.vote-ly .W-con.bottom').remove();
+		
+		// 그룹처리
+		var sel_html = '';
+		var subj = this.info.title;
+		
+		if (typeof(this.vote_group) != 'undefined' && this.vote_group.length > 1) {
+			
+			// 제목 가져오기
+			if (is_group) {
+				subj = this.info.info.group_title;
+			} else {
+				$.each(this.vote_group, function(){
+					if (this.dockey == r_key) {
+						subj = this.title;
+						return false;
+					}
+				});
+			}
+			
+			sel_html += '<select name="sources" id="vote_select" class="vote-select sources" placeholder="' + subj + '">';
+			sel_html += '	<option value="group"' + (is_group ?  ' class="selection"' : '') + '>' + this.info.info.group_title + '</option>';
+			$.each(this.vote_group, function(){
+				sel_html += '<option value="' + this.dockey + '"' + (this.dockey == r_key && is_group == false ? ' class="selection"' : '') + '>' + this.title + '</option>';
+			});
+			sel_html += '</select>';
+		}
+
+		var html = 
+		'<div class="W-con bottom">' +
+		'	<div class="cen-con">' +
+		'		<p class="tit fw-900">'+ (g360.lang == 'ko' ? '투표현황 보기' : 'View voting status') +'</p>';
+		
+		html += g360.lang == 'ko' ?
+		'		<p class="s-tit">' + subj + '<br class="br_pc"><b class="p-color">투표 현황을 공개</b> 합니다.</p>':
+		'		<p class="s-tit"><b class="p-color">Announce the voting status</b> of <br class="br_pc">' + subj + '</p>';
+		
+		html +=
+		'		<div class="status">' +
+		'			<p class="votes"><b style="color:red; padding-right: 5px;">♥ </b> ' + (g360.lang == 'ko'?'총 투표수':'Total votes cast') + ':<b style="padding-left:5px;">760 votes</b></p>';
+		html += sel_html;
+		html +=
+		'		</div>';
+		
+		html += this.getVoteRank(data);
+		
+		html +=
+		'</div>';
+		
+		$('.vote-ly').append(html);
+		
+		this.voteEventBind();
+	},
+	
+	"getVoteRankTop" : function(data){
+	
+		// 3개 이하인 경우 표시 안함
+		if (data.list.length < 3) return '';
+		
+		// 동점이 있는 경우 상단 순위 표시 안함
+		if (data.list[0].vote == data.list[1].vote ||
+			data.list[0].vote == data.list[2].vote ||
+			data.list[1].vote == data.list[2].vote) {
+			return '';
+		}
+		
+		// 3,4위 동점이면 표시 안함
+		if (data.list.length > 3 && data.list[2].vote == data.list[3].vote) {
+			return '';
+		}
+		
+		var art_src_1 = g360.preview_img_path(this.getEmail(data.list[0].art_key), data.list[0].art_key);
+		var art_src_2 = g360.preview_img_path(this.getEmail(data.list[1].art_key), data.list[1].art_key);
+		var art_src_3 = g360.preview_img_path(this.getEmail(data.list[2].art_key), data.list[2].art_key);
+		
+		var html = '';
+		html +=
+			'		<div class="rank-area">' +
+			'			<ul class="rank-box second">' +
+			'				<li class="rank">2nd</li>' +
+			'				<li class="name mb-15">' + data.list[1].artist + '</li>' +
+			'				<li class="pic-area">' +
+			'					<div class="m-pic"><img src="' + art_src_2 + '"></div>' +
+			//'					<div class="s-pic"><img src="../images/artist02.gif" alt="artist01.gif"></div>' +
+			'				</li>' +
+			'				<li class="noa">' + data.list[1].title + '</li>' +
+			'				<li class="nov"><b class="f-red">♥</b> ' + g360.numberComma(data.list[1].vote) + '</li>' +
+			'			</ul>' +
+			'			<ul class="rank-box winner">' +
+			'				<li class="rank winner">1st</li>' +
+			'				<li class="name mb-15">' + data.list[0].artist + '</li>' +
+			'				<li class="pic-area">' +
+			'					<div class="m-pic"><img src="' + art_src_1 + '"></div>' +
+			//'					<div class="s-pic"><img src="../images/artist01.gif" alt="artist01.gif"></div>' +
+			'				</li>' +
+			'				<li class="noa">' + data.list[0].title + '</li>' +
+			'				<li class="nov"><b class="f-red">♥</b> ' + g360.numberComma(data.list[0].vote) + '</li>' +
+			'			</ul>' +
+			'			<ul class="rank-box third">' +
+			'				<li class="rank">3rd</li>' +
+			'				<li class="name mb-15">' + data.list[2].artist + '</li>' +
+			//'				<!-- <li class="s-name">Ilsam Park</li> -->' +
+			'				<li class="pic-area">' +
+			'					<div class="m-pic"><img src="' + art_src_3 + '"></div>' +
+			//'					<div class="s-pic"><img src="../images/artist03.gif" alt="artist01.gif"></div>' +
+			'				</li>' +
+			'				<li class="noa">' + data.list[2].title + '</li>' +
+			'				<li class="nov"><b class="f-red">♥</b> ' + g360.numberComma(data.list[2].vote) + '</li>' +
+			'			</ul>' +
+			'		</div>';
+		return html; 
+		
+	},
+	
+	"getVoteRank" : function(data){
+		
+		var top_html = this.getVoteRankTop(data);
+		var html = '';
+		var vote_cnt = 0;
+		var list = data.list;
+		var rank = 0;
+		
+		// 상단에 뿌려놓은 데이터가 있는 경우
+		if (top_html != '') {
+			if (data.list.length == 3) return top_html;
+			list = list.splice(3);
+			rank += 3;
+		}	
+		
+		html +=
+		'		<div class="rank-table">' +
+		'			<table>' +
+		'				<thead>' +
+		'					<tr>' +
+		'						<th>Ranking</th>' +
+		'						<th>Title / Artist</th>' +
+		'						<th style="width: 15%">Total votes cast</th>' +
+		'					</tr>' +
+		'				</thead>' +
+		'				<tbody>';
+		
+		$.each(list, function(idx, val){
+			// 공동 순위 체크
+			if (vote_cnt != val.vote) {
+				vote_cnt = val.vote;
+				rank++;
+			}
+			
+			html +=
+			'				<tr>' +
+			'					<td>' + rank + '</td>' +
+			'					<td>' +
+			'						<b>' + val.title + '</b>' +
+			'						<p class="artist"><span class="rank-eng">' + val.artist + '</span></p>' +
+			'					</td>' +
+			'					<td>' + g360.numberComma(val.vote) + '</td>' +
+			'				</tr>';
+		});
+		
+		// 테이블에 표시할 데이터가 없는 경우(TODO)
+		if (list.length == 0) {
+			html += '<tr><td colspan="3" style="height:130px;">No data</td></tr>';
+		}
+		
+		html +=
+		'				</tbody>' +
+		'			</table>' +
+		'		</div>';
+		return top_html + html;
+	},
+	
+	"voteEventBind" : function(){
+		var _self = this;
+		$(".vote-select").each(function() {
+			var classes = $(this).attr("class"),
+				id = $(this).attr("id"),
+				name = $(this).attr("name");
+			var template = '<div class="' + classes + '">';
+			template += '<span class="vote-select-trigger">' + $(this).attr("placeholder") + '</span>';
+			template += '<div class="vote-options">';
+			$(this).find("option").each(function() {
+				var cls = $(this).attr("class") ? $(this).attr("class") : '';
+				if ($(this).hasClass('selection')) {
+					$('#vote_select').val($(this).attr("value"));
+				}
+				template += '<span class="vote-option ' + cls + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + '</span>';
+			});
+			template += '</div></div>';
+
+			$(this).wrap('<div class="vote-select-wrapper"></div>');
+			$(this).hide();
+			$(this).after(template);
+		});
+		$(".vote-option:first-of-type").hover(function() {
+			$(this).parents(".vote-options").addClass("option-hover");
+		}, function() {
+			$(this).parents(".vote-options").removeClass("option-hover");
+		});
+		$(".vote-select-trigger").on("click", function() {
+			$('html').one('click', function() {
+				$(".vote-select").removeClass("opened");
+			});
+			$(this).parents(".vote-select").toggleClass("opened");
+			event.stopPropagation();
+		});
+		
+		$(".vote-option").on("click", function() {
+			var r_key = $(this).data('value');
+			console.log(r_key);
+			if ($('#vote_select').val() == r_key) {
+				$(this).parents(".vote-select").removeClass("opened");
+			} else {
+				if (r_key == 'group') {
+					_self.getVoteResult(_self.info.dockey, true);
+				} else {
+					_self.getVoteResult(r_key, false);					
+				}
+				/*
+				$(this).parents(".vote-select-wrapper").find("select").val($(this).data("value"));
+				$(this).parents(".vote-options").find(".vote-option").removeClass("selection");
+				$(this).addClass("selection");
+				$(this).parents(".vote-select").removeClass("opened");
+				$(this).parents(".vote-select").find(".vote-select-trigger").text($(this).text());
+				*/
+			}
+		});
+	},
+	
 	"showBlockUI" : function(){
 		if (!$('.blockui').is(':visible')) {
 			$('.blockui').show();
