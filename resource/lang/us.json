@@ -1149,6 +1149,10 @@
   
   "회원가입" : "----------------------------------------------------",
   
+  "Renewal_Open1" : "VR Exhibit Site<br>Renewal Open",
+  "Renewal_Open2" : "VR Exhibit Site has been renewed.<br>Please go to the renewed site and sign up",
+  "Renewal_Open3" : "Go to Renewal Site",
+  
   "SignUp1" : "Join Gallery 360",
   "SignUp2" : "Sign up by email",
   "SignUp3" : "Sign up with your Google account",

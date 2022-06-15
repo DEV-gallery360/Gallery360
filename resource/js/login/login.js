@@ -170,6 +170,13 @@ loginSNS.prototype = {
 					g360.gAlert("Error", g360.g_lang.Login_Alert5 , "red", "left");
 				}else{
 					
+					//렌털 사용자 자동로그인 처리
+//					if (typeof(res.auth) != "undefined"){
+//						var url = "https://exhibit.gallery360.co/auth/" + res.auth + "/gallery360";
+//						window.open(url, null);
+//					}
+						
+					
 					var jx = JSON.stringify(res);
 					g360.UserInfo = res;
 

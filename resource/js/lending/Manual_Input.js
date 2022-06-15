@@ -61,8 +61,11 @@ SYmanual.prototype = {
 				contentType : "application/json; charset=utf-8",
 				success : function(data){
 				    //내용삽입
+					if(!data.res){
+						alert("해당계정의 이름이 조회되지 않았습니다.");
+						return false;
+					}
 					$("#username").val(data.res);
-					//alert(data.res);
 				},
 				error: function(e){
 				    alert("이메일을 다시 한 번 확인해 주세요")
@@ -75,7 +78,7 @@ SYmanual.prototype = {
 		    html="";
 		    html+="<h3 style='margin-bottom: 20px; font-weight: 500;'>대관결제 수동등록</h3>";
 		//    html+="<form class='form-horizontal' >";
-		    
+		    html+= "<div style='padding-bottom: 15px;'>※ 고객이 사용자 본인인증을 통해 이름, 번호등록이 완료 되어야만 수동등록이 가능합니다. </div>";
 			html += "	<div class='alliance_content'>";
 			html += "		<table>";
 			html += "			<tbody>";
@@ -110,7 +113,15 @@ SYmanual.prototype = {
 						    html+="		<th><span>계약기간</span></th>";       
 						    html+="		<td><input type='number' id='rental_term' class='txt' size='20' maxlength='3' min='1' value='1' required></td>" 
 						    html+="</tr>";
-						    
+						 // ----------------------------------------------
+						    html+="<tr>";
+						    html+="		<th><span>렌탈타입</span></th>";       
+							html+="		<td><select id='rental_type' class='txt' onclick='symanual.choice();'>";
+							html+="			<option value='Basic'>Basic</option>";
+							html+="			<option value='Premium'>Premium</option>";		
+							html+="		</select></td>";
+						    html+="</tr>";
+						 // ----------------------------------------------
 						    html+="<tr>";  
 							html+=" 	<th><span>시작일</span></th>";
 							html+= "	<td><input type='date' id='rental_start' class='txt' ></td>"
@@ -277,7 +288,7 @@ SYmanual.prototype = {
 				alert("이메일과 사용자명을 확인해 주세요");
 				return;
 			}
-			
+
 			var username = $('#username').val();
 			var email = $('#email').val();
 			var rental_count = $('#rental_count').val();
@@ -286,6 +297,7 @@ SYmanual.prototype = {
 			var rental_start = $('#rental_start').val();
 			var rental_expire = $('#rental_expire').val();
 			
+			var rental_type = $("#rental_type option:selected").val();
 			var payment_type = $("#payment_type option:selected").val();
 			
 			var card_name = $('#card_name').val();
@@ -320,8 +332,10 @@ SYmanual.prototype = {
 				"service_month":rental_term,
 				"service_price":rental_price,
 				"expire_date":rental_expire,
-				"pginfo_pay_method":payment_type,
 				
+				"rental_level2":rental_type,
+				
+				"pginfo_pay_method":payment_type,
 				"pginfo_buyer_name":username,
 				"pginfo_buyer_email":email,
 				"pginfo_card_name":card_name,
