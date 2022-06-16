@@ -1998,6 +1998,13 @@
   "Error_Alert" : "An error occurred during the request. <br>Please contact the administrator.",
   "Relogin_Alert" : "Automatically logged out after not using for a long time. Please log in again and try again.",
   
+  "Rental_Type_Select" : "Select rental manage type",
+  "Rental_Type_Comment_1" : "We have opened an <b class=\"p-color t-purple\">online exhibition-only global renewal site</b> with more convenient UI, UX, and various functions.",
+  "Rental_Type_Comment_2" : "You can use both the rental management currently on display until July 1st and the exhibition management of the new renewal site at the same time and <b class=\"p-color t-purple\">from July 2nd you can only use the exhibition on the new renewal site</b>.",
+  "Rental_Type_Old" : "Old rental manage",
+  "Rental_Type_New" : "New rental manage",
+  "Rental_Type_Btn" : "Select",
+  
   "이용약관" : "-----------------------------------------------------",
   
   "terms_1" : "It stipulates necessary matters in relation to the use of Gallery 360.",

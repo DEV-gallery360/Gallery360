@@ -177,7 +177,7 @@ gallery360.prototype = {
 
 		var c_lang = lang + '.json';
 		
-		var url = g360.root_path + "/resource/lang/" + c_lang + "?ver=220311";
+		var url = g360.root_path + "/resource/lang/" + c_lang + "?ver=220617";
 		//console.log("test url : "+url);
 		$.ajax({
 			type : "GET",
@@ -914,10 +914,18 @@ gallery360.prototype = {
 		$("#member_art").attr("class","box");
 		$("#member_curator").attr("class","box");
 		$("#member_rental").attr("class","box");
+		
+		//이름, 닉네임
 		$("#txt_nick").text(g360.g_lang.Nickname);
 		$("#txt_nickname").attr("placeholder",g360.g_lang.Mypage_Alert6);
 		
+		//추천인
 		$("#recommand_email_dis").hide();
+		
+		//리뉴얼사이트
+		$("#ch_renewal_site").hide();
+		$("#form-reg-user").show();
+		$("#btn-reg-user").show();	
 		
 	},
 	
@@ -926,12 +934,18 @@ gallery360.prototype = {
 		$("#member_art").attr("class","box on");
 		$("#member_curator").attr("class","box");
 		$("#member_rental").attr("class","box");
-		
+
+		//이름, 닉네임
 		$("#txt_nick").text(g360.g_lang.Name2);
 		$("#txt_nickname").attr("placeholder",g360.g_lang.Common_Alert1);
-		
+
+		//추천인
 		$("#recommand_email_dis").hide();
-		
+
+		//리뉴얼사이트
+		$("#ch_renewal_site").hide();
+		$("#form-reg-user").show();
+		$("#btn-reg-user").show();	
 	},
 	
 	"member_curator_click" : function(){
@@ -939,10 +953,18 @@ gallery360.prototype = {
 		$("#member_client").attr("class","box");
 		$("#member_art").attr("class","box");
 		$("#member_rental").attr("class","box");
+
+		//이름, 닉네임
 		$("#txt_nick").text(g360.g_lang.Name2);
 		$("#txt_nickname").attr("placeholder",g360.g_lang.Common_Alert1);
-		
+
+		//추천인
 		$("#recommand_email_dis").hide();
+
+		//리뉴얼사이트
+		$("#ch_renewal_site").hide();
+		$("#form-reg-user").show();
+		$("#btn-reg-user").show();	
 	},
 	
 	"member_rental_click" : function(){
@@ -950,10 +972,20 @@ gallery360.prototype = {
 		$("#member_client").attr("class","box");
 		$("#member_art").attr("class","box");
 		$("#member_rental").attr("class","box on");
+		
+		/*
 		$("#txt_nick").text(g);
 		$("#txt_nickname").attr("placeholder", g360.g_lang.Mypage_Alert6);
 		
 		$("#recommand_email_dis").show();
+		 */	
+		//////////////////////////////////////////////////////
+
+		//리뉴얼사이트
+		$("#ch_renewal_site").show();
+		$("#form-reg-user").hide();
+		$("#btn-reg-user").hide();	
+		
 	},
 	
 	//기존 회원 chk5,chk6,chk7,chk8 변경
@@ -5116,7 +5148,7 @@ gallery360.prototype = {
 			buttons : {
 				OK : {
 					keys: ['enter'],
-					text : g360.g_lang.OK,		
+					text : g360.lang=='ko' ? '확인' : 'OK',		
 					btnClass : "btn-"+type,
 					action : function(){
 						if (callback) callback();
@@ -5695,7 +5727,7 @@ gallery360.prototype = {
 		document.execCommand('copy');
 		document.body.removeChild(textarea);
 		
-		g360.gAlert("Info" ,g360.g_lang.Copy_Alert , "blue", "top");
+		g360.gAlert("Info" , (this.lang == 'ko' ? '링크 URL이 복사되었습니다.' : 'Link URL copied.') , "blue", "top");
 	},
 	
 	"show_rental_guide" : function(){

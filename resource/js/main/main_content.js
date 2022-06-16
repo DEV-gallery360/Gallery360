@@ -97,6 +97,13 @@ gMainContent.prototype = {
 		$(".g_lang_Service_Guide").html(g360.g_lang.Service_Guide);
 		$(".g_lang_Start").html(g360.g_lang.Start);
 		
+		$(".g_lang_Rental_Type_Select").html(g360.g_lang.Rental_Type_Select);
+		$(".g_lang_Rental_Type_Comment_1").html(g360.g_lang.Rental_Type_Comment_1);
+		$(".g_lang_Rental_Type_Comment_2").html(g360.g_lang.Rental_Type_Comment_2);
+		$(".g_lang_Rental_Type_Old").html(g360.g_lang.Rental_Type_Old);
+		$(".g_lang_Rental_Type_New").html(g360.g_lang.Rental_Type_New);
+		$(".g_lang_Rental_Type_Btn").html(g360.g_lang.Rental_Type_Btn);
+		
 	},
 	
 	_eventBind: function(){

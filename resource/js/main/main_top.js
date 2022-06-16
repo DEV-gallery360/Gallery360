@@ -958,7 +958,7 @@ gTopMainFunction.prototype = {
 		});
 		
 		$("#btn_rental").on("click", function(event){
-			_self.navBtnAction("rentalmng");
+			//_self.navBtnAction("rentalmng");
 		});
 		
 		
@@ -1044,6 +1044,24 @@ gTopMainFunction.prototype = {
 				gTopMain.talk_start = 0;
 				
 				gTopMain.loadTalk();
+			}
+		});
+		
+		
+		// 대관관리 타입 선택
+		$('.rentalmng-type-sel').on('click', function(){
+			$('.rentalmng-type-sel').removeClass('on');
+			$(this).addClass('on');
+		});
+		$('#btn_rentalmng_type').on('click', function(){
+			$('#rentalmng_sel_layer').modal('hide');
+			if ($('#rt_origin').hasClass('on')) {
+				_self.navBtnAction("rentalmng");				
+			} else {
+				if (typeof(g360.UserInfo.auth) != "undefined"){
+					var url = "https://exhibit.gallery360.co/auth/" + g360.UserInfo.auth + "/https:--exhibit.gallery360.co";
+					window.open(url, null);
+				}
 			}
 		});
 		

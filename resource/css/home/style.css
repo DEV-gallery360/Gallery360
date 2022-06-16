@@ -482,6 +482,38 @@ button.btn_help{width:24px;height:24px;background-color:#fff;border-radius:100%;
 	background: url(/img/main_banner/banner_thecon_2022open.jpg) no-repeat center;
 	background-size: cover;
 }
+.Slide-area .main-slider .banner-renewal {
+    width: 100%;
+    height: 420px;
+    top: 0;
+    left: 0;
+    background: url(/img/main_banner/renewal.jpg) no-repeat bottom;
+    background-size: cover;
+}
+.Slide-area .main-slider .banner-renewal .txt-area h2 {
+    font-weight: 700;
+    color: #fff;
+}
+.Slide-area .main-slider .banner-renewal .txt-area p {
+    color: #fff;
+    line-height: 160%;
+}
+.Slide-area .main-slider .banner-renewal .txt-area a {
+    color: #fff;
+    font-weight: normal;
+    border: 1px solid #fff;
+    background: none;
+}
+.Slide-area .main-slider .banner-renewal .txt-area a:hover {
+    background: #cdb05c;
+    color: #20190f;
+    border: 1px solid #cdb05c;
+}
+.Slide-area .main-slider .banner-renewal .p-color {
+	color: #cdb05c;
+	font-weight: 700;
+}
+
 
 
 /*text controls*/
@@ -2908,6 +2940,8 @@ footer .signmanu-btn.mobile-help-bbs {display: inline-block;}
     .Slide-area .main-slider .sl-rent-anniversary {background-position: 67%;}
      
     .Slide-area .main-slider .sl-thecon-open-2022 {background-position: 45%;}
+    
+    .Slide-area .banner-renewal .txt-area p {width: 100%;}
 }
 
 @media all and (min-width:768px){
@@ -2973,6 +3007,9 @@ footer .signmanu-btn.mobile-help-bbs {display: inline-block;}
     
     .Slide-area .main-slider .sl-thecon-open-2022 {height: 657px;background-position: 60%;}
     .sl-thecon-open-2022 .txt-area a:hover {background: #fff;color: #111;}
+    
+    .Slide-area .main-slider .banner-renewal {height: 657px;}
+	.Slide-area .main-slider .banner-renewal .txt-area h2 {width: 900px;}
 	
 	/*banner-btn hover controls*/
     .sl-thecontest .txt-area a:hover{
@@ -3082,7 +3119,8 @@ footer .signmanu-btn.mobile-help-bbs {display: inline-block;}
 		margin: 50px auto 90px;
 	}
 	
-	
+	.Slide-area .main-slider .txt-area h2 {line-height: 120%;}
+	.Slide-area .main-slider .txt-area h2 .br-pc {display: block;}
 }
 
 @media all and (min-width:1200px){
@@ -3105,3 +3143,85 @@ footer .signmanu-btn.mobile-help-bbs {display: inline-block;}
     .Slide-area{margin-top: 60px;}
 }
 /********* 메인 배너 End *********/
+
+/********* 대관 타입 선택 Start *********/
+.modal {z-index: 2020;}
+.modal-backdrop {z-index:2010;}
+.modal-backdrop.show {opacity:0.9;}
+
+.txt-list {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+.txt-list li {
+	position: relative;
+	font-size: 1.1rem;
+	font-weight: normal;
+	line-height: 1.8rem;
+	margin-bottom: .5rem;
+	padding-left: .6rem;
+}
+.txt-list li::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	border-radius: 10rem;
+	top: 0.8rem;
+	left: 0;
+	background-color: #ccc;
+	
+}
+.txt-list li:last-child {
+	margin-bottom: 0rem;
+}
+.p-color.t-purple {
+	color: #a49bff;
+}
+.rentalmng-type-sel {
+	cursor: pointer;
+	padding-bottom: 10.5rem;
+	border: none;
+}
+.rentalmng-type-sel:before {
+	content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease;
+}
+.rentalmng-type-sel.on:before {
+    border: 4px solid #a49bff;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    transform: translate(-3px, -3px);
+    border-radius: 4px;
+}
+
+#rt_origin {
+	background: url(/img/rentalmng/rental_type_origin.png) no-repeat center top;
+	background-size: cover;
+}
+#rt_origin .title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#rt_renew {	
+	background: url(/img/rentalmng/rental_type_renew.png) no-repeat center top;
+	background-size: cover;
+}
+#rt_renew .title {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	#rt_origin {
+		padding-bottom: 50%;
+	}
+	#rt_renew {		
+		padding-bottom: 50%;
+	}
+}
+/********* 대관 타입 선택 End *********/
